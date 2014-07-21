@@ -1,0 +1,25 @@
+{% extends "!layout.html" %}
+
+{% set css_files = css_files + ["_static/default.css"] %}
+
+{% block relbar1 %}
+<div class="related" role="navigation" aria-label="related navigation">
+<ul>
+    <li><a href="{{ pathto('index') }}">Home</a>&nbsp;|&nbsp;</li>
+    <li><a href="{{ pathto('documentation') }}">Docs</a>&nbsp;|&nbsp;</li>
+    <li><a href="{{ pathto('cite') }}">Cite</a></li>
+</ul>
+</div>
+{% endblock %}
+{% block relbar2 %}{% endblock %}
+
+{% block header %}
+<div class="banner">
+<a href="{{ pathto('index') }}"><img
+    src="{{ pathto('_static/fatiando-header.png', 1) }}" border="0"
+    alt="{{ project }}" width="500px"/></a>
+</div>
+{% endblock %}
+
+{% block sidebar1 %}{% endblock %}
+{% block sidebar2 %}{% endblock %}
