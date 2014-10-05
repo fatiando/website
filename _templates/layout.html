@@ -1,17 +1,6 @@
 {% extends "!layout.html" %}
 
-{% set css_files = css_files + ["_static/default.css"] %}
-
-{% block relbar1 %}
-<div class="related" role="navigation" aria-label="related navigation">
-<ul>
-    <li><a href="{{ pathto('index') }}">Home</a>&nbsp;|&nbsp;</li>
-    <li><a href="{{ pathto('documentation') }}">Docs</a>&nbsp;|&nbsp;</li>
-    <li><a href="{{ pathto('cite') }}">Cite</a></li>
-</ul>
-</div>
-{% endblock %}
-{% block relbar2 %}{% endblock %}
+{% set css_files = css_files + ["_static/default.css", "_static/font-awesome/css/font-awesome.css"] %}
 
 {% block header %}
 <div class="banner">
@@ -20,6 +9,24 @@
     alt="{{ project }}" width="500px"/></a>
 </div>
 {% endblock %}
+
+{% block relbar1 %}
+<div class="related" role="navigation" aria-label="related navigation">
+<nav>
+<ul>
+    <li><a href="{{ pathto('index') }}">Home</a></li>
+    <li><a href="http://fatiando.readthedocs.org/en/latest/install.html">Installing</a></li>
+    <li><a href="{{ pathto('cite') }}">Citing</a></li>
+    <li><a href="{{ pathto('documentation') }}">Documentation</a></li>
+    <li><a
+        href="http://fatiando.readthedocs.org/en/latest/cookbook.html">Cookbook</a></li>
+    <li><a href="https://github.com/leouieda/fatiando"><i class="fa fa-github-square fa-lg"></i></a></li>
+    <li><a href="https://plus.google.com/+FatiandoOrg"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
+</ul>
+</nav>
+</div>
+{% endblock %}
+{% block relbar2 %}{% endblock %}
 
 {% block sidebar1 %}{% endblock %}
 {% block sidebar2 %}{% endblock %}

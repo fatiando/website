@@ -1,17 +1,22 @@
-Fatiando a Terra (Portuguese for *Slicing the Earth*) is an open-source
-Python_ toolkit for **modeling and inversion in geophysics**.
+About
+=====
 
-Fatiando provides:
+**An open source toolkit for modeling and inversion in geophysics**.
 
-* A way to **integrate geophysical modeling**: functions operate on a
+Fatiando a Terra (Portuguese for *Slicing the Earth*)
+provides an easy and flexible way to perform common tasks like:
+generating synthetic data, forward modeling, inversion, 3D visualization,
+and more.
+All from inside the powerful Python_ language.
+
+* **Integrate geophysical modeling**: functions operate on a
   common data and model format so that different methods can be
   interchanged and linked together
 * Easily **prototyping inversion** methods using the
   `fatiando.inversion`_ package of inverse problem solvers
 * A range of **toy problems** to help teach modeling and inverse
   problem concepts
-* Easy **plotting** with matplotlib_ and 3D
-  plotting with Mayavi_
+* Easy **plotting** by wrapping matplotlib_ and Mayavi_
 * **Fast** routines, courtesy of Numpy_ and Cython_
 * A free (as in beer) and **open-source** alternative to commercial
   software
@@ -29,30 +34,39 @@ The Cookbook_ has examples of what Fatiando can already do.
 Getting help and contributing
 =============================
 
-Get in touch! Subscribe and write to our `mailing list`_.
+Contact us if you need any **help** or want to **contribute**:
 
-The easies way to contribute is
-to file bug reports and feature requests
-using `our issue tracker`_.
-All you need is GitHub_ account!
+* Write to our `mailing list`_.
+* Tweet at leouieda_.
+* Mention `+Fatiando a Terra`_ on Google+.
+* Report an `issue on Github`_.
 
 .. _mailing list: https://groups.google.com/forum/#!forum/fatiando
-.. _our issue tracker: https://github.com/leouieda/fatiando/issues?state=open
-.. _Github: http://github.com/
+.. _issue on Github: https://github.com/leouieda/fatiando/issues?state=open
+.. _leouieda: https://twitter.com/leouieda
+.. _+Fatiando a Terra: https://plus.google.com/+FatiandoOrg
 
 Announcements
 =============
 
-Fatiando a Terra was presented at SciPy 2013:
+**July 2014**: We presented a `poster at Scipy 2014`_ about the
+``fatiando.inversion`` package:
+
+.. image:: https://raw.githubusercontent.com/leouieda/scipy2014/master/poster-low-res.png
+    :width: 600px
+    :alt: Scipy 2014 poster
+
+**June 2013**: Fatiando a Terra was presented at SciPy 2013.
+View the `slides and source code of the presentation and proceedings`_.
 
 .. raw:: html
 
     <iframe width="560" height="315" src="//www.youtube.com/embed/Ec38h1oB8cc"
      iframeborder="0" allowfullscreen></iframe>
 
-View the `slides and source code of the presentation and proceedings`_.
 
 .. _slides and source code of the presentation and proceedings: https://github.com/leouieda/scipy2013
+.. _poster at Scipy 2014: https://github.com/leouieda/scipy2014
 
 
 .. toctree::

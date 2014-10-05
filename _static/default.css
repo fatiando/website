@@ -42,31 +42,29 @@ div.banner {
 /* **************************************************************** */
 div.related {
 }
+div.related nav {
+    border-top: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+}
 
 div.related ul {
-    height: 2em;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    line-height: 1.75em;
+    line-height: 2em;
     font-size: 16px;
 }
 
 div.related ul li {
     margin: 0;
-    padding: 0;
-    height: 2em;
-    float: left;
+    padding: 0 15px 0 5px;
+    display: block-inline;
 }
 
 div.related ul li.right {
-    float: right;
     margin-right: 5px;
 }
 
 div.related ul li a {
-    margin: 0;
-    padding: 0 5px 0 5px;
-    color: #2878A2;
+    /*color: #2878A2;*/
+	color: #333;
     text-decoration: none;
     font-weight: bold;
 }
@@ -74,6 +72,7 @@ div.related ul li a {
 div.related ul li a:hover {
     text-decoration: underline;
 }
+
 /* **************************************************************** */
 
 /* MEDIA QUERIES */
