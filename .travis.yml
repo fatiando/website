@@ -1,0 +1,14 @@
+language: python
+script:
+- make html
+- make linkcheck
+before_install: 
+install:
+- sudo apt-get update
+- sudo apt-get install nodejs
+- pip install sphinx
+after_success:
+- bash .update-website.sh
+env:
+  global:
+    secure: F0be6U5M90Ba8lFnZFw5AS3cMCIsMpIvGw8PomMC6xz5MydMHwT+VV6pvXjpg0fwKmE5ejrbmIlpaZeXRC9mwrWzJZp+TyAx8shEMpvcZ9PQ/+pVjnJSYUJonI3qGss7UfFQcdQ/2/mHKCsaKt8HwRxaKT0hkOKTmp0FINsrItc=

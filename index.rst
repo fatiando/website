@@ -41,8 +41,8 @@ Contact us if you need any **help** or want to **contribute**:
 * Mention `+Fatiando a Terra`_ on Google+.
 * Report an `issue on Github`_.
 
-.. _mailing list: https://groups.google.com/forum/#!forum/fatiando
-.. _issue on Github: https://github.com/leouieda/fatiando/issues?state=open
+.. _mailing list: https://groups.google.com/d/forum/fatiando
+.. _issue on Github: https://github.com/leouieda/fatiando/issues?q=is%3Aopen
 .. _leouieda: https://twitter.com/leouieda
 .. _+Fatiando a Terra: https://plus.google.com/+FatiandoOrg
 
