@@ -1,3 +1,5 @@
+.. title:: Fatiando a Terra
+
 About
 =====
 
@@ -74,3 +76,9 @@ View the `slides and source code of the presentation and proceedings`_.
 
    cite
    documentation
+   people/balancin/index.rst
+   people/ferreira/index.rst
+   people/caparicajr/index.rst
+   people/oliveira-jr/index.rst
+   people/santos/index.rst
+   people/uieda/index.rst

@@ -21,11 +21,11 @@ If you're a BibTex user::
         year = {2013}
     }
 
-You can `get the PDF of the proceedings`_.
+You can `get the PDF of the proceedings`_ from the conference website.
 See our `CITATION file`_ for more information.
 If you haven't heard of CITATION files,
 read `this post by Robin Wilson`_.
 
-.. _get the PDF of the proceedings: http://fatiando.org/papers/Uieda,OliveiraJr,Barbosa_2013.pdf
+.. _get the PDF of the proceedings: http://conference.scipy.org/proceedings/scipy2013/uieda.html
 .. _CITATION file: https://github.com/leouieda/fatiando/blob/master/CITATION.rst
 .. _this post by Robin Wilson: http://www.software.ac.uk/blog/2013-09-02-encouraging-citation-software-introducing-citation-files
