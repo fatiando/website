@@ -29,6 +29,9 @@ h1 {
 h2 {
     font-size: 16pt;
 }
+h4 {
+    font-size: 12pt;
+}
 
 div.footer {
     color: #86989B;
@@ -49,8 +52,8 @@ div.footer a {
 /* NAVIGATION BAR */
 /* **************************************************************** */
 div.navbar {
-    padding: 0;
-    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    margin: 0 0 30px 0;
     border-bottom: 2px solid #DDD;
     left:0;
     right:0;
@@ -111,6 +114,7 @@ div.navbar ul li a:hover {
     }
     div.navbar ul li {
         padding-bottom: 10px;
+        font-size: 14pt;
     }
 }
 /* **************************************************************** */
