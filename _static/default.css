@@ -1,8 +1,9 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 100%;
+    font-size: 12pt;
     color: #333;
     margin: 0;
+    line-height: 150%;
 }
 
 /* What wraps the content of the site */
@@ -20,11 +21,10 @@ a:hover {
 }
 
 p {
-    line-height: 150%;
 }
 
 h1 {
-    font-size: 180%;
+    font-size: 170%;
 }
 h2 {
     font-size: 150%;
@@ -54,15 +54,15 @@ div.footer a {
 /* **************************************************************** */
 div.navbar {
     padding: 15px 0 15px 0;
-    margin: 0 0 0 0;
+    margin: 0 0 30px 0;
     border-bottom: 1px solid #DDD;
     background-color: #F5F5F5;
     left:0;
     right:0;
 }
 
-img.navbar-logo {
-    padding: 0 20px 0 30px;
+div.navbar ul li.navbar-logo img {
+    padding: 0 0 0 30px;
     width: auto;
     height: 30px;
 }
@@ -72,9 +72,9 @@ div.navbar ul {
 }
 
 div.navbar ul li {
-    padding: 0 15px 0 5px;
+    padding: 0 30px 0 0;
     display: inline-block;
-    font-size: 100%;
+    font-size: 110%;
     vertical-align: middle;
 }
 
@@ -92,7 +92,6 @@ div.navbar ul li a:hover {
     text-decoration: underline;
 }
 
-/* **************************************************************** */
 
 /* MEDIA QUERIES */
 /* **************************************************************** */
@@ -100,18 +99,20 @@ div.navbar ul li a:hover {
     .document {
         width: 95%;
     }
-    div.navbar ul li img.navbar-logo {
-        padding: 0 0 10px 0;
+    div.navbar ul li.navbar-logo {
+        padding: 0 2.5% 10px 2.5%;
+        width: 95%;
+    }
+    div.navbar ul li.navbar-logo img {
+        padding: 0;
         width: 100%;
         height: auto;
     }
     div.navbar ul {
-        padding: 0 10% 0 10%;
-        width: 80%;
+        padding: 15px 0 0 0;
+        width: 100%;
     }
     div.navbar ul li {
-        padding-top: 15px;
-        font-size: 140%;
+        padding: 15px 2.5% 0 2.5%;
     }
 }
-/* **************************************************************** */
