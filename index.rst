@@ -34,16 +34,19 @@ The Cookbook_ has examples of what Fatiando can already do.
 Getting help and contributing
 =============================
 
-Contact us if you need any **help** or want to **contribute**:
+There are many ways to get in contact with us:
 
 * Write to our `mailing list`_.
-* Tweet at leouieda_.
-* Mention `+Fatiando a Terra`_ on Google+.
 * Report an `issue on Github`_.
+* Tweet `@leouieda`_.
+* Mention `+Fatiando a Terra`_ on Google+.
+
+We welcome feedback, bug reports, feature requests, code contributions,
+spelling corrections, usage examples, etc.
 
 .. _mailing list: https://groups.google.com/d/forum/fatiando
 .. _issue on Github: https://github.com/leouieda/fatiando/issues?q=is%3Aopen
-.. _leouieda: https://twitter.com/leouieda
+.. _@leouieda: https://twitter.com/leouieda
 .. _+Fatiando a Terra: https://plus.google.com/+FatiandoOrg
 
 Announcements
