@@ -1,9 +1,7 @@
 .. title:: Fatiando a Terra
 
-About
-=====
-
-**An open source toolkit for modeling and inversion in geophysics**.
+An open source toolkit for modeling and inversion in geophysics
+===============================================================
 
 Fatiando a Terra (Portuguese for *Slicing the Earth*)
 provides an easy and flexible way to perform common tasks like:
@@ -51,25 +49,15 @@ Contact us if you need any **help** or want to **contribute**:
 Announcements
 =============
 
-**July 2014**: We presented a `poster at Scipy 2014`_ about the
-``fatiando.inversion`` package:
+* **July 2014**: We presented a poster at Scipy 2014 about the
+  ``fatiando.inversion`` package. See the
+  `Github repo <https://github.com/leouieda/scipy2014>`__ for the poster and
+  source code behind it.
 
-.. image:: https://raw.githubusercontent.com/leouieda/scipy2014/master/poster-low-res.png
-    :width: 600px
-    :alt: Scipy 2014 poster
-
-**June 2013**: Fatiando a Terra was presented at SciPy 2013.
-View the `slides and source code of the presentation and proceedings`_.
-
-.. raw:: html
-
-    <iframe width="560" height="315" src="//www.youtube.com/embed/Ec38h1oB8cc"
-     iframeborder="0" allowfullscreen></iframe>
-
-
-.. _slides and source code of the presentation and proceedings: https://github.com/leouieda/scipy2013
-.. _poster at Scipy 2014: https://github.com/leouieda/scipy2014
-
+* **June 2013**: Fatiando a Terra was presented at SciPy 2013.
+  `Slides and source code <https://github.com/leouieda/scipy2013>`__
+  of the presentation and proceedings are on Github.
+  Watch a recorded version `on Youtube <http://youtu.be/Ec38h1oB8cc>`__.
 
 .. toctree::
    :hidden:
