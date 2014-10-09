@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 100%;
     color: #333;
     margin: 0;
 }
@@ -24,20 +24,20 @@ p {
 }
 
 h1 {
-    font-size: 20pt;
+    font-size: 180%;
 }
 h2 {
-    font-size: 16pt;
+    font-size: 150%;
 }
 h4 {
-    font-size: 12pt;
+    font-size: 100%;
 }
 
 div.footer {
     color: #86989B;
     padding: 30px 8px 30px 0px;
     clear: both;
-    font-size: 9pt;
+    font-size: 70%;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -74,7 +74,7 @@ div.navbar ul {
 div.navbar ul li {
     padding: 0 15px 0 5px;
     display: inline-block;
-    font-size: 12pt;
+    font-size: 100%;
     vertical-align: middle;
 }
 
@@ -111,7 +111,7 @@ div.navbar ul li a:hover {
     }
     div.navbar ul li {
         padding-top: 15px;
-        font-size: 14pt;
+        font-size: 140%;
     }
 }
 /* **************************************************************** */
