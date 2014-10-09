@@ -1,5 +1,5 @@
 body {
-    font-family: "Verdana", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12pt;
     color: #333;
     width: 70%;
@@ -19,10 +19,12 @@ p {
 }
 
 h1 {
-    font-size: 20pt;
+    font-size: 24pt;
+    font-family: "Lato", sans-serif;
 }
 h2 {
-    font-size: 16pt;
+    font-size: 18pt;
+    font-family: "Lato", sans-serif;
 }
 
 div.footer {
@@ -37,52 +39,60 @@ div.footer a {
     color: #86989B;
 }
 
-div.banner {
-    padding: 10px 10px 15px 15px;
-}
-
 /* NAVIGATION BAR */
 /* **************************************************************** */
-div.related {
-}
-div.related nav {
-    border-top: 5px solid #ddd;
-    border-bottom: 5px solid #ddd;
-}
-
-div.related ul {
-    line-height: 2em;
-    font-size: 16px;
+div.navbar {
+    padding: 0;
+    margin: 10px 0 30px 0;
+    width: 100%;
+    border-bottom: 2px solid #DDD;
 }
 
-div.related ul li {
+div.navbar ul {
+    padding: 18px 0 15px 0;
     margin: 0;
+    width: 100%;
+}
+
+div.navbar ul li {
     padding: 0 15px 0 5px;
-    display: block-inline;
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 14pt;
 }
 
-div.related ul li.right {
-    margin-right: 5px;
-}
 
-div.related ul li a {
+div.navbar ul li a {
     /*color: #2878A2;*/
-	color: #333;
+    color: #333;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: none;
 }
 
-div.related ul li a:hover {
+div.navbar ul li a i {
+    color: #333;
+}
+
+div.navbar ul li a:hover {
     text-decoration: underline;
+}
+
+img.navbar-logo {
+    float: left;
+    padding: 0 20px 15px 0;
 }
 
 /* **************************************************************** */
 
 /* MEDIA QUERIES */
 /* **************************************************************** */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     body {
         width: 95%;
+    }
+    img.navbar-logo {
+        float: none;
+        padding: 0 10px 0 0;
     }
 }
 /* **************************************************************** */

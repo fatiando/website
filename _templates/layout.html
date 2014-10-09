@@ -2,28 +2,30 @@
 
 {% set css_files = css_files + ["_static/default.css", "_static/font-awesome/css/font-awesome.css"] %}
 
+{%- block extrahead %}
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+{% endblock %}
+
 {% block header %}
-<div class="banner">
-<a href="{{ pathto('index') }}"><img
-    src="{{ pathto('_static/fatiando-header.png', 1) }}" border="0"
-    alt="{{ project }}" width="500px"/></a>
-</div>
+<!--<div class="banner">-->
+<!--<a href="{{ pathto('index') }}"><img-->
+    <!--src="{{ pathto('_static/fatiando-banner-long.png', 1) }}" border="0"-->
+    <!--alt="{{ project }}" width="500px"/></a>-->
+<!--</div>-->
 {% endblock %}
 
 {% block relbar1 %}
-<div class="related" role="navigation" aria-label="related navigation">
-<nav>
+<div class="navbar">
+<a href="{{ pathto('index') }}"><img class="navbar-logo"
+   src="{{ pathto('_static/fatiando-banner-long.png', 1) }}"
+   height="50px"/></a>
 <ul>
-    <li><a href="{{ pathto('index') }}">Home</a></li>
     <li><a href="http://fatiando.readthedocs.org/en/latest/install.html">Installing</a></li>
     <li><a href="{{ pathto('cite') }}">Citing</a></li>
     <li><a href="{{ pathto('documentation') }}">Documentation</a></li>
-    <li><a
-        href="http://fatiando.readthedocs.org/en/latest/cookbook.html">Cookbook</a></li>
     <li><a href="https://github.com/leouieda/fatiando"><i class="fa fa-github-square fa-lg"></i></a></li>
     <li><a href="https://plus.google.com/+FatiandoOrg"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
 </ul>
-</nav>
 </div>
 {% endblock %}
 {% block relbar2 %}{% endblock %}
