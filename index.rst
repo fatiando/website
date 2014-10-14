@@ -45,7 +45,7 @@ We welcome feedback, bug reports, feature requests, code contributions,
 spelling corrections, usage examples, etc.
 
 .. _mailing list: https://groups.google.com/d/forum/fatiando
-.. _issue on Github: https://github.com/leouieda/fatiando/issues?q=is%3Aopen
+.. _issue on Github: https://github.com/fatiando/fatiando/issues?q=is%3Aopen
 .. _@leouieda: https://twitter.com/leouieda
 .. _+Fatiando a Terra: https://plus.google.com/+FatiandoOrg
 
