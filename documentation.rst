@@ -6,6 +6,6 @@ Documentation
 * `Version 0.1`_
 
 .. _Current development version: http://fatiando.github.io/docs
-.. _Version 0.2: http://fatiando.readthedocs.org/en/v0.2/
-.. _Version 0.1: http://fatiando.readthedocs.org/en/v0.1-0/
+.. _Version 0.2: http://fatiando.github.io/docs-v0.2
+.. _Version 0.1: http://fatiando.github.io/docs-v0.1
 
