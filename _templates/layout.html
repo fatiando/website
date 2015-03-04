@@ -1,47 +1,9 @@
+{# Import the theme's layout. #}
 {% extends "!layout.html" %}
 
-{% set css_files = css_files + ["_static/default.css", "_static/font-awesome/css/font-awesome.css"] %}
+{# Custom CSS overrides #}
+{% set bootswatch_css_custom = ['_static/style.css'] %}
 
-{%- block extrahead %}
+{% block extrahead %}
+    <link rel="stylesheet" href="_static/font-awesome/css/font-awesome.css" type="text/css"/>
 {% endblock %}
-
-{% block header %}
-<div class="navbar">
-<ul>
-    <li class="navbar-logo"><a href="{{ pathto('index') }}"><img
-           src="{{ pathto('_static/fatiando-banner-long.png', 1) }}"/></a></li>
-    <li><a href="http://fatiando.readthedocs.org/en/latest/install.html">Installing</a></li>
-    <li><a href="{{ pathto('cite') }}">Citing</a></li>
-    <li><a href="{{ pathto('documentation') }}">Documentation</a></li>
-    <li><a href="https://groups.google.com/d/forum/fatiando">Mailing list</a></li>
-    <li><a href="https://github.com/fatiando/fatiando"><i class="fa fa-github-square fa-lg"></i></a></li>
-    <li><a href="https://plus.google.com/+FatiandoOrg"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
-</ul>
-</div>
-{% endblock %}
-
-{%- block footer %}
-    <div class="footer" role="contentinfo">
-    {%- if show_copyright %}
-      {%- if hasdoc('copyright') %}
-        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
-      {%- else %}
-        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
-      {%- endif %}
-    {%- endif %}
-    {%- if last_updated %}
-      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
-    {%- endif %}
-    {%- if show_sphinx %}
-      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
-    {%- endif %}
-    </br>Source code to generate this website:
-    <a href="https://github.com/fatiando/website">github.com/fatiando/website</a>
-    </div>
-{%- endblock %}
-
-{% block relbar1 %}{% endblock %}
-{% block relbar2 %}{% endblock %}
-
-{% block sidebar1 %}{% endblock %}
-{% block sidebar2 %}{% endblock %}
