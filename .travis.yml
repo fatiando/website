@@ -2,9 +2,9 @@ language: python
 script:
 - make linkcheck; make clean
 - make html
-before_install: 
+before_install:
 install:
-- pip install sphinx matplotlib
+- pip install sphinx matplotlib sphinx_bootstrap_theme
 after_success:
 - bash .update-website.sh
 env:
