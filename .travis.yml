@@ -6,7 +6,6 @@ before_install:
 install:
 - pip install sphinx matplotlib sphinx_bootstrap_theme
 after_success:
-- bash .update-website.sh
 env:
   global:
     secure: Gaou3E+ry8XEUl6oY9sCldJ7gWhYQAsfMVWUm8RxUeyFx1qu204xsPmhAqJ+96FKQ6/jheQLBuwPfcGc/VRIQm9ZK4/+wcKDZlz0x+f4e0rkx32+CLvz8SFbnkZGHRAxqusHD+45XBaSd39ahHtiHK7TGxALadE1yALfhxDKlLM=
