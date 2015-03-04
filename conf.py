@@ -8,6 +8,7 @@ extensions = [
     'matplotlib.sphinxext.plot_directive',
     'sphinx.ext.doctest',
     'sphinx.ext.mathjax',
+    'sphinx.ext.extlinks',
 ]
 templates_path = ['_templates']
 exclude_patterns = ['_build']
@@ -23,7 +24,11 @@ copyright = u'2010-{:d}, Leonardo Uieda'.format(year)
 version = ''
 release = ''
 doi = 'None'
+docsurl = 'http://fatiando.github.io/docs'
 
+extlinks = {
+    'docs': ('{}%s'.format(docsurl), ''),
+}
 # These enable substitutions using |variable| in the rst files
 rst_epilog = """
 .. |doi| replace:: {doi}
@@ -41,9 +46,9 @@ html_theme_options = {
     'navbar_title': 'fatiando',
     'navbar_site_name': "Site",
     'navbar_links': [
-        ("Installing", "examples"),
+        ("Installing", '{}/install.html'.format(docsurl), True),
         ("Citing", "cite"),
-        ("Documentation", "examples"),
+        ("Documentation", "documentation"),
         ('<i class="fa fa-github-square fa-lg" title="Source code on Github"></i>',
             "https://github.com/fatiando/fatiando", True),
         ('<i class="fa fa-envelope fa-lg" title="Mailing list"></i>',

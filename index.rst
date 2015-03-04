@@ -15,7 +15,8 @@ All from inside the powerful Python_ language.
 Fatiando is built on top of the `Scipy ecosystem`_: Numpy_, Cython_,
 matplotlib_, Mayavi_, etc.
 
-Browse the Cookbook_ for examples of what Fatiando can do.
+Browse the :docs:`Cookbook </cookbook.html>`
+for examples of what Fatiando can do.
 
 .. _Python: https://www.python.org/
 .. _matplotlib: http://matplotlib.org/
@@ -23,7 +24,6 @@ Browse the Cookbook_ for examples of what Fatiando can do.
 .. _Numpy: http://www.numpy.org/
 .. _Scipy ecosystem: http://scipy.org/
 .. _Cython: http://www.cython.org/
-.. _Cookbook: http://fatiando.readthedocs.org/en/latest/cookbook.html
 
 Getting help and contributing
 -----------------------------
