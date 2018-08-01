@@ -1,0 +1,23 @@
+<div class="container-fluid menu text-center">
+    <div class="col-lg-2 menu-brand">
+        <a class="" href="{{ pathto(master_doc) }}">
+            {% if logo %}
+                <img src="{{ pathto('_static/' + logo, 1) }}">
+            {% endif %}
+            {% if theme_navbar_title %}
+                {{ theme_navbar_title }}
+            {% endif %}
+        </a>
+    </div>
+    <div class="col-lg-8 menu-list">
+        <ul>
+            {% if theme_navbar_links %}
+                {%- for link in theme_navbar_links %}
+                    <li><a href="{{ pathto(*link[1:]) }}">{{ link[0] }}</a></li>
+                {%- endfor %}
+            {% endif %}
+        </ul>
+    </div>
+    <div class="col-lg-2">
+    </div>
+</div>

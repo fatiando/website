@@ -1,47 +1,104 @@
+{# Import the theme's layout. #}
 {% extends "!layout.html" %}
 
-{% set css_files = css_files + ["_static/default.css", "_static/font-awesome/css/font-awesome.css"] %}
 
-{%- block extrahead %}
+{% block extrahead %}
+
+    {{ super() }}
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://www.fatiando.org/_static/fatiando-logo.png">
+    <meta name="twitter:site" content="@leouieda">
+    <meta name="twitter:title" content="Fatiando a Terra">
+    <meta name="twitter:description" content="Open-source Python library for geophysics">
+
+    <meta property="og:title" content="Fatiando a Terra">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.fatiando.org/">
+    <meta property="og:site_name" content="Fatiando a Terra">
+    <meta property="og:image" content="http://www.fatiando.org/_static/fatiando-logo.png">
+    <meta property="og:description" content="Open-source Python library for geophysics">
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38125837-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
 {% endblock %}
 
-{% block header %}
-<div class="navbar">
-<ul>
-    <li class="navbar-logo"><a href="{{ pathto('index') }}"><img
-           src="{{ pathto('_static/fatiando-banner-long.png', 1) }}"/></a></li>
-    <li><a href="http://fatiando.readthedocs.org/en/latest/install.html">Installing</a></li>
-    <li><a href="{{ pathto('cite') }}">Citing</a></li>
-    <li><a href="{{ pathto('documentation') }}">Documentation</a></li>
-    <li><a href="https://groups.google.com/d/forum/fatiando">Mailing list</a></li>
-    <li><a href="https://github.com/fatiando/fatiando"><i class="fa fa-github-square fa-lg"></i></a></li>
-    <li><a href="https://plus.google.com/+FatiandoOrg"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
-</ul>
-</div>
+
+{% block footer %}
+
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-right">
+                <a href="#">Back to top</a>
+                {% if theme_source_link_position == "footer" %}
+                    <br/>
+                    {% include "sourcelink.html" %}
+                {% endif %}
+            </p>
+
+            <p class="text-center">
+            {%- if show_copyright %}
+                &copy; Copyright {{ copyright }}.
+            {%- endif %}
+            {%- if show_sphinx %}
+                {% trans sphinx_version=sphinx_version|e %}Created using <a
+                    href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{%
+                endtrans %}
+            {%- endif %}
+            </p>
+        </div>
+    </footer>
+
 {% endblock %}
 
-{%- block footer %}
-    <div class="footer" role="contentinfo">
-    {%- if show_copyright %}
-      {%- if hasdoc('copyright') %}
-        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
-      {%- else %}
-        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
-      {%- endif %}
-    {%- endif %}
-    {%- if last_updated %}
-      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
-    {%- endif %}
-    {%- if show_sphinx %}
-      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
-    {%- endif %}
-    </br>Source code to generate this website:
-    <a href="https://github.com/fatiando/website">github.com/fatiando/website</a>
-    </div>
+{%- block htmltitle %}
+    {% if pagename == "index" %}
+        <title>{{ title|striptags|e }}</title>
+    {% else %}
+        {{ super() }}
+    {% endif %}
 {%- endblock %}
 
-{% block relbar1 %}{% endblock %}
-{% block relbar2 %}{% endblock %}
 
-{% block sidebar1 %}{% endblock %}
-{% block sidebar2 %}{% endblock %}
+{% block content %}
+    {{ navBar() }}
+
+    {% if pagename == 'index' %}
+        <div class="container-fluid banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-3 col-xs-1">
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-xs-10">
+                        <img class="banner-logo center-block" src="_static/fatiando-logo-no-background.png">
+                    </div>
+                    <div class="col-lg-4 col-sm-3 col-xs-1">
+                    </div>
+                </div>
+
+                <div class="row site-title">
+                    <div class="col-lg-3 col-sm-2">
+                    </div>
+                    <div class="col-lg-6 col-sm-8">
+                        <img src="_static/fatiando-banner.png" width="100%">
+                    </div>
+                    <div class="col-lg-3 col-sm-2">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    {% endif %}
+    <div class="container">
+        {{ body }}
+    </div>
+{% endblock %}

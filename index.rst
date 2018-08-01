@@ -1,75 +1,224 @@
 .. title:: Fatiando a Terra
 
-An open source toolkit for modeling and inversion in geophysics
-===============================================================
+.. raw:: html
 
-Fatiando a Terra (Portuguese for *Slicing the Earth*)
-provides an easy and flexible way to perform common tasks like:
-generating synthetic data, forward modeling, inversion, 3D visualization,
-and more.
-All from inside the powerful Python_ language.
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10">
+                    <p class="text-center site-slogan">
+                    Open-source tools for geophysics.
+                    </p>
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
 
-* **Integrate geophysical modeling**: functions operate on a
-  common data and model format so that different methods can be
-  interchanged and linked together
-* Easily **prototyping inversion** methods using the
-  `fatiando.inversion`_ package of inverse problem solvers
-* A range of **toy problems** to help teach modeling and inverse
-  problem concepts
-* Easy **plotting** by wrapping matplotlib_ and Mayavi_
-* **Fast** routines, courtesy of Numpy_ and Cython_
-* A free (as in beer) and **open-source** alternative to commercial
-  software
 
-The Cookbook_ has examples of what Fatiando can already do.
 
-.. _Python: https://www.python.org/
-.. _fatiando.inversion: http://fatiando.readthedocs.org/en/latest/api/inversion.html
-.. _matplotlib: http://matplotlib.org/
-.. _Mayavi: http://code.enthought.com/projects/mayavi/
-.. _Numpy: http://www.numpy.org/
-.. _Cython: http://www.cython.org/
-.. _Cookbook: http://fatiando.readthedocs.org/en/latest/cookbook.html
+.. raw:: html
 
-Getting help and contributing
-=============================
 
-There are many ways to get in contact with us:
+        <h2>Overview</h2>
+
+        <div class="row">
+            <div class="col-md-6 home-overview">
+                <h3><a href="api.html#module-fatiando.gravmag">Gravity and magnetics</a></h3>
+                <p>
+                Modeling, inversion, and processing for potential field methods.
+                </p>
+                <em>
+                3D forward modeling with prisms,
+                polygonal prisms, spheres, and tesseroids.
+                Handles the potential, acceleration,
+                gradient tensor, magnetic induction, total field magnetic anomaly.
+                </em>
+            </div>
+            <div class="col-md-6 home-overview">
+                <h3><a href="api.html#module-fatiando.seismic">Seismology and seismics</a></h3>
+                <p>
+                Simple modeling functions for seismics and seismology.
+                </p>
+                <em>
+                Toy problems for: Cartesian straight-ray tomography,
+                VSP, epicenter estimation.
+                Experimental finite-difference wave propagation.
+                </em>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 home-overview">
+                <h3><a href="api.html#module-fatiando.gridder">Grid generation and manipulation</a></h3>
+                <p>
+                Functions for generating and operating on regular grids and data
+                that is on a map.
+                </p>
+                <em>
+                Generate regular grids and point scatters.
+                Cut grids and extract profiles.
+                Interpolate irregular data.
+                </em>
+            </div>
+            <div class="col-md-6 home-overview">
+                <h3><a href="api.html#module-fatiando.mesher">Geometric objects and meshes</a></h3>
+                <p>
+                Classes that represent geometric objects (points, prisms, polygons,
+                tesseroids) and meshes (regular prism mesh, points on a grid).
+                </p>
+                <em>
+                Standard classes used in all of Fatiando.
+                Efficient classes for meshes that save storage and behave as
+                <a href="https://docs.python.org/2/library/stdtypes.html#iterator-types">iterators</a>.
+                </em>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 home-overview">
+                <h3><a href="api.html#module-fatiando.datasets">Datasets and I/O</a></h3>
+                <p>
+                Experiment with our packaged test datasets or load your data
+                with some of our functions for input and output.
+                </p>
+                <em>
+                Test gravity and magnetic data, load data from Surfer ASCII
+                grids, generate data and models from images.
+                </em>
+            </div>
+            <div class="col-md-6 home-overview">
+                <h3><a href="api.html#module-fatiando.inversion">Inverse problems</a></h3>
+                <p>
+                Build your own inversions by implementing the bare minimum. We
+                provide standard regularization and optimization.
+                </p>
+                <em>
+                Classes for least-squares problems, Tikhonov regularization,
+                gradient-descent optimization, and more.
+                </em>
+            </div>
+        </div>
+
+
+
+.. raw:: html
+
+
+        <h2>Get started</h2>
+
+See the :ref:`install instructions <install>` to set up your computer and
+install Fatiando.
+
+Once you have everything installed,
+take a look at the :ref:`Documentation <docs>`
+for a detailed tour of the library.
+You can also browse the :ref:`Gallery <gallery>` and :ref:`Cookbook <cookbook>`
+for examples of what Fatiando can do.
+
+Want more inspiration? Check out how Fatiando is being used in the
+:ref:`Use cases <use_cases>` page.
+
+**Stay informed**: Sign up to our `mailing list`_ to keep up-to-date with new
+releases and events and give your feedback.
+
+
+.. raw:: html
+
+        <h2>Get help</h2>
+
+There are many ways to contact us:
 
 * Write to our `mailing list`_.
-* Report an `issue on Github`_.
-* Tweet `@leouieda`_.
-* Mention `+Fatiando a Terra`_ on Google+.
+* Join us on our open `Gitter chat room`_.
+* Report bugs through `Github`_.
 
-We welcome feedback, bug reports, feature requests, code contributions,
-spelling corrections, usage examples, etc.
+If you come across a bug, please include in your message: your operating
+system, Python version, Fatiando version, code that generated the error, the
+full error message.
+
+
+.. raw:: html
+
+        <h2>Contribute</h2>
+
+**Feedback**: Send us your bug reports, feature requests, spelling corrections,
+usage examples, etc. We love to hear what the community thinks!
+
+**Documentation**: We need a lot of help improving our documentation. You can
+report typos, suggest new sections and improvements, and anything that you
+think would make the docs better in any way.
+
+**Code**: If you  want to get involved with the code,
+take a look at our :ref:`Developer Guide <develop>`.
+All source code development is done in the open on the Github repository
+`fatiando/fatiando <https://github.com/fatiando/fatiando>`__.
+A good place to start is with our `curated list of low-hanging fruit
+<https://github.com/fatiando/fatiando/issues?q=is%3Aissue+is%3Aopen+label%3A%22low-hanging+fruit%22>`__.
+
+If you want to help but are not sure how, ask on the `Gitter chat room`_ and
+we'll help you get started.
+**Don't be afraid to ask for help!**
 
 .. _mailing list: https://groups.google.com/d/forum/fatiando
-.. _issue on Github: https://github.com/fatiando/fatiando/issues?q=is%3Aopen
-.. _@leouieda: https://twitter.com/leouieda
+.. _issues on Github: https://github.com/fatiando/fatiando/issues?q=is%3Aopen
+.. _Github: https://github.com/fatiando/fatiando/issues?q=is%3Aopen
 .. _+Fatiando a Terra: https://plus.google.com/+FatiandoOrg
+.. _Gitter chat room: https://gitter.im/fatiando/fatiando
 
-Announcements
-=============
 
-* **July 2014**: We presented a poster at Scipy 2014 about the
-  ``fatiando.inversion`` package. See the
-  `Github repo <https://github.com/leouieda/scipy2014>`__ for the poster and
-  source code behind it.
+.. raw:: html
 
-* **June 2013**: Fatiando a Terra was presented at SciPy 2013.
-  `Slides and source code <https://github.com/leouieda/scipy2013>`__
-  of the presentation and proceedings are on Github.
-  Watch a recorded version `on Youtube <http://youtu.be/Ec38h1oB8cc>`__.
+        <h2>Support</h2>
+
+Fatiando is research software **made by scientists**.
+Your citations help us justify the effort that goes into building and
+maintaining Fatiando.
+
+**TL;DR**: If you just want to copy and paste something, include the following
+in your Methods or Acknowledgments:
+
+    The results presented here were obtained with the help of the open-source
+    software Fatiando a Terra by Uieda et al. (2013).
+
+and the reference:
+
+    Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa (2013), Modeling the
+    Earth with Fatiando a Terra, Proceedings of the 12th Python in Science
+    Conference, pp. 91 - 98.
+
+See :ref:`Citing <cite>` for more details on how to cite Fatiando in your
+publications.
+
+
+.. raw:: html
+
+        <h2>Watch</h2>
+
+Watch an introduction to what Fatiando is all about in this presentation from
+`Scipy 2013 <http://www.leouieda.com/talks/scipy2013.html>`__.
+
+.. raw:: html
+
+    <div class="row home-row-video">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/Ec38h1oB8cc"
+                        frameborder="0"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+
 
 .. toctree::
-   :hidden:
+    :maxdepth: 2
+    :hidden:
 
-   cite
-   documentation
-   people/balancin/index.rst
-   people/ferreira/index.rst
-   people/caparicajr/index.rst
-   people/oliveira-jr/index.rst
-   people/santos/index.rst
-   people/uieda/index.rst
+    cite.rst
+    use_cases.rst
