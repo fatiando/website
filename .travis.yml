@@ -1,12 +1,43 @@
+# Configuration file for TravisCI
+
 language: python
-script:
-- make linkcheck; make clean
-- make html
-before_install: 
+
+python: "3.6"
+
+os: linux
+
+# Use the container builds so we don't need sudo priviledges
+sudo: false
+
+# Only build pushes to the master branch
+branches:
+    only:
+        - master
+
+# Define environment variables common to all builds
+#env:
+    #global:
+        # Encrypted variables
+        # Github Token for pushing the built HTML (GH_TOKEN)
+
+
+# Setup the build environment
 install:
-- pip install sphinx matplotlib
-after_success:
-- bash .update-website.sh
-env:
-  global:
-    secure: Gaou3E+ry8XEUl6oY9sCldJ7gWhYQAsfMVWUm8RxUeyFx1qu204xsPmhAqJ+96FKQ6/jheQLBuwPfcGc/VRIQm9ZK4/+wcKDZlz0x+f4e0rkx32+CLvz8SFbnkZGHRAxqusHD+45XBaSd39ahHtiHK7TGxALadE1yALfhxDKlLM=
+    # Install the requirements
+    - pip install -r requirements.txt
+
+# Build the documentation HTML
+script:
+    - make all
+
+# Deploy the built HTML to Github pages
+deploy:
+    - provider: script
+      script: ci/deploy-gh-pages.sh
+      skip_cleanup: true
+      on:
+          branch: master
+
+# Don't send out emails every time a build fails
+notifications:
+    email: false
