@@ -18,7 +18,7 @@ copyright = "2010-{:d}, The Fatiando a Terra Developers".format(year)
 version = ""
 
 html_title = project
-html_short_title = project
+html_short_title = ""
 html_logo = "_static/fatiando-navbar-logo.png"
 html_favicon = "_static/favicon.png"
 html_static_path = ["_static"]
@@ -57,18 +57,13 @@ html_theme = "bootstrap"
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_theme_options = {
     "bootswatch_theme": "flatly",
-    "navbar_title": "fatiando",
+    "navbar_title": "",
     "navbar_site_name": "Site",
     "navbar_links": [
-        ('<i class="fa fa-info-circle fa"></i> About', "about"),
-        ('<i class="fa fa-users fa"></i> Contribute', "contribute"),
-        ('<i class="fa fa-comment fa"></i> Contact',
-         "https://gitter.im/fatiando/fatiando", True),
-        (
-            '<i class="fa fa-github fa"></i> Development',
-            "https://github.com/fatiando",
-            True,
-        ),
+        ('About', "about"),
+        ('Contribute', "contribute"),
+        ('Contact',
+         "contact"),
     ],
     # Render the next and previous page links in navbar. (Default: true)
     "navbar_sidebarrel": False,
@@ -95,6 +90,12 @@ html_theme_options = {
     # Options are "nav" (default), "footer" or anything else to exclude.
     "source_link_position": "footer",
     "bootstrap_version": "3",
+}
+html_context = {
+    "social_links": [
+        ('<i class="fab fa-github fa-lg"></i>', "Github", "https://github.com/fatiando"),
+        ('<i class="fa fa-comment fa-lg"></i>', "Gitter chat", "https://gitter.im/fatiando/fatiando"),
+    ]
 }
 
 

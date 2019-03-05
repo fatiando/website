@@ -1,5 +1,5 @@
 <div class="container-fluid menu text-center">
-    <div class="col-lg-2 menu-brand">
+    <div class="col-lg-4 menu-brand">
         <a class="" href="{{ pathto(master_doc) }}">
             {% if logo %}
                 <img src="{{ pathto('_static/' + logo, 1) }}">
@@ -9,15 +9,22 @@
             {% endif %}
         </a>
     </div>
-    <div class="col-lg-8 menu-list">
-        <ul>
-            {% if theme_navbar_links %}
+    <div class="col-lg-4 menu-list">
+        {% if theme_navbar_links %}
+            <ul>
                 {%- for link in theme_navbar_links %}
                     <li><a href="{{ pathto(*link[1:]) }}">{{ link[0] }}</a></li>
                 {%- endfor %}
-            {% endif %}
-        </ul>
+            </ul>
+        {% endif %}
     </div>
-    <div class="col-lg-2">
+    <div class="col-lg-4 menu-icons">
+        {% if social_links %}
+            <ul>
+                {%- for link in social_links %}
+                    <li><a href="{{ link[2] }}" title="{{ link[1] }}">{{ link[0] }}</a></li>
+                {%- endfor %}
+            </ul>
+        {% endif %}
     </div>
 </div>

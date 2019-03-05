@@ -122,43 +122,35 @@ div.figure {
 .menu {
     border: none;
     margin-bottom: 0px;
-    background-color: #172c4d;
-    color: #ffffff;
+    background-color: #02020e;
     position: relative;
-    min-height: 50px;
+    min-height: 80px;
     display: block;
-    font-size: 16px;
-    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
-    padding: 0px;
+    font-size: 14pt;
+    padding: 0;
 }
 
 .menu a {
-    color: #ffffff;
+    color: #888888;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #dddddd;
 }
 
 .menu-brand {
-    font-size: 16pt;
-    padding-top: 11px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .menu-brand > a > img {
-    padding-right: 10px;
-}
-
-.menu-brand > a:hover {
-    text-decoration: none;
-}
-
-.menu-version {
-    color: #777777;
-    font-size: 11pt;
-    font-weight: bold;
-    margin-left: 10px;
+    height: 40px;
 }
 
 .menu-list {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 40px;
 }
 
@@ -169,27 +161,35 @@ div.figure {
 }
 
 .menu-list > ul > li {
+    font-weight: bold;
     display: inline;
     padding-right: 12px;
     padding-left: 12px;
 }
 
-.menu-search {
+.menu-icons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 40px;
 }
 
-.dev-version-warning {
-    font-size: 11pt;
-    margin: 0px;
-    border-radius: 0px;
-    padding: 5px;
-    padding-right: 35px;
+.menu-icons > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-icons > ul > li {
+    display: inline;
+    padding-right: 7px;
+    padding-left: 7px;
 }
 
 
 /* Front page */
 
 .banner {
-    background-color: #172c4d;
+    background-color: #02020e;
     padding-top: 60px;
     padding-bottom: 100px;
     padding-left: 0px;
