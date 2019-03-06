@@ -39,8 +39,8 @@ h2 {
 }
 
 blockquote {
-    font-size: 12pt;
-    color: #6F6F6F;
+    font-size: 14pt;
+    color: #666666;
 }
 
 .footer {
@@ -79,11 +79,11 @@ blockquote {
 }
 
 .icon-list {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .icon-list li {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .project-icons {

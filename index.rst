@@ -5,7 +5,43 @@
 Python solutions for geophysical problems
 =========================================
 
-**Fatiando** is a collection of open-source Python packages for Geophysics.
+**Fatiando** is a collection of open-source `Python <https://www.python.org/>`__
+packages for Geophysics.
+Our toolkit includes code for processing geophysical data, forward and inverse
+modeling, interpolation, and more.
+
+We are committed to providing well crafted and trustworthy software. As such, all of our
+core packages strictly follow **software development best practices:**
+
+.. raw:: html
+
+   <ul class="fa-ul icon-list">
+   <li><i class="fa-li fas fa-vial fa-fw"></i>
+   <b>Full suite of tests</b> for every part of the code base. Tests are run
+   automatically every time a change is made and new features must include tests before
+   being integrated.
+   </li>
+
+   <li><i class="fa-li fas fa-book fa-fw"></i>
+   <b>Extensive documentation</b> including tutorials, example galleries, and reference
+   documentation for functions and classes. As well as tests, we also require new
+   features to be fully documented.
+   </li>
+
+   <li><i class="fa-li fas fa-search fa-fw"></i>
+   <b>Carefully designed interfaces</b> for our functions and classes are debated and
+   experimented on widely to make them as user-friendly as possible. We also focus on
+   promoting best practices in geophysical data analysis through the design of our
+   software.
+   </li>
+
+   <li><i class="fa-li fas fa-door-open fa-fw"></i>
+   <b>Open development</b> through <a href="https://github.com/fatiando">Github</a>
+   allows anyone to participate in our discussions, contribute their own ideas, and
+   track changes made to the software since its inception.
+   </li>
+
+   </ul>
 
 
 .. _projects:
@@ -14,8 +50,8 @@ The Libraries
 =============
 
 We maintain several Python libraries which are in various stages of development: from
-early design to polished and published products. We'll be adding new projects to our
-toolkit in future (see you can :ref:`get involved <contribute>`).
+early design to polished and published products. We'll also be adding new projects to
+our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
 .. raw:: html
 
