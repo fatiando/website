@@ -5,9 +5,10 @@ html {
 }
 
 body {
-    color: #222;
+    color: #222222;
     font-family: "Roboto",Helvetica,Arial,sans-serif !important;
-    font-size: 12pt;
+    font-weight: 300;
+    font-size: 14pt;
     /* Margin bottom by footer height with a little room to accomodate small
      * screens */
     margin-bottom: 200px;
@@ -23,12 +24,15 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
+    margin-top: 100px;
     margin-bottom: 40px;
     line-height: 60px;
+    text-align: center;
 }
 
 h2 {
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 blockquote {
@@ -37,10 +41,11 @@ blockquote {
 }
 
 .footer {
-    color: #6F6F6F;
+    background-color: #06062e;
+    color: #f9f9f9;
     margin-top: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-size: 11pt;
     /* To stick the footer to the bottom of the page */
     position: absolute;
@@ -49,8 +54,10 @@ blockquote {
     min-height: 90px;
 }
 
-.front-block {
-    margin-top: 70px;
+@media (min-width:1200px) {
+ .container {
+  width:970px;
+ }
 }
 
 /* Navbar */
@@ -99,7 +106,7 @@ blockquote {
 .banner {
     background-color: #06062e;
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     padding-left: 0px;
     padding-right: 0px;
     color: #f9f9f9;
@@ -107,4 +114,6 @@ blockquote {
 
 .banner-logo {
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }

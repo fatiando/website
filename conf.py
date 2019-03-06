@@ -98,7 +98,8 @@ html_context = {
             "https://github.com/fatiando",
         ),
         (
-            '<i class="fas fa-comment fa-lg"></i>',
+            # '<i class="fas fa-comment fa-lg"></i>',
+            '<i class="fab fa-gitter fa-lg"></i>',
             "Gitter chat",
             "https://gitter.im/fatiando/fatiando",
         ),
