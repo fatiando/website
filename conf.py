@@ -62,6 +62,7 @@ html_theme_options = {
     "navbar_links": [
         ("About", "#about", True),
         ("Projects", "#projects", True),
+        ("Support", "#support", True),
         ("Contact", "#contact", True),
         ("Contribute", "#contribute", True),
     ],
@@ -103,6 +104,11 @@ html_context = {
             '<i class="fab fa-gitter fa-lg"></i>',
             "Gitter chat",
             "https://gitter.im/fatiando/fatiando",
+        ),
+        (
+            '<i class="fas fa-envelope fa-lg"></i>',
+            "Mailing list",
+            "https://groups.google.com/d/forum/fatiando",
         ),
         (
             '<i class="fab fa-twitter fa-lg"></i>',

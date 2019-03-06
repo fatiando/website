@@ -15,11 +15,11 @@ branches:
         - master
 
 # Define environment variables common to all builds
-#env:
-    #global:
+env:
+    global:
         # Encrypted variables
         # Github Token for pushing the built HTML (GH_TOKEN)
-
+        - secure: "BPGIqOKUaDVzNAelMpArFy0Kqg25w2x3casYxu2/ZQowrt9oTujmnGVFekIXvu5KPKEILQezkAZ7Jhloy7uB8gbgETHWDHqMy4h/hxQrbV4eEJJ5X4A/zAIYSwpd6YU5iJGc0Io6gXCBrq0O8SJ3VmEWnK0sB8vCZJ+NvHGXqFA="
 
 # Setup the build environment
 install:

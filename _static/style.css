@@ -11,7 +11,8 @@ body {
     font-size: 14pt;
     /* Margin bottom by footer height with a little room to accomodate small
      * screens */
-    margin-bottom: 300px;
+    margin-bottom: 350px;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -24,7 +25,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 40px;
     line-height: 70px;
     text-align: center;
@@ -63,13 +64,18 @@ blockquote {
 }
 
 .project {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .project-logo {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
+}
+
+/* To prevent Academicons from messing with the spacing */
+.fa-li {
+    top: 0 !important;
 }
 
 .icon-list {
@@ -82,10 +88,11 @@ blockquote {
 
 .project-icons {
     margin-top: 20px;
+    margin-left: 1.7em !important;
 }
 
-.project-icons li {
-    margin-bottom: 5px;
+.project-icons > li {
+    margin-bottom: 7px;
 }
 
 /* Navbar */

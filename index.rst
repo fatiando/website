@@ -14,7 +14,8 @@ The Libraries
 =============
 
 We maintain several Python libraries which are in various stages of development: from
-proof-of-concepts to polished and published products.
+early design to polished and published products. We'll be adding new projects to our
+toolkit in future (see you can :ref:`get involved <contribute>`).
 
 .. raw:: html
 
@@ -22,21 +23,22 @@ proof-of-concepts to polished and published products.
       <div class="col-md-6 project">
          <img class="project-logo" src="_static/verde-logo.svg">
          <p>
-         Spatial data processing and interpolating it on regular grids (i.e.,
-         <b>gridding</b>).
+         Spatial data processing and interpolation (<b>gridding</b>) using
+         Green's functions (or radial basis functions) with a
+         machine learning interface.
          </p>
          <ul class="fa-ul project-icons">
-            <li><i class="fa-li fab fa-github fa-fw"></i>
-               Repository: <a href="https://github.com/fatiando/verde">fatiando/verde</a>
+            <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+               <a href="https://github.com/fatiando/verde">fatiando/verde</a>
             </li>
-            <li><i class="fa-li fa fa-book fa-fw"></i>
-               Documentation: <a href="http://www.fatiando.org/verde">fatiando.org/verde</a>
+            <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
+               <a href="http://www.fatiando.org/verde">www.fatiando.org/verde</a>
             </li>
-            <li><i class="fa-li fa fa-file-alt fa-fw"></i>
-               doi: <a href="">121</a>
+            <li><i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
+               doi: <a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
             </li>
-            <li><i class="fa-li fa fa-book fa-fw"></i>
-               Status: <a href="http://www.fatiando.org/verde">fatiando.org/verde</a>
+            <li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
+               Stable and ready for use
             </li>
          </ul>
       </div>
@@ -46,6 +48,17 @@ proof-of-concepts to polished and published products.
          Processing and modeling <b>gravity</b> and <b>magnetic</b> data, like terrain
          correction, upward continuation, equivalent layers, modeling, and more.
          </p>
+         <ul class="fa-ul project-icons">
+            <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+               <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
+            </li>
+            <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
+               <a href="http://www.fatiando.org/harmonica/dev">www.fatiando.org/harmonica/dev</a>
+            </li>
+            <li><i class="fa-li fa fa-flask fa-fw" style="color: orange" title="Project status"></i>
+               Early development and design
+            </li>
+         </ul>
       </div>
    </div>
 
@@ -53,18 +66,78 @@ proof-of-concepts to polished and published products.
       <div class="col-md-6 project">
          <img class="project-logo" src="_static/pooch-logo.svg">
          <p>
-         Manage downloading your sample data files over HTTP from a server and storing
-         them in a local directory.
+         Manages downloading sample data files over HTTP from a server and storing
+         them in a local directory. Used by our other libraries.
          </p>
+         <ul class="fa-ul project-icons">
+            <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+               <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
+            </li>
+            <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
+               <a href="http://www.fatiando.org/pooch">www.fatiando.org/pooch</a>
+            </li>
+            <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+               Ready for use but still changing
+            </li>
+         </ul>
       </div>
       <div class="col-md-6 project">
          <img class="project-logo" src="_static/rockhound-logo.svg">
          <p>
          Download geophysical models and datasets (PREM, CRUST1.0, ETOPO1) and load them
-         into Python data structures (pandas, numpy, xarray).
+         into Python. Relies on Pooch to manage the downloads.
          </p>
+         <ul class="fa-ul project-icons">
+            <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+               <a href="https://github.com/fatiando/rockhound">fatiando/rockhound</a>
+            </li>
+            <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
+               <a href="http://www.fatiando.org/rockhound/dev">www.fatiando.org/rockhound/dev</a>
+            </li>
+            <li><i class="fa-li fa fa-flask fa-fw" style="color: orange" title="Project status"></i>
+               Early development and design
+            </li>
+         </ul>
       </div>
    </div>
+
+
+.. _support:
+
+Support Fatiando
+================
+
+
+All Fatiando projects are **made by scientists and volunteers** who are generous enough
+to donate their time and attention. Here are some of the ways in which you can help
+support the project and give back to the community:
+
+.. raw:: html
+
+   <ul class="fa-ul icon-list">
+   <li><i class="fa-li fas fa-bookmark fa-fw"></i>
+   <b>Cite the projects</b> in papers, presentations, etc. Citations help us justify the
+   effort that goes into building and maintaining this project. If you used any of our
+   libraries in your research, please consider citing it. There are
+   <a href="https://github.com/fatiando/verde/blob/master/CITATION.rst"><span class="pre">CITATION.rst</span></a>
+   files in each released project repository explaining how to cite it (and also a page
+   in the documentation).
+   </li>
+
+   <li><i class="fa-li fas fa-share-alt fa-fw"></i>
+   <b>Spread the word</b> by sharing links in social media, publishing your analysis
+   code that uses Fatiando, including our logo in talks and posters (sources in
+   <a href="https://github.com/fatiando/logo"><i class="fab fa-github"></i>
+   fatiando/logo</a>), etc.
+   </li>
+
+   <li><i class="fa-li fas fa-users fa-fw"></i>
+   <b>Join the community</b> by getting involved in the project. See below how you can
+   <a href="#contact">participate in the conversion</a> and <a
+   href="#contribute">contribute to the project</a>.
+   </li>
+   </ul>
+
 
 
 .. _contact:
@@ -89,7 +162,15 @@ Contacting Us
 
    <li><i class="fa-li fa fa-envelope-open-text fa-fw"></i>
    Our <a href="https://groups.google.com/d/forum/fatiando">Google Groups mailing
-   list</a> is also used to answer questions and post announcements.
+   list</a> is also used to answer questions and post announcements. When you sign up,
+   please <b>remember to choose an email delivery option</b> (sadly the default is "no
+   emails").
+   </li>
+
+   <li><i class="fa-li fab fa-twitter fa-fw"></i>
+   You can follow us on Twitter <a href="https://twitter.com/fatiandoaterra">@fatiandoaterra</a>
+   where we post occasional updates about the project. Feel free to @-mention to ask
+   questions or get in touch.
    </li>
    </ul>
 
@@ -150,3 +231,57 @@ If you can write any code at all, you can contribute code to open source.
 We are constantly trying out new skills, making mistakes, and learning from
 those mistakes.
 That's how we all improve and we are happy to help others learn.
+
+
+Looking for the ``fatiando`` package?
+=====================================
+
+**It still exists!**
+While development of the ``fatiando`` library has stopped (in favor of
+:ref:`our new libraries <projects>`),
+you can still view the
+`documentation for the last release (v0.5) <https://www.fatiando.org/v0.5/>`__
+and the `source code archive on Github <https://github.com/fatiando/fatiando>`__.
+The library will remain archived and usable for the foreseeable future.
+
+To get a sense for the reasoning behind the choice to abandon ``fatiando``, please read
+`this blog post <http://www.leouieda.com/blog/future-of-fatiando.html>`__.
+Quoting from it:
+
+   Back [when we started Fatiando], there were very few Python geophysical modeling
+   libraries. A decade later, the ecosystem has expanded. The five currently on going
+   projects of which I'm aware are:
+
+   * `PyGMI <https://github.com/Patrick-Cole/pygmi>`__: GUI + library for 3D modeling
+     of gravity and magnetic data.
+   * `SimPEG <http://simpeg.xyz/>`__: Forward modeling and inversion library based on
+     the finite volume method.
+   * `pyGIMLi <https://www.pygimli.org/>`__: Forward modeling and inversion library
+     based on the finite element and finite volume methods.
+   * `Bruges <https://github.com/agile-geoscience/bruges>`__: Modeling and processing
+     for seismic and petrophysics.
+   * `Pyrocko <https://pyrocko.org>`__: A collection of tools and libraries, mostly
+     for seismology.
+
+   The two projects that are most similar to us (SimPEG and pyGIMLi) implement flexible
+   partial differential equation solvers that they use to run all forward modeling
+   calculations. This makes a lot of sense because it gives them a unified framework to
+   model most geophysical methods. It is the most sensible approach to build joint
+   inversions of multiple geophysical datasets. However, there are some inverse problems
+   that don't fit this paradigm, like inverting Moho relief from gravity data and some
+   non-conventional inversion algorithms [...]
+
+   [...]
+
+   The niche I see for Fatiando is in gravity and magnetic methods, particularly using
+   [analytical solutions for forward modeling and non-PDE based inversions]. The
+   processing functions are an important feature because there are hardly any
+   open-source alternatives out there to commercial software like Oasis Montaj and
+   Intrepid.
+
+   [...]
+
+   The best way forward for Fatiando that I can see, is to become an ecosystem of
+   specialized tools and libraries, rather than a single Python package. Having things
+   in separate libraries allows us to better indicate what is robust and professional
+   and what is experimental or meant as a teaching tool.
