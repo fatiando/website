@@ -11,7 +11,7 @@ body {
     font-size: 14pt;
     /* Margin bottom by footer height with a little room to accomodate small
      * screens */
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 a {
@@ -26,8 +26,10 @@ h1, h2, h3, h4, h5 {
 h1 {
     margin-top: 100px;
     margin-bottom: 40px;
-    line-height: 60px;
+    line-height: 70px;
     text-align: center;
+    font-size: 45px;
+    border-bottom: 1px solid #eee;
 }
 
 h2 {
@@ -46,7 +48,7 @@ blockquote {
     margin-top: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size: 11pt;
+    font-size: 12pt;
     /* To stick the footer to the bottom of the page */
     position: absolute;
     bottom: 0;
@@ -60,12 +62,38 @@ blockquote {
  }
 }
 
+.project {
+    margin-top: 50px;
+}
+
+.project-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.icon-list {
+    margin-top: 20px;
+}
+
+.icon-list li {
+    margin-bottom: 15px;
+}
+
+.project-icons {
+    margin-top: 20px;
+}
+
+.project-icons li {
+    margin-bottom: 5px;
+}
+
 /* Navbar */
 /*********************************************************************************/
 .menu {
     border: none;
     margin-bottom: 0px;
-    background-color: #06062e;
+    background-color: #060629;
     position: relative;
     min-height: 80px;
     display: block;
@@ -104,7 +132,7 @@ blockquote {
 /* Banner */
 /*********************************************************************************/
 .banner {
-    background-color: #06062e;
+    background-color: #060629;
     padding-top: 60px;
     padding-bottom: 120px;
     padding-left: 0px;

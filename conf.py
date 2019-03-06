@@ -60,9 +60,10 @@ html_theme_options = {
     "navbar_title": "",
     "navbar_site_name": "Site",
     "navbar_links": [
-        ("About", "about"),
-        ("Contribute", "contribute"),
-        ("Contact", "contact"),
+        ("About", "#about", True),
+        ("Projects", "#projects", True),
+        ("Contact", "#contact", True),
+        ("Contribute", "#contribute", True),
     ],
     # Render the next and previous page links in navbar. (Default: true)
     "navbar_sidebarrel": False,
