@@ -43,4 +43,4 @@ linkcheck:
 	@echo "Link check complete; look for any errors in the above output " \
 	      "or in $(BUILDDIR)/linkcheck/output.txt."
 serve:
-	cd $(BUILDDIR)/html && python -m SimpleHTTPServer 8008
+	cd $(BUILDDIR)/html && python -m http.server 8008 --bind 127.0.0.1

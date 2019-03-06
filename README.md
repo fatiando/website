@@ -23,8 +23,7 @@ Pushing the changes from Travis is handled by the scripts in the `ci` folder.
 
 ## Logo fonts
 
-The font used in the front page banner is El Messiri and the one in the navbar is
-ABeeZee.
+The font used in the front page banner is El Messiri.
 
 ## License
 

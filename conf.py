@@ -19,7 +19,7 @@ version = ""
 
 html_title = project
 html_short_title = ""
-html_logo = "_static/fatiando-navbar-logo.png"
+html_logo = "_static/fatiando-logo-background.png"
 html_favicon = "_static/favicon.png"
 html_static_path = ["_static"]
 html_extra_path = [".nojekyll", "CNAME"]
@@ -60,10 +60,9 @@ html_theme_options = {
     "navbar_title": "",
     "navbar_site_name": "Site",
     "navbar_links": [
-        ('About', "about"),
-        ('Contribute', "contribute"),
-        ('Contact',
-         "contact"),
+        ("About", "about"),
+        ("Contribute", "contribute"),
+        ("Contact", "contact"),
     ],
     # Render the next and previous page links in navbar. (Default: true)
     "navbar_sidebarrel": False,
@@ -93,8 +92,21 @@ html_theme_options = {
 }
 html_context = {
     "social_links": [
-        ('<i class="fab fa-github fa-lg"></i>', "Github", "https://github.com/fatiando"),
-        ('<i class="fa fa-comment fa-lg"></i>', "Gitter chat", "https://gitter.im/fatiando/fatiando"),
+        (
+            '<i class="fab fa-github fa-lg"></i>',
+            "Github",
+            "https://github.com/fatiando",
+        ),
+        (
+            '<i class="fas fa-comment fa-lg"></i>',
+            "Gitter chat",
+            "https://gitter.im/fatiando/fatiando",
+        ),
+        (
+            '<i class="fab fa-twitter fa-lg"></i>',
+            "Twitter",
+            "https://twitter.com/fatiandoaterra",
+        ),
     ]
 }
 

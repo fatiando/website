@@ -7,17 +7,20 @@
     {{ super() }}
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="http://www.fatiando.org/_static/fatiando-logo.png">
-    <meta name="twitter:site" content="@leouieda">
+    <meta name="twitter:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
+    <meta name="twitter:site" content="@fatiandoaterra">
     <meta name="twitter:title" content="Fatiando a Terra">
-    <meta name="twitter:description" content="Open-source Python library for geophysics">
+    <meta name="twitter:description" content="Open-source tools for geophysics">
 
     <meta property="og:title" content="Fatiando a Terra">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://www.fatiando.org/">
     <meta property="og:site_name" content="Fatiando a Terra">
-    <meta property="og:image" content="http://www.fatiando.org/_static/fatiando-logo.png">
-    <meta property="og:description" content="Open-source Python library for geophysics">
+    <meta property="og:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
+    <meta property="og:description" content="Open-source tools for geophysics">
+
+    <!-- Include Google Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300%7CRaleway:200" rel="stylesheet">
 
 {% endblock %}
 
@@ -26,14 +29,6 @@
 
     <footer class="footer">
         <div class="container">
-            <p class="pull-right">
-                <a href="#">Back to top</a>
-                {% if theme_source_link_position == "footer" %}
-                    <br/>
-                    {% include "sourcelink.html" %}
-                {% endif %}
-            </p>
-
             <p class="text-center">
             {%- if show_copyright %}
                 &copy; Copyright {{ copyright }}.
@@ -62,28 +57,18 @@
     {{ navBar() }}
 
     {% if pagename == 'index' %}
-        <div class="container-fluid banner">
+        <div class="container-fluid banner"
+             style="background-image: linear-gradient(to bottom, transparent, #02020eff), url(/_static/background.svg);">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-3 col-xs-1">
+                    <div class="col-lg-3 col-sm-2 col-xs-0">
                     </div>
-                    <div class="col-lg-4 col-sm-6 col-xs-10">
-                        <img class="banner-logo center-block" src="_static/fatiando-logo-no-background.png">
+                    <div class="col-lg-6 col-sm-8 col-xs-12">
+                        <img class="banner-logo center-block" src="/_static/banner.svg">
                     </div>
-                    <div class="col-lg-4 col-sm-3 col-xs-1">
-                    </div>
-                </div>
-
-                <div class="row site-title">
-                    <div class="col-lg-3 col-sm-2">
-                    </div>
-                    <div class="col-lg-6 col-sm-8">
-                        <img src="_static/fatiando-banner.png" width="100%">
-                    </div>
-                    <div class="col-lg-3 col-sm-2">
+                    <div class="col-lg-3 col-sm-2 col-xs-0">
                     </div>
                 </div>
-
             </div>
         </div>
     {% endif %}
