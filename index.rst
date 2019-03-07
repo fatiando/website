@@ -58,7 +58,9 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       <div class="col-md-6 project">
 
-         <img class="project-logo" src="_static/verde-logo.svg">
+         <a href="http://www.fatiando.org/verde">
+            <img class="project-logo" src="_static/verde-logo.svg">
+         </a>
 
          <p>
          Spatial data processing and interpolation (<b>gridding</b>) using
@@ -85,7 +87,9 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       <div class="col-md-6 project">
 
-         <img class="project-logo" src="_static/harmonica-logo.svg">
+         <a href="http://www.fatiando.org/harmonica/dev">
+            <img class="project-logo" src="_static/harmonica-logo.svg">
+         </a>
 
          <p>
          Processing and modeling <b>gravity</b> and <b>magnetic</b> data, like terrain
@@ -112,7 +116,9 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       <div class="col-md-6 project">
 
-         <img class="project-logo" src="_static/pooch-logo.svg">
+         <a href="http://www.fatiando.org/pooch">
+            <img class="project-logo" src="_static/pooch-logo.svg">
+         </a>
 
          <p>
          Manages downloading sample data files over HTTP from a server and storing
@@ -135,7 +141,9 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       <div class="col-md-6 project">
 
-         <img class="project-logo" src="_static/rockhound-logo.svg">
+         <a href="http://www.fatiando.org/rockhound/dev">
+            <img class="project-logo" src="_static/rockhound-logo.svg">
+         </a>
 
          <p>
          Download geophysical models and datasets (PREM, CRUST1.0, ETOPO1) and load them
