@@ -6,21 +6,16 @@ html {
 
 body {
     color: #222222;
-    font-family: "Roboto",Helvetica,Arial,sans-serif !important;
-    font-weight: 300;
-    font-size: 14pt;
-    /* Margin bottom by footer height with a little room to accomodate small
-     * screens */
+    font-family: "Open Sans",Arial,sans-serif !important;
+    font-size: 1.8em;
+    line-height: 1.8em;
+    /* Margin bottom by footer height with a little room to accomodate small screens */
     margin-bottom: 350px;
     scroll-behavior: smooth;
 }
 
 a {
     color: #008CBA;
-}
-
-b, strong {
-    font-weight: 700 !important;
 }
 
 h1, h2, h3, h4, h5 {
@@ -33,27 +28,27 @@ h1 {
     margin-bottom: 40px;
     line-height: 70px;
     text-align: center;
-    font-size: 45px;
+    font-size: 2.4em;
     border-bottom: 1px solid #eee;
 }
 
 h2 {
     margin-top: 50px;
     margin-bottom: 30px;
+    font-size: 1.7em;
 }
 
 blockquote {
-    font-size: 14pt;
     color: #666666;
 }
 
 .footer {
+    font-size: 0.9em;
     background-color: #06062e;
     color: #f9f9f9;
     margin-top: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size: 12pt;
     /* To stick the footer to the bottom of the page */
     position: absolute;
     bottom: 0;
@@ -62,9 +57,14 @@ blockquote {
 }
 
 @media (min-width:1200px) {
- .container {
-  width:970px;
- }
+    .container {
+        width:970px;
+    }
+}
+
+/* To prevent Academicons from messing with the spacing */
+.fa-li {
+    top: 0 !important;
 }
 
 .project {
@@ -77,9 +77,13 @@ blockquote {
 
 }
 
-/* To prevent Academicons from messing with the spacing */
-.fa-li {
-    top: 0 !important;
+.project-icons {
+    margin-top: 20px;
+    margin-left: 1.5em !important;
+}
+
+.project-icons > li {
+    margin-bottom: 10px;
 }
 
 .icon-list {
@@ -90,14 +94,15 @@ blockquote {
     margin-bottom: 30px;
 }
 
-.project-icons {
-    margin-top: 20px;
-    margin-left: 1.7em !important;
+.icon-list-small {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.project-icons > li {
-    margin-bottom: 7px;
+.icon-list-small li {
+    margin-bottom: 10px;
 }
+
 
 /* Navbar */
 /*********************************************************************************/
@@ -108,7 +113,7 @@ blockquote {
     position: relative;
     min-height: 80px;
     display: block;
-    font-size: 12pt;
+    font-size: 0.9em;
 }
 
 .menu a {
@@ -133,10 +138,6 @@ blockquote {
     display: inline;
     padding-right: 12px;
     padding-left: 12px;
-}
-
-.menu-list-bold {
-    font-weight: bold;
 }
 
 

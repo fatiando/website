@@ -250,7 +250,7 @@ and successful. There are many ways to contribute:
 
 .. raw:: html
 
-   <ul class="fa-ul icon-list">
+   <ul class="fa-ul icon-list-small">
       <li><i class="fa-li fa fa-bug fa-fw"></i> Submitting bug reports and feature requests</li>
       <li><i class="fa-li fa fa-book fa-fw"></i> Writing tutorials or examples</li>
       <li><i class="fa-li fa fa-hammer fa-fw"></i> Fixing typos and improving to the documentation</li>
@@ -296,6 +296,8 @@ If you can write any code at all, you can contribute code to open source.
 We are constantly trying out new skills, making mistakes, and learning from
 those mistakes.
 That's how we all improve and we are happy to help others learn.
+
+*Adapted from the* `MetPy project <https://github.com/Unidata/MetPy>`__.
 
 
 Looking for the ``fatiando`` package?
