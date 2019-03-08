@@ -1,47 +1,78 @@
+{# Import the theme's layout. #}
 {% extends "!layout.html" %}
 
-{% set css_files = css_files + ["_static/default.css", "_static/font-awesome/css/font-awesome.css"] %}
 
-{%- block extrahead %}
+{% block extrahead %}
+
+    {{ super() }}
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
+    <meta name="twitter:site" content="@fatiandoaterra">
+    <meta name="twitter:title" content="Fatiando a Terra">
+    <meta name="twitter:description" content="Open-source tools for geophysics">
+
+    <meta property="og:title" content="Fatiando a Terra">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.fatiando.org/">
+    <meta property="og:site_name" content="Fatiando a Terra">
+    <meta property="og:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
+    <meta property="og:description" content="Open-source tools for geophysics">
+
+    <!-- Include Google Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CRaleway:200" rel="stylesheet">
+
 {% endblock %}
 
-{% block header %}
-<div class="navbar">
-<ul>
-    <li class="navbar-logo"><a href="{{ pathto('index') }}"><img
-           src="{{ pathto('_static/fatiando-banner-long.png', 1) }}"/></a></li>
-    <li><a href="http://fatiando.readthedocs.org/en/latest/install.html">Installing</a></li>
-    <li><a href="{{ pathto('cite') }}">Citing</a></li>
-    <li><a href="{{ pathto('documentation') }}">Documentation</a></li>
-    <li><a href="https://groups.google.com/d/forum/fatiando">Mailing list</a></li>
-    <li><a href="https://github.com/fatiando/fatiando"><i class="fa fa-github-square fa-lg"></i></a></li>
-    <li><a href="https://plus.google.com/+FatiandoOrg"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
-</ul>
-</div>
+
+{% block footer %}
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">
+            {%- if show_copyright %}
+                &copy; Copyright {{ copyright }}.
+            {%- endif %}
+            {%- if show_sphinx %}
+                {% trans sphinx_version=sphinx_version|e %}Created using <a
+                    href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{%
+                endtrans %}
+            {%- endif %}
+            </p>
+        </div>
+    </footer>
+
 {% endblock %}
 
-{%- block footer %}
-    <div class="footer" role="contentinfo">
-    {%- if show_copyright %}
-      {%- if hasdoc('copyright') %}
-        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
-      {%- else %}
-        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
-      {%- endif %}
-    {%- endif %}
-    {%- if last_updated %}
-      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
-    {%- endif %}
-    {%- if show_sphinx %}
-      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
-    {%- endif %}
-    </br>Source code to generate this website:
-    <a href="https://github.com/fatiando/website">github.com/fatiando/website</a>
-    </div>
+{%- block htmltitle %}
+    {% if pagename == "index" %}
+        <title>{{ title|striptags|e }}</title>
+    {% else %}
+        {{ super() }}
+    {% endif %}
 {%- endblock %}
 
-{% block relbar1 %}{% endblock %}
-{% block relbar2 %}{% endblock %}
 
-{% block sidebar1 %}{% endblock %}
-{% block sidebar2 %}{% endblock %}
+{% block content %}
+    {{ navBar() }}
+
+    {% if pagename == 'index' %}
+        <div class="container-fluid banner"
+             style="background-image: linear-gradient(to bottom, transparent, #02020e55), url(_static/background.svg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-2 col-xs-0">
+                    </div>
+                    <div class="col-lg-8 col-sm-8 col-xs-12">
+                        <img class="banner-logo center-block" src="_static/banner.svg">
+                    </div>
+                    <div class="col-lg-2 col-sm-2 col-xs-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    <div class="container">
+        {{ body }}
+    </div>
+{% endblock %}

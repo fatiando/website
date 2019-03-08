@@ -13,20 +13,26 @@ endif
 # Internal variables.
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees  $(SPHINXOPTS) .
 
-.PHONY: help clean html linkcheck doctest
+.PHONY: help clean html linkcheck doctest cookbook
 
 all: html
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  html       to make standalone HTML files"
-	@echo "  linkcheck  to check all external links for integrity"
-	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
+	@echo "  all        generate the complete webpage"
+	@echo "  html       make only the HTML files from the existing rst sources"
+	@echo "  linkcheck  check all external links for integrity"
 
 clean:
 	rm -rf $(BUILDDIR)/html/*
+	rm -rf $(BUILDDIR)/doctrees
+	rm -rf $(BUILDDIR)/linkcheck
+	rm -rf $(BUILDDIR)/plot_directive
 
-html: clean
+html:
+	@echo
+	@echo "Building HTML files."
+	@echo
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
@@ -36,11 +42,5 @@ linkcheck:
 	@echo
 	@echo "Link check complete; look for any errors in the above output " \
 	      "or in $(BUILDDIR)/linkcheck/output.txt."
-
-doctest:
-	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(BUILDDIR)/doctest
-	@echo "Testing of doctests in the sources finished, look at the " \
-	      "results in $(BUILDDIR)/doctest/output.txt."
-
 serve:
-	cd $(BUILDDIR)/html && python -m SimpleHTTPServer 8005
+	cd $(BUILDDIR)/html && python -m http.server 8008 --bind 127.0.0.1
