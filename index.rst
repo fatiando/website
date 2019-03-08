@@ -29,10 +29,10 @@ core packages strictly follow **software development best practices:**
       </li>
 
       <li><i class="fa-li fas fa-search fa-fw"></i>
-         <b>Carefully designed interfaces</b> for our functions and classes are debated
-         and experimented on widely to make them as user-friendly as possible. We also
-         focus on promoting best practices in geophysical data analysis through the
-         design of our software.
+         <b>Carefully designed interfaces</b> for our functions and classes. We debate
+         and experiment with our design to make our libraries as user-friendly as
+         possible. We also focus on promoting best practices in geophysical data
+         analysis.
       </li>
 
       <li><i class="fa-li fas fa-door-open fa-fw"></i>
@@ -65,7 +65,7 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
          <p>
          Spatial data processing and interpolation (<b>gridding</b>) using
          Green's functions (or radial basis functions) with a
-         machine learning interface.
+         machine learning inspired interface.
          </p>
 
          <ul class="fa-ul project-icons">
@@ -93,7 +93,7 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
          <p>
          Processing and modeling <b>gravity</b> and <b>magnetic</b> data, like terrain
-         correction, upward continuation, equivalent layers, modeling, and more.
+         correction, upward continuation, equivalent layers, 3D inversion, and more.
          </p>
 
          <ul class="fa-ul project-icons">
@@ -121,7 +121,7 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
          </a>
 
          <p>
-         Manages downloading sample data files over HTTP from a server and storing
+         Manages the download of sample data files over HTTP from a server and storing
          them in a local directory. Used by our other libraries.
          </p>
 
@@ -173,9 +173,9 @@ Support Fatiando
 ================
 
 
-All Fatiando projects are **made by scientists and volunteers** who are generous enough
-to donate their time and attention. Here are some of the ways in which you can help
-support the project and give back to the community:
+All Fatiando projects are **made by scientists and volunteers** who generously donate
+their time and attention. Here are some of the ways in which you can help support the
+project and give back to the community:
 
 .. raw:: html
 
@@ -184,7 +184,7 @@ support the project and give back to the community:
          <b>Cite the projects</b> in papers, presentations, etc. Citations help us
          justify the effort that goes into building and maintaining this project. If you
          used any of our libraries in your research, please consider citing it. There
-         are <a href="https://github.com/fatiando/verde/blob/master/CITATION.rst"><span class="pre">CITATION.rst</span></a>
+         are <a href="https://github.com/fatiando/verde/blob/master/CITATION.rst">CITATION.rst</a>
          files in each released project repository explaining how to cite it (and also a
          page in the documentation).
       </li>
@@ -198,7 +198,7 @@ support the project and give back to the community:
 
       <li><i class="fa-li fas fa-users fa-fw"></i>
          <b>Join the community</b> by getting involved in the project. See below how you
-         can <a href="#contact">participate in the conversion</a> and
+         can <a href="#contact">participate in the conversation</a> and
          <a href="#contribute">contribute to the project</a>.
       </li>
    </ul>
@@ -213,7 +213,7 @@ Contacting Us
 
    <ul class="fa-ul icon-list">
       <li><i class="fa-li fab fa-github fa-fw"></i>
-         Most discussion happens on <a href="https://github.com/fatiando">Github</a>.
+         Most discussions happen on <a href="https://github.com/fatiando">Github</a>.
          Please feel free to
          <a href="https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md#reporting-a-bug">open
          an issue</a> to report a bug or request a new feature. You can also leave a
@@ -221,21 +221,21 @@ Contacting Us
       </li>
 
       <li><i class="fa-li fab fa-gitter fa-fw"></i>
-         We have <a href="https://gitter.im/fatiando/fatiando">chat room on Gitter</a>
+         We have a <a href="https://gitter.im/fatiando/fatiando">chat room on Gitter</a>
          where you can ask questions and leave comments.
       </li>
 
       <li><i class="fa-li fa fa-envelope-open-text fa-fw"></i>
          Our <a href="https://groups.google.com/d/forum/fatiando">Google Groups mailing
          list</a> is also used to answer questions and post announcements. When you sign
-         up, please <b>remember to choose an email delivery option</b> (sadly the
-         default is "no emails").
+         up, please <b>remember to choose an email delivery option</b> (the default is
+         "no emails").
       </li>
 
       <li><i class="fa-li fab fa-twitter fa-fw"></i>
          You can follow us on Twitter <a href="https://twitter.com/fatiandoaterra">@fatiandoaterra</a>
-         where we post occasional updates about the project. Feel free to @-mention to
-         ask questions or get in touch.
+         where we post occasional updates about the project. Feel free to @-mention us
+         to ask questions or get in touch.
       </li>
    </ul>
 
@@ -245,8 +245,8 @@ Contacting Us
 Getting Involved
 ================
 
-Fatiando is a **community-driven** project, so it's people like you that make it useful
-and successful. There are many ways to contribute:
+Fatiando is a **community-developed** project, so it's people like you that make it
+useful and successful. There are many ways to contribute:
 
 .. raw:: html
 
@@ -261,7 +261,7 @@ and successful. There are many ways to contribute:
 
    Have a look at our
    <a href="https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md">Contributing Guide</a>
-   to see how you can help and give feedback.
+   to see how you can get involved.
    This and other guides (for project maintenance, etc.) can be found in the
    <a href="https://github.com/fatiando/contributing"><i class="fab fa-github"></i> fatiando/contributing</a> repository.
 
@@ -313,7 +313,7 @@ The library will remain archived and usable for the foreseeable future.
 
 To get a sense for the reasoning behind the choice to abandon ``fatiando``, please read
 `this blog post <http://www.leouieda.com/blog/future-of-fatiando.html>`__.
-Quoting from it:
+Quoting from a section from the post:
 
    Back [when we started Fatiando], there were very few Python geophysical modeling
    libraries. A decade later, the ecosystem has expanded. The five currently on going
