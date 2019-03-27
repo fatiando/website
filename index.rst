@@ -5,42 +5,50 @@
 Python solutions for geophysical problems
 =========================================
 
-**Fatiando** is a collection of open-source `Python <https://www.python.org/>`__
-packages for Geophysics.
-Our toolkit includes code for processing geophysical data, forward and inverse
-modeling, interpolation, and more.
-
-We are committed to providing well crafted and trustworthy software. As such, all of our
-core packages strictly follow **software development best practices:**
 
 .. raw:: html
 
-   <ul class="fa-ul icon-list">
-      <li><i class="fa-li fas fa-vial fa-fw"></i>
-         <b>Full suite of tests</b> for every part of the code base. Tests are run
-         automatically every time a change is made and new features must include tests
-         before being integrated.
-      </li>
-
-      <li><i class="fa-li fas fa-book fa-fw"></i>
-         <b>Extensive documentation</b> including tutorials, example galleries, and
-         reference documentation for functions and classes. As well as tests, we also
-         require new features to be fully documented.
-      </li>
-
-      <li><i class="fa-li fas fa-search fa-fw"></i>
-         <b>Carefully designed interfaces</b> for our functions and classes. We debate
-         and experiment with our design to make our libraries as user-friendly as
-         possible. We also focus on promoting best practices in geophysical data
-         analysis.
-      </li>
-
-      <li><i class="fa-li fas fa-door-open fa-fw"></i>
-         <b>Open development</b> through <a href="https://github.com/fatiando">Github</a>
-         allows anyone to participate in our discussions, contribute their own ideas,
-         and track changes made to the software since its inception.
-      </li>
-   </ul>
+   <div class="row text-center">
+      <div class="col-sm-6">
+         <h2><i class="fas fa-toolbox fa-2x"></i></h2>
+         <b>Open-source</b>
+         <br>
+         Python packages for Geophysics data processing, modeling, and more.
+      </div>
+      <div class="col-sm-6">
+         <h2><i class="fas fa-drafting-compass fa-2x"></i></h2>
+         <b>Carefully designed and trustworthy</b>
+         <br>
+         software that strictly follow software development best practices.
+      </div>
+   </div>
+   <div class="row text-center">
+      <div class="col-sm-6">
+         <h2><i class="fas fa-hammer fa-2x"></i></h2>
+         <b>Extensively tested</b>
+         <br>
+         automatically every time a change is made to the code base.
+      </div>
+      <div class="col-sm-6">
+         <h2><i class="fas fa-copy fa-2x"></i></h2>
+         <b>Comprehensive documentation</b>
+         <br>
+         including tutorials, examples, theory, and real data applications.
+      </div>
+   </div>
+   <div class="row text-center">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6">
+         <h2><i class="fas fa-door-open fa-2x"></i></h2>
+         <b>Open development</b>
+         <br>
+         through <a href="https://github.com/fatiando">Github</a> allows anyone to
+         participate and contribute.
+      </div>
+      <div class="col-sm-3">
+      </div>
+   </div>
 
 
 .. _projects:
@@ -56,10 +64,10 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
    <div class="row">
 
-      <div class="col-md-6 project">
+      <div class="col-sm-6 project">
 
          <a href="http://www.fatiando.org/verde">
-            <img class="project-logo" src="_static/verde-logo.svg">
+            <img class="project-logo center-block" src="_static/verde-logo.svg">
          </a>
 
          <p>
@@ -85,10 +93,10 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       </div>
 
-      <div class="col-md-6 project">
+      <div class="col-sm-6 project">
 
          <a href="http://www.fatiando.org/harmonica/dev">
-            <img class="project-logo" src="_static/harmonica-logo.svg">
+            <img class="project-logo center-block" src="_static/harmonica-logo.svg">
          </a>
 
          <p>
@@ -114,10 +122,10 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
    <div class="row">
 
-      <div class="col-md-6 project">
+      <div class="col-sm-6 project">
 
          <a href="http://www.fatiando.org/pooch">
-            <img class="project-logo" src="_static/pooch-logo.svg">
+            <img class="project-logo center-block" src="_static/pooch-logo.svg">
          </a>
 
          <p>
@@ -139,10 +147,10 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       </div>
 
-      <div class="col-md-6 project">
+      <div class="col-sm-6 project">
 
          <a href="http://www.fatiando.org/rockhound/dev">
-            <img class="project-logo" src="_static/rockhound-logo.svg">
+            <img class="project-logo center-block" src="_static/rockhound-logo.svg">
          </a>
 
          <p>
@@ -179,29 +187,43 @@ project and give back to the community:
 
 .. raw:: html
 
-   <ul class="fa-ul icon-list">
-      <li><i class="fa-li fas fa-bookmark fa-fw"></i>
-         <b>Cite the projects</b> in papers, presentations, etc. Citations help us
-         justify the effort that goes into building and maintaining this project. If you
-         used any of our libraries in your research, please consider citing it. There
-         are <a href="https://github.com/fatiando/verde/blob/master/CITATION.rst">CITATION.rst</a>
-         files in each released project repository explaining how to cite it (and also a
-         page in the documentation).
-      </li>
-
-      <li><i class="fa-li fas fa-share-alt fa-fw"></i>
-         <b>Spread the word</b> by sharing links in social media, publishing your analysis
-         code that uses Fatiando, including our logo in talks and posters (sources in
+   <div class="row text-center">
+      <div class="col-sm-6">
+         <h2><i class="fas fa-users fa-2x"></i></h2>
+         <b>Join the community</b>
+         <br>
+         Get involved in our projects and help shape their future. See below how you
+         can <a href="#contact">participate in the conversation</a> and
+         <a href="#contribute">make contributions</a>.
+      </div>
+      <div class="col-sm-6">
+         <h2><i class="fas fa-share-alt fa-2x"></i></h2>
+         <b>Spread the word</b>
+         <br>
+         Share links in social media, publishe your analysis
+         code that uses Fatiando, include our logo in talks and posters (sources in
          <a href="https://github.com/fatiando/logo"><i class="fab fa-github"></i>
          fatiando/logo</a>), etc.
-      </li>
+      </div>
+   </div>
+   <div class="row text-center">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6">
+         <h2><i class="fas fa-bookmark fa-2x"></i></h2>
+         <b>Cite the projects</b>
+         <br>
+         Citations help us justify the effort that goes into building and maintaining
+         this project.
+         There are
+         <a href="https://github.com/fatiando/verde/blob/master/CITATION.rst">CITATION.rst</a>
+         files in each project explaining how to cite it (and also a page in the
+         documentation).
+      </div>
+      <div class="col-sm-3">
+      </div>
+   </div>
 
-      <li><i class="fa-li fas fa-users fa-fw"></i>
-         <b>Join the community</b> by getting involved in the project. See below how you
-         can <a href="#contact">participate in the conversation</a> and
-         <a href="#contribute">contribute to the project</a>.
-      </li>
-   </ul>
 
 
 .. _contact:
@@ -211,33 +233,35 @@ Contacting Us
 
 .. raw:: html
 
-   <ul class="fa-ul icon-list">
-      <li><i class="fa-li fab fa-github fa-fw"></i>
+   <div class="row text-center">
+      <div class="col-sm-6">
+         <h2><i class="fab fa-github fa-2x"></i></h2>
          Most discussions happen on <a href="https://github.com/fatiando">Github</a>.
-         Please feel free to
-         <a href="https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md#reporting-a-bug">open
-         an issue</a> to report a bug or request a new feature. You can also leave a
-         comment on any open issue or pull request.
-      </li>
-
-      <li><i class="fa-li fab fa-gitter fa-fw"></i>
-         We have a <a href="https://gitter.im/fatiando/fatiando">chat room on Gitter</a>
-         where you can ask questions and leave comments.
-      </li>
-
-      <li><i class="fa-li fa fa-envelope-open-text fa-fw"></i>
-         Our <a href="https://groups.google.com/d/forum/fatiando">Google Groups mailing
-         list</a> is also used to answer questions and post announcements. When you sign
+         <a href="https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md#reporting-a-bug">Open
+         an issue</a> to report bugs and request features. Leave a comment on any open
+         issue or pull request to join the conversation.
+      </div>
+      <div class="col-sm-6">
+         <h2><i class="fab fa-gitter fa-2x"></i></h2>
+         Hop on to our <a href="https://gitter.im/fatiando/fatiando">chat room on Gitter</a>
+         where you can ask questions, leave comments, and reach out to users and
+         developers.
+      </div>
+   </div>
+   <div class="row text-center">
+      <div class="col-sm-6">
+         <h2><i class="fas fa-envelope-open-text fa-2x"></i></h2>
+         Join our <a href="https://groups.google.com/d/forum/fatiando">Google Groups mailing
+         list</a> to ask questions and get announcements about the project. When you sign
          up, please <b>remember to choose an email delivery option</b> (the default is
          "no emails").
-      </li>
-
-      <li><i class="fa-li fab fa-twitter fa-fw"></i>
-         You can follow us on Twitter <a href="https://twitter.com/fatiandoaterra">@fatiandoaterra</a>
-         where we post occasional updates about the project. Feel free to @-mention us
-         to ask questions or get in touch.
-      </li>
-   </ul>
+      </div>
+      <div class="col-sm-6">
+         <h2><i class="fab fa-twitter fa-2x"></i></h2>
+         Follow us on Twitter <a href="https://twitter.com/fatiandoaterra">@fatiandoaterra</a>
+         where we post occasional updates about the project.
+      </div>
+   </div>
 
 
 .. _contribute:

@@ -26,6 +26,7 @@ html_extra_path = [".nojekyll", "CNAME"]
 html_use_smartypants = True
 pygments_style = "default"
 add_function_parentheses = False
+html_add_permalinks = ""
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {}
 # Additional templates that should be rendered to pages, maps page names to
