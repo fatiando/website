@@ -1,43 +1,36 @@
 # Configuration file for TravisCI
-
 language: python
-
 python: "3.6"
-
 os: linux
-
-# Use the container builds so we don't need sudo priviledges
-sudo: false
 
 # Only build pushes to the master branch
 branches:
-    only:
-        - master
+  only:
+    - master
 
 # Define environment variables common to all builds
 env:
-    global:
-        # Encrypted variables
-        # Github Token for pushing the built HTML (GH_TOKEN)
-        - secure: "BPGIqOKUaDVzNAelMpArFy0Kqg25w2x3casYxu2/ZQowrt9oTujmnGVFekIXvu5KPKEILQezkAZ7Jhloy7uB8gbgETHWDHqMy4h/hxQrbV4eEJJ5X4A/zAIYSwpd6YU5iJGc0Io6gXCBrq0O8SJ3VmEWnK0sB8vCZJ+NvHGXqFA="
+  global:
+    # Doctr deploy key for fatiando/fatiando.github.io
+    - secure: "Qlg7kdoxrrtPpxu/kl0YoEf8PVsBmxgX+LRvsl+iSf09IO5k+d/rw7vFi/0pGBxlE1Pzd4ZzbYp186YqXNpgRMjEhGCsRkLQ0aoD9Lpx/DTaQ3yv0GseIQkPupUTQGXtuLV9tkw/GRQAeK/13DRq7RPYH32yGpIC+9MQ4CmZ/r0="
 
 # Setup the build environment
 install:
-    # Install the requirements
-    - pip install -r requirements.txt
+  # Install the requirements
+  - pip install -r requirements.txt
 
 # Build the documentation HTML
 script:
-    - make all
+  - make all
 
 # Deploy the built HTML to Github pages
 deploy:
-    - provider: script
-      script: ci/deploy-gh-pages.sh
-      skip_cleanup: true
-      on:
-          branch: master
+  - provider: script
+    script: doctr deploy . --built-docs _build/html --key-path .github_deploy_key.enc --deploy-repo fatiando/fatiando.github.io
+    skip_cleanup: true
+    on:
+      branch: master
 
 # Don't send out emails every time a build fails
 notifications:
-    email: false
+  email: false
