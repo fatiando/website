@@ -19,7 +19,8 @@ repository.
 Github serves this repo under
 [http://fatiando.github.io](http://fatiando.github.io/).
 
-Pushing the changes from Travis is handled by the scripts in the `ci` folder.
+Pushing the changes from Travis is handled by [doctr](https://github.com/drdoctr/doctr).
+See `.travis.yml`.
 
 ## Logo fonts
 
