@@ -163,7 +163,7 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
                <a href="https://github.com/fatiando/rockhound">fatiando/rockhound</a>
             </li>
             <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
-               <a href="http://www.fatiando.org/rockhound/dev">www.fatiando.org/rockhound/dev</a>
+               <a href="http://www.fatiando.org/rockhound">www.fatiando.org/rockhound</a>
             </li>
             <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
                Ready for use but still changing
