@@ -200,7 +200,7 @@ project and give back to the community:
          <h2><i class="fas fa-share-alt fa-2x"></i></h2>
          <b>Spread the word</b>
          <br>
-         Share links in social media, publishe your analysis
+         Share links in social media, publish your analysis
          code that uses Fatiando, include our logo in talks and posters (sources in
          <a href="https://github.com/fatiando/logo"><i class="fab fa-github"></i>
          fatiando/logo</a>), etc.
