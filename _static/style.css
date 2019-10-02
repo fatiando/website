@@ -2,16 +2,16 @@
 html {
     position: relative;
     min-height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
     color: #222222;
     font-family: "Open Sans",Arial,sans-serif !important;
-    font-size: 1.8em;
+    font-size: 1.6em;
     line-height: 1.8em;
     /* Margin bottom by footer height with a little room to accomodate small screens */
     margin-bottom: 350px;
-    scroll-behavior: smooth;
 }
 
 a {
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 40px;
     line-height: 70px;
     text-align: center;
@@ -69,12 +69,13 @@ blockquote {
 
 .project {
     margin-top: 70px;
+    padding: 0px 30px;
 }
 
 .project-logo {
     margin-top: 20px;
     margin-bottom: 30px;
-
+    width: 80%;
 }
 
 .project-icons {
@@ -108,7 +109,7 @@ blockquote {
 /*********************************************************************************/
 .menu {
     border: none;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     background-color: #060629;
     position: relative;
     min-height: 80px;
@@ -117,12 +118,11 @@ blockquote {
 }
 
 .menu a {
-    color: #aaaaaa;
+    color: #ffffff;
 }
 
 .menu a:hover {
-    text-decoration: none;
-    color: #eeeeee;
+    text-decoration: underline;
 }
 
 .menu-list {
@@ -145,15 +145,35 @@ blockquote {
 /*********************************************************************************/
 .banner {
     background-color: #060629;
-    padding-top: 60px;
-    padding-bottom: 120px;
     padding-left: 0px;
     padding-right: 0px;
     color: #f9f9f9;
+    height: 100vh;
 }
 
 .banner-logo {
-    width: 100%;
+    height: 70vh;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+
+/* Gallery */
+/*********************************************************************************/
+
+.gallery {
+    margin-top: 100px;
+}
+
+.gallery > p {
+    margin-bottom: 30px;
+}
+
+.gallery-img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.gallery-img img {
+    width: 100%;
 }

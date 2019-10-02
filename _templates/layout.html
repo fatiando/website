@@ -66,11 +66,11 @@
 
 
 {% block content %}
-    {{ navBar() }}
 
     {% if pagename == 'index' %}
         <div class="container-fluid banner"
              style="background-image: linear-gradient(to bottom, transparent, #02020e55), url(_static/background.svg);">
+            {{ navBar() }}
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-sm-2 col-xs-0">
