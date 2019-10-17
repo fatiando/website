@@ -103,7 +103,7 @@ html_context = {
         (
             '<i class="fab fa-slack fa-lg"></i>',
             "Slack chat group",
-            "https://join.slack.com/t/fatiando/shared_invite/enQtNzY4NDQ3ODQwNDk4LTc5MTU5OWNkNTczMDY4NjcyNjcyZTU0Y2I3MDQ0NWUwMmEzMTBkNmVjNTExMGZkMjA0YzM1OGYyMzZlMDk3YTU",
+            "http://contact.fatiando.org",
         ),
         (
             '<i class="fab fa-twitter fa-lg"></i>',
