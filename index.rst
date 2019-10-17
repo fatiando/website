@@ -249,7 +249,7 @@ Contacting Us
       </div>
       <div class="col-sm-4">
          <h2><i class="fab fa-slack fa-2x"></i></h2>
-         Hop on to our <a href="https://join.slack.com/t/fatiando/shared_invite/enQtNzY4NDQ3ODQwNDk4LTc5MTU5OWNkNTczMDY4NjcyNjcyZTU0Y2I3MDQ0NWUwMmEzMTBkNmVjNTExMGZkMjA0YzM1OGYyMzZlMDk3YTU">chat room on Slack</a>
+         Hop on to our <a href="http://contact.fatiando.org">chat room on Slack</a>
          where you can ask questions, leave comments, and reach out to users and
          developers.
       </div>
