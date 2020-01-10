@@ -88,6 +88,15 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
          machine learning inspired interface.
          </p>
 
+         <a href="https://pypi.python.org/pypi/verde">
+         <img src="https://img.shields.io/pypi/v/verde.svg?style=flat-square"
+              alt="Latest release on PyPI">
+         </a>
+         <a href="https://pypi.python.org/pypi/verde">
+         <img src="https://img.shields.io/pypi/pyversions/verde.svg?style=flat-square"
+              alt="Compatible Python versions">
+         </a>
+
          <ul class="fa-ul project-icons">
             <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
                <a href="https://github.com/fatiando/verde">fatiando/verde</a>
@@ -107,6 +116,45 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       <div class="col-sm-6 project">
 
+         <a href="http://www.fatiando.org/pooch">
+            <img class="project-logo center-block" src="_static/pooch-logo.svg">
+         </a>
+
+         <p>
+         Manages the <b>download of data</b> files from a server, storing them
+         in a local directory, and handling updates if required. Used by our
+         other libraries.
+         </p>
+
+         <a href="https://pypi.python.org/pypi/pooch">
+         <img src="https://img.shields.io/pypi/v/pooch.svg?style=flat-square"
+              alt="Latest release on PyPI">
+         </a>
+         <a href="https://pypi.python.org/pypi/pooch">
+         <img src="https://img.shields.io/pypi/pyversions/pooch.svg?style=flat-square"
+              alt="Compatible Python versions">
+         </a>
+
+         <ul class="fa-ul project-icons">
+            <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+               <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
+            </li>
+            <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
+               <a href="http://www.fatiando.org/pooch">www.fatiando.org/pooch</a>
+            </li>
+            <li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
+               Stable and ready for use
+            </li>
+         </ul>
+
+      </div>
+
+   </div>
+
+   <div class="row">
+
+      <div class="col-sm-6 project">
+
          <a href="http://www.fatiando.org/harmonica/dev">
             <img class="project-logo center-block" src="_static/harmonica-logo.svg">
          </a>
@@ -115,6 +163,15 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
          Processing and modeling <b>gravity</b> and <b>magnetic</b> data, like terrain
          correction, upward continuation, equivalent layers, 3D inversion, and more.
          </p>
+
+         <a href="https://pypi.python.org/pypi/harmonica">
+         <img src="https://img.shields.io/pypi/v/harmonica.svg?style=flat-square"
+              alt="Latest release on PyPI">
+         </a>
+         <a href="https://pypi.python.org/pypi/harmonica">
+         <img src="https://img.shields.io/pypi/pyversions/harmonica.svg?style=flat-square"
+              alt="Compatible Python versions">
+         </a>
 
          <ul class="fa-ul project-icons">
             <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
@@ -130,27 +187,33 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       </div>
 
-   </div>
-
-   <div class="row">
-
       <div class="col-sm-6 project">
 
-         <a href="http://www.fatiando.org/pooch">
-            <img class="project-logo center-block" src="_static/pooch-logo.svg">
+         <a href="http://www.fatiando.org/boule">
+            <img class="project-logo center-block" src="_static/boule-logo.svg">
          </a>
 
          <p>
-         Manages the download of sample data files over HTTP from a server and storing
-         them in a local directory. Used by our other libraries.
+         Reference <b>ellipsoids</b> for geodesy and geophysics. Calculates
+         <b>Normal gravity</b> and coordinate conversions for the Earth and
+         other plantery bodies.
          </p>
+
+         <a href="https://pypi.python.org/pypi/boule">
+         <img src="https://img.shields.io/pypi/v/boule.svg?style=flat-square"
+              alt="Latest release on PyPI">
+         </a>
+         <a href="https://pypi.python.org/pypi/boule">
+         <img src="https://img.shields.io/pypi/pyversions/boule.svg?style=flat-square"
+              alt="Compatible Python versions">
+         </a>
 
          <ul class="fa-ul project-icons">
             <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-               <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
+               <a href="https://github.com/fatiando/boule">fatiando/boule</a>
             </li>
             <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
-               <a href="http://www.fatiando.org/pooch">www.fatiando.org/pooch</a>
+               <a href="http://www.fatiando.org/boule">www.fatiando.org/boule</a>
             </li>
             <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
                Ready for use but still changing
@@ -158,6 +221,10 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
          </ul>
 
       </div>
+
+  </div>
+
+   <div class="row">
 
       <div class="col-sm-6 project">
 
@@ -169,6 +236,15 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
          Download geophysical models and datasets (PREM, CRUST1.0, ETOPO1) and load them
          into Python. Relies on Pooch to manage the downloads.
          </p>
+
+         <a href="https://pypi.python.org/pypi/rockhound">
+         <img src="https://img.shields.io/pypi/v/rockhound.svg?style=flat-square"
+              alt="Latest release on PyPI">
+         </a>
+         <a href="https://pypi.python.org/pypi/rockhound">
+         <img src="https://img.shields.io/pypi/pyversions/rockhound.svg?style=flat-square"
+              alt="Compatible Python versions">
+         </a>
 
          <ul class="fa-ul project-icons">
             <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
@@ -182,6 +258,9 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
             </li>
          </ul>
 
+      </div>
+
+      <div class="col-sm-6 project">
       </div>
 
    </div>
