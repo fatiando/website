@@ -142,6 +142,9 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
             <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
                <a href="http://www.fatiando.org/pooch">www.fatiando.org/pooch</a>
             </li>
+            <li><i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
+               doi: <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
+            </li>
             <li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
                Stable and ready for use
             </li>
