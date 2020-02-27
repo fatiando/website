@@ -183,8 +183,8 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
             <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
                <a href="http://www.fatiando.org/harmonica/dev">www.fatiando.org/harmonica/dev</a>
             </li>
-            <li><i class="fa-li fa fa-flask fa-fw" style="color: orange" title="Project status"></i>
-               Early development and design
+            <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+               Ready for use but still changing
             </li>
          </ul>
 
