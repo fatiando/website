@@ -35,7 +35,7 @@ About
          <div class="col-sm-6">
             <div class="row">
                <div class="col-xs-6 gallery-img">
-                  <a target="_blank" href="https://www.fatiando.org/harmonica/dev/gallery/gravity_disturbance.html">
+                  <a target="_blank" href="https://www.fatiando.org/harmonica/latest/gallery/gravity_disturbance.html">
                   <img src="_static/gallery/gallery-disturbance.jpg">
                   </a>
                </div>
@@ -158,7 +158,7 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
       <div class="col-sm-6 project">
 
-         <a href="http://www.fatiando.org/harmonica/dev">
+         <a href="http://www.fatiando.org/harmonica">
             <img class="project-logo center-block" src="_static/harmonica-logo.svg">
          </a>
 
@@ -181,7 +181,7 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
                <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
             </li>
             <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
-               <a href="http://www.fatiando.org/harmonica/dev">www.fatiando.org/harmonica/dev</a>
+               <a href="http://www.fatiando.org/harmonica">www.fatiando.org/harmonica</a>
             </li>
             <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
                Ready for use but still changing
