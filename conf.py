@@ -110,6 +110,11 @@ html_context = {
             "Twitter",
             "https://twitter.com/fatiandoaterra",
         ),
+        (
+            '<i class="fab fa-youtube fa-lg"></i>',
+            "YouTube channel",
+            "https://www.youtube.com/fatiandoorg",
+        ),
     ]
 }
 

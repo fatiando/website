@@ -326,19 +326,20 @@ Contacting Us
          <h2><i class="fab fa-github fa-2x"></i></h2>
          Most discussions happen on <a href="https://github.com/fatiando">Github</a>.
          <a href="https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md#reporting-a-bug">Open
-         an issue</a> to report bugs and request features. Leave a comment on any open
-         issue or pull request to join the conversation.
+         an issue</a> to <strong>report bugs</strong> and <strong>request features</strong>.
+         Leave a comment on any open issue or pull request to join the
+         conversation.
       </div>
       <div class="col-sm-4">
          <h2><i class="fab fa-slack fa-2x"></i></h2>
          Hop on to our <a href="http://contact.fatiando.org">chat room on Slack</a>
-         where you can ask questions, leave comments, and reach out to users and
-         developers.
+         where you can <strong>ask questions</strong>, leave comments, and
+         reach out to users and developers.
       </div>
       <div class="col-sm-4">
          <h2><i class="fab fa-twitter fa-2x"></i></h2>
          Follow us on Twitter <a href="https://twitter.com/fatiandoaterra">@fatiandoaterra</a>
-         where we post occasional updates about the project.
+         where we post occasional <strong>updates</strong> about the project.
       </div>
    </div>
 
@@ -349,8 +350,47 @@ Getting Involved
 ================
 
 **We want your help!**
-Fatiando is a **community-developed** project, so it's people like you that make it
-useful and successful.
+Fatiando is a **community-developed** project, so it's people like you that
+make it useful and successful.
+
+.. raw:: html
+
+    <h2><i class="fa fa-comments"></i> Participate in the community</h2>
+
+**Open-source is about more than just code, it's about the people involved**.
+The most important thing you can do for any project is participate in the
+community: ask and answer questions, share your experience, help guide the
+development, and make friends along the way.
+
+The Fatiando community gathers in a few different places, **all of which are
+completely open to everyone**. So come along and join the conversation:
+
+.. raw:: html
+
+   <ul class="fa-ul icon-list-small">
+      <li>
+      <i class="fa-li fab fa-slack fa-fw"></i> <a href="http://contact.fatiando.org/">Slack</a>:
+      where most conversation happens about meetings, events, questions, etc.
+      </li>
+      <li>
+      <i class="fa-li fa fa-microphone-alt fa-fw"></i> <a href="https://github.com/fatiando/meeting-notes">Community Calls</a>:
+      regular video calls to discuss the latest developments, project
+      directions, and have a little social interaction.
+      </li>
+      <li>
+      <i class="fa-li fab fa-github fa-fw"></i> <a href="https://github.com/fatiando/">GitHub</a>:
+      where we discuss development details, review code, etc.
+      </li>
+   </ul>
+
+**IMPORTANT:** Everyone is expected to abide by our
+`Code of Conduct <https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md>`__
+when participating in the Fatiando community. Please review it carefully.
+
+.. raw:: html
+
+    <h2><i class="fa fa-cog"></i> Join the development</h2>
+
 There may be a little voice inside your head that is telling you that you're
 not ready; that your skills aren't nearly good
 enough to contribute.
@@ -376,6 +416,7 @@ There are many ways to contribute:
    to see how you can get involved.
    This and other guides (for project maintenance, etc.) can be found in the
    <a href="https://github.com/fatiando/contributing"><i class="fab fa-github"></i> fatiando/contributing</a> repository.
+
 
 
 Looking for the ``fatiando`` package?
