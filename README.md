@@ -1,6 +1,6 @@
 # Sphinx sources for fatiando.org
 
-[![TravisCI status](http://img.shields.io/travis/fatiando/website.svg?style=flat)](https://travis-ci.org/fatiando/website)
+[![TravisCI status](http://img.shields.io/travis/fatiando/website.svg?style=flat)](https://travis-ci.com/fatiando/website)
 
 ## Compiling the site
 
