@@ -357,7 +357,7 @@ make it useful and successful.
 
     <h2><i class="fa fa-comments"></i> Participate in the community</h2>
 
-**Open-source is about more than just code, it's about the people involved**.
+**Open-source is more than just code, it's about the people involved**.
 The most important thing you can do for any project is participate in the
 community: ask and answer questions, share your experience, help guide the
 development, and make friends along the way.
