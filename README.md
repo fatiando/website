@@ -1,6 +1,6 @@
 # Sphinx sources for fatiando.org
 
-[![TravisCI status](http://img.shields.io/travis/fatiando/website.svg?style=flat)](https://travis-ci.com/fatiando/website)
+[![build-html](https://github.com/fatiando/website/workflows/build-html/badge.svg?event=push)](https://github.com/fatiando/website/actions?query=workflow%3Abuild-html)
 
 ## Compiling the site
 
@@ -10,17 +10,15 @@ Run:
 
 Pushing changes to
 [fatiando/website](https://github.com/fatiando/website)
-triggers a build on [TravisCI](https://travis-ci.org/fatiando/website).
+triggers a build on GitHub Actions.
 The build will check if the site compiles and also checks for broken links.
 When changes are pushed to the `master` branch (directly or by merging a Pull
-Request), Travis will push the compiled site to the
+Request), Actions will push the compiled site to the
 [fatiando/fatiando.github.io](https://github.com/fatiando/fatiando.github.io)
 repository.
-Github serves this repo under
+GitHub serves this repository under
 [http://fatiando.github.io](http://fatiando.github.io/).
-
-Pushing the changes from Travis is handled by [doctr](https://github.com/drdoctr/doctr).
-See `.travis.yml`.
+See `.github/workflows/build.yml`.
 
 ## Logo fonts
 
