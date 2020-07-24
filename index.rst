@@ -419,6 +419,46 @@ There are many ways to contribute:
 
 
 
+.. _usedby:
+
+Who is using Fatiando?
+======================
+
+.. raw:: html
+
+   <div class="row text-center">
+      <div class="col-sm-6">
+          <a href="https://scikit-image.org"><h2>scikit-image</h2></a>
+          <p>
+              Image processing in Python.
+          </p>
+      </div>
+      <div class="col-sm-6">
+          <a href="https://unidata.github.io/MetPy"><h2>MetPy</h2></a>
+          <p>
+              A collection of tools in Python for reading, visualizing, and
+              performing calculations with weather data.
+          </p>
+      </div>
+   </div>
+
+   <div class="row text-center">
+      <div class="col-sm-6">
+          <a href="https://icepack.github.io/"><h2>icepack</h2></a>
+          <p>
+              A Python library for modeling the flow of ice sheets and glaciers.
+          </p>
+      </div>
+      <div class="col-sm-6">
+          <a href="https://histolab.readthedocs.io/"><h2>histolab</h2></a>
+          <p>
+            A tool for Whole Slide Images processing to support clinical and
+            scientific research.
+          </p>
+      </div>
+   </div>
+
+
 Looking for the ``fatiando`` package?
 =====================================
 
