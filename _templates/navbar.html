@@ -3,7 +3,7 @@
         {% if theme_navbar_links %}
             <ul class="menu-list">
                 {%- for link in theme_navbar_links %}
-                    <li><a href="{{ pathto(*link[1:]) }}"><strong>{{ link[0] }}</strong></a></li>
+                    <li><a href="{{ link[1] }}"><strong>{{ link[0] }}</strong></a></li>
                 {%- endfor %}
                 {%- for link in social_links %}
                     <li><a href="{{ link[2] }}" target="_blank" title="{{ link[1] }}">{{ link[0] }}</a></li>
