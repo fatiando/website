@@ -362,6 +362,11 @@ The most important thing you can do for any project is participate in the
 community: ask and answer questions, share your experience, help guide the
 development, and make friends along the way.
 
+
+**IMPORTANT:** Everyone is expected to abide by our
+`Code of Conduct <https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md>`__
+when participating in the Fatiando community. Please review it carefully.
+
 The Fatiando community gathers in a few different places, **all of which are
 completely open to everyone**. So come along and join the conversation:
 
@@ -373,19 +378,25 @@ completely open to everyone**. So come along and join the conversation:
       where most conversation happens about meetings, events, questions, etc.
       </li>
       <li>
-      <i class="fa-li fa fa-microphone-alt fa-fw"></i> <a href="https://github.com/fatiando/meeting-notes">Community Calls</a>:
-      regular video calls to discuss the latest developments, project
-      directions, and have a little social interaction.
-      </li>
-      <li>
       <i class="fa-li fab fa-github fa-fw"></i> <a href="https://github.com/fatiando/">GitHub</a>:
       where we discuss development details, review code, etc.
       </li>
+      <li>
+      <i class="fa-li fa fa-microphone-alt fa-fw"></i> <a href="https://github.com/fatiando/meeting-notes">Community Calls</a>:
+      regular video calls to discuss the latest developments, project
+      directions, and have a little social interaction. <strong>We welcome everyone
+      interested in Fatiando to take part!</strong> Calls happen once a month (check
+      <a href="http://calendar.fatiando.org">our calendar</a> for the next one)
+      and are live-streamed to
+      <a href="https://www.youtube.com/FatiandoOrg">our YouTube channel</a>.
+      Check the <a href="https://github.com/fatiando/meeting-notes">meeting notes</a>
+      for more information.
+      <br>
+      <div class="embed-responsive embed-responsive-16by9 youtube">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLPA_RM8wsOqIEBLICo3v7f_A1WnLcwJld" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </li>
    </ul>
-
-**IMPORTANT:** Everyone is expected to abide by our
-`Code of Conduct <https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md>`__
-when participating in the Fatiando community. Please review it carefully.
 
 .. raw:: html
 

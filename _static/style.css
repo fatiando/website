@@ -62,6 +62,11 @@ blockquote {
     }
 }
 
+.youtube {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* To prevent Academicons from messing with the spacing */
 .fa-li {
     top: 0 !important;
