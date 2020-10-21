@@ -269,6 +269,58 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
    </div>
 
 
+
+.. _getting_started:
+
+Getting Started
+===============
+
+
+To use Fatiando tools, we recommend using the `Anaconda Python distribution <https://www.anaconda.com/products/individual>`__
+to ensure you have all dependencies installed.
+We recommend `Software Carpentry instructions <https://carpentries.github.io/workshop-template/#python>`__
+for Anaconda installation.
+
+So, you can install all the latest Fatiando tools with a single command:
+
+.. raw:: html
+
+   <code>
+      conda install verde harmonica rockhound boule  --channel conda-forge
+   </code>
+
+Alternatively, you can also use the `pip package manager <https://pypi.org/project/pip/>`__:
+
+.. raw:: html
+
+   <code>
+      pip install verde harmonica rockhound boule
+   </code>
+
+.. raw:: html
+
+    <h2>New to Python?</h2>
+
+If you don't have so much experience with Python language, **don't worry!**.
+We recommend you the `Software Carpentry lessons <https://software-carpentry.org/lessons/>`__.
+These are a really great for starting to learn Python for scientific computation.
+
+.. raw:: html
+
+   <ul class="fa-ul icon-list-small">
+      <li>
+         <i class="fa-li fa fa-book fa-fw"></i>
+         <a href="https://swcarpentry.github.io/python-novice-inflammation/">Programming with Python</a>
+      </li>
+      <li>
+         <i class="fa-li fa fa-book fa-fw"></i>
+         <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a>
+      </li>
+   </ul>
+
+
+
+
 .. _support:
 
 Support Fatiando
