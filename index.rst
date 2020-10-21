@@ -270,7 +270,7 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
 
 
-.. _getting_started:
+.. _started:
 
 Getting Started
 ===============
@@ -299,7 +299,7 @@ Alternatively, you can also use the `pip package manager <https://pypi.org/proje
 
 .. raw:: html
 
-    <h2>New to Python?</h2>
+    <h2><i class="fas fa-rocket"></i> New to Python?</h2>
 
 If you don't have so much experience with Python language, **don't worry!**.
 We recommend you the `Software Carpentry lessons <https://software-carpentry.org/lessons/>`__.
@@ -317,7 +317,6 @@ These are a really great for starting to learn Python for scientific computation
          <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a>
       </li>
    </ul>
-
 
 
 
