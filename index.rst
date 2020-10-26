@@ -297,7 +297,20 @@ Alternatively, you can also use the `pip package manager <https://pypi.org/proje
       pip install verde harmonica rockhound boule
    </code>
 
+`Fatiando's youtube channel <https://www.youtube.com/channel/UCycNE5V984aAKL94GoA903g>`__
+has a tutorial on how to use some Verde functions that maybe can help you to get
+started with Fatiando's tools:
+
 .. raw:: html
+
+   <ul class="fa-ul icon-list-small">
+      <li>
+      <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/playlist?list=PLPA_RM8wsOqJVm8SRdxwnrsMTut_GAV7F"> Verde tutorial</a>
+      </li>
+   </ul>
+
+.. raw:: html
+
 
     <h2><i class="fas fa-rocket"></i> New to Python?</h2>
 
