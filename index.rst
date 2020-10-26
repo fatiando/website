@@ -303,14 +303,12 @@ started with Fatiando's tools:
 
 .. raw:: html
 
-   <ul class="fa-ul icon-list-small">
-      <li>
-      <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/playlist?list=PLPA_RM8wsOqJVm8SRdxwnrsMTut_GAV7F"> Verde tutorial</a>
-      </li>
-   </ul>
+   <div class="embed-responsive embed-responsive-16by9 youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-xZdNdvzm3E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
 
 .. raw:: html
-
 
     <h2><i class="fas fa-rocket"></i> New to Python?</h2>
 
