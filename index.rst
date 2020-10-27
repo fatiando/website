@@ -309,9 +309,8 @@ started with Fatiando's tools:
 
     <h2><i class="fas fa-rocket"></i> New to Python?</h2>
 
-If you don't have so much experience with Python language, **don't worry!**.
-We recommend you the `Software Carpentry lessons <https://software-carpentry.org/lessons/>`__.
-These are a really great for starting to learn Python for scientific computation.
+If you don't have too much experience with Python, **don't worry!**.
+We recommend the `Software Carpentry lessons <https://software-carpentry.org/lessons/>`__, a great place to start learning Python for scientific computation.
 
 .. raw:: html
 
