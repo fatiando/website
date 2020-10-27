@@ -286,7 +286,7 @@ Once you finished setting up Anaconda, you can install all the latest Fatiando t
       conda install verde harmonica rockhound boule  --channel conda-forge
    </code>
 
-Alternatively, you can also use the `pip package manager <https://pypi.org/project/pip/>`__:
+Alternatively, you can use the `pip package manager <https://pypi.org/project/pip/>`__:
 
 .. raw:: html
 
