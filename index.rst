@@ -310,7 +310,7 @@ started with Fatiando tools:
     <h2><i class="fas fa-rocket"></i> New to Python?</h2>
 
 If you don't have much experience with Python, **don't worry!**
-We recommend the `Software Carpentry lessons <https://software-carpentry.org/lessons/>`__, a great place to start learning Python for scientific computation.
+We recommend going over the `Software Carpentry lessons <https://software-carpentry.org/lessons/>`__, a great place to start learning Python for scientific computation and much more.
 
 .. raw:: html
 
