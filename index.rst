@@ -294,7 +294,7 @@ Alternatively, you can use the `pip package manager <https://pypi.org/project/pi
       pip install verde harmonica rockhound boule
    </code>
 
-`Fatiando's YouTube channel <https://www.youtube.com/channel/UCycNE5V984aAKL94GoA903g>`__
+`Fatiando's YouTube channel <https://www.youtube.com/fatiandoorg>`__
 has a tutorial on how to use Verde for gridding scattered data that may help you to get
 started:
 
