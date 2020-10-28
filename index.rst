@@ -278,7 +278,7 @@ Getting Started
 
 In order to start using the Fatiando tools you need to install a Python distribution. We recommend the `Anaconda Python distribution <https://www.anaconda.com/products/individual>`__. You can find detailed instructions on how to install it on any operating system in the `Software Carpentry setup instructions <https://carpentries.github.io/workshop-template/#python>`__.
 
-Once you finished setting up Anaconda, you can install all the latest Fatiando tools with a single command:
+Once you've finished setting up Anaconda, you can install all of the latest Fatiando tools with a single command (run this in a terminal or "Anaconda prompt" on Windows):
 
 .. raw:: html
 
