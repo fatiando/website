@@ -296,7 +296,7 @@ Alternatively, you can use the `pip package manager <https://pypi.org/project/pi
 
 `Fatiando's YouTube channel <https://www.youtube.com/channel/UCycNE5V984aAKL94GoA903g>`__
 has a tutorial on how to use Verde for gridding scattered data that may help you to get
-started with Fatiando tools:
+started:
 
 .. raw:: html
 
