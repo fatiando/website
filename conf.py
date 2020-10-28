@@ -63,7 +63,7 @@ html_theme_options = {
     "navbar_links": [
         ("About", "#about", True),
         ("Projects", "#projects", True),
-        ("Getting Started", "#started", True),
+        ("Getting Started", "#getting-started", True),
         ("Support", "#support", True),
         ("Contact", "#contact", True),
         ("Contribute", "#contribute", True),
