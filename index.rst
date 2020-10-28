@@ -270,7 +270,7 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 
 
 
-.. _started:
+.. _getting-started:
 
 Getting Started
 ===============
