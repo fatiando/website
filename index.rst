@@ -275,7 +275,10 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
 Getting Started
 ===============
 
+.. raw:: html
 
+    <h2><i class="fas fa-laptop"></i> Install</h2>  
+    
 In order to start using the Fatiando tools you need to **install a Python distribution**. We recommend using `Anaconda <https://www.anaconda.com/products/individual>`__. You can find detailed instructions on how to install it on any operating system in the `Software Carpentry setup instructions <https://carpentries.github.io/workshop-template/#python>`__.
 
 Once you've finished setting up Anaconda, you can install all of the latest Fatiando tools with a single command (run this in a terminal or "Anaconda prompt" on Windows):
@@ -290,6 +293,10 @@ Alternatively, you can use the `pip package manager <https://pypi.org/project/pi
 
     pip install verde harmonica rockhound boule pooch
 
+.. raw:: html
+
+    <h2><i class="fas fa-user-graduate"></i> Learn</h2>  
+    
 `Fatiando's YouTube channel <https://www.youtube.com/fatiandoorg>`__
 has a tutorial on how to use Verde for gridding scattered data that may help you to get
 started:
