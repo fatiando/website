@@ -269,6 +269,78 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
    </div>
 
 
+
+.. _getting-started:
+
+Getting Started
+===============
+
+.. raw:: html
+
+    <h2><i class="fas fa-laptop"></i> Install</h2>
+
+In order to start using the Fatiando tools you need to **install a Python
+distribution**. We recommend using `Anaconda
+<https://www.anaconda.com/products/individual>`__. You can find detailed
+instructions on how to install it on any operating system in the `Software
+Carpentry setup instructions
+<https://carpentries.github.io/workshop-template/#python>`__.
+
+Once you've finished setting up Anaconda, you can install all of the latest
+Fatiando tools using the ``conda`` package manager (recommended) with a single
+command (run this in a terminal or "Anaconda prompt" on Windows):
+
+.. code::
+
+    conda install verde harmonica rockhound boule pooch --channel conda-forge
+
+Alternatively, you can use the `pip package manager <https://pypi.org/project/pip/>`__:
+
+.. code::
+
+    pip install verde harmonica rockhound boule pooch
+
+.. raw:: html
+
+    <h2><i class="fas fa-user-graduate"></i> Learn</h2>
+
+`Our YouTube channel <https://www.youtube.com/fatiandoorg>`__
+has a **tutorial on how to use Verde** for gridding scattered data that may help
+you to get started.
+Afterwards, you can learn more about each particular tool by visiting their
+**documentation pages** (see links to each in :ref:`projects`).
+
+.. raw:: html
+
+   <div class="embed-responsive embed-responsive-16by9 youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-xZdNdvzm3E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
+
+.. raw:: html
+
+    <h2><i class="fas fa-rocket"></i> New to Python?</h2>
+
+If you don't have much experience with Python, **don't worry!**
+A great place to start learning Python for scientific computation and much more
+is `Software Carpentry <https://software-carpentry.org>`__.
+We recommend starting with these two lessons (also available in Spanish):
+
+.. raw:: html
+
+   <ul class="fa-ul icon-list-small">
+      <li>
+         <i class="fa-li fa fa-book fa-fw"></i>
+         <a href="https://swcarpentry.github.io/python-novice-inflammation/">Programming with Python</a>
+      </li>
+      <li>
+         <i class="fa-li fa fa-book fa-fw"></i>
+         <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a>
+      </li>
+   </ul>
+
+
+
 .. _support:
 
 Support Fatiando
