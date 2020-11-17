@@ -277,11 +277,18 @@ Getting Started
 
 .. raw:: html
 
-    <h2><i class="fas fa-laptop"></i> Install</h2>  
-    
-In order to start using the Fatiando tools you need to **install a Python distribution**. We recommend using `Anaconda <https://www.anaconda.com/products/individual>`__. You can find detailed instructions on how to install it on any operating system in the `Software Carpentry setup instructions <https://carpentries.github.io/workshop-template/#python>`__.
+    <h2><i class="fas fa-laptop"></i> Install</h2>
 
-Once you've finished setting up Anaconda, you can install all of the latest Fatiando tools with a single command (run this in a terminal or "Anaconda prompt" on Windows):
+In order to start using the Fatiando tools you need to **install a Python
+distribution**. We recommend using `Anaconda
+<https://www.anaconda.com/products/individual>`__. You can find detailed
+instructions on how to install it on any operating system in the `Software
+Carpentry setup instructions
+<https://carpentries.github.io/workshop-template/#python>`__.
+
+Once you've finished setting up Anaconda, you can install all of the latest
+Fatiando tools using the ``conda`` package manager (recommended) with a single
+command (run this in a terminal or "Anaconda prompt" on Windows):
 
 .. code::
 
@@ -295,11 +302,13 @@ Alternatively, you can use the `pip package manager <https://pypi.org/project/pi
 
 .. raw:: html
 
-    <h2><i class="fas fa-user-graduate"></i> Learn</h2>  
-    
-`Fatiando's YouTube channel <https://www.youtube.com/fatiandoorg>`__
-has a tutorial on how to use Verde for gridding scattered data that may help you to get
-started:
+    <h2><i class="fas fa-user-graduate"></i> Learn</h2>
+
+`Our YouTube channel <https://www.youtube.com/fatiandoorg>`__
+has a **tutorial on how to use Verde** for gridding scattered data that may help
+you to get started.
+Afterwards, you can learn more about each particular tool by visiting their
+**documentation pages** (see links to each in :ref:`projects`).
 
 .. raw:: html
 
@@ -313,7 +322,9 @@ started:
     <h2><i class="fas fa-rocket"></i> New to Python?</h2>
 
 If you don't have much experience with Python, **don't worry!**
-We recommend going over the `Software Carpentry lessons <https://software-carpentry.org/lessons/>`__, a great place to start learning Python for scientific computation and much more.
+A great place to start learning Python for scientific computation and much more
+is `Software Carpentry <https://software-carpentry.org>`__.
+We recommend starting with these two lessons (also available in Spanish):
 
 .. raw:: html
 
