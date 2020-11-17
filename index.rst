@@ -280,19 +280,15 @@ In order to start using the Fatiando tools you need to install a Python distribu
 
 Once you've finished setting up Anaconda, you can install all of the latest Fatiando tools with a single command (run this in a terminal or "Anaconda prompt" on Windows):
 
-.. raw:: html
+.. code::
 
-   <code>
-      conda install verde harmonica rockhound boule --channel conda-forge
-   </code>
+    conda install verde harmonica rockhound boule pooch --channel conda-forge
 
 Alternatively, you can use the `pip package manager <https://pypi.org/project/pip/>`__:
 
-.. raw:: html
+.. code::
 
-   <code>
-      pip install verde harmonica rockhound boule
-   </code>
+    pip install verde harmonica rockhound boule pooch
 
 `Fatiando's YouTube channel <https://www.youtube.com/fatiandoorg>`__
 has a tutorial on how to use Verde for gridding scattered data that may help you to get
