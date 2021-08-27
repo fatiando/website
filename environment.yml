@@ -3,8 +3,8 @@ channels:
     - conda-forge
     - defaults
 dependencies:
-    - python=3.8
+    - python==3.9
     - pip
-    - sphinx
-    - sphinx_bootstrap_theme
+    - sphinx==4.1.2
+    - sphinx_bootstrap_theme==0.8.0
     - black

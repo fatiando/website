@@ -26,7 +26,7 @@ html_extra_path = [".nojekyll", "CNAME"]
 html_use_smartypants = True
 pygments_style = "default"
 add_function_parentheses = False
-html_add_permalinks = ""
+html_permalinks = False
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {}
 # Additional templates that should be rendered to pages, maps page names to
@@ -118,9 +118,7 @@ html_context = {
         ),
     ]
 }
-
-
-# Load the custom CSS files (needs sphinx >= 1.6 for this to work)
-def setup(app):
-    app.add_stylesheet("style.css")
-    app.add_stylesheet("fontawesome/css/all.css")
+html_css_files = [
+    "style.css",
+    "fontawesome/css/all.css",
+]
