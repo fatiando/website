@@ -514,3 +514,9 @@ and the `source code archive on Github <https://github.com/fatiando/fatiando>`__
 The library will remain archived and usable for the foreseeable future.
 To get a sense for the reasoning behind the choice to abandon ``fatiando``, please read
 `this blog post <http://www.leouieda.com/blog/future-of-fatiando.html>`__.
+
+.. toctree::
+    :hidden:
+
+    v0.5/index.rst
+    dev/index.rst
