@@ -33,6 +33,9 @@ jobs:
             echo "<meta http-equiv=\"Refresh\" content=\"0;url=https://legacy.fatiando.org\"/>" > _build/html/${version}/index.html
           done
 
+      - name: Print a directory tree of the generated HTML for debugging
+        run: tree _build/html
+
       - name: Push to fatiando.github.io
         if: success() && github.event_name == 'push'
         # Don't use tags: https://julienrenaux.fr/2019/12/20/github-actions-security-risk/
