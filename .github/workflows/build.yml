@@ -25,6 +25,14 @@ jobs:
       - name: Build the website
         run: make all
 
+      - name: Setup redirects to legacy.fatiando.org
+        run: |
+          for version in v0.1 v0.2 v0.3 v0.4 v0.5 dev
+          do
+            mkdir _build/html/${version}
+            echo "<meta http-equiv=\"Refresh\" content=\"0;url=https://legacy.fatiando.org\"/>" > _build/html/${version}/index.html
+          done
+
       - name: Push to fatiando.github.io
         if: success() && github.event_name == 'push'
         # Don't use tags: https://julienrenaux.fr/2019/12/20/github-actions-security-risk/
