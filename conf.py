@@ -4,6 +4,7 @@ Configuration for building the website with Sphinx.
 import sys
 import os
 import datetime
+import subprocess
 
 extensions = []
 
@@ -14,9 +15,9 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project
-year = datetime.date.today().year
+current_date = datetime.date.today()
 project = "Fatiando a Terra"
-copyright = "2010-{:d}, The Fatiando a Terra Developers".format(year)
+copyright = f"{current_date.year:d} The Fatiando a Terra Developers"
 version = ""
 
 html_title = project
@@ -67,7 +68,14 @@ html_context = {
             "YouTube channel",
             "https://www.youtube.com/fatiandoorg",
         ),
-    ]
+    ],
+    "commit": subprocess.run(
+        ["git", "rev-parse", "--short", "HEAD"],
+        capture_output=True,
+        text=True,
+    ).stdout.strip(),
+    "repository": "fatiando/website",
+    "last_updated": str(current_date),
 }
 html_css_files = [
     "css/bootstrap/bootstrap.min.css",
