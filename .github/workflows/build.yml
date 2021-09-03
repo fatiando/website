@@ -23,7 +23,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build the website
-        run: make all
+        run: make html
+
+      - name: Disable Jekyll builds on GitHub pages
+        run: touch _build/html/.nojekyll
+
+      - name: Set the CNAME file for our custom domain
+        run: echo "www.fatiando.org" _build/html/CNAME
 
       - name: Setup redirects to legacy.fatiando.org
         run: |
