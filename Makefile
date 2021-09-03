@@ -1,46 +1,25 @@
-# Makefile for Sphinx documentation
+# Commands to generate the website HTML and clean up the environment
 
-# You can set these variables from the command line.
-SPHINXOPTS    =
-SPHINXBUILD   = sphinx-build
-BUILDDIR      = _build
-
-# User-friendly check for sphinx-build
-ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
-$(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don't have Sphinx installed, grab it from http://sphinx-doc.org/)
-endif
-
-# Internal variables.
-ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees  $(SPHINXOPTS) .
-
-.PHONY: help clean html linkcheck doctest cookbook
-
-all: html
-
-help:
-	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  all        generate the complete webpage"
-	@echo "  html       make only the HTML files from the existing rst sources"
-	@echo "  linkcheck  check all external links for integrity"
-
-clean:
-	rm -rf $(BUILDDIR)/html/*
-	rm -rf $(BUILDDIR)/doctrees
-	rm -rf $(BUILDDIR)/linkcheck
-	rm -rf $(BUILDDIR)/plot_directive
+BUILDDIR=_build
+.PHONY: help clean html linkcheck serve
 
 html:
+	sphinx-build -b html . $(BUILDDIR)/html
+
+help:
 	@echo
-	@echo "Building HTML files."
-	@echo
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
-	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+	@echo "Please use \"make <target>\" where <target> is one of:"
+	@echo "  html       make the HTML files from the existing sources"
+	@echo "  linkcheck  check all external links for integrity"
+	@echo "  clean      delete all generated files"
+
+clean:
+	rm -rfv $(BUILDDIR)/*
 
 linkcheck:
-	$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(BUILDDIR)/linkcheck
+	sphinx-build -b linkcheck . $(BUILDDIR)/linkcheck
 	@echo
 	@echo "Link check complete; look for any errors in the above output " \
 	      "or in $(BUILDDIR)/linkcheck/output.txt."
 serve:
-	cd $(BUILDDIR)/html && python -m http.server 8008 --bind 127.0.0.1
+	python serve.py
