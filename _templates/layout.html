@@ -1,90 +1,88 @@
-{# Import the theme's layout. #}
 {% extends "!layout.html" %}
 
 
-{% block extrahead %}
-
-    {{ super() }}
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
-    <meta name="twitter:site" content="@fatiandoaterra">
-    <meta name="twitter:title" content="Fatiando a Terra">
-    <meta name="twitter:description" content="Open-source tools for geophysics">
-
-    <meta property="og:title" content="Fatiando a Terra">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.fatiando.org/">
-    <meta property="og:site_name" content="Fatiando a Terra">
-    <meta property="og:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
-    <meta property="og:description" content="Open-source tools for geophysics">
-
-    <!-- Include Google Fonts CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CRaleway:200" rel="stylesheet">
-
-    <!-- Google Analytics tracking code -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
-            Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-38125837-1', 'auto', {'storage': 'none'});
-      ga('set', 'anonymizeIp', true);
-      ga('send', 'pageview');
-    </script>
-{% endblock %}
-
-
-{% block footer %}
-
-    <footer class="footer">
-        <div class="container">
-            <p class="text-center">
-            {%- if show_copyright %}
-                &copy; Copyright {{ copyright }}.
-            {%- endif %}
-            {%- if show_sphinx %}
-                {% trans sphinx_version=sphinx_version|e %}Created using <a
-                    href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{%
-                endtrans %}
-            {%- endif %}
-            </p>
-        </div>
-    </footer>
-
-{% endblock %}
-
 {%- block htmltitle %}
-    {% if pagename == "index" %}
-        <title>{{ title|striptags|e }}</title>
-    {% else %}
-        {{ super() }}
-    {% endif %}
+  {%- if title == "Home" %}
+    <title>{{ project|striptags|e }}</title>
+  {%- else %}
+    <title>{{ title|striptags|e }} | {{ project|striptags|e }}</title>
+  {%- endif %}
 {%- endblock %}
 
 
-{% block content %}
+{%- block extrahead %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
+  <meta name="twitter:site" content="@fatiandoaterra">
+  <meta name="twitter:title" content="Fatiando a Terra">
+  <meta name="twitter:description" content="Open-source tools for geophysics">
 
-    {% if pagename == 'index' %}
-        <div class="container-fluid banner"
-             style="background-image: linear-gradient(to bottom, transparent, #02020e55), url(_static/background.svg);">
-            {{ navBar() }}
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 col-sm-2 col-xs-0">
-                    </div>
-                    <div class="col-lg-8 col-sm-8 col-xs-12">
-                        <img class="banner-logo center-block" src="_static/banner.svg">
-                    </div>
-                    <div class="col-lg-2 col-sm-2 col-xs-0">
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endif %}
+  <meta property="og:title" content="Fatiando a Terra">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.fatiando.org/">
+  <meta property="og:site_name" content="Fatiando a Terra">
+  <meta property="og:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
+  <meta property="og:description" content="Open-source tools for geophysics">
+
+  <!-- Google Analytics tracking code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+          Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38125837-1', 'auto', {'storage': 'none'});
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+  </script>
+{%- endblock %}
+
+
+{%- block footer %}
+  <footer class="footer container-fluid">
     <div class="container">
-        {{ body }}
+      <p class="text-center">
+        {%- if show_copyright %}
+          &copy; Copyright {{ copyright }}.
+        {%- endif %}
+        {%- if show_sphinx %}
+           Created using <a href="http://sphinx-doc.org/">Sphinx</a>
+           {{ sphinx_version }}.
+        {%- endif %}
+      </p>
     </div>
-{% endblock %}
+  </footer>
+{%- endblock %}
+
+
+{%- block header %}
+  <header>
+  <div class="container-fluid menu text-center">
+    <div class="col-lg-12">
+      {%- if menu_items %}
+        <ul class="menu-list">
+          {%- for link in menu_items %}
+            <li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+          {%- endfor %}
+          {%- for link in social_links %}
+            <li><a href="{{ link[2] }}" target="_blank" title="{{ link[1] }}">{{ link[0] }}</a></li>
+          {%- endfor %}
+        </ul>
+      {%- endif %}
+    </div>
+  </div>
+  </header>
+{%- endblock %}
+
+
+{%- block relbar1 %}
+{%- endblock %}
+{%- block relbar2 %}
+{%- endblock %}
+
+
+{%- block content %}
+  {%- block body %}
+  {%- endblock %}
+{%- endblock %}

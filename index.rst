@@ -1,76 +1,37 @@
-.. title:: Fatiando a Terra
-
-.. _about:
-
-About
-=========================================
+.. title:: Home
 
 .. raw:: html
 
-   <div class="row text-center">
-      <div class="col-sm-4">
-         <h2><i class="fas fa-toolbox fa-2x"></i></h2>
-         <b>Open-source</b>
-         <br>
-         We develop Python packages for Geophysics data processing, modeling, and more.
-      </div>
-      <div class="col-sm-4">
-         <h2><i class="fas fa-drafting-compass fa-2x"></i></h2>
-         <b>Carefully designed and tested</b>
-         <br>
-         Our software strictly follows development best practices.
-      </div>
-      <div class="col-sm-4">
-         <h2><i class="fas fa-copy fa-2x"></i></h2>
-         <b>Comprehensive documentation</b>
-         <br>
-         Tutorials, examples, theory, and real data applications.
-      </div>
-   </div>
+    <h2 class="display-4 text-center" id="about">About</h2>
+
+    <div class="row text-center">
+       <div class="col-sm">
+          <h2><i class="fas fa-toolbox fa-2x"></i></h2>
+          <b>Open-source</b>
+          <br>
+          We develop Python packages for Geophysics data processing, modeling, and more.
+       </div>
+       <div class="col-sm">
+          <h2><i class="fas fa-drafting-compass fa-2x"></i></h2>
+          <b>Carefully designed and tested</b>
+          <br>
+          Our software strictly follows development best practices.
+       </div>
+       <div class="col-sm">
+          <h2><i class="fas fa-copy fa-2x"></i></h2>
+          <b>Comprehensive documentation</b>
+          <br>
+          Tutorials, examples, theory, and real data applications.
+       </div>
+    </div>
 
 .. raw:: html
 
-   <div class="gallery text-center">
-      <div class="row">
-         <div class="col-sm-6">
-            <div class="row">
-               <div class="col-xs-6 gallery-img">
-                  <a target="_blank" href="https://www.fatiando.org/harmonica/latest/gallery/gravity_disturbance.html">
-                  <img src="_static/gallery/gallery-disturbance.jpg">
-                  </a>
-               </div>
-               <div class="col-xs-6 gallery-img">
-                  <a target="_blank" href="https://www.fatiando.org/rockhound/latest/gallery/bedmap2.html">
-                  <img src="_static/gallery/gallery-bedmap.jpg">
-                  </a>
-               </div>
-            </div>
-         </div>
-         <div class="col-sm-6">
-            <div class="row">
-               <div class="col-xs-6 gallery-img">
-                  <a target="_blank" href="https://www.fatiando.org/verde/latest/gallery/blockreduce.html">
-                  <img src="_static/gallery/gallery-blockmean.jpg">
-                  </a>
-               </div>
-               <div class="col-xs-6 gallery-img">
-                  <a target="_blank" href="https://www.fatiando.org/rockhound/latest/gallery/seafloor_age.html">
-                  <img src="_static/gallery/gallery-seafloorage.jpg">
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-.. _projects:
-
-The Tools
-=============
+    <h2 class="display-4 text-center" id="projects">Tools</h2>
 
 We maintain several Python projects which are in various stages of development: from
 early design to polished and published products. We'll also be adding new projects to
-our toolkit in the future (see how you can :ref:`get involved <contribute>`).
+our toolkit in the future.
 
 .. raw:: html
 
@@ -269,15 +230,11 @@ our toolkit in the future (see how you can :ref:`get involved <contribute>`).
    </div>
 
 
-
-.. _getting-started:
-
-Getting Started
-===============
-
 .. raw:: html
 
-    <h2><i class="fas fa-laptop"></i> Install</h2>
+    <h2 class="display-4 text-center" id="getting-started">Getting Started</h2>
+
+    <h3><i class="fas fa-laptop"></i> Install</h3>
 
 In order to start using the Fatiando tools you need to **install a Python
 distribution**. We recommend using `Anaconda
@@ -290,25 +247,29 @@ Once you've finished setting up Anaconda, you can install all of the latest
 Fatiando tools using the ``conda`` package manager (recommended) with a single
 command (run this in a terminal or "Anaconda prompt" on Windows):
 
-.. code::
+.. raw:: html
 
-    conda install verde harmonica rockhound boule pooch --channel conda-forge
+    <pre>
+    <kbd>conda install verde harmonica rockhound boule pooch --channel conda-forge</kbd>
+    </pre>
 
 Alternatively, you can use the `pip package manager <https://pypi.org/project/pip/>`__:
 
-.. code::
+.. raw:: html
 
-    pip install verde harmonica rockhound boule pooch
+    <pre>
+    <kbd>pip install verde harmonica rockhound boule pooch</kbd>
+    </pre>
 
 .. raw:: html
 
-    <h2><i class="fas fa-user-graduate"></i> Learn</h2>
+    <h3><i class="fas fa-user-graduate"></i> Learn</h3>
 
 `Our YouTube channel <https://www.youtube.com/fatiandoorg>`__
 has a **tutorial on how to use Verde** for gridding scattered data that may help
 you to get started.
 Afterwards, you can learn more about each particular tool by visiting their
-**documentation pages** (see links to each in :ref:`projects`).
+**documentation pages**.
 
 .. raw:: html
 
@@ -319,7 +280,7 @@ Afterwards, you can learn more about each particular tool by visiting their
 
 .. raw:: html
 
-    <h2><i class="fas fa-rocket"></i> New to Python?</h2>
+    <h3><i class="fas fa-rocket"></i> New to Python?</h3>
 
 If you don't have much experience with Python, **don't worry!**
 A great place to start learning Python for scientific computation and much more
@@ -341,11 +302,9 @@ We recommend starting with these two lessons (also available in Spanish):
 
 
 
-.. _support:
+.. raw:: html
 
-Support Fatiando
-================
-
+    <h2 class="display-4 text-center" id="support">Support Fatiando</h2>
 
 All Fatiando projects are **made by scientists and volunteers** who generously donate
 their time and attention. Here are some of the ways in which you can help support the
@@ -385,11 +344,9 @@ project and give back to the community:
    </div>
 
 
+.. raw:: html
 
-.. _contact:
-
-Contacting Us
-=============
+    <h2 class="display-4 text-center" id="contact">Contacting Us</h2>
 
 .. raw:: html
 
@@ -416,10 +373,9 @@ Contacting Us
    </div>
 
 
-.. _contribute:
+.. raw:: html
 
-Getting Involved
-================
+    <h2 class="display-4 text-center" id="contribute">Getting Involved</h2>
 
 **We want your help!**
 Fatiando is a **community-developed** project, so it's people like you that
@@ -427,7 +383,7 @@ make it useful and successful.
 
 .. raw:: html
 
-    <h2><i class="fa fa-comments"></i> Participate in the community</h2>
+    <h3><i class="fa fa-comments"></i> Participate in the community</h3>
 
 **Open-source is more than just code, it's about the people involved**.
 The most important thing you can do for any project is participate in the
@@ -472,7 +428,7 @@ completely open to everyone**. So come along and join the conversation:
 
 .. raw:: html
 
-    <h2><i class="fa fa-cog"></i> Join the development</h2>
+    <h3><i class="fa fa-cog"></i> Join the development</h3>
 
 There may be a little voice inside your head that is telling you that you're
 not ready; that your skills aren't nearly good
@@ -501,15 +457,14 @@ There are many ways to contribute:
    <a href="https://github.com/fatiando/contributing"><i class="fab fa-github"></i> fatiando/contributing</a> repository.
 
 
+.. raw:: html
 
-Looking for the ``fatiando`` package?
-=====================================
+    <h2 class="display-4 text-center">Looking for the <code>fatiando</code> package?</h2>
 
 **It still exists!**
-While development of the ``fatiando`` library has stopped (in favor of
-:ref:`our new libraries <projects>`),
-you can still view the
-`documentation for the last release (v0.5) <https://www.fatiando.org/v0.5/>`__
+While development of the ``fatiando`` library has stopped in favour of our new
+tools, you can still view the
+`documentation for the last release (v0.5) <https://legacy.fatiando.org>`__
 and the `source code archive on Github <https://github.com/fatiando/fatiando>`__.
 The library will remain archived and usable for the foreseeable future.
 To get a sense for the reasoning behind the choice to abandon ``fatiando``, please read
