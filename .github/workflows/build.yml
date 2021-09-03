@@ -29,7 +29,7 @@ jobs:
         run: touch _build/html/.nojekyll
 
       - name: Set the CNAME file for our custom domain
-        run: echo "www.fatiando.org" _build/html/CNAME
+        run: echo "www.fatiando.org" > _build/html/CNAME
 
       - name: Setup redirects to legacy.fatiando.org
         run: |
@@ -40,7 +40,7 @@ jobs:
           done
 
       - name: Print a directory tree of the generated HTML for debugging
-        run: tree _build/html
+        run: tree -a _build/html
 
       - name: Push to fatiando.github.io
         if: success() && github.event_name == 'push'
