@@ -41,6 +41,14 @@ blockquote {
     min-height: 90px;
 }
 
+.footer a {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
 @media (min-width:1200px) {
     .container {
         width:970px;
@@ -101,11 +109,13 @@ blockquote {
 /* Navbar */
 /*********************************************************************************/
 .menu {
+    padding: 0 10px;
     border: none;
     background-color: #060629;
+    min-height: 4rem;
+    padding: 10px 0;
+    line-height: 40px;
     position: relative;
-    min-height: 80px;
-    display: block;
 }
 
 .menu a {
@@ -114,21 +124,6 @@ blockquote {
 
 .menu a:hover {
     text-decoration: underline;
-}
-
-.menu-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 40px;
-}
-
-.menu-list > li {
-    display: inline;
-    padding-right: 12px;
-    padding-left: 12px;
 }
 
 .menu-list-footer {

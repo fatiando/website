@@ -22,7 +22,7 @@ version = ""
 
 html_title = project
 html_short_title = ""
-html_logo = "_static/fatiando-logo-background.png"
+html_logo = "_static/fatiando-logo.svg"
 html_favicon = "_static/favicon.png"
 html_static_path = ["_static"]
 html_extra_path = []
@@ -81,4 +81,7 @@ html_css_files = [
     "css/bootstrap/bootstrap.min.css",
     "css/fontawesome/css/all.css",
     "css/style.css",
+]
+html_js_files = [
+    "js/bootstrap/bootstrap.min.js",
 ]
