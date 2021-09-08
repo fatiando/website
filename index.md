@@ -140,17 +140,13 @@ A multi-tool for Geophysics
 <div class="container-fluid section background-2">
 <div class="container">
 
-<div class="row align-items-baseline gx-5 gy-5">
+<div class="row align-items-center gx-5 gy-5">
 <div class="col-md-7">
 
 (pooch)=
 ## **Pooch:** Easily download datasets
 
 Pooch is the easiest way to **download data files** to your computer.
-It stores downloaded files in a local cache directory to avoid repeated
-downloads, checks integrity, decompresses, unzip/untar, and can even download
-from [Zenodo](https://zenodo.org/) and [figshare](https://figshare.com/)
-Digital Object Identifiers (DOIs).
 
 It is used to manage sample data downloads not only by our own tools but also
 other popular Scientific Python libraries:
@@ -283,7 +279,7 @@ a sprinkle of machine learning.
 <div class="col-md-7">
 
 (harmonica)=
-## **Harmonica:**
+## **Harmonica:** All things potential fields
 
 Processing and modeling <b>gravity</b> and <b>magnetic</b> data, like terrain
 correction, upward continuation, equivalent layers, 3D inversion, and more.

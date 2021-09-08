@@ -153,7 +153,7 @@ div.admonition, .admonition {
 }
 
 .transition {
-    padding: 4rem 0;
+    padding: 5rem 0 6rem 0;
     border-top: 3px solid #ddd;
     border-bottom: 3px solid #ddd;
 }
