@@ -34,12 +34,12 @@ pygments_style = "default"
 # These variables are passed to the templates in _templates/
 html_context = {
     "menu_items": [
-        ("Install", "/install", True),
-        ("Learn", "/learn", True),
-        ("Contact", "/contact", True),
-        ("About Us", "/about", True),
-        ("Community", "/community", True),
-        ("Cite", "/cite", True),
+        ("Install", "install", True),
+        ("Learn", "learn", True),
+        ("Contact", "contact", True),
+        ("About Us", "about", True),
+        ("Community", "community", True),
+        ("Cite", "cite", True),
     ],
     "social_links": [
         (

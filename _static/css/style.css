@@ -32,10 +32,11 @@ h3 {
 
 pre {
     margin-bottom: 1rem;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     background-color: #fafafa;
     border: 1px solid #dddddd;
     box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
 }
 
 li {
@@ -111,11 +112,11 @@ div.admonition, .admonition {
 
 .btn {
     font-size: 1.15rem;
-    padding: 0.8rem 1.5rem;
+    padding: 0.75rem 1.25rem;
 }
 
 .btn i {
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
 }
 
 /* Helper classes */
@@ -140,6 +141,23 @@ div.admonition, .admonition {
     width: auto;
 }
 
+.project-info {
+    list-style: none;
+    padding: 0;
+}
+
+.project-info > li {
+    display: inline-block;
+    margin-right: 1rem;
+    line-height: 2;
+}
+
+.transition {
+    padding: 4rem 0;
+    border-top: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}
+
 .section {
     padding: 7rem 0 8rem 0;
 }
@@ -155,7 +173,7 @@ div.admonition, .admonition {
 
 .background-2 {
     background-color: #f2f2f2;
-    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1) inset;
 }
 
 .background-3 {
