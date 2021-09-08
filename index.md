@@ -31,10 +31,10 @@ All of our code is **free and open-source**, distributed under the permissive
 [BSD 3-clause license][bsd].
 
 <div class="mt-5">
-  <a href="/about"><button type="button" class="btn btn-primary mb-3 me-3">
+  <a href="about"><button type="button" class="btn btn-primary mb-3 me-3">
   More about us
   </button></a>
-  <a href="/install"><button type="button" class="btn btn-light mb-3">
+  <a href="install"><button type="button" class="btn btn-light mb-3">
   Install on your computer
   <span class="bullet-separator">&bull;</span>
   <i class="fab fa-linux"></i>
@@ -71,11 +71,11 @@ Placeholder placeholder placeholder placeholder placeholder placeholder
 placeholder placeholder placeholder placeholder placeholder
 
 <div class="mt-5">
-  <a href="/learn"><button type="button" class="btn btn-light mb-3 me-3">
+  <a href="learn"><button type="button" class="btn btn-light mb-3 me-3">
   <i class="fa fa-graduation-cap"></i>
   Learning resources
   </button></a>
-  <a href="/contact"><button type="button" class="btn btn-warning mb-3">
+  <a href="contact"><button type="button" class="btn btn-warning mb-3">
   <i class="fa fa-hands-helping"></i>
   Need help?
   </button></a>
@@ -386,7 +386,7 @@ Placeholder placeholder placeholder placeholder placeholder placeholder
 placeholder placeholder placeholder placeholder placeholder
 
 <div class="mt-5">
-  <a href="/community"><button type="button" class="btn btn-light mb-3">
+  <a href="community"><button type="button" class="btn btn-light mb-3">
   <i class="fa fa-users"></i>
   Participate in our community
   </button></a>
