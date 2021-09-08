@@ -36,9 +36,16 @@ The docs contain full descriptions of every function and class in each package,
 examples of their usage, and explanations of the theory behind certain methods.
 
 ```{tip}
-Looking for documentation for a **specific version** of a package? There are
-links in each documentation page to all previous versions and as well as the
-latest release.
+Need documentation for a **specific version** of a package? There are links in
+each documentation page to all previous versions and as well as the latest
+release.
+```
+
+```{admonition} Looking for the Python 2.7 <code>fatiando</code> library?
+**It still exists!**
+While development of the `fatiando` library has stopped in favour of our new
+tools, you can still install it and view the documentation for version 0.5 at
+[legacy.fatiando.org](https://legacy.fatiando.org)
 ```
 
 ## New to Python?
