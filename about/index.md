@@ -70,7 +70,7 @@ Unsurprisingly, this overly ambitious goal was never achieved.
 <div class="row pb-3 text-muted align-items-center fs-6">
 <div class="col-md-9">
 
-<img src="/_static/fatiando-as-a-gravmag-gui.svg" alt="Box diagram of the layout and flow of information planned for the GUI program." >
+<img src="../_static/fatiando-as-a-gravmag-gui.svg" alt="Box diagram of the layout and flow of information planned for the GUI program." >
 
 </div>
 <div class="col-md-3">
@@ -121,37 +121,37 @@ which has grown tremendously since we started development in 2010.
 <div class="row g-5 py-3 align-items-center">
 <div class="col-6 col-sm-4 col-md-3">
   <a target="_blank" href="https://simpeg.xyz/">
-  <img src="/_static/simpeg-logo.png" title="SimPEG">
+  <img src="../_static/simpeg-logo.png" title="SimPEG">
   </a>
 </div>
 <div class="col-6 col-sm-4 col-md-3">
   <a target="_blank" href="https://www.gempy.org/">
-  <img src="/_static/gempy-logo.png" title="GemPy">
+  <img src="../_static/gempy-logo.png" title="GemPy">
   </a>
 </div>
 <div class="col-6 col-sm-4 col-md-3">
   <a target="_blank" href="https://emsig.xyz/">
-  <img src="/_static/emsig-logo.svg" title="emsig">
+  <img src="../_static/emsig-logo.svg" title="emsig">
   </a>
 </div>
 <div class="col-6 col-sm-4 col-md-3">
   <a target="_blank" href="https://docs.pyvista.org/">
-  <img src="/_static/pyvista-logo.png" title="PyVista">
+  <img src="../_static/pyvista-logo.png" title="PyVista">
   </a>
 </div>
 <div class="col-6 col-sm-4 col-md-3">
   <a target="_blank" href="https://www.pygimli.org/">
-  <img src="/_static/pygimli-logo.svg" title="pyGIMLi">
+  <img src="../_static/pygimli-logo.svg" title="pyGIMLi">
   </a>
 </div>
 <div class="col-6 col-sm-4 col-md-3">
   <a target="_blank" href="https://softwareunderground.github.io/subsurface/">
-  <img src="/_static/subsurface-logo.svg" title="subsurface">
+  <img src="../_static/subsurface-logo.svg" title="subsurface">
   </a>
 </div>
 <div class="col-6 col-sm-4 col-md-3">
   <a target="_blank" href="https://www.pygmt.org/">
-  <img src="/_static/pygmt-logo.svg" title="PyGMT">
+  <img src="../_static/pygmt-logo.svg" title="PyGMT">
   </a>
 </div>
 </div>
