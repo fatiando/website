@@ -83,29 +83,34 @@ from 11 February 2009.
 </div>
 </div>
 
-In 2010, Leo started work on the
+In 2010, we started developing the
 [<i class="fab fa-github"></i> fatiando/fatiando][gh-fatiando]
-Python library and Santiago joined the project in 2015
-([<i class="fab fa-github"></i> fatiando/fatiando#188][gh-santi-first-pr]).
-The library included several state-of-the-art methods for forward modeling and
-inversion of gravity and magnetic data, as well as toy problems in other fields
-useful for teaching.
+Python library, which included several state-of-the-art methods for forward
+modeling and inversion of gravity and magnetic data, as well as toy problems in
+other fields useful for teaching.
 Development of this library was discontinued in 2018  as our focus shifted to
 our newer and more well-scoped libraries.
 Leo's [blog post announcing the shift][blog-fatiando-future] explains the
 reasoning behind this decision.
 
 ```{note}
-The last version of `fatiando/fatiando` released is [v0.5][v0.5-doi] and the
-documentation for it can still be accessed at
+The last version that was released of `fatiando/fatiando` is [v0.5][v0.5-doi].
+The documentation for it can still be accessed at
 [legacy.fatiando.org](https://legacy.fatiando.org)
 ```
 
-Our [YouTube channel][youtube] has some talks given over the years about the
-project:
-
+<div class="row pb-3 text-muted align-items-center fs-6">
+<div class="col-md-9">
 <div class="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/videoseries?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="col-md-3">
+
+Our [YouTube channel][youtube] has a [playlist of talks][yt-playlist] given
+about Fatiando over the years.
+
+</div>
 </div>
 
 ## The geophysics Python ecosystem
@@ -176,3 +181,4 @@ Development and maintenance of the Fatiando a Terra project is supported by:
 [uerj]: https://www.uerj.br/
 [conicet]: https://www.conicet.gov.ar/
 [capes]: https://www.gov.br/capes
+[yt-playlist]: https://youtube.com/playlist?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL
