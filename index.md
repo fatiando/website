@@ -13,8 +13,8 @@ cite/index.md
 ```
 
 <div class="container-fluid banner">
-<div class="container page-content">
-<div class="row align-items-center gx-5">
+<div class="container">
+<div class="row align-items-center gx-5 gy-5">
 <div class="col-sm-8">
 
 # Fatiando a Terra
@@ -45,253 +45,307 @@ All of our code is **free and open-source**, distributed under the permissive
 
 </div> <!-- column -->
 <div class="col-sm-4 order-sm-first">
-  <img class="banner-logo mx-auto d-block" src="_static/fatiando-logo.svg">
+  <img class="banner-logo" src="_static/fatiando-logo.svg">
 </div>
 </div> <!-- row -->
 </div> <!-- container -->
 </div> <!-- container-fluid -->
 
+
+
 <div class="container-fluid section background-1">
 <div class="container">
 
-<div class="row align-items-center gx-5">
-<div class="col-sm-8">
+<div class="row align-items-center gx-5 gy-5">
+<div class="col-sm-7">
 
-# Fatiando a Terra
+## Getting started
 
-<p class="banner-description">Open-source Python tools for Geophysics</p>
+Placeholder placeholder placeholder placeholder placeholder placeholder
+placeholder placeholder placeholder placeholder placeholder
 
-Fatiando provides **Python libraries** for data processing, modeling, and
-inversion across the Geosciences.
+Placeholder placeholder placeholder placeholder placeholder placeholder
+placeholder placeholder placeholder placeholder placeholder
 
-It is built by a **community** of geoscientists and software developers with
-a passion for well-designed tools and helping our peers.
-
-All of our code is **free and open-source**, distributed under the permissive
-[BSD 3-clause license][bsd].
+Placeholder placeholder placeholder placeholder placeholder placeholder
+placeholder placeholder placeholder placeholder placeholder
 
 <div class="mt-5">
-<a href="/about"><button type="button" class="btn btn-primary mb-3 me-3">More about us</button></a>
-<a href="/install"><button type="button" class="btn btn-light mb-3">
-Install on your computer
-        <span class="bullet-separator">&bull;</span>
-<i class="fab fa-linux"></i>
-<i class="fab fa-apple"></i>
-<i class="fab fa-windows"></i>
-</button></a>
+  <a href="/learn"><button type="button" class="btn btn-light mb-3">
+  <i class="fa fa-graduation-cap"></i>
+  Learning resources
+  </button></a>
 </div>
 
-</div>
-<div class="col-sm-4 order-sm-first">
-  <img class="banner-logo mx-auto d-block" src="_static/fatiando-logo.svg">
-</div>
-</div>
+</div> <!-- column -->
+<div class="col-sm-5 order-sm-last text-center fs-6">
+
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/z-5dvWfB_SM?start=850" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
-</div>
-</div>
+<i class="fab fa-github"></i>
+[leouieda/2021-06-22-gfz](https://github.com/leouieda/2021-06-22-gfz)
+<span class="bullet-separator">&bull;</span>
+<i class="fab fa-python"></i>
+[Jupyter notebook](https://nbviewer.jupyter.org/github/leouieda/2021-06-22-gfz/blob/main/demo.ipynb)
+
+</div> <!-- column -->
+</div> <!-- row -->
+</div> <!-- container -->
+</div> <!-- container-fluid -->
+
+
 
 <div class="container-fluid section background-2">
 <div class="container">
 
-<div class="row align-items-center gx-5">
-<div class="col-sm-8">
+<div class="row align-items-center gx-5 gy-5">
+<div class="col-sm-7">
 
-# Fatiando a Terra
+## **Verde:** Gridding, machine learning style
 
-<p class="banner-description">Open-source Python tools for Geophysics</p>
+**Verde** offers spatial data processing and interpolation (**gridding**) with
+a sprinkle of machine learning.
 
-Fatiando provides **Python libraries** for data processing, modeling, and
-inversion across the Geosciences.
+<a href="https://pypi.python.org/pypi/verde">
+<img class="badge" src="https://img.shields.io/pypi/pyversions/verde.svg?style=flat-square"
+  alt="Compatible Python versions">
+</a>
 
-It is built by a **community** of geoscientists and software developers with
-a passion for well-designed tools and helping our peers.
-
-All of our code is **free and open-source**, distributed under the permissive
-[BSD 3-clause license][bsd].
+<ul class="fa-ul d-block">
+<li>
+  <i class="fa-li fa fa-code fa-fw" title="Latest release"></i>
+  <a href="https://pypi.python.org/pypi/verde">
+  <img class="shield" src="https://img.shields.io/pypi/v/verde.svg?style=flat-square&label=Latest release"
+       alt="Latest release on PyPI">
+  </a>
+</li>
+<li>
+  <i class="fa-li fab fa-github fa-fw" title="GitHub repository"></i>
+  <a href="https://github.com/fatiando/verde">fatiando/verde</a>
+</li>
+<li>
+  <i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
+   doi: <a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
+</li>
+<li>
+  <i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
+   Stable and ready for use
+</li>
+</ul>
 
 <div class="mt-5">
-<a href="/about"><button type="button" class="btn btn-primary mb-3 me-3">More about us</button></a>
-<a href="/install"><button type="button" class="btn btn-light mb-3">
-Install on your computer
-        <span class="bullet-separator">&bull;</span>
-<i class="fab fa-linux"></i>
-<i class="fab fa-apple"></i>
-<i class="fab fa-windows"></i>
-</button></a>
+  <a target="_blank" href="https://www.fatiando.org/verde/">
+  <button type="button" class="btn btn-primary mb-3">
+  <i class="fa fa-book"></i>
+  Verde documentation
+  </button>
+  </a>
 </div>
 
+</div> <!-- column -->
+<div class="col-sm-5 order-sm-first">
+  <img src="_static/verde-spline-example.png">
+</div> <!-- column -->
+</div> <!-- row -->
+</div> <!-- container -->
+</div> <!-- container-fluid -->
+
+
+
+<div class="container-fluid section background-3">
+<div class="container">
+
+<div class="row align-items-center gx-5 gy-5">
+<div class="col-sm-7">
+
+## **Pooch:** Easily download datasets
+
+**Pooch** manages the **download of data** files from a server, storing them
+in a local directory, and handling updates if required. Used by our
+other libraries.
+
+<ul class="fa-ul d-block">
+<li>
+  <i class="fa-li fa fa-code fa-fw" title="Latest release"></i>
+  <a href="https://pypi.python.org/pypi/pooch">
+  <img class="shield" src="https://img.shields.io/pypi/v/pooch.svg?style=flat-square&label=Latest release"
+       alt="Latest release on PyPI">
+  </a>
+</li>
+<li>
+  <i class="fa-li fab fa-github fa-fw" title="GitHub repository"></i>
+  <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
+</li>
+<li>
+  <i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
+   doi: <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
+</li>
+<li>
+  <i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
+   Stable and ready for use
+</li>
+</ul>
+
+<div class="mt-5">
+  <a target="_blank" href="https://www.fatiando.org/pooch/">
+  <button type="button" class="btn btn-primary mb-3">
+  <i class="fa fa-book"></i>
+  Pooch documentation
+  </button>
+  </a>
 </div>
-<div class="col-sm-4 order-sm-first">
+
+</div> <!-- column -->
+<div class="col-sm-5 order-sm-last">
+  <img src="_static/verde-spline-example.png">
+</div> <!-- column -->
+</div> <!-- row -->
+</div> <!-- container -->
+</div> <!-- container-fluid -->
+
+
+
+<div class="container-fluid section background-2">
+<div class="container">
+
+<div class="row align-items-center gx-5 gy-5">
+<div class="col-sm-7">
+
+## **Harmonica:**
+
+Processing and modeling <b>gravity</b> and <b>magnetic</b> data, like terrain
+correction, upward continuation, equivalent layers, 3D inversion, and more.
+
+<ul class="fa-ul d-block">
+<li>
+  <i class="fa-li fa fa-code fa-fw" title="Latest release"></i>
+  <a href="https://pypi.python.org/pypi/pooch">
+  <img class="shield" src="https://img.shields.io/pypi/v/pooch.svg?style=flat-square&label=Latest release"
+       alt="Latest release on PyPI">
+  </a>
+</li>
+<li>
+  <i class="fa-li fab fa-github fa-fw" title="GitHub repository"></i>
+  <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
+</li>
+<li>
+  <i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
+   doi: <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
+</li>
+<li>
+  <i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+  Ready for use but still changing
+</li>
+</ul>
+
+<div class="mt-5">
+  <a target="_blank" href="https://www.fatiando.org/pooch/">
+  <button type="button" class="btn btn-primary mb-3">
+  <i class="fa fa-book"></i>
+  Pooch documentation
+  </button>
+  </a>
+</div>
+
+</div> <!-- column -->
+<div class="col-sm-5 order-sm-first">
+  <img src="_static/verde-spline-example.png">
+</div> <!-- column -->
+</div> <!-- row -->
+</div> <!-- container -->
+</div> <!-- container-fluid -->
+
+
+
+<div class="container-fluid section background-3">
+<div class="container">
+
+<div class="row align-items-center gx-5 gy-5">
+<div class="col-sm-7">
+
+## **Boule:**
+
+Reference <b>ellipsoids</b> for geodesy and geophysics. Calculates
+<b>Normal gravity</b> and coordinate conversions for the Earth and
+other plantery bodies.
+
+<ul class="fa-ul d-block">
+<li>
+  <i class="fa-li fa fa-code fa-fw" title="Latest release"></i>
+  <a href="https://pypi.python.org/pypi/pooch">
+  <img class="shield" src="https://img.shields.io/pypi/v/pooch.svg?style=flat-square&label=Latest release"
+       alt="Latest release on PyPI">
+  </a>
+</li>
+<li>
+  <i class="fa-li fab fa-github fa-fw" title="GitHub repository"></i>
+  <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
+</li>
+<li>
+  <i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
+   doi: <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
+</li>
+<li>
+  <i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+  Ready for use but still changing
+</li>
+</ul>
+
+<div class="mt-5">
+  <a target="_blank" href="https://www.fatiando.org/pooch/">
+  <button type="button" class="btn btn-primary mb-3">
+  <i class="fa fa-book"></i>
+  Pooch documentation
+  </button>
+  </a>
+</div>
+
+</div> <!-- column -->
+<div class="col-sm-5 order-sm-last">
+  <img src="_static/verde-spline-example.png">
+</div> <!-- column -->
+</div> <!-- row -->
+</div> <!-- container -->
+</div> <!-- container-fluid -->
+
+
+
+<div class="container-fluid section background-4">
+<div class="container">
+
+<div class="row align-items-center gx-5 gy-5">
+<div class="col-sm-7">
+
+# Section 4
+
+Placeholder placeholder placeholder placeholder placeholder placeholder
+placeholder placeholder placeholder placeholder placeholder
+
+Placeholder placeholder placeholder placeholder placeholder placeholder
+placeholder placeholder placeholder placeholder placeholder
+
+Placeholder placeholder placeholder placeholder placeholder placeholder
+placeholder placeholder placeholder placeholder placeholder
+
+<div class="mt-5">
+  <a href="/install"><button type="button" class="btn btn-light mb-3">
+  Install on your computer
+  <span class="bullet-separator">&bull;</span>
+  <i class="fab fa-linux"></i>
+  <i class="fab fa-apple"></i>
+  <i class="fab fa-windows"></i>
+  </button></a>
+</div>
+
+</div> <!-- column -->
+<div class="col-sm-5 order-sm-first">
   <img class="banner-logo mx-auto d-block" src="_static/fatiando-logo.svg">
 </div>
-</div>
-</div>
-
-</div>
-</div>
-
-We maintain several Python projects which are in various stages of development:
-from early design to polished and published products. We'll also be adding new
-projects to our toolkit in the future.
-
-<div class="row">
-  <div class="col-sm-6 project">
-     <a href="http://www.fatiando.org/verde">
-        <img class="project-logo center-block" src="_static/verde-logo.svg">
-     </a>
-     <p>
-     Spatial data processing and interpolation (<b>gridding</b>) using
-     Green's functions (or radial basis functions) with a
-     machine learning inspired interface.
-     </p>
-     <a href="https://pypi.python.org/pypi/verde">
-     <img src="https://img.shields.io/pypi/v/verde.svg?style=flat-square"
-          alt="Latest release on PyPI">
-     </a>
-     <a href="https://pypi.python.org/pypi/verde">
-     <img src="https://img.shields.io/pypi/pyversions/verde.svg?style=flat-square"
-          alt="Compatible Python versions">
-     </a>
-     <ul class="fa-ul project-icons">
-        <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-           <a href="https://github.com/fatiando/verde">fatiando/verde</a>
-        </li>
-        <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
-           <a href="http://www.fatiando.org/verde">www.fatiando.org/verde</a>
-        </li>
-        <li><i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
-           doi: <a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
-        </li>
-        <li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
-           Stable and ready for use
-        </li>
-     </ul>
-  </div>
-  <div class="col-sm-6 project">
-     <a href="http://www.fatiando.org/pooch">
-        <img class="project-logo center-block" src="_static/pooch-logo.svg">
-     </a>
-     <p>
-     Manages the <b>download of data</b> files from a server, storing them
-     in a local directory, and handling updates if required. Used by our
-     other libraries.
-     </p>
-     <a href="https://pypi.python.org/pypi/pooch">
-     <img src="https://img.shields.io/pypi/v/pooch.svg?style=flat-square"
-          alt="Latest release on PyPI">
-     </a>
-     <a href="https://pypi.python.org/pypi/pooch">
-     <img src="https://img.shields.io/pypi/pyversions/pooch.svg?style=flat-square"
-          alt="Compatible Python versions">
-     </a>
-     <ul class="fa-ul project-icons">
-        <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-           <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
-        </li>
-        <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
-           <a href="http://www.fatiando.org/pooch">www.fatiando.org/pooch</a>
-        </li>
-        <li><i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
-           doi: <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
-        </li>
-        <li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
-           Stable and ready for use
-        </li>
-     </ul>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-6 project">
-     <a href="http://www.fatiando.org/harmonica">
-        <img class="project-logo center-block" src="_static/harmonica-logo.svg">
-     </a>
-     <p>
-     Processing and modeling <b>gravity</b> and <b>magnetic</b> data, like terrain
-     correction, upward continuation, equivalent layers, 3D inversion, and more.
-     </p>
-     <a href="https://pypi.python.org/pypi/harmonica">
-     <img src="https://img.shields.io/pypi/v/harmonica.svg?style=flat-square"
-          alt="Latest release on PyPI">
-     </a>
-     <a href="https://pypi.python.org/pypi/harmonica">
-     <img src="https://img.shields.io/pypi/pyversions/harmonica.svg?style=flat-square"
-          alt="Compatible Python versions">
-     </a>
-     <ul class="fa-ul project-icons">
-        <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-           <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
-        </li>
-        <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
-           <a href="http://www.fatiando.org/harmonica">www.fatiando.org/harmonica</a>
-        </li>
-        <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
-           Ready for use but still changing
-        </li>
-     </ul>
-  </div>
-  <div class="col-sm-6 project">
-     <a href="http://www.fatiando.org/boule">
-        <img class="project-logo center-block" src="_static/boule-logo.svg">
-     </a>
-     <p>
-     Reference <b>ellipsoids</b> for geodesy and geophysics. Calculates
-     <b>Normal gravity</b> and coordinate conversions for the Earth and
-     other plantery bodies.
-     </p>
-     <a href="https://pypi.python.org/pypi/boule">
-     <img src="https://img.shields.io/pypi/v/boule.svg?style=flat-square"
-          alt="Latest release on PyPI">
-     </a>
-     <a href="https://pypi.python.org/pypi/boule">
-     <img src="https://img.shields.io/pypi/pyversions/boule.svg?style=flat-square"
-          alt="Compatible Python versions">
-     </a>
-     <ul class="fa-ul project-icons">
-        <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-           <a href="https://github.com/fatiando/boule">fatiando/boule</a>
-        </li>
-        <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
-           <a href="http://www.fatiando.org/boule">www.fatiando.org/boule</a>
-        </li>
-        <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
-           Ready for use but still changing
-        </li>
-     </ul>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-6 project">
-     <a href="http://www.fatiando.org/rockhound">
-        <img class="project-logo center-block" src="_static/rockhound-logo.svg">
-     </a>
-     <p>
-     Download geophysical models and datasets (PREM, CRUST1.0, ETOPO1) and load them
-     into Python. Relies on Pooch to manage the downloads.
-     </p>
-     <a href="https://pypi.python.org/pypi/rockhound">
-     <img src="https://img.shields.io/pypi/v/rockhound.svg?style=flat-square"
-          alt="Latest release on PyPI">
-     </a>
-     <a href="https://pypi.python.org/pypi/rockhound">
-     <img src="https://img.shields.io/pypi/pyversions/rockhound.svg?style=flat-square"
-          alt="Compatible Python versions">
-     </a>
-     <ul class="fa-ul project-icons">
-        <li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-           <a href="https://github.com/fatiando/rockhound">fatiando/rockhound</a>
-        </li>
-        <li><i class="fa-li fa fa-book fa-fw" title="Documentation"></i>
-           <a href="http://www.fatiando.org/rockhound">www.fatiando.org/rockhound</a>
-        </li>
-        <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
-           Ready for use but still changing
-        </li>
-     </ul>
-  </div>
-  <div class="col-sm-6 project">
-  </div>
-</div>
+</div> <!-- row -->
+</div> <!-- container -->
+</div> <!-- container-fluid -->
 
 
 [bsd]: https://opensource.org/licenses/BSD-3-Clause
