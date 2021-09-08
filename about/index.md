@@ -7,9 +7,17 @@ This page contains some information about the project, our community, and its
 history.
 </div>
 
+```{admonition} Trivia
+*Fatiando a Terra* is Portuguese for *Slicing the Earth*, a reference to the
+project's Brazilian origins and ambitious initial goals to model the whole
+planet.
+```
+
+
 ## Who we are
 
-Fatiando tools are developed by working scientists and community volunteers.
+Fatiando tools are developed by working scientists and community volunteers
+from across the globe.
 The [GitHub repositories][gh] for each project contain `AUTHORS.md` files which
 list everyone involved.
 
@@ -18,31 +26,31 @@ list everyone involved.
 The maintainers are the ones responsible for leading the projects, merging
 changes, making releases, and more.
 
-<div class="row">
-<div class="col-md-3">
+<div class="row gy-3">
+<div class="col-6 col-sm-3">
   <div class="card">
     <img class="card-img-top" src="https://github.com/santisoler.png">
     <div class="card-body">
-      <h4 class="card-title">
+      <h4 class="card-title fs-5">
         Santiago Soler
       </h4>
-      <p class="card-text">
+      <p class="card-text text-muted fs-6">
         <a href="https://github.com/santisoler">@santisoler</a>
-        on GitHub
+        on <i class="fab fa-github" title="GitHub"></i>
       </p>
     </div>
   </div>
 </div>
-<div class="col-md-3">
+<div class="col-6 col-sm-3">
   <div class="card">
     <img class="card-img-top" src="https://github.com/leouieda.png">
     <div class="card-body">
-      <h4 class="card-title">
+      <h4 class="card-title fs-5">
         Leonardo Uieda
       </h4>
-      <p class="card-text">
+      <p class="card-text text-muted fs-6">
         <a href="https://github.com/leouieda">@leouieda</a>
-        on GitHub
+        on <i class="fab fa-github" title="GitHub"></i>
       </p>
     </div>
   </div>
@@ -50,6 +58,48 @@ changes, making releases, and more.
 </div>
 
 ## Brief history
+
+The Fatiando a Terra project had it's start around 2008 as a C++ program to
+perform geophysical modeling of various data types (gravity, magnetics,
+seismic, etc.).
+At least that was what [Leonardo Uieda][leo] (Leo) and fellow Geophysics
+undergraduate students at the [University of São Paulo][usp], Brazil, set out
+to do.
+Unsurprisingly, this overly ambitious goal was never achieved.
+
+<div class="row pb-3 text-muted align-items-center fs-6">
+<div class="col-md-9">
+
+<img src="/_static/fatiando-as-a-gravmag-gui.svg" alt="Box diagram of the layout and flow of information planned for the GUI program." >
+
+</div>
+<div class="col-md-3">
+
+First diagram (in Portuguese) of the planned graphical user interface (GUI) for
+the Fatiando C++ program.
+Retrieved from commit [<i class="fab fa-github"></i> 10c8ff7][commit-gui]
+from 11 February 2009.
+
+</div>
+</div>
+
+In 2010, Leo started work on the
+[<i class="fab fa-github"></i> fatiando/fatiando][gh-fatiando]
+Python library and Santiago joined the project in 2015
+([<i class="fab fa-github"></i> fatiando/fatiando#188][gh-santi-first-pr]).
+The library included several state-of-the-art methods for forward modeling and
+inversion of gravity and magnetic data, as well as toy problems in other fields
+useful for teaching.
+Development of this library was discontinued in 2018  as our focus shifted to
+our newer and more well-scoped libraries.
+Leo's [blog post announcing the shift][blog-fatiando-future] explains the
+reasoning behind this decision.
+
+```{note}
+The last version of `fatiando/fatiando` released is [v0.5][v0.5-doi] and the
+documentation for it can still be accessed at
+[legacy.fatiando.org](https://legacy.fatiando.org)
+```
 
 Our [YouTube channel][youtube] has some talks given over the years about the
 project:
@@ -60,5 +110,69 @@ project:
 
 ## The geophysics Python ecosystem
 
+Fatiando is a part of the larger geophysics open-source Python ecosystem,
+which has grown tremendously since we started development in 2010.
+
+<div class="row g-5 py-3 align-items-center">
+<div class="col-6 col-sm-4 col-md-3">
+  <a target="_blank" href="https://simpeg.xyz/">
+  <img src="/_static/simpeg-logo.png" title="SimPEG">
+  </a>
+</div>
+<div class="col-6 col-sm-4 col-md-3">
+  <a target="_blank" href="https://www.gempy.org/">
+  <img src="/_static/gempy-logo.png" title="GemPy">
+  </a>
+</div>
+<div class="col-6 col-sm-4 col-md-3">
+  <a target="_blank" href="https://emsig.xyz/">
+  <img src="/_static/emsig-logo.svg" title="emsig">
+  </a>
+</div>
+<div class="col-6 col-sm-4 col-md-3">
+  <a target="_blank" href="https://docs.pyvista.org/">
+  <img src="/_static/pyvista-logo.png" title="PyVista">
+  </a>
+</div>
+<div class="col-6 col-sm-4 col-md-3">
+  <a target="_blank" href="https://www.pygimli.org/">
+  <img src="/_static/pygimli-logo.svg" title="pyGIMLi">
+  </a>
+</div>
+<div class="col-6 col-sm-4 col-md-3">
+  <a target="_blank" href="https://softwareunderground.github.io/subsurface/">
+  <img src="/_static/subsurface-logo.svg" title="subsurface">
+  </a>
+</div>
+<div class="col-6 col-sm-4 col-md-3">
+  <a target="_blank" href="https://www.pygmt.org/">
+  <img src="/_static/pygmt-logo.svg" title="PyGMT">
+  </a>
+</div>
+</div>
+
+## Funding and support
+
+Development and maintenance of the Fatiando a Terra project is supported by:
+
+* Salary support for Leonardo Uieda from the [University of Liverpool][liv]
+  (from 2019) and [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
+* A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
+  (2016-2022).
+* MSc and PhD scholarships for Leonardo Uieda from [Capes][capes], Brazil
+  (2010-2016).
+
 [youtube]: https://www.youtube.com/fatiandoorg
 [gh]: https://github.com/fatiando
+[gh-fatiando]: https://github.com/fatiando/fatiando
+[gh-santi-first-pr]: https://github.com/fatiando/fatiando/pull/188
+[leo]: https://www.leouieda.com
+[usp]: https://www.iag.usp.br/
+[commit-gui]: https://github.com/fatiando/fatiando/blob/10c8ff7c17df53e3e0abd83f1ce8d2a3f6bc57aa/fluxo-simples.pdf
+[pinga]: https://www.pinga-lab.org/
+[v0.5-doi]: https://doi.org/10.5281/zenodo.157746
+[blog-fatiando-future]: https://www.leouieda.com/blog/future-of-fatiando.html
+[liv]: https://www.liverpool.ac.uk/earth-ocean-and-ecological-sciences/
+[uerj]: https://www.uerj.br/
+[conicet]: https://www.conicet.gov.ar/
+[capes]: https://www.gov.br/capes

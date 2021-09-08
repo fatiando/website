@@ -50,6 +50,10 @@ ul > li > p {
     margin-bottom: 0;
 }
 
+img {
+    width: 100%;
+}
+
 /* Custom styling of existing classes */
 /*****************************************************************************/
 .fa-ul {
