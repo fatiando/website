@@ -359,7 +359,8 @@ the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
 </div> <!-- column -->
 <div class="col-md-5 order-md-last text-center fs-6">
   <img class="mb-3" src="_static/boule-example-normal-gravity.png">
-  Normal gravity of the WGS84 ellipsoid calculated at the Earth's surface.
+  Normal gravity of the WGS84 ellipsoid calculated at the Earth's surface using
+  an analytical expression (no free-air correction required).
 </div> <!-- column -->
 </div> <!-- row -->
 </div> <!-- container -->
