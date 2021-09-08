@@ -1,2 +1,2 @@
 sphinx==4.1.2
-sphinx_bootstrap_theme==0.7.1
+myst-parser==0.15.*

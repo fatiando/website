@@ -6,10 +6,10 @@ import os
 import datetime
 import subprocess
 
-extensions = []
+extensions = ["myst_parser"]
 
 # Sphinx project configuration
-exclude_patterns = ["_build"]
+exclude_patterns = ["_build", "README.md"]
 templates_path = ["_templates"]
 source_suffix = ".rst"
 master_doc = "index"
@@ -22,53 +22,54 @@ version = ""
 
 html_title = project
 html_short_title = ""
-html_logo = "_static/fatiando-logo.svg"
+html_logo = "_static/fatiando-logo-background.png"
 html_favicon = "_static/favicon.png"
 html_static_path = ["_static"]
 html_extra_path = []
 html_use_smartypants = True
+html_permalinks = False
 pygments_style = "default"
-# Additional templates that should be rendered to pages, maps page names to
-# template names.
-# html_additional_pages = {}
-# If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-html_show_sphinx = True
-# If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-html_show_copyright = True
 
-# Theme configuration.
-html_theme = "basic"
+# Ignore the default theme and define everything through our own template.
+# These variables are passed to the templates in _templates/
 html_context = {
     "menu_items": [
-        ("About", "#about", True),
-        ("Projects", "#projects", True),
-        ("Getting Started", "#getting-started", True),
-        ("Support", "#support", True),
-        ("Contact", "#contact", True),
-        ("Contribute", "#contribute", True),
+        ("About", "/about", True),
+        ("Install", "/install", True),
+        ("Learn", "/learn", True),
+        ("Community", "/community", True),
+        ("Contact", "/contact", True),
     ],
     "social_links": [
         (
             '<i class="fab fa-github fa-lg"></i>',
-            "Github",
+            "Our GitHub organization",
             "https://github.com/fatiando",
         ),
         (
             '<i class="fab fa-slack fa-lg"></i>',
-            "Slack chat group",
+            "Join our Slack chat",
             "http://contact.fatiando.org",
         ),
         (
             '<i class="fab fa-twitter fa-lg"></i>',
-            "Twitter",
+            "Our Twitter profile",
             "https://twitter.com/fatiandoaterra",
         ),
         (
+            '<i class="fab fa-linkedin fa-lg"></i>',
+            "Our LinkedIn profile",
+            "https://www.linkedin.com/company/fatiando",
+        ),
+        (
             '<i class="fab fa-youtube fa-lg"></i>',
-            "YouTube channel",
+            "Our YouTube channel",
             "https://www.youtube.com/fatiandoorg",
         ),
     ],
+    "base_url": "https://www.fatiando.org",
+    "twitter": "fatiandoaterra",
+    "description": "Open-source Python tools for geophysics",
     "commit": subprocess.run(
         ["git", "rev-parse", "--short", "HEAD"],
         capture_output=True,
@@ -76,12 +77,7 @@ html_context = {
     ).stdout.strip(),
     "repository": "fatiando/website",
     "last_updated": str(current_date),
+    "home_background": "_static/background.svg",
+    "navbar_brand": "_static/fatiando-logo.svg",
+    "stylesheet": "css/style.css",
 }
-html_css_files = [
-    "css/bootstrap/bootstrap.min.css",
-    "css/fontawesome/css/all.css",
-    "css/style.css",
-]
-html_js_files = [
-    "js/bootstrap/bootstrap.min.js",
-]

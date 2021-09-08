@@ -1,28 +1,39 @@
-{% extends "!layout.html" %}
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-{%- block htmltitle %}
   {%- if title == "Home" %}
     <title>{{ project|striptags|e }}</title>
   {%- else %}
     <title>{{ title|striptags|e }} | {{ project|striptags|e }}</title>
   {%- endif %}
-{%- endblock %}
 
+  <link rel="shortcut icon" href="{{ favicon_url|e }}"/>
 
-{%- block extrahead %}
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/_static/css/bootstrap-5.1.0/bootstrap.min.css">
+
+  <!-- FontAwsome icons -->
+  <link rel="stylesheet" href="/_static/css/fontawesome/css/all.css">
+
+  <!-- Custom CSS set in conf.py -->
+  <link rel="stylesheet" href="/_static/{{ stylesheet }}">
+
+  <!-- Social media cards -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
-  <meta name="twitter:site" content="@fatiandoaterra">
-  <meta name="twitter:title" content="Fatiando a Terra">
-  <meta name="twitter:description" content="Open-source tools for geophysics">
-
-  <meta property="og:title" content="Fatiando a Terra">
+  <meta name="twitter:image" content="{{ base_url }}/_static/{{ logo }}">
+  <meta name="twitter:site" content="@{{ twitter }}">
+  <meta name="twitter:title" content="{{ project }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta property="og:title" content="{{ project }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://www.fatiando.org/">
-  <meta property="og:site_name" content="Fatiando a Terra">
-  <meta property="og:image" content="https://www.fatiando.org/_static/fatiando-logo-background.png">
-  <meta property="og:description" content="Open-source tools for geophysics">
+  <meta property="og:url" content="{{ base_url }}">
+  <meta property="og:site_name" content="{{ project }}">
+  <meta property="og:image" content="{{ base_url }}/_static/{{ logo }}">
+  <meta property="og:description" content="{{ description }}">
 
   <!-- Google Analytics tracking code -->
   <script>
@@ -36,14 +47,48 @@
     ga('set', 'anonymizeIp', true);
     ga('send', 'pageview');
   </script>
-{%- endblock %}
+
+  {%- block extrahead %}{% endblock %}
+</head>
 
 
-{%- block footer %}
-  <footer class="footer">
+<body>
+  <header class="menu">
     <div class="container">
       <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item ">
+            <a href="/"><img alt="Home" src="/{{ navbar_brand }}"></a>
+          </li>
+          {%- for link in menu_items %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ link[1] }}">{{ link[0] }}</a>
+            </li>
+          {%- endfor %}
+          {%- for link in social_links %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ link[2] }}" target="_blank"
+                title="{{ link[1] }}">{{ link[0] }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  {%- if title is defined and title == 'Home' %}
+    {{ body }}
+  {%- else %}
+    <div class="container page-content">
+      {{ body }}
+    </div>
+  {%- endif %}
+
+  <footer class="footer">
+    <div class="container page-content">
+      <nav>
         <ul class="menu-list-footer">
+          <li><a href="/">Home</a></li>
           {%- for link in menu_items %}
             <li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
           {%- endfor %}
@@ -53,54 +98,22 @@
         </ul>
       </nav>
       <p>
-        Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}
+        Last updated {{ last_updated }}
+        (commit
+        <a href="https://github.com/{{ repository }}/commit/{{ commit }}"><code>{{ commit }}</code></a>)
         <span class="bullet-separator">&bull;</span>
         Source code at
         <a href="https://github.com/{{ respository }}">
           <code>{{ repository }}</code>
         </a>
         <span class="bullet-separator">&bull;</span>
-        Last updated {{ last_updated }}
-        (commit
-        <a href="https://github.com/{{ repository }}/commit/{{ commit }}"><code>{{ commit }}</code></a>)
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}
       </p>
       <p>
         Copyright &copy; {{ copyright }}
       </p>
     </div>
   </footer>
-{%- endblock %}
 
-
-{%- block header %}
-  <header class="menu">
-    <div class="container">
-      <nav>
-        <ul class="nav justify-content-center">
-          {%- for link in menu_items %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ link[1] }}">{{ link[0] }}</a>
-            </li>
-          {%- endfor %}
-          {%- for link in social_links %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ link[2] }}" target="_blank" title="{{ link[1] }}">{{ link[0] }}</a>
-            </li>
-          {%- endfor %}
-        </ul>
-      </nav>
-    </div>
-  </header>
-{%- endblock %}
-
-
-{%- block relbar1 %}
-{%- endblock %}
-{%- block relbar2 %}
-{%- endblock %}
-
-
-{%- block content %}
-  {%- block body %}
-  {%- endblock %}
-{%- endblock %}
+</body>
+</html>
