@@ -22,12 +22,16 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
     margin-bottom: 1.5rem;
 }
 
 h2 {
     margin-top: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 pre {

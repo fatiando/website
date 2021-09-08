@@ -31,9 +31,9 @@ Alternatively, you can use the `pip` package manager:
 pip install verde harmonica boule pooch
 ```
 
-[anaconda]: https://www.anaconda.com/products/individual
-[swc-install]: https://carpentries.github.io/workshop-template/#python
-
 ```{tip}
 Run these commands in a terminal (Linux/Mac) or "Anaconda prompt" (Windows).
 ```
+
+[anaconda]: https://www.anaconda.com/products/individual
+[swc-install]: https://carpentries.github.io/workshop-template/#python
