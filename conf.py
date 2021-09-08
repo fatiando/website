@@ -78,7 +78,6 @@ html_context = {
     ).stdout.strip(),
     "repository": "fatiando/website",
     "last_updated": str(current_date),
-    "home_background": "_static/background.svg",
     "navbar_brand": "_static/fatiando-logo.svg",
     "stylesheet": "css/style.css",
 }

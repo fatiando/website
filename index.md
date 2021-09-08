@@ -12,14 +12,34 @@ community/index.md
 cite/index.md
 ```
 
-<div class="container-fluid banner" style="background-image: linear-gradient(to bottom, transparent, #02020e55), url({{ home_background }});">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <img class="banner-logo  mx-auto d-block" src="_static/banner.svg">
-      </div>
-    </div>
-  </div>
+<div class="container-fluid banner" style="background-image: linear-gradient(to bottom, transparent, #02020e55), url(_static/background.svg);">
+<div class="container page-content">
+<div class="row align-items-center gx-5">
+<div class="col-sm-4">
+  <img class="banner-logo mx-auto d-block" src="_static/fatiando-logo.svg">
+</div>
+<div class="col-sm-8">
+
+# Fatiando a Terra
+
+<p class="banner-description">Open-source Python tools for Geophysics</p>
+
+We are a **community** of geoscientists and software developers,
+bounded by our shared commitment to **open-source** software and
+**open-science**.
+We provide several **Python libraries** for data processing, modeling, and
+inversion across the Geosciences.
+All of our code is distributed under the permissive [BSD 3-clause
+license][bsd].
+
+<div class="mt-4">
+<a href="/about"><button type="button" class="btn btn-primary mb-2 me-3">More about us</button></a>
+<a href="/community"><button type="button" class="btn btn-primary mb-2">Join the community</button></a>
+</div>
+
+</div>
+</div>
+</div>
 </div>
 
 <div class="container page-content">
@@ -199,3 +219,5 @@ To get a sense for the reasoning behind the choice to abandon `fatiando`, please
 [this blog post](http://www.leouieda.com/blog/future-of-fatiando.html).
 
 </div>
+
+[bsd]: https://opensource.org/licenses/BSD-3-Clause

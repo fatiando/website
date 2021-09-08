@@ -1,3 +1,8 @@
+@font-face {
+    font-family: EBGaramond;
+    src: url(EBGaramond/EBGaramond-VariableFont_wght.ttf) format("truetype");
+}
+
 /* To stick the footer to the bottom of the page */
 html {
     position: relative;
@@ -151,12 +156,33 @@ div.admonition, .admonition {
     background-color: #060629;
     color: #f9f9f9;
     margin-top: -3rem;
+    padding: 5rem 0 7rem 0;
+}
+
+.banner a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.banner a:hover {
+    color: #dddddd;
+    text-decoration: underline;
+}
+
+.banner h1 {
+    font-family: EBGaramond;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
 }
 
 .banner-logo {
-    padding: 3rem 0 5rem 0;
     width: 95%;
-    max-width: 500px;
+}
+
+.banner-description {
+    font-family: EBGaramond;
+    font-size: 1.7rem;
+    color: #dddddd;
 }
 
 /* Navbar and footer */
