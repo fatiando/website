@@ -61,6 +61,10 @@ img {
     margin: 0 0 0.75rem 0;
 }
 
+li.nav-item {
+    margin-bottom: 0;
+}
+
 .lead {
     font-size: 1.5rem;
     margin-bottom: 3rem;
@@ -183,7 +187,7 @@ div.admonition, .admonition {
 .background-4 {
     color: #f5f5f5;
     background-color: #ffffff;
-    background-image: url(/_static/background-bottom.svg);
+    background-image: url(_static/background-bottom.svg);
     background-size: cover;
     background-position: top;
 }
@@ -213,7 +217,7 @@ div.admonition, .admonition {
     margin-top: -3rem;
     padding: 3rem 0 9rem 0;
     background-color: #1a4fa0;
-    background-image: url(/_static/background.svg);
+    background-image: url(_static/background.svg);
     background-size: cover;
     background-position: bottom;
 }
