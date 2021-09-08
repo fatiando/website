@@ -12,37 +12,124 @@ community/index.md
 cite/index.md
 ```
 
-<div class="container-fluid banner" style="background-image: linear-gradient(to bottom, transparent, #02020e55), url(_static/background.svg);">
+<div class="container-fluid banner">
 <div class="container page-content">
 <div class="row align-items-center gx-5">
-<div class="col-sm-4">
-  <img class="banner-logo mx-auto d-block" src="_static/fatiando-logo.svg">
-</div>
 <div class="col-sm-8">
 
 # Fatiando a Terra
 
 <p class="banner-description">Open-source Python tools for Geophysics</p>
 
-We are a **community** of geoscientists and software developers,
-bounded by our shared commitment to **open-source** software and
-**open-science**.
-We provide several **Python libraries** for data processing, modeling, and
+Fatiando provides **Python libraries** for data processing, modeling, and
 inversion across the Geosciences.
-All of our code is distributed under the permissive [BSD 3-clause
-license][bsd].
 
-<div class="mt-4">
-<a href="/about"><button type="button" class="btn btn-primary mb-2 me-3">More about us</button></a>
-<a href="/community"><button type="button" class="btn btn-primary mb-2">Join the community</button></a>
+It is built by a **community** of geoscientists and software developers with
+a passion for well-designed tools and helping our peers.
+
+All of our code is **free and open-source**, distributed under the permissive
+[BSD 3-clause license][bsd].
+
+<div class="mt-5">
+  <a href="/about"><button type="button" class="btn btn-primary mb-3 me-3">
+  More about us
+  </button></a>
+  <a href="/install"><button type="button" class="btn btn-light mb-3">
+  Install on your computer
+  <span class="bullet-separator">&bull;</span>
+  <i class="fab fa-linux"></i>
+  <i class="fab fa-apple"></i>
+  <i class="fab fa-windows"></i>
+  </button></a>
+</div>
+
+</div> <!-- column -->
+<div class="col-sm-4 order-sm-first">
+  <img class="banner-logo mx-auto d-block" src="_static/fatiando-logo.svg">
+</div>
+</div> <!-- row -->
+</div> <!-- container -->
+</div> <!-- container-fluid -->
+
+<div class="container-fluid section background-1">
+<div class="container">
+
+<div class="row align-items-center gx-5">
+<div class="col-sm-8">
+
+# Fatiando a Terra
+
+<p class="banner-description">Open-source Python tools for Geophysics</p>
+
+Fatiando provides **Python libraries** for data processing, modeling, and
+inversion across the Geosciences.
+
+It is built by a **community** of geoscientists and software developers with
+a passion for well-designed tools and helping our peers.
+
+All of our code is **free and open-source**, distributed under the permissive
+[BSD 3-clause license][bsd].
+
+<div class="mt-5">
+<a href="/about"><button type="button" class="btn btn-primary mb-3 me-3">More about us</button></a>
+<a href="/install"><button type="button" class="btn btn-light mb-3">
+Install on your computer
+        <span class="bullet-separator">&bull;</span>
+<i class="fab fa-linux"></i>
+<i class="fab fa-apple"></i>
+<i class="fab fa-windows"></i>
+</button></a>
+</div>
+
+</div>
+<div class="col-sm-4 order-sm-first">
+  <img class="banner-logo mx-auto d-block" src="_static/fatiando-logo.svg">
+</div>
+</div>
 </div>
 
 </div>
 </div>
+
+<div class="container-fluid section background-2">
+<div class="container">
+
+<div class="row align-items-center gx-5">
+<div class="col-sm-8">
+
+# Fatiando a Terra
+
+<p class="banner-description">Open-source Python tools for Geophysics</p>
+
+Fatiando provides **Python libraries** for data processing, modeling, and
+inversion across the Geosciences.
+
+It is built by a **community** of geoscientists and software developers with
+a passion for well-designed tools and helping our peers.
+
+All of our code is **free and open-source**, distributed under the permissive
+[BSD 3-clause license][bsd].
+
+<div class="mt-5">
+<a href="/about"><button type="button" class="btn btn-primary mb-3 me-3">More about us</button></a>
+<a href="/install"><button type="button" class="btn btn-light mb-3">
+Install on your computer
+        <span class="bullet-separator">&bull;</span>
+<i class="fab fa-linux"></i>
+<i class="fab fa-apple"></i>
+<i class="fab fa-windows"></i>
+</button></a>
+</div>
+
+</div>
+<div class="col-sm-4 order-sm-first">
+  <img class="banner-logo mx-auto d-block" src="_static/fatiando-logo.svg">
+</div>
 </div>
 </div>
 
-<div class="container page-content">
+</div>
+</div>
 
 We maintain several Python projects which are in various stages of development:
 from early design to polished and published products. We'll also be adding new
@@ -206,18 +293,5 @@ projects to our toolkit in the future.
   </div>
 </div>
 
-
-<h2 class="text-center">Looking for the <code>fatiando</code> package?</h2>
-
-**It still exists!**
-While development of the `fatiando` library has stopped in favour of our new
-tools, you can still view the
-[documentation for the last release (v0.5)](https://legacy.fatiando.org)
-and the [source code archive on GitHub](https://github.com/fatiando/fatiando).
-The library will remain archived and usable for the foreseeable future.
-To get a sense for the reasoning behind the choice to abandon `fatiando`, please read
-[this blog post](http://www.leouieda.com/blog/future-of-fatiando.html).
-
-</div>
 
 [bsd]: https://opensource.org/licenses/BSD-3-Clause

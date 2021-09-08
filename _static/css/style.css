@@ -80,7 +80,7 @@ img {
 
 /* Admonitions CSS originally inspired by sphinx-pydata-theme */
 div.admonition, .admonition {
-    margin: 0 auto 1rem auto;
+    margin: 1.5rem auto 2rem auto;
     padding: 0.1rem 1.25rem;
     border-left: 0.5rem solid #6abb33;
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.2);
@@ -118,6 +118,11 @@ div.admonition, .admonition {
     color: #d56969 !important;
 }
 
+.btn {
+    font-size: 1.15rem;
+    padding: 0.8rem 1.5rem;
+}
+
 /* Helper classes */
 /*****************************************************************************/
 .no-top-margin {
@@ -152,11 +157,32 @@ div.admonition, .admonition {
     margin-bottom: 10px;
 }
 
+.section {
+    padding: 5rem 0 6rem 0;
+}
+
+.background-1 {
+    background-color: #1a4fa0;
+    color: #f5f5f5;
+}
+
+.background-2 {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2) inset;
+}
+
+.background-3 {
+    background-color: #ffffff;
+}
+
 .banner {
-    background-color: #060629;
-    color: #f9f9f9;
+    color: #f5f5f5;
     margin-top: -3rem;
-    padding: 5rem 0 7rem 0;
+    padding: 3rem 0 9rem 0;
+    background-color: #060629;
+    background-image: url(/_static/background.svg);
+    background-size: cover;
+    background-position: bottom;
 }
 
 .banner a {
@@ -172,17 +198,23 @@ div.admonition, .admonition {
 .banner h1 {
     font-family: EBGaramond;
     font-size: 4rem;
-    margin-bottom: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+    margin-bottom: 1rem;
 }
 
 .banner-logo {
     width: 95%;
+    margin: 3rem auto;
 }
 
 .banner-description {
     font-family: EBGaramond;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.075rem;
     color: #dddddd;
+    margin-bottom: 2rem;
 }
 
 /* Navbar and footer */
