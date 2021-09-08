@@ -1,3 +1,4 @@
+(community)=
 # Community
 
 <p class="lead">

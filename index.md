@@ -9,6 +9,7 @@ install/index.md
 learn/index.md
 contact/index.md
 community/index.md
+cite/index.md
 ```
 
 <div class="container-fluid banner" style="background-image: linear-gradient(to bottom, transparent, #02020e55), url({{ home_background }});">
@@ -182,44 +183,6 @@ projects to our toolkit in the future.
      </ul>
   </div>
   <div class="col-sm-6 project">
-  </div>
-</div>
-
-
-<h2 class="text-center" id="support">Support Fatiando</h2>
-
-All Fatiando projects are **made by scientists and volunteers** who generously donate
-their time and attention. Here are some of the ways in which you can help support the
-project and give back to the community:
-
-<div class="row text-center">
-  <div class="col-sm-4">
-     <h2><i class="fas fa-users fa-2x"></i></h2>
-     <b>Join the community</b>
-     <br>
-     Get involved in our projects and help shape their future. See below how you
-     can <a href="#contact">participate in the conversation</a> and
-     <a href="#contribute">make contributions</a>.
-  </div>
-  <div class="col-sm-4">
-     <h2><i class="fas fa-share-alt fa-2x"></i></h2>
-     <b>Spread the word</b>
-     <br>
-     Share links in social media, publish your analysis
-     code that uses Fatiando, include our logo in talks and posters (sources in
-     <a href="https://github.com/fatiando/logo"><i class="fab fa-github"></i>
-     fatiando/logo</a>), etc.
-  </div>
-  <div class="col-sm-4">
-     <h2><i class="fas fa-bookmark fa-2x"></i></h2>
-     <b>Cite the projects</b>
-     <br>
-     Citations help us justify the effort that goes into building and maintaining
-     this project.
-     There are
-     <a href="https://github.com/fatiando/verde/blob/master/CITATION.rst">CITATION.rst</a>
-     files in each project explaining how to cite it (and also a page in the
-     documentation).
   </div>
 </div>
 

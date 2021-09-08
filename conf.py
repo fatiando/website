@@ -39,6 +39,7 @@ html_context = {
         ("Contact", "/contact", True),
         ("About Us", "/about", True),
         ("Community", "/community", True),
+        ("Cite", "/cite", True),
     ],
     "social_links": [
         (
