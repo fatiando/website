@@ -2,50 +2,77 @@
 # Community
 
 <p class="lead">
-Fatiando is a <strong>community-developed</strong> project, so it's people
+Fatiando is a <strong>community-developed</strong> project. It's people
 like you who make it useful and successful!
 </p>
 
-## <i class="fa fa-comments"></i> Participate
-
-Open-source is more than just code, **it's about the people involved**.
-The most important thing you can do for any project is participate in the
-community: ask and answer questions, share your experience, help guide the
-development, and make friends along the way.
-
 ```{important}
-Everyone is expected to abide by our [Code of Conduct][coc] when participating
+Everyone is required to abide by our [Code of Conduct][coc] when participating
 in the Fatiando community. Please review it carefully.
 ```
 
+## <i class="fa fa-comments"></i> Participate
+
+Open-source is more than just code, **it's about the people** involved.
+The most important thing you can do for any project is **participate in the
+community**: ask and answer questions, share your experience, help guide the
+development, and make friends along the way.
+
 The Fatiando community gathers in a few different places, **all of which are
-completely open to everyone**. So come along and join the conversation:
+completely open to everyone**.
+So come along and join the conversation!
+
+### Text-based
+
+Asynchronous communication for anything from technical discussions to random
+chat:
 
 <ul class="fa-ul">
-  <li>
-  <i class="fa-li fab fa-slack fa-fw"></i> <a href="http://contact.fatiando.org/">Slack</a>:
-  where most conversation happens about meetings, events, questions, etc.
-  </li>
-  <li>
-  <i class="fa-li fab fa-github fa-fw"></i> <a href="https://github.com/fatiando/">GitHub</a>:
-  where we discuss development details, review code, etc.
-  </li>
-  <li>
-  <i class="fa-li fa fa-microphone-alt fa-fw"></i> <a href="https://github.com/fatiando/meeting-notes">Community Calls</a>:
-  regular video calls to discuss the latest developments, project
-  directions, and have a little social interaction. <strong>We welcome everyone
-  interested in Fatiando to take part!</strong> Calls happen once a month (check
-  <a href="http://calendar.fatiando.org">our calendar</a> for the next one)
-  and are live-streamed to
-  <a href="https://www.youtube.com/FatiandoOrg">our YouTube channel</a>.
-  Check the <a href="https://github.com/fatiando/meeting-notes">meeting notes</a>
-  for more information.
-  </li>
+<li>
+
+<i class="fa-li fab fa-slack fa-fw"></i>
+[Slack][slack]: where most conversation happens about meetings, events,
+questions, etc.
+
+</li>
+<li>
+
+<i class="fa-li fab fa-github fa-fw"></i>
+[GitHub][gh]:
+where we discuss development details, review code, etc.
+
+</li>
 </ul>
 
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLPA_RM8wsOqIEBLICo3v7f_A1WnLcwJld" frameborder="0" allowfullscreen></iframe>
-</div>
+### Video calls
+
+Synchronous online calls to tackle topics when text-based discussion becomes
+inefficient and mostly get to know each other better:
+
+<ul class="fa-ul">
+<li>
+
+<i class="fa-li fa fa-microphone-alt fa-fw"></i>
+[Community Calls][notes]:
+Regular calls to socialize and discuss project directions (not technical
+details).
+
+</li>
+<li>
+
+<i class="fa-li fa fa-code fa-fw"></i>
+[Development Calls][notes]:
+Weekly calls more focused on development discussion (implementation details,
+road maps, issues, etc.). Everyone is welcome to join, regardless of skill
+level!
+
+</li>
+</ul>
+
+```{note}
+Dates, connection details, agendas, and past notes from meetings are available
+at <i class="fab fa-github"></i> [`fatiando/meeting-notes`][notes].
+```
 
 ## <i class="fa fa-cog"></i> Join the development
 
@@ -74,3 +101,6 @@ repository.
 [coc]: https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md
 [contrib]: https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md
 [contrib-repo]: https://github.com/fatiando/contributing
+[gh]: https://github.com/fatiando
+[slack]: http://contact.fatiando.org
+[notes]: https://github.com/fatiando/meeting-notes

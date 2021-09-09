@@ -170,10 +170,9 @@ Development and maintenance of the Fatiando a Terra project is supported by:
   (2010-2016).
 
 [youtube]: https://www.youtube.com/fatiandoorg
+[yt-playlist]: https://youtube.com/playlist?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL
 [gh]: https://github.com/fatiando
 [gh-fatiando]: https://github.com/fatiando/fatiando
-[gh-santi-first-pr]: https://github.com/fatiando/fatiando/pull/188
-[leo]: https://www.leouieda.com
 [usp]: https://www.iag.usp.br/
 [commit-gui]: https://github.com/fatiando/fatiando/blob/10c8ff7c17df53e3e0abd83f1ce8d2a3f6bc57aa/fluxo-simples.pdf
 [pinga]: https://www.pinga-lab.org/
@@ -183,4 +182,3 @@ Development and maintenance of the Fatiando a Terra project is supported by:
 [uerj]: https://www.uerj.br/
 [conicet]: https://www.conicet.gov.ar/
 [capes]: https://www.gov.br/capes
-[yt-playlist]: https://youtube.com/playlist?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL
