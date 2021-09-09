@@ -36,10 +36,33 @@ Tutorials are organized in a [playlist][yt-tutorials] for easier access.
 The best place to learn more about each particular tool is their
 **documentation pages** (AKA the *docs*):
 
-* [Pooch](https://www.fatiando.org/pooch)
-* [Verde](https://www.fatiando.org/verde)
-* [Harmonica](https://www.fatiando.org/harmonica)
-* [Boule](https://www.fatiando.org/boule)
+<div class="mt-2">
+
+<a target="_blank" href="https://www.fatiando.org/pooch">
+<button type="button" class="btn btn-secondary mb-3 me-3">
+<i class="fa fa-book"></i>
+Pooch
+</button></a>
+
+<a target="_blank" href="https://www.fatiando.org/verde">
+<button type="button" class="btn btn-secondary mb-3 me-3">
+<i class="fa fa-book"></i>
+Verde
+</button></a>
+
+<a target="_blank" href="https://www.fatiando.org/harmonica">
+<button type="button" class="btn btn-secondary mb-3 me-3">
+<i class="fa fa-book"></i>
+Harmonica
+</button></a>
+
+<a target="_blank" href="https://www.fatiando.org/boule">
+<button type="button" class="btn btn-secondary mb-3">
+<i class="fa fa-book"></i>
+Boule
+</button></a>
+
+</div>
 
 The docs contain full descriptions of every function and class in each package,
 examples of their usage, and explanations of the theory behind certain methods.
@@ -60,20 +83,31 @@ tools, you can still install it and view the documentation for version 0.5 at
 ## New to Python?
 
 If you don't have much experience with Python, **don't worry!**
-A great place to start learning Python for scientific computation and much more
-is [Software Carpentry][swc].
-We recommend starting with these two lessons (also available in Spanish):
 
-<ul class="fa-ul icon-list-small">
-  <li>
-     <i class="fa-li fa fa-book fa-fw"></i>
-     <a href="https://swcarpentry.github.io/python-novice-inflammation/">Programming with Python</a>
-  </li>
-  <li>
-     <i class="fa-li fa fa-book fa-fw"></i>
-     <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a>
-  </li>
-</ul>
+[Software Carpentry][swc] provides open-source lessons (also available in
+Spanish) about Python for scientific computing and much more.
+This is a great resource and all they teach is worth learning.
+We recommend starting with these two:
+["Programming with Python"][swc-python]
+and
+["Plotting and Programming in Python"][swc-python2].
+
+<div class="row pb-3 text-muted align-items-center fs-6">
+<div class="col-md-9">
+
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/YHDvqPRM9tE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</div>
+<div class="col-md-3">
+
+The [Software Sustainability Institute][ssi] has a recording of the
+"Programming with Python" lesson freely [available on YouTube][yt-swc].
+
+</div>
+</div>
+
 
 The [Software Underground][swung] community has also produced
 [introduction to Python tutorials][swung-python-playlist] as part of the *Transform*
@@ -90,15 +124,19 @@ The best part is that they are all focused on Geoscience applications.
 </div>
 <div class="col-md-3">
 
-A good place to start is ["Getting started with Python"][swung-intro-python]
+We recommend the ["Getting started with Python"][swung-intro-python] tutorial
 by [Robert Leckenby](https://github.com/Zabamund).
 
 </div>
 </div>
 
 [youtube]: https://www.youtube.com/fatiandoorg
-[swc]: https://software-carpentry.org
 [yt-tutorials]: https://youtube.com/playlist?list=PLPA_RM8wsOqJVm8SRdxwnrsMTut_GAV7F
+[yt-swc]: https://youtu.be/YHDvqPRM9tE
+[ssi]: https://www.software.ac.uk/
+[swc]: https://software-carpentry.org
+[swc-python]: https://swcarpentry.github.io/python-novice-inflammation/
+[swc-python2]: https://swcarpentry.github.io/python-novice-gapminder/
 [swung]: https://softwareunderground.org/
 [swung-python-playlist]: https://youtube.com/playlist?list=PLgLft9vxdduDm3W6i3qjT7s-ne4oTAvks
 [swung-intro-python]: https://youtu.be/iIOMiN8Cacs
