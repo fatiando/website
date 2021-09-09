@@ -410,6 +410,55 @@ Happy community members at a [Fatiando Community Call](https://youtu.be/gsYKW7XN
 </div> <!-- container-fluid -->
 
 
+
+<div class="container-fluid section background-1">
+<div class="container narrow">
+<hr class="mb-5">
+<div class="row align-items-start gy-5 mb-5">
+<div class="col-md-6">
+
+<h2 class="text-center fs-3">News</h2>
+
+* 2021/09/01: Documentation for the Python 2.7 <kbd>fatiando</kbd> package has
+  been moved to [legacy.fatiando.org](https://legacy.fatiando.org).
+* 2021/09/01: Fatiando is now on LinkedIn! Give
+  [our page](https://www.linkedin.com/company/fatiando) a follow to keep up
+  with the latest releases, events, and other news.
+* 2021/05/20: Santiago, Agustina, and Leo gave a talk to the Geophysical
+  Society of Houston about using Fatiando for potential field data
+  ([slides are available](https://github.com/fatiando/2021-gsh)).
+
+</div>
+<div class="col-md-6">
+
+<h2 class="text-center fs-3">Events</h2>
+
+* **Weekly Fatiando Development Calls**: we discuss various aspects of the
+  project. All are welcome, regardless of skill level and prior knowledge!
+  Notes and connection details:
+  [`fatiando/meeting-notes`](https://github.com/fatiando/meeting-notes)
+* **AGU 2021**: Going to the AGU Fall Meeting? Come to our talk! Details at
+  [`fatiando/agu2021`](https://github.com/fatiando/agu2021).
+
+
+</div>
+</div> <!-- row -->
+
+<!--<h2 class="text-center fs-4">Releases</h2>-->
+<div class="text-center">
+
+**Latest releases:**
+<a href="https://pypi.python.org/pypi/pooch"><img class="shield" alt="Pooch latest version" src="https://img.shields.io/pypi/v/pooch.svg?style=flat-square&label=Pooch"></a>
+<a href="https://pypi.python.org/pypi/verde"><img class="shield" alt="Verde latest version" src="https://img.shields.io/pypi/v/verde.svg?style=flat-square&label=Verde"></a>
+<a href="https://pypi.python.org/pypi/harmonica"><img class="shield" alt="Harmonica latest version" src="https://img.shields.io/pypi/v/harmonica.svg?style=flat-square&label=Harmonica"></a>
+<a href="https://pypi.python.org/pypi/boule"><img class="shield" alt="Boule latest version" src="https://img.shields.io/pypi/v/boule.svg?style=flat-square&label=Boule"></a>
+
+</div>
+
+</div> <!-- container -->
+</div> <!-- container-fluid -->
+
+
 [bsd]: https://opensource.org/licenses/BSD-3-Clause
 [yt-demo]: https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s
 [yt-demo-nb]: https://nbviewer.jupyter.org/github/leouieda/2021-06-22-gfz/blob/main/demo.ipynb

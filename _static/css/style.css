@@ -143,6 +143,7 @@ div.admonition, .admonition {
 
 .shield {
     width: auto;
+    margin: 0 0.25rem;
 }
 
 .project-info {
@@ -171,6 +172,11 @@ div.admonition, .admonition {
     margin-top: 0;
 }
 
+.section hr {
+    height: 3px;
+    opacity: 0.1;
+}
+
 .background-1 {
     background-color: #1a4fa0;
     color: #f5f5f5;
@@ -191,6 +197,7 @@ div.admonition, .admonition {
     background-image: url(../../_static/background-bottom.svg);
     background-size: cover;
     background-position: top;
+    padding: 10rem 0 3rem 0;
 }
 
 .background-1 a {

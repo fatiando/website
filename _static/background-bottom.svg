@@ -1583,7 +1583,7 @@
     <path
        id="path1328"
        style="fill:#1a4fa0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -8.775e-4,260.51718 V 1360.5172 H 1919.9991 V 260.51718 c -640.9278,-76.4898 -1243.51468,-83.5758 -1919.9999775,0 z"
+       d="M -8.775e-4,234.51718 V 1360.5172 H 1919.9991 V 234.51718 c -635.551,-44.95468 -1247.61791,-49.2961 -1919.9999775,0 z"
        sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
