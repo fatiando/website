@@ -1,3 +1,4 @@
+(learn)=
 # Learn how to use our software
 
 <p class="lead">

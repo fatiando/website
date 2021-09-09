@@ -61,14 +61,19 @@ All of our code is **free and open-source**, distributed under the permissive
 
 ## Getting started
 
-Placeholder placeholder placeholder placeholder placeholder placeholder
-placeholder placeholder placeholder placeholder placeholder
+**Looking for an overview?**
+A good place to start is [this recorded example][yt-demo] (~20 min) that uses
+our tools to download, process, and interpolate public domain gravity data from
+the Bushveld Complex in South Africa.
 
-Placeholder placeholder placeholder placeholder placeholder placeholder
-placeholder placeholder placeholder placeholder placeholder
+**No time for a video?**
+You can also browse the <i class="fab fa-python"></i>
+[Jupyter notebook][yt-demo-nb] used in the example.
 
-Placeholder placeholder placeholder placeholder placeholder placeholder
-placeholder placeholder placeholder placeholder placeholder
+
+**New to Python?**
+We provide links to {ref}`excellent free resources <learn>` for starting your
+Scientific Python journey.
 
 <div class="mt-5">
   <a href="learn"><button type="button" class="btn btn-light mb-3 me-3">
@@ -88,11 +93,9 @@ placeholder placeholder placeholder placeholder placeholder
   <iframe src="https://www.youtube.com/embed/z-5dvWfB_SM?start=850" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<i class="fab fa-github"></i>
+Source code for this tutorial:
+<i class="fab fa-github ms-1"></i>
 [leouieda/2021-06-22-gfz](https://github.com/leouieda/2021-06-22-gfz)
-<span class="bullet-separator">&bull;</span>
-<i class="fab fa-python"></i>
-[Jupyter notebook](https://nbviewer.jupyter.org/github/leouieda/2021-06-22-gfz/blob/main/demo.ipynb)
 
 </div> <!-- column -->
 </div> <!-- row -->
@@ -402,3 +405,5 @@ placeholder placeholder placeholder placeholder placeholder
 
 
 [bsd]: https://opensource.org/licenses/BSD-3-Clause
+[yt-demo]: https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s
+[yt-demo-nb]: https://nbviewer.jupyter.org/github/leouieda/2021-06-22-gfz/blob/main/demo.ipynb
