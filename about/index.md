@@ -62,9 +62,8 @@ changes, making releases, and more.
 The Fatiando a Terra project had it's start around 2008 as a C++ program to
 perform geophysical modeling of various data types (gravity, magnetics,
 seismic, etc.).
-At least that was what [Leonardo Uieda][leo] (Leo) and fellow Geophysics
-undergraduate students at the [University of São Paulo][usp], Brazil, set out
-to do.
+At least that was what a small group of Geophysics undergraduate students at
+the [University of São Paulo][usp], Brazil, set out to do.
 Unsurprisingly, this overly ambitious goal was never achieved.
 
 <div class="row pb-3 text-muted align-items-center fs-6">
@@ -90,7 +89,7 @@ modeling and inversion of gravity and magnetic data, as well as toy problems in
 other fields useful for teaching.
 Development of this library was discontinued in 2018  as our focus shifted to
 our newer and more well-scoped libraries.
-Leo's [blog post announcing the shift][blog-fatiando-future] explains the
+This [blog post announcing the shift][blog-fatiando-future] explains the
 reasoning behind this decision.
 
 ```{note}
