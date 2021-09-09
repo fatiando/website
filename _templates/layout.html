@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   {%- if title == "Home" %}
-    <title>{{ project|striptags|e }}</title>
+    {% set this_page_title=project|striptags|e %}
   {%- else %}
-    <title>{{ title|striptags|e }} | {{ project|striptags|e }}</title>
+    {% set this_page_title=title|striptags|e + " | " + project|striptags|e %}
   {%- endif %}
+  <title>{{ this_page_title }}</title>
 
   <link rel="shortcut icon" href="{{ favicon_url|e }}"/>
 
@@ -29,9 +30,9 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="{{ base_url }}/_static/{{ logo }}">
   <meta name="twitter:site" content="@{{ twitter }}">
-  <meta name="twitter:title" content="{{ project }}">
+  <meta name="twitter:title" content="{{ this_page_title }}">
   <meta name="twitter:description" content="{{ description }}">
-  <meta property="og:title" content="{{ project }}">
+  <meta property="og:title" content="{{ this_page_title }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ base_url }}">
   <meta property="og:site_name" content="{{ project }}">
