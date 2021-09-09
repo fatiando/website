@@ -154,6 +154,9 @@ which has grown tremendously since we started development in 2010.
   <img src="../_static/pygmt-logo.svg" title="PyGMT">
   </a>
 </div>
+<div class="col-6 col-sm-4 col-md-3">
+  <img src="../_static/fatiando-banner-small.svg" title="Fatiando a Terra">
+</div>
 </div>
 
 ## Funding and support
