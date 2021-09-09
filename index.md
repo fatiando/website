@@ -31,15 +31,16 @@ All of our code is **free and open-source**, distributed under the permissive
 [BSD 3-clause license][bsd].
 
 <div class="mt-5">
-  <a href="about"><button type="button" class="btn btn-primary mb-3 me-3">
-  More about us
-  </button></a>
-  <a href="install"><button type="button" class="btn btn-light mb-3">
+  <a href="install"><button type="button" class="btn btn-light mb-3 me-3">
   Install
   <span class="bullet-separator">&bull;</span>
   <i class="fab fa-linux"></i>
   <i class="fab fa-apple"></i>
   <i class="fab fa-windows"></i>
+  </button></a>
+  <a href="cite"><button type="button" class="btn btn-success mb-3">
+  <i class="fa fa-bookmark"></i>
+  Cite our tools
   </button></a>
 </div>
 
@@ -74,6 +75,9 @@ You can also browse the <i class="fab fa-python"></i>
 **New to Python?**
 We provide links to {ref}`excellent free resources <learn>` for starting your
 Scientific Python journey.
+
+**Used Fatiando for research?**
+Please {ref}`cite our tools <cite>` in your publications.
 
 <div class="mt-5">
   <a href="learn"><button type="button" class="btn btn-light mb-3 me-3">
@@ -178,9 +182,9 @@ and [more](https://github.com/fatiando/pooch/network/dependents).
 </li>
 </ul>
 
-<div class="mt-5">
+<div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/pooch/">
-  <button type="button" class="btn btn-primary mb-3">
+  <button type="button" class="btn btn-secondary mb-3">
   <i class="fa fa-book"></i>
   Pooch documentation
   </button>
@@ -253,9 +257,9 @@ a sprinkling of machine learning.
 </li>
 </ul>
 
-<div class="mt-5">
+<div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/verde/">
-  <button type="button" class="btn btn-primary mb-3">
+  <button type="button" class="btn btn-secondary mb-3">
   <i class="fa fa-book"></i>
   Verde documentation
   </button>
@@ -288,7 +292,7 @@ correction, upward continuation, equivalent layers, 3D inversion, and more.
 
 <ul class="project-info">
 <li>
-  <i class="fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+  <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i>
   Functional but still evolving
 </li>
 <li>
@@ -301,9 +305,9 @@ correction, upward continuation, equivalent layers, 3D inversion, and more.
 </li>
 </ul>
 
-<div class="mt-5">
+<div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/harmonica/">
-  <button type="button" class="btn btn-primary mb-3">
+  <button type="button" class="btn btn-secondary mb-3">
   <i class="fa fa-book"></i>
   Harmonica documentation
   </button>
@@ -336,7 +340,7 @@ the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
 
 <ul class="project-info">
 <li>
-  <i class="fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+  <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i>
   Functional but still evolving
 </li>
 <li>
@@ -349,9 +353,9 @@ the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
 </li>
 </ul>
 
-<div class="mt-5">
+<div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/boule/">
-  <button type="button" class="btn btn-primary mb-3">
+  <button type="button" class="btn btn-secondary mb-3">
   <i class="fa fa-book"></i>
   Boule documentation
   </button>
@@ -377,9 +381,6 @@ the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
 <div class="col-md-7">
 
 # Interested?
-
-Fatiando only exists because of the efforts of our **community members**, most
-of which volunteer their time and energy.
 
 We are always happy to **welcome anyone** who is interested in getting
 involved!
