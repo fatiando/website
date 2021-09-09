@@ -82,8 +82,7 @@ from 11 February 2009.
 </div>
 </div>
 
-In 2010, we started developing the
-[<i class="fab fa-github"></i> fatiando/fatiando][gh-fatiando]
+In 2010, we started developing the [`fatiando`][gh-fatiando]
 Python library, which included several state-of-the-art methods for forward
 modeling and inversion of gravity and magnetic data, as well as toy problems in
 other fields useful for teaching.
@@ -93,7 +92,7 @@ This [blog post announcing the shift][blog-fatiando-future] explains the
 reasoning behind this decision.
 
 ```{note}
-The last version that was released of `fatiando/fatiando` is [v0.5][v0.5-doi].
+The last version that was released of `fatiando` is [v0.5][v0.5-doi].
 The documentation for it can still be accessed at
 [legacy.fatiando.org](https://legacy.fatiando.org)
 ```

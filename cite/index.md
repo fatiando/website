@@ -1,3 +1,4 @@
+(cite)=
 # Citing and supporting Fatiando
 
 <p class="lead">
