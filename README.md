@@ -20,6 +20,8 @@ conda activate fatiando-website
 The sources can be the standard reStructuredText (`.rst`) that Sphinx uses or
 Markdown (`.md`) thanks to the [MyST](https://myst-parser.readthedocs.io)
 parser.
+We use Markdown most of the time because it simplifies adding HTML directly to
+the source document, which we often do for styling and fancy layouts.
 
 ## Contributing
 
@@ -29,13 +31,15 @@ automatically any time a source file changes. You don't even have to refresh
 your browser. To stop the server, type `Control + C`.
 
 * If you add any new pages, make sure they are included in the `toctree` entry
-  of `index.md`.
+  at the top of `index.md`.
 * The preferred format for sources is Markdown but RST will be acceptable if
   you have a reason for it.
 * Navigation bar (menu) items are defined in `conf.py`.
 * The template is custom made and can be modified by editing
   `_templates/layout.html`.
 * The main CSS stylesheet is `_static/css/style.css`.
+* We use [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+  (just the CSS, not the Javascript components).
 
 ## Deployment
 
@@ -49,10 +53,6 @@ repository.
 GitHub serves this repository under
 [http://fatiando.github.io](http://fatiando.github.io/).
 See `.github/workflows/build.yml`.
-
-## Logo fonts
-
-The font used in the front page banner is EB Garamond.
 
 ## License
 
