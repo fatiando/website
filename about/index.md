@@ -16,10 +16,46 @@ planet.
 
 ## Who we are
 
-Fatiando tools are developed by working scientists and community volunteers
-from across the globe.
+Fatiando tools are developed by **working geoscientists and community
+volunteers** from across the globe.
+
+### Authors
+
 The [GitHub repositories][gh] for each project contain `AUTHORS.md` files which
-list everyone involved.
+list everyone involved:
+
+<div class="mt-2">
+
+<a target="_blank" href="https://github.com/fatiando/pooch/blob/master/AUTHORS.md">
+<button type="button" class="btn btn-secondary mb-3 me-3">
+<i class="fa fa-users"></i>
+Pooch
+</button></a>
+
+<a target="_blank" href="https://github.com/fatiando/verde/blob/master/AUTHORS.md">
+<button type="button" class="btn btn-secondary mb-3 me-3">
+<i class="fa fa-users"></i>
+Verde
+</button></a>
+
+<a target="_blank" href="https://github.com/fatiando/harmonica/blob/master/AUTHORS.md">
+<button type="button" class="btn btn-secondary mb-3 me-3">
+<i class="fa fa-users"></i>
+Harmonica
+</button></a>
+
+<a target="_blank" href="https://github.com/fatiando/boule/blob/master/AUTHORS.md">
+<button type="button" class="btn btn-secondary mb-3">
+<i class="fa fa-users"></i>
+Boule
+</button></a>
+
+</div>
+
+```{note}
+Our [Authorship Guidelines][authorship] define the rules for attributing
+authorship to those involved in our projects.
+```
 
 ### Maintainers
 
@@ -181,3 +217,4 @@ Development and maintenance of the Fatiando a Terra project is supported by:
 [uerj]: https://www.uerj.br/
 [conicet]: https://www.conicet.gov.ar/
 [capes]: https://www.gov.br/capes
+[authorship]: https://github.com/fatiando/contributing/blob/master/AUTHORSHIP.md
