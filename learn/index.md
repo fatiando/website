@@ -14,7 +14,7 @@ Our [YouTube channel][youtube]
 has video tutorials, demonstrations, and talks about several of the tools
 that we develop.
 
-<div class="row pb-3 text-muted align-items-center fs-6">
+<div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
 
 <div class="ratio ratio-16x9">
@@ -92,7 +92,7 @@ We recommend starting with these two:
 and
 ["Plotting and Programming in Python"][swc-python2].
 
-<div class="row pb-3 text-muted align-items-center fs-6">
+<div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
 
 <div class="ratio ratio-16x9">
@@ -114,7 +114,7 @@ The [Software Underground][swung] community has also produced
 events.
 The best part is that they are all focused on Geoscience applications.
 
-<div class="row pb-3 text-muted align-items-center fs-6">
+<div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
 
 <div class="ratio ratio-16x9">

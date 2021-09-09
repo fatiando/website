@@ -66,7 +66,7 @@ At least that was what a small group of Geophysics undergraduate students at
 the [University of São Paulo][usp], Brazil, set out to do.
 Unsurprisingly, this overly ambitious goal was never achieved.
 
-<div class="row pb-3 text-muted align-items-center fs-6">
+<div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
 
 <img src="../_static/fatiando-as-a-gravmag-gui.svg" alt="Box diagram of the layout and flow of information planned for the GUI program." >
@@ -97,7 +97,7 @@ The documentation for it can still be accessed at
 [legacy.fatiando.org](https://legacy.fatiando.org)
 ```
 
-<div class="row pb-3 text-muted align-items-center fs-6">
+<div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
 <div class="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/videoseries?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
