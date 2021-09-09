@@ -1548,9 +1548,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="1162"
-     inkscape:cy="348"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="886.7119"
+     inkscape:cy="667.5088"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1580,10 +1580,17 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(8.775e-4,-190.51758)">
+    <rect
+       style="fill:#1a4fa0;stroke-width:1.00248;stroke-miterlimit:10"
+       id="rect1190"
+       width="1920"
+       height="129.89992"
+       x="-0.00087749999"
+       y="1230.6177" />
     <path
        id="path1328"
        style="fill:#060629;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -8.775e-4,1290.5176 V 190.51758 H 1919.9991 V 1290.5176 c -640.9278,76.4898 -1243.51468,83.5758 -1919.9999775,0 z"
+       d="M -8.775e-4,1310.5176 V 190.51758 H 1919.9991 V 1310.5176 c -635.5908,51.335 -1238.13952,52.8549 -1919.9999775,0 z"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:#ffffff;fill-opacity:0.27451;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:100"
