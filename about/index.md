@@ -118,7 +118,7 @@ about Fatiando over the years.
 Fatiando is a part of the larger geophysics open-source Python ecosystem,
 which has grown tremendously since we started development in 2010.
 
-<div class="row g-5 py-3 align-items-center">
+<div class="row gy-4 py-3 align-items-center">
 <div class="col-6 col-sm-4 col-md-3">
   <a target="_blank" href="https://simpeg.xyz/">
   <img src="../_static/simpeg-logo.png" title="SimPEG">

@@ -14,7 +14,7 @@ cite/index.md
 
 <div class="container-fluid banner">
 <div class="container">
-<div class="row align-items-center gx-5 gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-8">
 
 # Fatiando a Terra
@@ -35,7 +35,7 @@ All of our code is **free and open-source**, distributed under the permissive
   More about us
   </button></a>
   <a href="install"><button type="button" class="btn btn-light mb-3">
-  Install on your computer
+  Install
   <span class="bullet-separator">&bull;</span>
   <i class="fab fa-linux"></i>
   <i class="fab fa-apple"></i>
@@ -56,7 +56,7 @@ All of our code is **free and open-source**, distributed under the permissive
 <div class="container-fluid section background-1">
 <div class="container">
 
-<div class="row align-items-center gx-5 gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 ## Getting started
@@ -109,7 +109,7 @@ placeholder placeholder placeholder placeholder placeholder
 A multi-tool for Geophysics
 </h2>
 
-<div class="row g-5 pt-4 align-items-center">
+<div class="row gy-4 pt-4 align-items-center">
 <div class="col-6 col-md-3">
   <a href="#pooch">
   <img src="_static/pooch-logo.svg" title="Pooch">
@@ -140,7 +140,7 @@ A multi-tool for Geophysics
 <div class="container-fluid section background-2">
 <div class="container">
 
-<div class="row align-items-center gx-5 gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (pooch)=
@@ -226,7 +226,7 @@ because the data are cached where Pooch can find it.
 <div class="container-fluid section background-3">
 <div class="container">
 
-<div class="row align-items-center gx-5 gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (verde)=
@@ -275,7 +275,7 @@ a sprinkle of machine learning.
 <div class="container-fluid section background-2">
 <div class="container">
 
-<div class="row align-items-center gx-5 gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (harmonica)=
@@ -323,7 +323,7 @@ correction, upward continuation, equivalent layers, 3D inversion, and more.
 <div class="container-fluid section background-3">
 <div class="container">
 
-<div class="row align-items-center gx-5 gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (boule)=
@@ -371,7 +371,7 @@ the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
 <div class="container-fluid section background-4">
 <div class="container">
 
-<div class="row align-items-center gx-5 gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 # Interested?
