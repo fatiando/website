@@ -93,7 +93,7 @@ Scientific Python journey.
   <iframe src="https://www.youtube.com/embed/z-5dvWfB_SM?start=850" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Source code for this tutorial:
+Source code for this demonstration:
 <i class="fab fa-github ms-1"></i>
 [leouieda/2021-06-22-gfz](https://github.com/leouieda/2021-06-22-gfz)
 
@@ -108,8 +108,7 @@ Source code for this tutorial:
 <div class="container narrow text-center">
 
 <h2 class="no-top-margin">
-<i class="fa fa-tools me-3"></i>
-A multi-tool for Geophysics
+A toolbox for Geophysics
 </h2>
 
 <div class="row gy-4 pt-4 align-items-start">
@@ -379,25 +378,32 @@ the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
 
 # Interested?
 
-Placeholder placeholder placeholder placeholder placeholder placeholder
-placeholder placeholder placeholder placeholder placeholder
+Fatiando only exists because of the efforts of our **community members**, most
+of which volunteer their time and energy.
 
-Placeholder placeholder placeholder placeholder placeholder placeholder
-placeholder placeholder placeholder placeholder placeholder
+We are always happy to **welcome anyone** who is interested in getting
+involved!
+Whether it be coding, teaching, designing, or just hanging out.
+**Come say "Hi! 👋🏾"** on {ref}`Slack <contact>` or at our
+{ref}`next online gathering <community>`.
 
-Placeholder placeholder placeholder placeholder placeholder placeholder
-placeholder placeholder placeholder placeholder placeholder
+Getting involved in open-source can be great way to meet new people, improve
+your coding skills, and **make an impact** in your field.
 
 <div class="mt-5">
   <a href="community"><button type="button" class="btn btn-light mb-3">
   <i class="fa fa-users"></i>
-  Participate in our community
+  Join the conversation!
   </button></a>
 </div>
 
 </div> <!-- column -->
 <div class="col-md-5 order-md-first">
-  <img src="_static/fatiando-community-call.jpg" title="Screenshot from a virtual Fatiando community call.">
+
+<img class="mb-3" src="_static/fatiando-community-call.jpg" title="Screenshot from a virtual Fatiando community call.">
+
+Happy community members at a [Fatiando Community Call](https://youtu.be/gsYKW7XNzzw).
+
 </div>
 </div> <!-- row -->
 </div> <!-- container -->
