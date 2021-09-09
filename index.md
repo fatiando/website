@@ -115,7 +115,7 @@ Source code for this demonstration:
 A toolbox for Geophysics
 </h2>
 
-<div class="row gy-4 pt-4 align-items-start">
+<div class="row gy-4 pt-4 align-items-center">
 <div class="col-6 col-md-3">
   <a href="#pooch">
   <img src="_static/pooch-logo.svg" title="Pooch">
@@ -287,8 +287,11 @@ a sprinkling of machine learning.
 (harmonica)=
 ## **Harmonica:** All things potential fields
 
-Processing and modeling <b>gravity</b> and <b>magnetic</b> data, like terrain
-correction, upward continuation, equivalent layers, 3D inversion, and more.
+Harmonica is our library for processing, forward modeling, and inversion of
+**gravity and magnetic** data.
+Our goal is to incentivise good practices by **carefully designing** the
+software and offering **state-of-the-art methods** with efficient
+implementations.
 
 <ul class="project-info">
 <li>
