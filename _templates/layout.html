@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="{{ favicon_url|e }}"/>
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="{{ pathto('_static/css/bootstrap-5.1.0/bootstrap.min.css', 1) }}">
+  <link rel="stylesheet" href="{{ pathto('_static/bootstrap-5.1/css/bootstrap.min.css', 1) }}">
 
   <!-- FontAwsome icons -->
   <link rel="stylesheet" href="{{ pathto('_static/css/fontawesome/css/all.css', 1) }}">
@@ -118,6 +118,11 @@
       </p>
     </div>
   </footer>
+
+  <!-- Bootstrap bundled Javascript (with their dependencies) -->
+  <script src="{{ pathto('_static/bootstrap-5.1/js/bootstrap.bundle.min.js', 1) }}"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
 
 </body>
 </html>
