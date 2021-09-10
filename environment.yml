@@ -5,6 +5,7 @@ channels:
 dependencies:
     - python==3.9
     - pip
+    - make
     - sphinx==4.1.2
-    - sphinx_bootstrap_theme==0.7.1
-    - black
+    - myst-parser==0.15.*
+    - livereload
