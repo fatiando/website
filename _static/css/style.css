@@ -33,10 +33,12 @@ h3 {
 pre {
     margin-bottom: 1rem;
     padding: 1rem 1rem;
-    background-color: #fafafa;
-    border: 1px solid #dddddd;
-    box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
     font-size: 0.9rem;
+}
+
+code {
+    color: #BB0066;
 }
 
 li {
