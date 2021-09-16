@@ -3,10 +3,11 @@ Use livereload to serve, build, and reload the website when files change.
 """
 from livereload import Server, shell
 
+FATIANDO_PROJECTS = "pooch verde harmonica boule".split()
+
 
 def ignore_authors(filepath):
-    projects = "pooch verde harmonica boule".split()
-    for project in projects:
+    for project in FATIANDO_PROJECTS:
         if f"{project}-authors.md" in filepath:
             return True
     return False
