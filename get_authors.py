@@ -8,6 +8,7 @@ from requests import get
 
 GITHUB_API_BASE_URL = "https://api.github.com/users/"
 AUTHORS_BASE_URL = "https://raw.githubusercontent.com/fatiando/{}/{}/AUTHORS.md"
+AVATAR_BASE_URL = "https://github.com/{}.png"
 
 
 def get_authors(project, main_branch="master"):
@@ -18,7 +19,7 @@ def get_authors(project, main_branch="master"):
     ----------
     project : str
         Name of the Fatiando a Terra project.
-    master : str (optional)
+    main_branch : str (optional)
         Name of the main branch of the project. Default to ``"master"``.
 
     Returns
@@ -35,22 +36,13 @@ def get_authors(project, main_branch="master"):
 
 def _get_authors(authors_md):
     """
-    Get authors' name and GitHub handle from content of AUTHORS.md file
+    Get authors' name, GitHub handle and url to avatar from AUTHORS.md
     """
     regex_pattern = r"\[(.+?)\]\((?:https://github.com/)(.+?)\)"
     _authors = re.findall(regex_pattern, authors_md)
     authors = []
     for author in _authors:
         full_name, gh_handle = author[:]
-        avatar_url = _get_avatar(gh_handle)
+        avatar_url = AVATAR_BASE_URL.format(gh_handle)
         authors.append((full_name, gh_handle, avatar_url))
     return authors
-
-
-def _get_avatar(gh_handle):
-    """
-    Return the url to user's GitHub avatar
-    """
-    github_json_data = get(GITHUB_API_BASE_URL.format(gh_handle)).json()
-    avatar_url = github_json_data["avatar_url"]
-    return avatar_url
