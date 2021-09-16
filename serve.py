@@ -17,7 +17,6 @@ files = [
     "**/**.rst",
     "**/**.md",
     "conf.py",
-    "get_authors.py",
     "_static/",
     "_templates/",
     "theme/",
