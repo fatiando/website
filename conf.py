@@ -1,10 +1,100 @@
 """
 Configuration for building the website with Sphinx.
 """
+import re
 import sys
 import os
 import datetime
 import subprocess
+from requests import get
+from pathlib import Path
+
+
+AUTHORS_BASE_URL = "https://raw.githubusercontent.com/fatiando/{}/{}/AUTHORS.md"
+AUTHOR_HTML_CARD = """
+<div class="col-6 col-sm-3">
+  <div class="card">
+    <img
+        class="card-img-top"
+        src="https://github.com/{gh_handle}.png"
+        alt="Profile picture of {full_name}"
+    >
+    <div class="card-body">
+      <h4 class="card-title fs-5">
+          {full_name}
+      </h4>
+      <p class="card-text text-muted fs-6">
+        <a href="https://github.com/{gh_handle}">@{gh_handle}</a>
+        on <i class="fab fa-github" title="GitHub"></i>
+      </p>
+    </div>
+  </div>
+</div>
+"""
+
+
+def authors_cards(project, main_branch="master"):
+    """
+    Generate the html snippet for the authors cards of each project
+
+    Parameters
+    ----------
+    project : str
+        Name of the Fatiando a Terra project.
+    main_branch : str (optional)
+        Name of the main branch of the project. Default to ``"master"``.
+
+    Returns
+    -------
+    html_snippet : string
+        HTML snippet for generating the authors cards of the selected project.
+    """
+    authors = get_authors(project, main_branch=main_branch)
+    html_snippet = '<div class="row gy-3">\n'
+    for author in authors:
+        full_name, gh_handle = author[:]
+        html_snippet += AUTHOR_HTML_CARD.format(
+            gh_handle=gh_handle, full_name=full_name
+        )
+    html_snippet += "</div>"
+    return html_snippet
+
+
+def get_authors(project, main_branch="master"):
+    """
+    Returns a dict with information about the author of the project
+
+    Parameters
+    ----------
+    project : str
+        Name of the Fatiando a Terra project.
+    main_branch : str (optional)
+        Name of the main branch of the project. Default to ``"master"``.
+
+    Returns
+    -------
+    authors : list
+        List of tuples. Each tuple contains the ``full_name`` and the
+        ``github_handle`` of each user.
+    """
+    authors_md_url = AUTHORS_BASE_URL.format(project, main_branch)
+    markdown = get(authors_md_url).text
+    authors = _get_authors(markdown)
+    return authors
+
+
+def _get_authors(authors_md):
+    """
+    Get authors' name and GitHub handle from AUTHORS.md content
+    """
+    regex_pattern = r"\[(.+?)\]\((?:https://github.com/)(.+?)\)"
+    _authors = re.findall(regex_pattern, authors_md)
+    authors = []
+    for author in _authors:
+        full_name, gh_handle = author[:]
+        authors.append((full_name, gh_handle))
+    return authors
+
 
 extensions = ["myst_parser"]
 
@@ -29,6 +119,14 @@ html_extra_path = []
 html_use_smartypants = True
 html_permalinks = False
 pygments_style = "default"
+
+# Generate cards with the authors of each project
+FATIANDO_PROJECTS = ("pooch", "verde", "harmonica", "boule")
+for project in FATIANDO_PROJECTS:
+    html_snippet = authors_cards(project)
+    authors_file = Path("about") / f"{project}-authors.md"
+    with open(authors_file, "w") as f:
+        f.write(html_snippet)
 
 # Ignore the default theme and define everything through our own template.
 # These variables are passed to the templates in _templates/
