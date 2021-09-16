@@ -6,7 +6,6 @@ import re
 from requests import get
 
 
-GITHUB_API_BASE_URL = "https://api.github.com/users/"
 AUTHORS_BASE_URL = "https://raw.githubusercontent.com/fatiando/{}/{}/AUTHORS.md"
 AVATAR_BASE_URL = "https://github.com/{}.png"
 
