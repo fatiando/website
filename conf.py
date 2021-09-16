@@ -16,7 +16,7 @@ AUTHOR_HTML_CARD = """
   <div class="card">
     <img
         class="card-img-top"
-        src="https://github.com/{gh_handle}.png"
+        src="{avatar_url}"
         alt="Profile picture of {full_name}"
     >
     <div class="card-body">
@@ -53,11 +53,25 @@ def authors_cards(project, main_branch="master"):
     html_snippet = '<div class="row gy-3">\n'
     for author in authors:
         full_name, gh_handle = author[:]
+        avatar_url = get_avatar(gh_handle)
         html_snippet += AUTHOR_HTML_CARD.format(
-            gh_handle=gh_handle, full_name=full_name
+            gh_handle=gh_handle, full_name=full_name, avatar_url=avatar_url
         )
     html_snippet += "</div>"
     return html_snippet
+
+
+def get_avatar(gh_handle):
+    """
+    Returns url avatar picture of GitHub user
+
+    If the picture is not availabe, returns url to a placeholder.
+    """
+    gh_avatar_url = f"https://github.com/{gh_handle}.png"
+    status_code = get(gh_avatar_url).status_code
+    if status_code == 404:
+        return "/_static/avatar-placeholder.jpg"
+    return gh_avatar_url
 
 
 def get_authors(project, main_branch="master"):
