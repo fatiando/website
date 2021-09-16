@@ -31,23 +31,23 @@ AUTHOR_HTML_CARD = """
 """
 
 
-def authors_cards(project, main_branch="master"):
+def authors_cards(package, main_branch="master"):
     """
-    Generate the html snippet for the authors cards of each project
+    Generate the html snippet for the authors cards of each package
 
     Parameters
     ----------
-    project : str
-        Name of the Fatiando a Terra project.
+    package : str
+        Name of the Fatiando a Terra package.
     main_branch : str (optional)
-        Name of the main branch of the project. Default to ``"master"``.
+        Name of the main branch of the package. Default to ``"master"``.
 
     Returns
     -------
     html_snippet : string
-        HTML snippet for generating the authors cards of the selected project.
+        HTML snippet for generating the authors cards of the selected package.
     """
-    authors = get_authors(project, main_branch=main_branch)
+    authors = get_authors(package, main_branch=main_branch)
     html_snippet = '<div class="row gy-3">\n'
     for author in authors:
         full_name, gh_handle = author[:]
@@ -72,16 +72,16 @@ def get_avatar(gh_handle):
     return gh_avatar_url
 
 
-def get_authors(project, main_branch="master"):
+def get_authors(package, main_branch="master"):
     """
-    Returns a dict with information about the author of the project
+    Returns a dict with information about the author of the package
 
     Parameters
     ----------
-    project : str
-        Name of the Fatiando a Terra project.
+    package : str
+        Name of the Fatiando a Terra package.
     main_branch : str (optional)
-        Name of the main branch of the project. Default to ``"master"``.
+        Name of the main branch of the package. Default to ``"master"``.
 
     Returns
     -------
@@ -89,7 +89,7 @@ def get_authors(project, main_branch="master"):
         List of tuples. Each tuple contains the ``full_name`` and the
         ``github_handle`` of each user.
     """
-    authors_md_url = AUTHORS_BASE_URL.format(project, main_branch)
+    authors_md_url = AUTHORS_BASE_URL.format(package, main_branch)
     markdown = get(authors_md_url).text
     authors = _get_authors(markdown)
     return authors
@@ -133,10 +133,10 @@ html_permalinks = False
 pygments_style = "default"
 
 # Generate cards with the authors of each project
-FATIANDO_PROJECTS = "pooch verde harmonica boule".split()
-for project in FATIANDO_PROJECTS:
-    html_snippet = authors_cards(project)
-    authors_file = Path("about") / f"{project}-authors.md"
+FATIANDO_PACKAGES = "pooch verde harmonica boule".split()
+for package in FATIANDO_PACKAGES:
+    html_snippet = authors_cards(package)
+    authors_file = Path("about") / f"{package}-authors.md"
     with open(authors_file, "w") as f:
         f.write(html_snippet)
 
