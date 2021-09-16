@@ -6,7 +6,7 @@ from livereload import Server, shell
 FATIANDO_PROJECTS = "pooch verde harmonica boule".split()
 
 
-def ignore_authors(filepath):
+def ignore_authors_files(filepath):
     for project in FATIANDO_PROJECTS:
         if f"{project}-authors.md" in filepath:
             return True
@@ -23,5 +23,5 @@ files = [
     "theme/",
 ]
 for filename in files:
-    server.watch(filename, "make clean html", ignore=ignore_authors)
+    server.watch(filename, "make clean html", ignore=ignore_authors_files)
 server.serve(root="_build/html", host="localhost", open_url_delay=1)
