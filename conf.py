@@ -141,28 +141,28 @@ html_context = {
     ],
     "social_links": [
         (
-            '<i class="fab fa-github fa-lg"></i>',
-            "Our GitHub organization",
+            "fab fa-github",
+            "GitHub",
             "https://github.com/fatiando",
         ),
         (
-            '<i class="fab fa-slack fa-lg"></i>',
-            "Join our Slack chat",
+            "fab fa-slack",
+            "Slack",
             "http://contact.fatiando.org",
         ),
         (
-            '<i class="fab fa-twitter fa-lg"></i>',
-            "Our Twitter profile",
+            "fab fa-twitter",
+            "Twitter",
             "https://twitter.com/fatiandoaterra",
         ),
         (
-            '<i class="fab fa-linkedin fa-lg"></i>',
-            "Our LinkedIn profile",
+            "fab fa-linkedin",
+            "LinkedIn",
             "https://www.linkedin.com/company/fatiando",
         ),
         (
-            '<i class="fab fa-youtube fa-lg"></i>',
-            "Our YouTube channel",
+            "fab fa-youtube",
+            "YouTube",
             "https://www.youtube.com/fatiandoorg",
         ),
     ],

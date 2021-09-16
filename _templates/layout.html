@@ -21,7 +21,8 @@
   <link rel="stylesheet" href="{{ pathto('_static/css/fontawesome/css/all.css', 1) }}">
 
   <!-- Pygments CSS for syntax highlighting -->
-  <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}">
+  <!-- Accessible versions by Max Chadwick (@mpchadwick) -->
+  <link rel="stylesheet" href="{{ pathto('_static/css/pygments/native.css', 1) }}">
 
   <!-- Custom CSS set in conf.py -->
   <link rel="stylesheet" href="{{ pathto('_static/' + stylesheet, 1) }}">
@@ -62,7 +63,7 @@
       <nav>
         <ul class="nav justify-content-center">
           <li class="nav-item ">
-            <a href="{{ pathto('index.html', 1) }}"><img alt="Home" src="{{ pathto(navbar_brand, 1) }}"></a>
+            <a href="{{ pathto('index.html', 1) }}"><img title="Home" alt="Fatiando a Terra" src="{{ pathto(navbar_brand, 1) }}"></a>
           </li>
           {%- for link in menu_items %}
             <li class="nav-item">
@@ -71,8 +72,7 @@
           {%- endfor %}
           {%- for link in social_links %}
             <li class="nav-item">
-              <a class="nav-link" href="{{ link[2] }}" target="_blank"
-                title="{{ link[1] }}">{{ link[0] }}</a>
+              <a class="nav-link" href="{{ link[2] }}" target="_blank"><i class="{{ link[0] }}" title="{{ link[1] }}" alt="{{ link[1] }}"></i></a>
             </li>
           {%- endfor %}
         </ul>
@@ -97,7 +97,9 @@
             <li><a href="{{ pathto(link[1], 1) }}">{{ link[0] }}</a></li>
           {%- endfor %}
           {%- for link in social_links %}
-            <li><a href="{{ link[2] }}" target="_blank" title="{{ link[1] }}">{{ link[0] }}</a></li>
+            <li>
+              <a href="{{ link[2] }}" target="_blank"><i class="{{ link[0] }}" title="{{ link[1] }}" alt="{{ link[1] }}"></i></a>
+            </li>
           {%- endfor %}
         </ul>
       </nav>

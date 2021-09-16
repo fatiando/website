@@ -33,10 +33,12 @@ h3 {
 pre {
     margin-bottom: 1rem;
     padding: 1rem 1rem;
-    background-color: #fafafa;
-    border: 1px solid #dddddd;
-    box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
     font-size: 0.9rem;
+}
+
+code {
+    color: #BB0066;
 }
 
 li {
@@ -78,16 +80,16 @@ li.nav-item {
 div.admonition, .admonition {
     margin: 1.5rem auto 2rem auto;
     padding: 0.1rem 1.25rem;
-    border-left: 0.5rem solid #6abb33;
+    border-left: 0.5rem solid #008000;
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.2);
-    background-color: #fafafa;
+    background-color: #f1f1f1;
 }
 
 .admonition-title {
     margin: 0.7rem 0 0.25rem 0;
     padding: 0;
     font-weight: 700;
-    color: #6abb33;
+    color: #008000;
 }
 
 .note {
@@ -99,19 +101,19 @@ div.admonition, .admonition {
 }
 
 .tip {
-    border-left-color: #ffd52e !important;
+    border-left-color: #7659b6 !important;
 }
 
 .tip > p.admonition-title {
-    color: #ffd52e !important;
+    color: #7659b6 !important;
 }
 
 .important {
-    border-left-color: #d56969 !important;
+    border-left-color: #bc3e31 !important;
 }
 
 .important > p.admonition-title {
-    color: #d56969 !important;
+    color: #bc3e31 !important;
 }
 
 .btn {
