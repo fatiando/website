@@ -2,8 +2,6 @@
 Configuration for building the website with Sphinx.
 """
 import re
-import sys
-import os
 import datetime
 import subprocess
 from requests import get
