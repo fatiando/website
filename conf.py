@@ -121,7 +121,7 @@ html_permalinks = False
 pygments_style = "default"
 
 # Generate cards with the authors of each project
-FATIANDO_PROJECTS = ("pooch", "verde", "harmonica", "boule")
+FATIANDO_PROJECTS = "pooch verde harmonica boule".split()
 for project in FATIANDO_PROJECTS:
     html_snippet = authors_cards(project)
     authors_file = Path("about") / f"{project}-authors.md"
