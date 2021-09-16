@@ -12,7 +12,7 @@ from pathlib import Path
 
 AUTHORS_BASE_URL = "https://raw.githubusercontent.com/fatiando/{}/{}/AUTHORS.md"
 AUTHOR_HTML_CARD = """
-<div class="col-6 col-sm-3">
+<div class="col-6 col-md-3 col-sm-4">
   <div class="card">
     <img
         class="card-img-top"
