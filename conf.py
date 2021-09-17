@@ -10,7 +10,7 @@ from pathlib import Path
 
 AUTHORS_BASE_URL = "https://raw.githubusercontent.com/fatiando/{}/{}/AUTHORS.md"
 AUTHOR_HTML_CARD = """
-<div class="col-6 col-md-3 col-sm-4">
+<div class="col-4 col-sm-3 col-md-2 gx-2">
   <div class="card">
     <img
         class="card-img-top"
@@ -18,7 +18,7 @@ AUTHOR_HTML_CARD = """
         alt="Profile picture of {full_name}"
     >
     <div class="card-body">
-      <h4 class="card-title fs-5">
+      <h4 class="card-title fs-6">
           {full_name}
       </h4>
       <p class="card-text text-muted fs-6">
