@@ -150,30 +150,28 @@ The maintainers are the ones responsible for leading the projects, merging
 changes, making releases, and more.
 
 <div class="row gy-3">
-<div class="col-6 col-sm-3">
+<div class="col-4 col-sm-3 col-md-2 gx-2 d-flex align-items-stretch">
   <div class="card">
     <img class="card-img-top" src="https://github.com/santisoler.png">
     <div class="card-body">
-      <h4 class="card-title fs-5">
+      <h4 class="card-title fs-6">
         Santiago Soler
       </h4>
       <p class="card-text text-muted fs-6">
         <a href="https://github.com/santisoler">@santisoler</a>
-        on <i class="fab fa-github" title="GitHub"></i>
       </p>
     </div>
   </div>
 </div>
-<div class="col-6 col-sm-3">
+<div class="col-4 col-sm-3 col-md-2 gx-2 d-flex align-items-stretch">
   <div class="card">
     <img class="card-img-top" src="https://github.com/leouieda.png">
     <div class="card-body">
-      <h4 class="card-title fs-5">
+      <h4 class="card-title fs-6">
         Leonardo Uieda
       </h4>
       <p class="card-text text-muted fs-6">
         <a href="https://github.com/leouieda">@leouieda</a>
-        on <i class="fab fa-github" title="GitHub"></i>
       </p>
     </div>
   </div>
