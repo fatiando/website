@@ -24,33 +24,120 @@ volunteers** from across the globe.
 The [GitHub repositories][gh] for each project contain `AUTHORS.md` files which
 list everyone involved:
 
-<div class="mt-2">
 
-<a target="_blank" href="https://github.com/fatiando/pooch/blob/master/AUTHORS.md">
-<button type="button" class="btn btn-secondary mb-3 me-3">
-<i class="fa fa-users"></i>
-Pooch
-</button></a>
+<ul class="nav nav-pills mb-3" id="authors-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button
+        class="nav-link active"
+        id="authors-pooch-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#authors-pooch"
+        type="button"
+        role="tab"
+        aria-controls="authors-pooch"
+        aria-selected="true"
+        aria-label="Pooch"
+    >
+    <i class="fa fa-users"></i>
+    Pooch
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button
+        class="nav-link"
+        id="authors-verde-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#authors-verde"
+        type="button"
+        role="tab"
+        aria-controls="authors-verde"
+        aria-selected="true"
+        aria-label="Verde"
+    >
+    <i class="fa fa-users"></i>
+    Verde
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button
+        class="nav-link"
+        id="authors-harmonica-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#authors-harmonica"
+        type="button"
+        role="tab"
+        aria-controls="authors-harmonica"
+        aria-selected="true"
+        aria-label="Harmonica"
+    >
+    <i class="fa fa-users"></i>
+    Harmonica
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button
+        class="nav-link"
+        id="authors-boule-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#authors-boule"
+        type="button"
+        role="tab"
+        aria-controls="authors-boule"
+        aria-selected="true"
+        aria-label="Boule"
+    >
+    <i class="fa fa-users"></i>
+    Boule
+    </button>
+  </li>
+</ul>
+<div class="tab-content" id="authors-tabContent">
+  <div
+      class="tab-pane fade show active"
+      id="authors-pooch"
+      role="tabpanel"
+      aria-labelledby="authors-pooch-tab"
+  >
 
-<a target="_blank" href="https://github.com/fatiando/verde/blob/master/AUTHORS.md">
-<button type="button" class="btn btn-secondary mb-3 me-3">
-<i class="fa fa-users"></i>
-Verde
-</button></a>
+```{include} pooch-authors.md
+```
 
-<a target="_blank" href="https://github.com/fatiando/harmonica/blob/master/AUTHORS.md">
-<button type="button" class="btn btn-secondary mb-3 me-3">
-<i class="fa fa-users"></i>
-Harmonica
-</button></a>
+  </div>
+  <div
+      class="tab-pane fade"
+      id="authors-verde"
+      role="tabpanel"
+      aria-labelledby="authors-verde-tab"
+  >
 
-<a target="_blank" href="https://github.com/fatiando/boule/blob/master/AUTHORS.md">
-<button type="button" class="btn btn-secondary mb-3">
-<i class="fa fa-users"></i>
-Boule
-</button></a>
+```{include} verde-authors.md
+```
 
+  </div>
+  <div
+      class="tab-pane fade"
+      id="authors-harmonica"
+      role="tabpanel"
+      aria-labelledby="authors-harmonica-tab"
+  >
+
+```{include} harmonica-authors.md
+```
+
+  </div>
+  <div
+      class="tab-pane fade"
+      id="authors-boule"
+      role="tabpanel"
+      aria-labelledby="authors-boule-tab"
+  >
+
+```{include} boule-authors.md
+```
+
+  </div>
 </div>
+
 
 ```{note}
 Our [Authorship Guidelines][authorship] define the rules for attributing
