@@ -10,7 +10,7 @@ from pathlib import Path
 
 AUTHORS_BASE_URL = "https://raw.githubusercontent.com/fatiando/{}/{}/AUTHORS.md"
 AUTHOR_HTML_CARD = """
-<div class="col-4 col-sm-3 col-md-2 gx-2">
+<div class="col-4 col-sm-3 col-md-2 gx-2 d-flex align-items-stretch">
   <div class="card">
     <img
         class="card-img-top"
@@ -23,7 +23,6 @@ AUTHOR_HTML_CARD = """
       </h4>
       <p class="card-text text-muted fs-6">
         <a href="https://github.com/{gh_handle}">@{gh_handle}</a>
-        on <i class="fab fa-github" title="GitHub"></i>
       </p>
     </div>
   </div>
