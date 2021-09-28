@@ -29,17 +29,17 @@ list everyone involved:
   <li class="nav-item" role="presentation">
     <button
         class="nav-link active"
-        id="authors-pooch-tab"
+        id="authors-harmonica-tab"
         data-bs-toggle="pill"
-        data-bs-target="#authors-pooch"
+        data-bs-target="#authors-harmonica"
         type="button"
         role="tab"
-        aria-controls="authors-pooch"
+        aria-controls="authors-harmonica"
         aria-selected="true"
-        aria-label="Pooch"
+        aria-label="Harmonica"
     >
     <i class="fa fa-users"></i>
-    Pooch
+    Harmonica
     </button>
   </li>
   <li class="nav-item" role="presentation">
@@ -61,17 +61,17 @@ list everyone involved:
   <li class="nav-item" role="presentation">
     <button
         class="nav-link"
-        id="authors-harmonica-tab"
+        id="authors-pooch-tab"
         data-bs-toggle="pill"
-        data-bs-target="#authors-harmonica"
+        data-bs-target="#authors-pooch"
         type="button"
         role="tab"
-        aria-controls="authors-harmonica"
+        aria-controls="authors-pooch"
         aria-selected="true"
-        aria-label="Harmonica"
+        aria-label="Pooch"
     >
     <i class="fa fa-users"></i>
-    Harmonica
+    Pooch
     </button>
   </li>
   <li class="nav-item" role="presentation">
@@ -94,12 +94,12 @@ list everyone involved:
 <div class="tab-content" id="authors-tabContent">
   <div
       class="tab-pane fade show active"
-      id="authors-pooch"
+      id="authors-harmonica"
       role="tabpanel"
-      aria-labelledby="authors-pooch-tab"
+      aria-labelledby="authors-harmonica-tab"
   >
 
-```{include} pooch-authors.md
+```{include} harmonica-authors.md
 ```
 
   </div>
@@ -116,12 +116,12 @@ list everyone involved:
   </div>
   <div
       class="tab-pane fade"
-      id="authors-harmonica"
+      id="authors-pooch"
       role="tabpanel"
-      aria-labelledby="authors-harmonica-tab"
+      aria-labelledby="authors-pooch-tab"
   >
 
-```{include} harmonica-authors.md
+```{include} pooch-authors.md
 ```
 
   </div>
