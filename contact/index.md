@@ -41,5 +41,5 @@ we post **news and updates** about the project.
 [linkedin]: https://www.linkedin.com/company/fatiando
 [twitter]: https://twitter.com/fatiandoaterra
 [gh]: https://github.com/fatiando
-[bug-report]: https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md#reporting-a-bug
+[bug-report]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md#reporting-a-bug
 [slack]: http://contact.fatiando.org
