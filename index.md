@@ -440,7 +440,7 @@ Happy community members at a [Fatiando Community Call](https://youtu.be/gsYKW7XN
 * **Weekly Fatiando Development Calls**: we discuss various aspects of the
   project. All are welcome, regardless of skill level and prior knowledge!
   Notes and connection details:
-  [`fatiando/meeting-notes`](https://github.com/fatiando/meeting-notes)
+  [`fatiando/community`](https://github.com/fatiando/community)
 * **AGU 2021**: Going to the AGU Fall Meeting? Come to our talk! Details at
   [`fatiando/agu2021`](https://github.com/fatiando/agu2021).
 

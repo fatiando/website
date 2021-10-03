@@ -71,7 +71,7 @@ level!
 
 ```{note}
 Dates, connection details, agendas, and past notes from meetings are available
-at <i class="fab fa-github"></i> [`fatiando/meeting-notes`][notes].
+in the <i class="fab fa-github"></i> [`fatiando/community`][notes] repository.
 ```
 
 ## <i class="fa fa-cog"></i> Join the development
@@ -94,13 +94,13 @@ There are many ways to contribute:
 
 Have a look at our [Contributing Guide][contrib] to see how you can get
 involved.
-This and other guides (for project maintenance, etc.) can be found in the
-[<i class="fab fa-github"></i> `fatiando/contributing`][contrib-repo]
+This and other guides (authorship policy, project maintenance, etc.) can be
+found in the [<i class="fab fa-github"></i> `fatiando/community`][community-repo]
 repository.
 
-[coc]: https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md
-[contrib]: https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md
-[contrib-repo]: https://github.com/fatiando/contributing
+[coc]: https://github.com/fatiando/community/blob/main/CODE_OF_CONDUCT.md
+[contrib]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
+[community-repo]: https://github.com/fatiando/community
 [gh]: https://github.com/fatiando
 [slack]: http://contact.fatiando.org
-[notes]: https://github.com/fatiando/meeting-notes
+[notes]: https://github.com/fatiando/community

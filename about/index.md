@@ -302,4 +302,4 @@ Development and maintenance of the Fatiando a Terra project is supported by:
 [uerj]: https://www.uerj.br/
 [conicet]: https://www.conicet.gov.ar/
 [capes]: https://www.gov.br/capes
-[authorship]: https://github.com/fatiando/contributing/blob/master/AUTHORSHIP.md
+[authorship]: https://github.com/fatiando/community/blob/main/AUTHORSHIP.md
