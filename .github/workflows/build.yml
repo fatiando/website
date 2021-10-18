@@ -47,7 +47,7 @@ jobs:
         run: tree -a _build/html
 
       - name: Push to fatiando.github.io
-        if: success() && github.event_name == 'push'
+        if: success() && ( github.event_name == 'push' || github.event_name == 'schedule' )
         # Don't use tags: https://julienrenaux.fr/2019/12/20/github-actions-security-risk/
         uses: peaceiris/actions-gh-pages@bbdfb200618d235585ad98e965f4aafc39b4c501
         with:
