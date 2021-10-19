@@ -10,7 +10,7 @@ from pathlib import Path
 
 AUTHORS_BASE_URL = "https://raw.githubusercontent.com/fatiando/{}/{}/AUTHORS.md"
 AUTHOR_HTML_CARD = """
-<div class="col-4 col-sm-3 col-md-2 gx-2 d-flex align-items-stretch">
+<div class="col-4 col-sm-3 col-md-2 d-flex align-items-stretch">
   <div class="card">
     <img
         class="card-img-top"
@@ -47,7 +47,7 @@ def authors_cards(package, main_branch="master"):
         HTML snippet for generating the authors cards of the selected package.
     """
     authors = get_authors(package, main_branch=main_branch)
-    html_snippet = '<div class="row gy-3">\n'
+    html_snippet = '<div class="row gy-3 gx-2">\n'
     for author in authors:
         full_name, gh_handle = author[:]
         avatar_url = get_avatar(gh_handle)
