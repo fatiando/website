@@ -149,8 +149,8 @@ authorship to those involved in our projects.
 The maintainers are the ones responsible for leading the projects, merging
 changes, making releases, and more.
 
-<div class="row gy-3">
-<div class="col-4 col-sm-3 col-md-2 gx-2 d-flex align-items-stretch">
+<div class="row gy-3 gx-2">
+<div class="col-4 col-sm-3 col-md-2 d-flex align-items-stretch">
   <div class="card">
     <img class="card-img-top" src="https://github.com/santisoler.png">
     <div class="card-body">
