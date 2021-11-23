@@ -98,7 +98,7 @@ def _get_authors(authors_md):
     """
     Get authors' name and GitHub handle from AUTHORS.md content
     """
-    regex_pattern = r"\[(.+?)\]\((?:https://github.com/)(.+?)\)"
+    regex_pattern = r"\[(.+?)\]\((?:https://github.com/)(.+?)/?\)"
     _authors = re.findall(regex_pattern, authors_md)
     authors = []
     for author in _authors:
