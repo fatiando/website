@@ -35,14 +35,6 @@ jobs:
       - name: Set the CNAME file for our custom domain
         run: echo "www.fatiando.org" > _build/html/CNAME
 
-      - name: Setup redirects to legacy.fatiando.org
-        run: |
-          for version in v0.1 v0.2 v0.3 v0.4 v0.5 dev
-          do
-            mkdir _build/html/${version}
-            echo "<meta http-equiv=\"Refresh\" content=\"0;url=https://legacy.fatiando.org\"/>" > _build/html/${version}/index.html
-          done
-
       - name: Print a directory tree of the generated HTML for debugging
         run: tree -a _build/html
 

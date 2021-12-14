@@ -41,6 +41,19 @@ your browser. To stop the server, type `Control + C`.
 * We use [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
   (just the CSS, not the Javascript components).
 
+### Forwarding
+
+We use the HTML files in the `forward` folder to redirect to other domains.
+This is not ideal but our DNS-based forwarding doesn't work with HTTPS (if you
+know a way around this, please let us know!).
+
+The files are copied to the output folder (`forward/dev/ -> _build/html/dev`
+which is served as `fatiando.org/dev`).
+To add a forward, create a new folder with an `index.html` similar to the ones
+we already include.
+
+**Use only for long and difficult to type URLs.**
+
 ## Deployment
 
 Pushing changes to [fatiando/website](https://github.com/fatiando/website)

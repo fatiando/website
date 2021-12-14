@@ -126,7 +126,7 @@ html_short_title = ""
 html_logo = "_static/fatiando-logo-background.png"
 html_favicon = "_static/favicon.png"
 html_static_path = ["_static"]
-html_extra_path = []
+html_extra_path = ["forward"]
 html_use_smartypants = True
 html_permalinks = False
 pygments_style = "default"
@@ -159,7 +159,7 @@ html_context = {
         (
             "fab fa-slack",
             "Slack",
-            "http://contact.fatiando.org",
+            "/slack",
         ),
         (
             "fab fa-twitter",
