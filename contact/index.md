@@ -13,7 +13,7 @@ Your input is welcome and appreciated.
 <i class="fab fa-slack fa-4x"></i>
 <h2 class="no-top-margin">Questions</h2>
 
-Hop on to our [chat room on Slack][slack] where you can **ask questions**,
+Hop on to our <a href="/slack">chat room on Slack</a> where you can **ask questions**,
 leave comments, and reach out to users and developers.
 
 </div>
@@ -41,5 +41,4 @@ we post **news and updates** about the project.
 [linkedin]: https://www.linkedin.com/company/fatiando
 [twitter]: https://twitter.com/fatiandoaterra
 [gh]: https://github.com/fatiando
-[bug-report]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md#reporting-a-bug
-[slack]: https://join.slack.com/t/fatiando/shared_invite/enQtNzY4NDQ3ODQwNDk4LTc5MTU5OWNkNTczMDY4NjcyNjcyZTU0Y2I3MDQ0NWUwMmEzMTBkNmVjNTExMGZkMjA0YzM1OGYyMzZlMDk3YTU
+[bug-report]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md

@@ -31,7 +31,7 @@ chat:
 <li>
 
 <i class="fa-li fab fa-slack fa-fw"></i>
-[Slack][slack]: where most conversation happens about meetings, events,
+<a href="/slack">Slack</a>: where most conversation happens about meetings, events,
 questions, etc.
 
 </li>
@@ -102,5 +102,4 @@ repository.
 [contrib]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
 [community-repo]: https://github.com/fatiando/community
 [gh]: https://github.com/fatiando
-[slack]: http://contact.fatiando.org
 [notes]: https://github.com/fatiando/community
