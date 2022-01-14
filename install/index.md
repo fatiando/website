@@ -46,16 +46,16 @@ Run these commands in a terminal (Linux/Mac) or "Anaconda prompt" (Windows).
 ```{warning}
 The old `fatiando` package **is not currently maintained nor developed**, it
 means that **it won't get any bugfix or any new feature**. The purpose of these
-instructions are for **legacy use only**, in order to allow people to run old
-code to check reproducibility of results.
+instructions are for **legacy use only**, in order to run old code to check
+reproducibility of results.
 ```
 
 ```{tip}
 If you are working on some new research or data analysis, we strongly
-**recommend to use the latest tools**.
+**recommend to use the [latest tools](#install-the-latest-tools)**.
 ```
 
-If you need to install the old `fatiando` package, we can still do so through
+If you need to install the old `fatiando` package, you can still do so through
 `conda`, therefore you need [Anaconda][anaconda] to be installed.
 
 Since the old `fatiando` runs on Python 2.7, a deprecated version of Python,
