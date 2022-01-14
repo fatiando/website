@@ -38,3 +38,49 @@ Run these commands in a terminal (Linux/Mac) or "Anaconda prompt" (Windows).
 
 [anaconda]: https://www.anaconda.com/products/individual
 [swc-install]: https://carpentries.github.io/workshop-template/#python
+
+---
+
+# Installing the legacy `fatiando` package
+
+```{warning}
+The old `fatiando` package **is not currently maintained nor developed**, it
+means that **it won't get any bugfix or any new feature**. The purpose of these
+instructions are for **legacy use only**, in order to allow people to run old
+code to check reproducibility of results.
+```
+
+```{tip}
+If you are working on some new research or data analysis, we strongly
+**recommend to use the latest tools**.
+```
+
+If you need to install the old `fatiando` package, we can still do so through
+`conda`, therefore you need [Anaconda][anaconda] to be installed.
+
+Since the old `fatiando` runs on Python 2.7, a deprecated version of Python,
+you need to create a separated environment for our installation in order to
+avoid conflicts with your Anaconda installation.
+
+Create a new environment and install the required packages:
+
+```
+conda create --name fatiando-legacy -c conda-forge python=2.7 numpy=1.10 scipy=1.2 matplotlib=2.2 pillow=6.2 future=0.18 numba=0.43 pytest=4.6 fatiando=0.5
+```
+
+Activate the newly created environment:
+
+```bash
+conda activate fatiando-legacy
+```
+
+And test your installation:
+
+```bash
+python -c "import fatiando; fatiando.test()"
+```
+
+You should see a green dot after each test is run and no red `F`.
+
+The documentation for the legacy `fatiando` package is available in
+[legacy.fatiando.org](https://legacy.fatiando.org).
