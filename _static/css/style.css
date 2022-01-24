@@ -76,34 +76,60 @@ li.nav-item {
     margin: 0 0 1.5rem 0;
 }
 
-/* Create thumbnail for youtube video */
+/* Create thumbnail for youtube videos */
 .yt {
     background-size: cover;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
 }
 
 .play-button {
-    width: 20%;
-    /* height: auto; */
-    background-color: #111;
-    opacity: 85%;
-    border-radius: 15px;
+    width: 68px;
+    height: 48px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -34px;
+    margin-top: -24px;
+    background-color: rgba(23,23,23,0.8);
+    border-radius: 10px;
 }
 
 .play-button:hover {
-    background-color: red;
-    opacity: 100%;
+    background-color: rgba(255,0,0,1);
 }
 
 .play-button img {
     width: 25%;
     height: auto;
     margin: 18% 0;
-    opacity: 100%;
- }
+    padding-top: 2px;
+}
+
+.watch-on-yt {
+    background-color: rgba(23,23,23,0.8);
+    position: absolute;
+    left: 0px;
+    top: auto;
+    bottom: 5px;
+    height: 48px;
+    width: auto;
+    padding: 5px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+
+.watch-on-yt:hover {
+    color: #fff;
+}
+
+.watch-on-yt img {
+    height: 0.9rem;
+    width: auto;
+    margin-left: 0.5rem;
+    padding-bottom: 1px;
+}
 
 /* Admonitions CSS originally inspired by sphinx-pydata-theme */
 div.admonition, .admonition {

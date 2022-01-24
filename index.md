@@ -93,15 +93,31 @@ Please {ref}`cite our tools <cite>` in your publications.
 </div> <!-- column -->
 <div class="col-md-5 order-md-last text-center fs-6">
 
-<a href="https://www.youtube.com/embed/z-5dvWfB_SM?start=850">
-  <div class="ratio ratio-16x9">
-  <div class="yt" style='background-image: url("_static/gfz-talk.jpg")' >
-    <div class="play-button">
-      <img src="_static/play.svg">
-    </div>
+<div class="ratio ratio-16x9">
+  <div class="yt" style='background-image: url("_static/gfz-talk.jpg")'>
+    <a
+      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="play-button">
+        <img src="_static/play.svg">
+      </div>
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="watch-on-yt">
+        <div aria-hidden="true">Watch on</div>
+        <div><img src="_static/yt-logo.svg" alt="YouTube logo"></div>
+      </div>
+    </a>
   </div>
-  </div>
-</a>
+</div>
 
 Source code for this demonstration:
 <i class="fab fa-github ms-1"></i>
