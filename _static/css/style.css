@@ -76,6 +76,35 @@ li.nav-item {
     margin: 0 0 1.5rem 0;
 }
 
+/* Create thumbnail for youtube video */
+.yt {
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button {
+    width: 20%;
+    /* height: auto; */
+    background-color: #111;
+    opacity: 85%;
+    border-radius: 15px;
+}
+
+.play-button:hover {
+    background-color: red;
+    opacity: 100%;
+}
+
+.play-button img {
+    width: 25%;
+    height: auto;
+    margin: 18% 0;
+    opacity: 100%;
+ }
+
 /* Admonitions CSS originally inspired by sphinx-pydata-theme */
 div.admonition, .admonition {
     margin: 1.5rem auto 2rem auto;

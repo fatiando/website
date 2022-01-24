@@ -93,9 +93,15 @@ Please {ref}`cite our tools <cite>` in your publications.
 </div> <!-- column -->
 <div class="col-md-5 order-md-last text-center fs-6">
 
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/z-5dvWfB_SM?start=850" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-</div>
+<a href="https://www.youtube.com/embed/z-5dvWfB_SM?start=850">
+  <div class="ratio ratio-16x9">
+  <div class="yt" style='background-image: url("_static/gfz-talk.jpg")' >
+    <div class="play-button">
+      <img src="_static/play.svg">
+    </div>
+  </div>
+  </div>
+</a>
 
 Source code for this demonstration:
 <i class="fab fa-github ms-1"></i>
