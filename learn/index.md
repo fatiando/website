@@ -17,8 +17,31 @@ that we develop.
 <div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
 
+<!-- Thumbnail of Youtube video -->
 <div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLPA_RM8wsOqJVm8SRdxwnrsMTut_GAV7F" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  <div class="yt" style='background-image: url("../_static/transform21-tutorial.jpg")'>
+    <a
+      href="https://www.youtube.com/watch?v=0bxZcCAr6bw&list=PLPA_RM8wsOqJVm8SRdxwnrsMTut_GAV7F"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="play-button">
+        <img src="../_static/play.svg">
+      </div>
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=0bxZcCAr6bw&list=PLPA_RM8wsOqJVm8SRdxwnrsMTut_GAV7F"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="watch-on-yt">
+        <div aria-hidden="true">Watch on</div>
+        <div><img src="../_static/yt-logo.svg" alt="YouTube logo"></div>
+      </div>
+    </a>
+  </div>
 </div>
 
 </div>
@@ -95,8 +118,31 @@ and
 <div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
 
+<!-- Thumbnail of Youtube video -->
 <div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/YHDvqPRM9tE" frameborder="0" allowfullscreen></iframe>
+  <div class="yt" style='background-image: url("../_static/software-carpentries-workshop.jpg")'>
+    <a
+      href="https://www.youtube.com/watch?v=YHDvqPRM9tE"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="play-button">
+        <img src="../_static/play.svg">
+      </div>
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=YHDvqPRM9tE"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="watch-on-yt">
+        <div aria-hidden="true">Watch on</div>
+        <div><img src="../_static/yt-logo.svg" alt="YouTube logo"></div>
+      </div>
+    </a>
+  </div>
 </div>
 
 </div>
@@ -117,8 +163,31 @@ The best part is that they are all focused on Geoscience applications.
 <div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
 
+<!-- Thumbnail of Youtube video -->
 <div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/iIOMiN8Cacs" frameborder="0" allowfullscreen></iframe>
+  <div class="yt" style='background-image: url("../_static/transform-intro-python.jpg")'>
+    <a
+      href="https://www.youtube.com/watch?v=iIOMiN8Cacs"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="play-button">
+        <img src="../_static/play.svg">
+      </div>
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=iIOMiN8Cacs"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="watch-on-yt">
+        <div aria-hidden="true">Watch on</div>
+        <div><img src="../_static/yt-logo.svg" alt="YouTube logo"></div>
+      </div>
+    </a>
+  </div>
 </div>
 
 </div>
