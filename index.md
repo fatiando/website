@@ -93,8 +93,9 @@ Please {ref}`cite our tools <cite>` in your publications.
 </div> <!-- column -->
 <div class="col-md-5 order-md-last text-center fs-6">
 
+<!-- Thumbnail of Youtube video -->
 <div class="ratio ratio-16x9">
-  <div class="yt" style='background-image: url("_static/gfz-talk.jpg")'>
+  <div class="yt" style='background-image: url("/_static/gfz-talk.jpg")'>
     <a
       href="https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s"
       aria-label="Watch on YouTube"
@@ -102,7 +103,7 @@ Please {ref}`cite our tools <cite>` in your publications.
       rel="noopener noreferrer"
     >
       <div class="play-button">
-        <img src="_static/play.svg">
+        <img src="/_static/play.svg">
       </div>
     </a>
     <a
@@ -113,7 +114,7 @@ Please {ref}`cite our tools <cite>` in your publications.
     >
       <div class="watch-on-yt">
         <div aria-hidden="true">Watch on</div>
-        <div><img src="_static/yt-logo.svg" alt="YouTube logo"></div>
+        <div><img src="/_static/yt-logo.svg" alt="YouTube logo"></div>
       </div>
     </a>
   </div>
