@@ -56,7 +56,8 @@ If you are working on some new research or data analysis, we strongly
 ```
 
 If you need to install the old `fatiando` package, you can still do so through
-`conda`.
+`conda`. Please note the following instructions were only tested under a GNU/Linux distribution, so
+we don't guarantee that they will also work on a different OS.
 
 Since the old `fatiando` runs on Python 2.7, a deprecated version of Python,
 you need to create a separate environment for our installation in order to
