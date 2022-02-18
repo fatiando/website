@@ -220,10 +220,36 @@ The documentation for it can still be accessed at
 
 <div class="row text-muted align-items-center fs-6">
 <div class="col-md-9">
+
+<!-- Thumbnail of Youtube video -->
 <div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/videoseries?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  <div class="yt" style='background-image: url("/_static/fatiando-talks.jpg")'>
+    <a
+      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="play-button">
+        <img src="/_static/play.svg">
+      </div>
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="watch-on-yt">
+        <div aria-hidden="true">Watch on</div>
+        <div><img src="/_static/yt-logo.svg" alt="YouTube logo"></div>
+      </div>
+    </a>
+  </div>
 </div>
+
 </div>
+
 <div class="col-md-3">
 
 Our [YouTube channel][youtube] has a [playlist of talks][yt-playlist] given
