@@ -31,8 +31,8 @@ chat:
 <li>
 
 <i class="fa-li fab fa-slack fa-fw"></i>
-<a href="/slack">Slack</a>: where most conversation happens about meetings, events,
-questions, etc.
+<a href="/slack">Slack</a>: this is where we ask and answer questions, organize
+meetings and events, share news, chat, etc.
 
 </li>
 <li>
@@ -47,32 +47,16 @@ where we discuss development details, review code, etc.
 ### Video calls
 
 Synchronous online calls to tackle topics when text-based discussion becomes
-inefficient and mostly get to know each other better:
+inefficient and mostly get to know each other better.
 
-<ul class="fa-ul">
-<li>
+We **meet up weekly** to discuss project development, get to know each other,
+share experiences, and even code things live to show our process. They are a
+great way to learn more about day-to-day development and get to know our global
+community. It's absolutely fine to join and just listen to what we discuss but
+we welcome participation!
 
-<i class="fa-li fa fa-microphone-alt fa-fw"></i>
-[Community Calls][notes]:
-Regular calls to socialize and discuss project directions (not technical
-details).
-
-</li>
-<li>
-
-<i class="fa-li fa fa-code fa-fw"></i>
-[Development Calls][notes]:
-Weekly calls more focused on development discussion (implementation details,
-road maps, issues, etc.). Everyone is welcome to join, regardless of skill
-level!
-
-</li>
-</ul>
-
-```{note}
 Dates, connection details, agendas, and past notes from meetings are available
 in the <i class="fab fa-github"></i> [`fatiando/community`][notes] repository.
-```
 
 ## <i class="fa fa-cog"></i> Join the development
 
