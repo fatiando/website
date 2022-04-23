@@ -1,17 +1,15 @@
 (cite)=
-# Citing and supporting Fatiando
+# Citing Fatiando
 
 <p class="lead">
+If you use our software, please consider citing it in your publications.
 Our software is <strong>made by scientists and volunteers</strong> who
 generously donate their time and attention.
-Here are some of the ways in which you can help support the project and give
-back to the community.
+<strong>Citations</strong> help us justify the effort that goes into building
+and maintaining this project.
 </p>
 
-## Cite our software
-
-**Citations help us justify the effort that goes into building and maintaining
-this project**.
+## Citing the libraries
 
 Each of our libraries has a `CITATION.rst` file that describes the best way
 to cite it in publications:
@@ -44,86 +42,31 @@ Boule
 
 </div>
 
-## Get involved
+## Citing the Fatiando project
 
-Fatiando only exists because of the efforts of our **community members**, most
-of which volunteer their time and energy.
-One of the **most impactful ways you can help** is by
-{ref}`being involved <community>`!
+If you wish to reference the Fatiando project as a whole, please use the
+following reference:
 
-## Spread the word
+> Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa (2013), Modeling the
+> Earth with Fatiando a Terra, Proceedings of the 12th Python in Science
+> Conference, pp. 91-98. doi:[10.25080/Majora-8b375195-010](https://doi.org/10.25080/Majora-8b375195-010)
 
-We benefit greatly from **recommendations and acknowledgements of usage** of
-our software.
-It helps boost morale, encourage participation, and can even help with funding
-applications and job interviews for our community members.
+This article was [peer-reviewed](https://github.com/scipy-conference/scipy_proceedings/pull/52)
+and is open-access.
+Source files and extra material for the paper are on the
+[`leouieda/scipy2013`](https://github.com/leouieda/scipy2013) GitHub
+repository.
 
-**Social media:** Share links to this website, our [GitHub][gh] repositories,
-project documentation, etc.
+Here is a BibTex entry for LaTeX users:
 
-**Publish your code:** Used our tools in your research? Why not publish your
-analysis code along with the paper? {ref}`Give us a shout <contact>` and we'll
-gladly share it on our social media.
-
-**Use our logos:** Include the project logos in talks, posters, videos, and
-websites about work that used our tools.
-
-<div class="row gy-3 mt-4 align-items-center text-center">
-<div class="col-4 col-sm-2">
-
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-logo.png">
-</a>
-
-</div>
-<div class="col-4 col-sm-2">
-
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-logo-background.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-logo-background.png">
-</a>
-
-</div>
-<div class="col-4 col-sm-2">
-
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/verde-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/verde-logo.png">
-</a>
-
-</div>
-<div class="col-4 col-sm-2">
-
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/harmonica-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/harmonica-logo.png">
-</a>
-
-</div>
-<div class="col-4 col-sm-2">
-
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/pooch-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/pooch-logo.png">
-</a>
-
-</div>
-<div class="col-4 col-sm-2">
-
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/ensaio-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/ensaio-logo.png">
-</a>
-
-</div>
-</div>
-
-```{admonition} Want the vector graphics versions?
-High quality SVG and PNG versions of the logos and other variants are all
-available at <i class="fab fa-github"></i> [`fatiando/logo`][logo-repo].
 ```
-
-Can't get enough? Here is a sweet **Fatiando wallpaper** in 4k resolution and
-16x9 aspect ratio:
-
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-wallpaper.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-wallpaper.png">
-</a>
-
-[logo-repo]: https://github.com/fatiando/logo
-[gh]: https://github.com/fatiando
+@InProceedings{ uieda-proc-scipy-2013,
+  author    = { {L}eonardo {U}ieda and {V}anderlei {C}. {O}liveira {J}r and {V}al\'eria {C}. {F}. {B}arbosa },
+  title     = { {M}odeling the {E}arth with {F}atiando a {T}erra },
+  booktitle = { {P}roceedings of the 12th {P}ython in {S}cience {C}onference },
+  pages     = { 92 - 98 },
+  year      = { 2013 },
+  editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman and {K}aty {H}uff },
+  doi       = { 10.25080/Majora-8b375195-010 }
+}
+```

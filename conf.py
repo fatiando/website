@@ -143,12 +143,13 @@ for package in FATIANDO_PACKAGES:
 # These variables are passed to the templates in _templates/
 html_context = {
     "menu_items": [
+        ("About", "about", True),
         ("Install", "install", True),
         ("Learn", "learn", True),
         ("Contact", "contact", True),
-        ("About Us", "about", True),
         ("Community", "community", True),
         ("Cite", "cite", True),
+        ("Support", "support", True),
     ],
     "social_links": [
         (

@@ -50,6 +50,13 @@ img {
   width: 100%;
 }
 
+blockquote {
+  margin: 1.5rem auto 2rem auto;
+  padding: 1rem 1.25rem 1px 1.25rem;
+  border-left: 0.5rem solid #cccccc;
+  color: #666666;
+}
+
 /* Custom styling of existing classes */
 /*****************************************************************************/
 .fa-ul {
