@@ -10,6 +10,7 @@ learn/index.md
 contact/index.md
 community/index.md
 cite/index.md
+support/index.md
 ```
 
 <div class="container-fluid banner">

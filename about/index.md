@@ -304,17 +304,6 @@ which has grown tremendously since we started development in 2010.
 </div>
 </div>
 
-## Funding and support
-
-Development and maintenance of the Fatiando a Terra project is supported by:
-
-* Salary support for Leonardo Uieda from the [University of Liverpool][liv]
-  (from 2019) and [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
-* A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
-  (2017-2022).
-* MSc and PhD scholarships for Leonardo Uieda from [Capes][capes], Brazil
-  (2010-2016).
-
 [youtube]: https://www.youtube.com/fatiandoorg
 [yt-playlist]: https://youtube.com/playlist?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL
 [gh]: https://github.com/fatiando
