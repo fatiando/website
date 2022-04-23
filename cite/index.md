@@ -104,6 +104,13 @@ websites about work that used our tools.
 </a>
 
 </div>
+<div class="col-4 col-sm-2">
+
+<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/ensaio-logo.png">
+<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/ensaio-logo.png">
+</a>
+
+</div>
 </div>
 
 ```{admonition} Want the vector graphics versions?
