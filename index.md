@@ -57,6 +57,83 @@ All of our code is **free and open-source**, distributed under the permissive
 </div> <!-- container-fluid -->
 
 
+<div class="container-fluid section background-1">
+<div class="container">
+
+<div class="row align-items-start gy-5">
+<div class="col-md-7">
+
+## Getting started
+
+**Looking for an overview?**
+A good place to start is [this recorded example][yt-demo] (~20 min) that uses
+our tools to download, process, and interpolate public domain gravity data from
+the Bushveld Complex in South Africa.
+
+**No time for a video?**
+You can also browse the <i class="fab fa-python"></i>
+[Jupyter notebook][yt-demo-nb] used in the example.
+
+
+**New to Python?**
+We provide links to {ref}`excellent free resources <learn>` for starting your
+Scientific Python journey.
+
+**Used Fatiando for research?**
+Please {ref}`cite our tools <cite>` in your publications.
+
+<div class="mt-5">
+  <a href="learn"><button type="button" class="btn btn-light mb-3 me-3">
+  <i class="fa fa-graduation-cap"></i>
+  Learning resources
+  </button></a>
+  <a href="contact"><button type="button" class="btn btn-warning mb-3">
+  <i class="fa fa-hands-helping"></i>
+  Need help?
+  </button></a>
+</div>
+
+</div> <!-- column -->
+<div class="col-md-5 order-md-last text-center fs-6">
+
+<!-- Thumbnail of Youtube video -->
+<div class="ratio ratio-16x9">
+  <div class="yt" style='background-image: url("/_static/gfz-talk.jpg")'>
+    <a
+      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="play-button">
+        <img src="/_static/play.svg">
+      </div>
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="watch-on-yt">
+        <div aria-hidden="true">Watch on</div>
+        <div><img src="/_static/yt-logo.svg" alt="YouTube logo"></div>
+      </div>
+    </a>
+  </div>
+</div>
+
+Source code for this demonstration:
+<i class="fab fa-github ms-1"></i>
+[leouieda/2021-06-22-gfz](https://github.com/leouieda/2021-06-22-gfz)
+
+</div> <!-- column -->
+</div> <!-- row -->
+
+</div> <!-- container -->
+</div> <!-- container-fluid -->
+
+
 <div class="container-fluid section background-3">
 <div class="container">
 
@@ -161,10 +238,8 @@ and [more](https://github.com/fatiando/pooch/network/dependents).
 <div class="col-md-5 order-md-first">
 
 ```python
-"""
-Download Australian gravity data from figshare
-"""
 import pooch
+import xarray as xr
 
 # The Digital Object Identifier of the data
 doi = "10.6084/m9.figshare.13643837"
@@ -175,10 +250,6 @@ fname = pooch.retrieve(
     url=f"doi:{doi}/australia-ground-gravity.nc",
     known_hash=checksum,
 )
-
-# Load the data with xarray
-import xarray as xr
-
 # fname is the path to the file
 data = xr.load_dataset(fname)
 ```
@@ -349,85 +420,7 @@ height, bathymetry, GPS velocity, global relief, and magnetic anomaly.
 </div> <!-- container-fluid -->
 
 
-
 <div class="container-fluid section background-4">
-<div class="container">
-
-<div class="row align-items-start gy-5">
-<div class="col-md-7">
-
-## Getting started
-
-**Looking for an overview?**
-A good place to start is [this recorded example][yt-demo] (~20 min) that uses
-our tools to download, process, and interpolate public domain gravity data from
-the Bushveld Complex in South Africa.
-
-**No time for a video?**
-You can also browse the <i class="fab fa-python"></i>
-[Jupyter notebook][yt-demo-nb] used in the example.
-
-
-**New to Python?**
-We provide links to {ref}`excellent free resources <learn>` for starting your
-Scientific Python journey.
-
-**Used Fatiando for research?**
-Please {ref}`cite our tools <cite>` in your publications.
-
-<div class="mt-5">
-  <a href="learn"><button type="button" class="btn btn-light mb-3 me-3">
-  <i class="fa fa-graduation-cap"></i>
-  Learning resources
-  </button></a>
-  <a href="contact"><button type="button" class="btn btn-warning mb-3">
-  <i class="fa fa-hands-helping"></i>
-  Need help?
-  </button></a>
-</div>
-
-</div> <!-- column -->
-<div class="col-md-5 order-md-last text-center fs-6">
-
-<!-- Thumbnail of Youtube video -->
-<div class="ratio ratio-16x9">
-  <div class="yt" style='background-image: url("/_static/gfz-talk.jpg")'>
-    <a
-      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s"
-      aria-label="Watch on YouTube"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <div class="play-button">
-        <img src="/_static/play.svg">
-      </div>
-    </a>
-    <a
-      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&t=850s"
-      aria-label="Watch on YouTube"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <div class="watch-on-yt">
-        <div aria-hidden="true">Watch on</div>
-        <div><img src="/_static/yt-logo.svg" alt="YouTube logo"></div>
-      </div>
-    </a>
-  </div>
-</div>
-
-Source code for this demonstration:
-<i class="fab fa-github ms-1"></i>
-[leouieda/2021-06-22-gfz](https://github.com/leouieda/2021-06-22-gfz)
-
-</div> <!-- column -->
-</div> <!-- row -->
-
-</div> <!-- container -->
-</div> <!-- container-fluid -->
-
-
-<div class="container-fluid section background-1">
 <div class="container">
 
 <div class="row align-items-start gy-5">
