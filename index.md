@@ -14,12 +14,13 @@ cite/index.md
 
 <div class="container-fluid banner">
 <div class="container">
+
 <div class="row align-items-center gy-5">
 <div class="col-md-8">
 
 # Fatiando a Terra
 
-<p class="banner-description">Open-source Python tools for Geophysics</p>
+<p class="banner-description">An open toolbox for the Geosciences</p>
 
 Fatiando provides **Python libraries** for data processing, modeling, and
 inversion across the Geosciences.
@@ -46,12 +47,14 @@ All of our code is **free and open-source**, distributed under the permissive
 
 </div> <!-- column -->
 <div class="col-md-4 order-md-first">
-  <img class="banner-logo" src="_static/fatiando-logo.svg">
-</div>
+
+<img class="banner-logo" src="_static/fatiando-logo.svg">
+
+</div> <!-- column -->
 </div> <!-- row -->
+
 </div> <!-- container -->
 </div> <!-- container-fluid -->
-
 
 
 <div class="container-fluid section background-1">
@@ -126,44 +129,61 @@ Source code for this demonstration:
 
 </div> <!-- column -->
 </div> <!-- row -->
-</div> <!-- container -->
-</div> <!-- container-fluid -->
-
-
-
-<div class="container-fluid transition">
-<div class="container narrow text-center">
-
-<h2 class="no-top-margin">
-A toolbox for Geophysics
-</h2>
-
-<div class="row gy-4 pt-4 align-items-center">
-<div class="col-6 col-md-3">
-  <a href="#pooch">
-  <img src="_static/pooch-logo.svg" title="Pooch">
-  </a>
-</div>
-<div class="col-6 col-md-3">
-  <a href="#verde">
-  <img src="_static/verde-logo.svg" title="Verde">
-  </a>
-</div>
-<div class="col-6 col-md-3">
-  <a href="#harmonica">
-  <img src="_static/harmonica-logo.svg" title="Harmonica">
-  </a>
-</div>
-<div class="col-6 col-md-3">
-  <a href="#boule">
-  <img src="_static/boule-logo.svg" title="Boule">
-  </a>
-</div>
-</div>
 
 </div> <!-- container -->
 </div> <!-- container-fluid -->
 
+
+<div class="container-fluid section background-3">
+<div class="container">
+
+<div class="row align-items-start gy-5">
+<div class="col-md-7">
+
+(verde)=
+## **Verde:** Gridding, machine learning style
+
+Verde offers **spatial** data processing and **interpolation** (gridding) with
+a sprinkling of machine learning.
+
+
+<ul class="project-info">
+<li>
+  <i class="fa fa-check fa-fw" style="color: green" title="Project status"></i>
+   Stable and ready for use
+</li>
+<li>
+  <i class="fab fa-github fa-fw" title="GitHub repository"></i>
+  <a href="https://github.com/fatiando/verde">fatiando/verde</a>
+</li>
+<li>
+  <i class="fas fa-bookmark fa-fw" title="Publication"></i>
+   doi: <a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
+</li>
+</ul>
+
+<div class="mt-4">
+  <a target="_blank" href="https://www.fatiando.org/verde/">
+  <button type="button" class="btn btn-secondary mb-3">
+  <i class="fa fa-book"></i>
+  Verde documentation
+  </button>
+  </a>
+</div>
+
+</div> <!-- column -->
+
+<div class="col-md-5 order-md-last text-center fs-6">
+
+<img class="mb-3" src="_static/verde-spline-example.png">
+Vertical ground velocity in California interpolated from GPS data with and
+without weights based on data uncertainty.
+
+</div> <!-- column -->
+</div> <!-- row -->
+
+</div> <!-- container -->
+</div> <!-- container-fluid -->
 
 
 <div class="container-fluid section background-2">
@@ -218,10 +238,8 @@ and [more](https://github.com/fatiando/pooch/network/dependents).
 <div class="col-md-5 order-md-first">
 
 ```python
-"""
-Download Australian gravity data from figshare
-"""
 import pooch
+import xarray as xr
 
 # The Digital Object Identifier of the data
 doi = "10.6084/m9.figshare.13643837"
@@ -232,10 +250,6 @@ fname = pooch.retrieve(
     url=f"doi:{doi}/australia-ground-gravity.nc",
     known_hash=checksum,
 )
-
-# Load the data with xarray
-import xarray as xr
-
 # fname is the path to the file
 data = xr.load_dataset(fname)
 ```
@@ -247,61 +261,12 @@ because the data are cached where Pooch can find it.
 
 </div> <!-- column -->
 </div> <!-- row -->
+
 </div> <!-- container -->
 </div> <!-- container-fluid -->
-
 
 
 <div class="container-fluid section background-3">
-<div class="container">
-
-<div class="row align-items-start gy-5">
-<div class="col-md-7">
-
-(verde)=
-## **Verde:** Gridding, machine learning style
-
-Verde offers **spatial** data processing and **interpolation** (gridding) with
-a sprinkling of machine learning.
-
-
-<ul class="project-info">
-<li>
-  <i class="fa fa-check fa-fw" style="color: green" title="Project status"></i>
-   Stable and ready for use
-</li>
-<li>
-  <i class="fab fa-github fa-fw" title="GitHub repository"></i>
-  <a href="https://github.com/fatiando/verde">fatiando/verde</a>
-</li>
-<li>
-  <i class="fas fa-bookmark fa-fw" title="Publication"></i>
-   doi: <a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
-</li>
-</ul>
-
-<div class="mt-4">
-  <a target="_blank" href="https://www.fatiando.org/verde/">
-  <button type="button" class="btn btn-secondary mb-3">
-  <i class="fa fa-book"></i>
-  Verde documentation
-  </button>
-  </a>
-</div>
-
-</div> <!-- column -->
-<div class="col-md-5 order-md-last text-center fs-6">
-  <img class="mb-3" src="_static/verde-spline-example.png">
-  Vertical ground velocity in California interpolated from GPS data with and
-  without weights based on data uncertainty.
-</div> <!-- column -->
-</div> <!-- row -->
-</div> <!-- container -->
-</div> <!-- container-fluid -->
-
-
-
-<div class="container-fluid section background-2">
 <div class="container">
 
 <div class="row align-items-start gy-5">
@@ -341,18 +306,20 @@ implementations.
 </div>
 
 </div> <!-- column -->
-<div class="col-md-5 order-md-first text-center fs-6">
-  <img class="mb-3" src="_static/harmonica-example-bushveld.png">
-  Residual gravity disturbances of the Bushveld Complex, South Africa,
-  gridded to a uniform height with equivalent sources.
+<div class="col-md-5 order-md-last text-center fs-6">
+
+<img class="mb-3" src="_static/harmonica-example-bushveld.png">
+Residual gravity disturbances of the Bushveld Complex, South Africa,
+gridded to a uniform height with equivalent sources.
+
 </div> <!-- column -->
 </div> <!-- row -->
+
 </div> <!-- container -->
 </div> <!-- container-fluid -->
 
 
-
-<div class="container-fluid section background-3">
+<div class="container-fluid section background-2">
 <div class="container">
 
 <div class="row align-items-start gy-5">
@@ -389,15 +356,68 @@ the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
 </div>
 
 </div> <!-- column -->
-<div class="col-md-5 order-md-last text-center fs-6">
-  <img class="mb-3" src="_static/boule-example-normal-gravity.png">
-  Normal gravity of the WGS84 ellipsoid calculated at the Earth's surface using
-  an analytical expression (no free-air correction required).
+<div class="col-md-5 order-md-first text-center fs-6">
+
+<img class="mb-3" src="_static/boule-example-normal-gravity.png">
+Normal gravity of the WGS84 ellipsoid calculated at the Earth's surface using
+an analytical expression (no free-air correction required).
+
 </div> <!-- column -->
 </div> <!-- row -->
+
 </div> <!-- container -->
 </div> <!-- container-fluid -->
 
+
+<div class="container-fluid section background-3">
+<div class="container">
+
+<div class="row align-items-start gy-5">
+<div class="col-md-7">
+
+(ensaio)=
+## **Ensaio:**  Practice datasets to probe your code
+
+Ensaio makes it easy to download our open-access **sample datasets**. It taps
+into the [Fatiando a Terra FAIR data collection](https://github.com/fatiando-data)
+which is designed for use in tutorials, documentation, and teaching.
+
+<ul class="project-info">
+<li>
+  <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i>
+  Functional but still evolving
+</li>
+<li>
+  <i class="fab fa-github fa-fw" title="GitHub repository"></i>
+  <a href="https://github.com/fatiando/ensaio">fatiando/ensaio</a>
+</li>
+<li>
+  <i class="fas fa-bookmark fa-fw" title="Publication"></i>
+   doi: <a href="https://doi.org/10.5281/zenodo.5784202">10.5281/zenodo.5784202</a>
+</li>
+</ul>
+
+<div class="mt-4">
+  <a target="_blank" href="https://www.fatiando.org/ensaio/">
+  <button type="button" class="btn btn-secondary mb-3">
+  <i class="fa fa-book"></i>
+  Ensaio documentation
+  </button>
+  </a>
+</div>
+
+</div> <!-- column -->
+<div class="col-md-5 order-md-last text-center fs-6">
+
+<img class="mb-3" src="_static/ensaio-gallery.png">
+A sample of the datasets available in Ensaio. From the top-left: gravity, geoid
+height, bathymetry, GPS velocity, global relief, and magnetic anomaly.
+
+</div> <!-- column -->
+</div> <!-- row -->
+
+</div> <!-- container -->
+</div> <!-- container-fluid -->
 
 
 <div class="container-fluid section background-4">
@@ -431,15 +451,16 @@ your coding skills, and **make an impact** in your field.
 
 Happy community members at a [Fatiando Community Call](https://youtu.be/gsYKW7XNzzw).
 
-</div>
+</div> <!-- column -->
 </div> <!-- row -->
+
 </div> <!-- container -->
 </div> <!-- container-fluid -->
 
 
-
 <div class="container-fluid section background-1">
 <div class="container narrow">
+
 <hr class="mb-5">
 <div class="row align-items-start gy-5 mb-5">
 <div class="col-md-6">
@@ -479,6 +500,7 @@ Happy community members at a [Fatiando Community Call](https://youtu.be/gsYKW7XN
 <a href="https://pypi.python.org/pypi/verde"><img class="shield" alt="Verde latest version" src="https://img.shields.io/pypi/v/verde.svg?style=flat-square&label=Verde"></a>
 <a href="https://pypi.python.org/pypi/harmonica"><img class="shield" alt="Harmonica latest version" src="https://img.shields.io/pypi/v/harmonica.svg?style=flat-square&label=Harmonica"></a>
 <a href="https://pypi.python.org/pypi/boule"><img class="shield" alt="Boule latest version" src="https://img.shields.io/pypi/v/boule.svg?style=flat-square&label=Boule"></a>
+<a href="https://pypi.python.org/pypi/ensaio"><img class="shield" alt="ensaio latest version" src="https://img.shields.io/pypi/v/ensaio.svg?style=flat-square&label=ensaio"></a>
 
 </div>
 

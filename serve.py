@@ -16,5 +16,5 @@ def ignore_authors_files(filepath):
 server = Server()
 files = ["**/**.rst", "**/**.md", "conf.py", "_static/", "_templates/", "theme/"]
 for filename in files:
-    server.watch(filename, "make clean html", ignore=ignore_authors_files)
+    server.watch(filename, "make html", ignore=ignore_authors_files)
 server.serve(root="_build/html", host="localhost", open_url_delay=1)
