@@ -110,7 +110,7 @@ def _get_authors(authors_md):
 extensions = ["myst_parser"]
 
 # Sphinx project configuration
-exclude_patterns = ["_build", "README.md"]
+exclude_patterns = ["_build", "README.md", "LICENSE.md"]
 templates_path = ["_templates"]
 source_suffix = ".rst"
 master_doc = "index"
