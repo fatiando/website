@@ -20,7 +20,7 @@ __version__ = "0.1.0"
 
 def _get_avatar(handle):
     """
-    Returns url avatar picture of GitHub user
+    Returns the url to the avatar picture of GitHub user
 
     If the picture is not available, returns url to a placeholder.
     """
