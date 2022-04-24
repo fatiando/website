@@ -13,7 +13,6 @@ project's Brazilian origins and ambitious initial goals to model the whole
 planet.
 ```
 
-
 ## Who we are
 
 Fatiando tools are developed by **working geoscientists and community
@@ -22,8 +21,8 @@ volunteers** from across the globe.
 ### Authors
 
 The [GitHub repositories][gh] for each project contain `AUTHORS.md` files which
-list everyone involved:
-
+list everyone involved.
+These are the people listed in those files, in alphabetical order of last name:
 
 <ul class="nav nav-pills mb-3" id="authors-tab" role="tablist">
   <li class="nav-item" role="presentation">
@@ -90,6 +89,22 @@ list everyone involved:
     Boule
     </button>
   </li>
+  <li class="nav-item" role="presentation">
+    <button
+        class="nav-link"
+        id="authors-ensaio-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#authors-ensaio"
+        type="button"
+        role="tab"
+        aria-controls="authors-ensaio"
+        aria-selected="true"
+        aria-label="Ensaio"
+    >
+    <i class="fa fa-users"></i>
+    Ensaio
+    </button>
+  </li>
 </ul>
 <div class="tab-content" id="authors-tabContent">
   <div
@@ -99,7 +114,7 @@ list everyone involved:
       aria-labelledby="authors-harmonica-tab"
   >
 
-```{include} harmonica-authors.md
+```{fatiando-authors} harmonica
 ```
 
   </div>
@@ -110,7 +125,7 @@ list everyone involved:
       aria-labelledby="authors-verde-tab"
   >
 
-```{include} verde-authors.md
+```{fatiando-authors} verde
 ```
 
   </div>
@@ -121,7 +136,7 @@ list everyone involved:
       aria-labelledby="authors-pooch-tab"
   >
 
-```{include} pooch-authors.md
+```{fatiando-authors} pooch
 ```
 
   </div>
@@ -132,7 +147,19 @@ list everyone involved:
       aria-labelledby="authors-boule-tab"
   >
 
-```{include} boule-authors.md
+```{fatiando-authors} boule
+:branch: master
+```
+
+  </div>
+  <div
+      class="tab-pane fade"
+      id="authors-ensaio"
+      role="tabpanel"
+      aria-labelledby="authors-ensaio-tab"
+  >
+
+```{fatiando-authors} ensaio
 ```
 
   </div>
@@ -153,12 +180,12 @@ changes, making releases, and more.
 <div class="col-4 col-sm-3 col-md-2 d-flex align-items-stretch">
   <div class="card">
     <img class="card-img-top" src="https://github.com/santisoler.png">
-    <div class="card-body">
-      <h4 class="card-title fs-6">
+    <div class="card-body text-center">
+      <p class="card-title fw-bold fs-6">
         Santiago Soler
-      </h4>
+      </p>
       <p class="card-text text-muted fs-6">
-        <a href="https://github.com/santisoler">@santisoler</a>
+        (<a href="https://github.com/santisoler">@santisoler</a>)
       </p>
     </div>
   </div>
@@ -166,12 +193,12 @@ changes, making releases, and more.
 <div class="col-4 col-sm-3 col-md-2 gx-2 d-flex align-items-stretch">
   <div class="card">
     <img class="card-img-top" src="https://github.com/leouieda.png">
-    <div class="card-body">
-      <h4 class="card-title fs-6">
+    <div class="card-body text-center">
+      <p class="card-title fw-bold fs-6">
         Leonardo Uieda
-      </h4>
+      </p>
       <p class="card-text text-muted fs-6">
-        <a href="https://github.com/leouieda">@leouieda</a>
+        (<a href="https://github.com/leouieda">@leouieda</a>)
       </p>
     </div>
   </div>

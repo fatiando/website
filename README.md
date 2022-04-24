@@ -54,6 +54,18 @@ we already include.
 
 **Use only for long and difficult to type URLs.**
 
+## Sphinx extensions
+
+We implement some custom sphinx extensions for adding content to our website.
+All live under the `sphinx_extensions` folder of this repository:
+
+* `sphinx_extensions.authors`: Defines the `fatiando-authors` directive which
+  gets a list of project authors from the `AUTHORS.md` file in that project's
+  GitHub repository.
+
+All extensions are distributed under the MIT license.
+See [`sphinx_extensions/LICENSE.txt`](https://github.com/fatiando/website/blob/main/sphinx_extensions/LICENSE.txt).
+
 ## Deployment
 
 Pushing changes to [fatiando/website](https://github.com/fatiando/website)
