@@ -48,6 +48,12 @@
 
 
 <body>
+  {%- if alert is defined %}
+    <div class="alert-top alert alert-primary alert-dismissible fade show" role="alert">
+      {{ alert }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  {%- endif %}
   <header class="menu">
     <div class="container">
       <nav>

@@ -1,5 +1,5 @@
 (support)=
-# Supporting Fatiando
+# Support for Fatiando
 
 <p class="lead">
 Here are some of the ways in which you can help support the project and give
@@ -21,10 +21,11 @@ One of the **most impactful ways you can help** is by
 
 ## Funding and support
 
-Development and maintenance of the Fatiando a Terra project was financially
+Development and maintenance of the Fatiando a Terra project is generously
 supported by:
 
-* Salary support for Leonardo Uieda from the [University of Liverpool][liv]
+* Community and financial support from the [Software Underground][swung].
+* Salary for Leonardo Uieda from the [University of Liverpool][liv]
   (from 2019) and [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
 * A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
   (2017-2022).
@@ -38,13 +39,21 @@ our software.
 It helps boost morale, encourage participation, and can even help with funding
 applications and job interviews for our community members.
 
+<i class="fab fa-twitter fa-fw"></i>
 **Social media:** Share links to this website, our [GitHub][gh] repositories,
 project documentation, etc.
 
+<i class="fa fa-tshirt fa-fw"></i>
+**Buy a t-shirt:** We have t-shirts for sale at the [Software Underground
+store][swung-shop]! Proceeds go to the Software Underground which in turn
+supports our community.
+
+<i class="fab fa-python fa-fw"></i>
 **Publish your code:** Used our tools in your research? Why not publish your
 analysis code along with the paper? {ref}`Give us a shout <contact>` and we'll
 gladly share it on our social media.
 
+<i class="fa fa-paint-brush fa-fw"></i>
 **Use our logos:** Include the project logos in talks, posters, videos, and
 websites about work that used our tools.
 
@@ -111,3 +120,5 @@ Can't get enough? Here is a sweet **Fatiando wallpaper** in 4k resolution and
 [uerj]: https://www.uerj.br/
 [conicet]: https://www.conicet.gov.ar/
 [capes]: https://www.gov.br/capes
+[swung]: https://softwareunderground.org
+[swung-shop]: https://softwareunderground.org/shop

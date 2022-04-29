@@ -90,4 +90,5 @@ html_context = {
     "last_updated": str(current_date),
     "navbar_brand": "_static/fatiando-logo.svg",
     "stylesheet": "css/style.css",
+    "alert": '<i class="fas fa-tshirt me-1"></i> We have <strong>t-shirts</strong>! Check them out at the <a class="alert-link" target="_blank" href="https://softwareunderground.org/shop">Software Underground store</a>.',
 }

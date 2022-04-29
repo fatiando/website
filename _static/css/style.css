@@ -393,3 +393,15 @@ div.admonition,
   text-decoration: underline;
   color: #ffffff;
 }
+
+.alert-top {
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.alert-top .alert-link {
+  text-decoration: underline;
+}
