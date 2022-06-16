@@ -7,14 +7,14 @@ Your input is welcome and appreciated.
 <strong>Get in touch!</strong>
 </p>
 
-<div class="row text-center align-top">
+<div class="row text-center gy-5">
 <div class="col-sm-6">
 
 <i class="fab fa-slack fa-4x"></i>
 <h2 class="no-top-margin">Chat</h2>
 
-Hop on to our <a href="/slack">chat room on Slack</a> where you **talk to**
-users and developers, ask questions, leave comments and more.
+Hop on to our [Slack chat room][slack] to **talk to users and developers**,
+participate in our video calls, and get to know the community.
 
 </div>
 <div class="col-sm-6">
@@ -22,10 +22,8 @@ users and developers, ask questions, leave comments and more.
 <i class="fas fa-comments fa-4x"></i>
 <h2 class="no-top-margin">Forum</h2>
 
-Participate in the <a
-href="https://github.com/orgs/fatiando/discussions">Fatiando Community
-forum</a> to **ask questions**, share expertise, bring new ideas, interact and
-help others.
+Participate in the [Fatiando community forum][forum] to **ask and answer
+questions**, get project updates, share your expertise, and showcase your work.
 
 </div>
 <div class="col-sm-6">
@@ -43,13 +41,15 @@ Leave a comment on any issue or pull request to join the conversation.
 <i class="fab fa-twitter fa-4x"></i>
 <h2 class="no-top-margin">Updates</h2>
 
-Follow us on [LinkedIn][linkedin] and [Twitter @fatiandoaterra][twitter] where
-we post **news and updates** about the project.
+Follow us on [LinkedIn][linkedin] and [Twitter][twitter] where we post **news
+and updates** about the project.
 
 </div>
 </div>
 
 [linkedin]: https://www.linkedin.com/company/fatiando
 [twitter]: https://twitter.com/fatiandoaterra
+[slack]: https://www.fatiando.org/slack
+[forum]: https://github.com/orgs/fatiando/discussions
 [gh]: https://github.com/fatiando
 [bug-report]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
