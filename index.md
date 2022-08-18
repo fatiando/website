@@ -53,9 +53,39 @@ All of our code is **free and open-source**, distributed under the permissive
 </div> <!-- column -->
 </div> <!-- row -->
 
+<hr class="wide-hr mt-3">
+
+<h2 class="text-center">Meet our libraries</h2>
+
+<div class="d-flex flex-wrap align-items-center justify-content-center pt-5 gap-5 fs-5">
+  <a class="d-flex flex-column align-items-center text-decoration-none" href="#verde">
+    <img style="height: 80px; width: 80px;" class="d-block mb-2" src="_static/verde-logo.png">
+    Verde
+  </a>
+  <a class="d-flex flex-column align-items-center text-decoration-none" href="#pooch">
+    <img style="height: 80px; width: 80px;" class="d-block mb-2" src="_static/pooch-logo.png">
+    Pooch
+  </a>
+  <a class="d-flex flex-column align-items-center text-decoration-none" href="#harmonica">
+    <img style="height: 80px; width: 80px;" class="d-block mb-2" src="_static/harmonica-logo.png">
+    Harmonica
+  </a>
+  <a class="d-flex flex-column align-items-center text-decoration-none" href="#boule">
+    <img style="height: 80px; width: 80px;" class="d-block mb-2" src="_static/boule-logo.png">
+    Boule
+  </a>
+  <a class="d-flex flex-column align-items-center text-decoration-none" href="#ensaio">
+    <img style="height: 80px; width: 80px;" class="d-block mb-2" src="_static/ensaio-logo.png">
+    Ensaio
+  </a>
+</div>
+
+<p class="text-center display-6 mt-5">
+<a href="#getting-started"><i class="fas fa-chevron-circle-down text-muted"></i></a>
+</p>
+
 </div> <!-- container -->
 </div> <!-- container-fluid -->
-
 
 <div class="container-fluid section background-1">
 <div class="container">
@@ -461,7 +491,7 @@ Happy community members at a [Fatiando Community Call](https://youtu.be/gsYKW7XN
 <div class="container-fluid section background-1">
 <div class="container narrow">
 
-<hr class="mb-5">
+<hr class="mb-5 wide-hr">
 <div class="row align-items-start gy-5 mb-5">
 <div class="col-md-6">
 
