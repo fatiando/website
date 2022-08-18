@@ -21,42 +21,7 @@ development, and make friends along the way.
 The Fatiando community gathers in a few different places, **all of which are
 completely open to everyone**.
 So come along and join the conversation!
-
-### Text-based
-
-Asynchronous communication for anything from technical discussions to random
-chat:
-
-<ul class="fa-ul">
-<li>
-
-<i class="fa-li fab fa-slack fa-fw"></i>
-<a href="/slack">Slack</a>: this is where we ask and answer questions, organize
-meetings and events, share news, chat, etc.
-
-</li>
-<li>
-
-<i class="fa-li fab fa-github fa-fw"></i>
-[GitHub][gh]:
-where we discuss development details, review code, etc.
-
-</li>
-</ul>
-
-### Video calls
-
-Synchronous online calls to tackle topics when text-based discussion becomes
-inefficient and mostly get to know each other better.
-
-We **meet up weekly** to discuss project development, get to know each other,
-share experiences, and even code things live to show our process. They are a
-great way to learn more about day-to-day development and get to know our global
-community. It's absolutely fine to join and just listen to what we discuss but
-we welcome participation!
-
-Dates, connection details, agendas, and past notes from meetings are available
-in the <i class="fab fa-github"></i> [`fatiando/community`][notes] repository.
+See {ref}`contact` to find out where we gather.
 
 ## <i class="fa fa-cog"></i> Join the development
 
