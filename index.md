@@ -33,20 +33,16 @@ All of our code is **free and open-source**, distributed under the permissive
 [BSD 3-clause license][bsd].
 
 <div class="mt-5">
-  <a href="install">
-    <button type="button" class="btn btn-light mb-3 me-3">
+  <a href="install"><button type="button" class="btn btn-light mb-3 me-3">
       <i class="fab fa-linux"></i>
       <i class="fab fa-apple"></i>
       <i class="fab fa-windows me-2"></i>
       Install
-   </button>
-  </a>
-  <a href="support">
-    <button type="button" class="btn btn-success mb-3">
+  </button></a>
+  <a href="support"><button type="button" class="btn btn-success mb-3">
       <i class="fas fa-people-carry me-2"></i>
       Support the project
-    </button>
-  </a>
+  </button></a>
 </div>
 
 </div> <!-- column -->
