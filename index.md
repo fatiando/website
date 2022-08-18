@@ -176,21 +176,14 @@ Source code for this demonstration:
 Verde offers **spatial** data processing and **interpolation** (gridding) with
 a sprinkling of machine learning.
 
+<div class="project-info">
 
-<ul class="project-info">
-<li>
-  <i class="fa fa-check fa-fw" style="color: green" title="Project status"></i>
-   Stable and ready for use
-</li>
-<li>
-  <i class="fab fa-github fa-fw" title="GitHub repository"></i>
-  <a href="https://github.com/fatiando/verde">fatiando/verde</a>
-</li>
-<li>
-  <i class="fas fa-bookmark fa-fw" title="Publication"></i>
-   doi: <a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
-</li>
-</ul>
+* <i class="fa fa-check fa-fw" style="color: green" title="Project status"></i> Stable and ready for use
+* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/verde">fatiando/verde</a>
+* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<verde>`
+* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
+
+</div>
 
 <div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/verde/">
@@ -226,10 +219,10 @@ without weights based on data uncertainty.
 ## **Pooch:** Easily download datasets
 
 Pooch is the easiest way to **download data files** to your computer.
-
 It is used to manage sample data downloads not only by our own tools but also
 other popular Scientific Python libraries:
 [scikit-image](https://github.com/scikit-image/scikit-image),
+[SciPy](https://github.com/scipy/scipy),
 [MetPy](https://github.com/Unidata/MetPy),
 [xarray](https://github.com/pydata/xarray),
 [SHTOOLS](https://github.com/SHTOOLS/SHTOOLS),
@@ -240,20 +233,14 @@ other popular Scientific Python libraries:
 [napari](https://github.com/napari/napari),
 and [more](https://github.com/fatiando/pooch/network/dependents).
 
-<ul class="project-info">
-<li>
-  <i class="fa fa-check fa-fw" style="color: green" title="Project status"></i>
-   Stable and ready for use
-</li>
-<li>
-  <i class="fab fa-github fa-fw" title="GitHub repository"></i>
-  <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
-</li>
-<li>
-  <i class="fas fa-bookmark fa-fw" title="Publication"></i>
-   doi: <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
-</li>
-</ul>
+<div class="project-info">
+
+* <i class="fa fa-check fa-fw" style="color: green" title="Project status"></i> Stable and ready for use
+* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
+* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<pooch>`
+* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
+
+</div>
 
 <div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/pooch/">
@@ -311,20 +298,14 @@ Our goal is to incentivise good practices by **carefully designing** the
 software and offering **state-of-the-art methods** with efficient
 implementations.
 
-<ul class="project-info">
-<li>
-  <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i>
-  Functional but still evolving
-</li>
-<li>
-  <i class="fab fa-github fa-fw" title="GitHub repository"></i>
-  <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
-</li>
-<li>
-  <i class="fas fa-bookmark fa-fw" title="Publication"></i>
-   doi: <a href="https://doi.org/10.5281/zenodo.3628741">10.5281/zenodo.3628741</a>
-</li>
-</ul>
+<div class="project-info">
+
+* <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Functional but still evolving
+* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
+* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<harmonica>`
+* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.3628741">10.5281/zenodo.3628741</a>
+
+</div>
 
 <div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/harmonica/">
@@ -361,20 +342,14 @@ gridded to a uniform height with equivalent sources.
 Boule defines **reference ellipsoids** for calculating normal gravity of
 the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
 
-<ul class="project-info">
-<li>
-  <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i>
-  Functional but still evolving
-</li>
-<li>
-  <i class="fab fa-github fa-fw" title="GitHub repository"></i>
-  <a href="https://github.com/fatiando/boule">fatiando/boule</a>
-</li>
-<li>
-  <i class="fas fa-bookmark fa-fw" title="Publication"></i>
-   doi: <a href="https://doi.org/10.5281/zenodo.3530749">10.5281/zenodo.3530749</a>
-</li>
-</ul>
+<div class="project-info">
+
+* <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Functional but still evolving
+* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/boule">fatiando/boule</a>
+* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<boule>`
+* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.3530749">10.5281/zenodo.3530749</a>
+
+</div>
 
 <div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/boule/">
@@ -412,20 +387,14 @@ Ensaio makes it easy to download our open-access **sample datasets**. It taps
 into the [Fatiando a Terra FAIR data collection](https://github.com/fatiando-data)
 which is designed for use in tutorials, documentation, and teaching.
 
-<ul class="project-info">
-<li>
-  <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i>
-  Functional but still evolving
-</li>
-<li>
-  <i class="fab fa-github fa-fw" title="GitHub repository"></i>
-  <a href="https://github.com/fatiando/ensaio">fatiando/ensaio</a>
-</li>
-<li>
-  <i class="fas fa-bookmark fa-fw" title="Publication"></i>
-   doi: <a href="https://doi.org/10.5281/zenodo.5784202">10.5281/zenodo.5784202</a>
-</li>
-</ul>
+<div class="project-info">
+
+* <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Functional but still evolving
+* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/ensaio">fatiando/ensaio</a>
+* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<ensaio>`
+* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.5784202">10.5281/zenodo.5784202</a>
+
+</div>
 
 <div class="mt-4">
   <a target="_blank" href="https://www.fatiando.org/ensaio/">
@@ -521,18 +490,6 @@ Happy community members at a [Fatiando Community Call](https://youtu.be/gsYKW7XN
 
 </div>
 </div> <!-- row -->
-
-<!--<h2 class="text-center fs-4">Releases</h2>-->
-<div class="text-center">
-
-**Latest releases:**
-<a href="https://pypi.python.org/pypi/pooch"><img class="shield" alt="Pooch latest version" src="https://img.shields.io/pypi/v/pooch.svg?style=flat-square&label=Pooch"></a>
-<a href="https://pypi.python.org/pypi/verde"><img class="shield" alt="Verde latest version" src="https://img.shields.io/pypi/v/verde.svg?style=flat-square&label=Verde"></a>
-<a href="https://pypi.python.org/pypi/harmonica"><img class="shield" alt="Harmonica latest version" src="https://img.shields.io/pypi/v/harmonica.svg?style=flat-square&label=Harmonica"></a>
-<a href="https://pypi.python.org/pypi/boule"><img class="shield" alt="Boule latest version" src="https://img.shields.io/pypi/v/boule.svg?style=flat-square&label=Boule"></a>
-<a href="https://pypi.python.org/pypi/ensaio"><img class="shield" alt="ensaio latest version" src="https://img.shields.io/pypi/v/ensaio.svg?style=flat-square&label=ensaio"></a>
-
-</div>
 
 </div> <!-- container -->
 </div> <!-- container-fluid -->

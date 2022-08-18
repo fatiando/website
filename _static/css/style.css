@@ -215,14 +215,12 @@ div.admonition,
   margin: 0 0.25rem;
 }
 
-.project-info {
+.project-info > ul {
   list-style: none;
   padding: 0;
 }
 
-.project-info > li {
-  display: inline-block;
-  margin-right: 1rem;
+.project-info > ul > li {
   line-height: 2;
 }
 
