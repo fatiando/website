@@ -15,6 +15,7 @@ sys.path.append(".")
 extensions = [
     "myst_parser",
     "sphinx_extensions.authors",
+    "sphinx_extensions.pypi_version",
 ]
 
 # Sphinx project configuration
