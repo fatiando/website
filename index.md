@@ -23,8 +23,8 @@ support/index.md
 
 <p class="banner-description">An open toolbox for the Geosciences</p>
 
-Fatiando provides **Python libraries** for data processing, modeling, and
-inversion across the Geosciences.
+Fatiando provides <i class="fab fa-python"></i> **Python libraries** for data
+processing, modeling, and inversion across the Geosciences.
 
 It is built by a **community** of geoscientists and software developers with
 a passion for well-designed tools and helping our peers.
@@ -33,15 +33,9 @@ All of our code is **free and open-source**, distributed under the permissive
 [BSD 3-clause license][bsd].
 
 <div class="mt-5">
-  <a href="install"><button type="button" class="btn btn-light mb-3 me-3">
-      <i class="fab fa-linux"></i>
-      <i class="fab fa-apple"></i>
-      <i class="fab fa-windows me-2"></i>
-      Install
-  </button></a>
-  <a href="support"><button type="button" class="btn btn-success mb-3">
-      <i class="fas fa-people-carry me-2"></i>
-      Support the project
+  <a href="#getting-started"><button type="button" class="btn btn-primary mb-3 me-3">
+    <i class="fa fa-rocket"></i>
+    Get started with Fatiando
   </button></a>
 </div>
 
@@ -95,31 +89,43 @@ All of our code is **free and open-source**, distributed under the permissive
 
 ## Getting started
 
+<i class="fas fa-eye"></i>
 **Looking for an overview?**
-A good place to start is [this recorded example][yt-demo] (~20 min) that uses
-our tools to download, process, and interpolate public domain gravity data from
-the Bushveld Complex in South Africa.
+Watch [this recorded example][yt-demo] (~20 min) that uses our tools to
+process public domain gravity data from the Bushveld Complex in South Africa.
 
+<i class="fas fa-code"></i>
 **No time for a video?**
-You can also browse the <i class="fab fa-python"></i>
-[Jupyter notebook][yt-demo-nb] used in the example.
+You can also just browse [the code in the Jupyter notebook][yt-demo-nb] used in
+the example.
 
-
+<i class="fab fa-python"></i>
 **New to Python?**
-We provide links to {ref}`excellent free resources <learn>` for starting your
-Scientific Python journey.
+Checkout these {ref}`links to excellent free resources <learn>` for starting
+your Scientific Python journey.
 
+<i class="fas fa-flask"></i>
 **Used Fatiando for research?**
-Please {ref}`cite our tools <cite>` in your publications.
+Please {ref}`cite us <cite>` in your publications.
 
 <div class="mt-5">
-  <a href="learn"><button type="button" class="btn btn-light mb-3 me-3">
-  <i class="fa fa-graduation-cap"></i>
-  Learning resources
+  <a href="install"><button type="button" class="btn btn-light mb-3 me-3">
+    <i class="fab fa-linux"></i>
+    <i class="fab fa-apple"></i>
+    <i class="fab fa-windows me-2"></i>
+    Install
   </button></a>
-  <a href="contact"><button type="button" class="btn btn-warning mb-3">
-  <i class="fa fa-hands-helping"></i>
-  Need help?
+  <a href="learn"><button type="button" class="btn btn-primary mb-3 me-3">
+    <i class="fa fa-graduation-cap"></i>
+    Learn
+  </button></a>
+  <a href="contact"><button type="button" class="btn btn-warning mb-3 me-3">
+    <i class="fa fa-hands-helping"></i>
+    Need help?
+  </button></a>
+  <a href="support"><button type="button" class="btn btn-success mb-3">
+    <i class="fas fa-people-carry me-2"></i>
+    Support the project
   </button></a>
 </div>
 
@@ -153,9 +159,15 @@ Please {ref}`cite our tools <cite>` in your publications.
   </div>
 </div>
 
-Source code for this demonstration:
+<div class="fs-6">
+
+Recording of a talk about using Fatiando for gravimetry with a live demo of the
+software.
+Source code for the demonstration:
 <i class="fab fa-github ms-1"></i>
 [leouieda/2021-06-22-gfz](https://github.com/leouieda/2021-06-22-gfz)
+
+</div>
 
 </div> <!-- column -->
 </div> <!-- row -->
@@ -430,21 +442,17 @@ height, bathymetry, GPS velocity, global relief, and magnetic anomaly.
 We are always happy to **welcome anyone** who is interested in getting
 involved!
 Whether it be coding, teaching, designing, or just hanging out.
-**Come say "Hi! 👋🏾"** on {ref}`Slack <contact>` or at our
-{ref}`next online gathering <community>`.
-
 Getting involved in open-source can be great way to meet new people, improve
 your coding skills, and **make an impact** in your field.
 
 <div class="mt-5">
   <a href="community"><button type="button" class="btn btn-light mb-3">
-  <i class="fa fa-users"></i>
-  Join the conversation!
+    Come say "Hi!" 👋🏾
   </button></a>
 </div>
 
 </div> <!-- column -->
-<div class="col-md-5 order-md-first">
+<div class="col-md-5 order-md-first fs-6 text-center">
 
 <img class="mb-3" src="_static/fatiando-community-call.jpg" title="Screenshot from a virtual Fatiando community call.">
 
