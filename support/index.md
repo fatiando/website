@@ -1,5 +1,5 @@
 (support)=
-# Support for Fatiando
+# Support Fatiando
 
 <p class="lead">
 Here are some of the ways in which you can help support the project and give
@@ -18,19 +18,6 @@ Fatiando only exists because of the efforts of our **community members**, most
 of which volunteer their time and energy.
 One of the **most impactful ways you can help** is by
 {ref}`being involved <community>`!
-
-## Funding and support
-
-Development and maintenance of the Fatiando a Terra project is generously
-supported by:
-
-* Community and financial support from the [Software Underground][swung].
-* Salary for Leonardo Uieda from the [University of Liverpool][liv]
-  (from 2019) and [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
-* A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
-  (2017-2022).
-* MSc and PhD scholarships for Leonardo Uieda from [Capes][capes], Brazil
-  (2010-2016).
 
 ## Spread the word
 
@@ -60,51 +47,51 @@ websites about work that used our tools.
 <div class="row gy-3 mt-4 align-items-center text-center">
 <div class="col-4 col-sm-2">
 
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-logo.png">
+<a target="_blank" href="../_static/fatiando-logo-background.png">
+<img class="mb-2" src="../_static/fatiando-logo-background.png">
 </a>
 
 </div>
 <div class="col-4 col-sm-2">
 
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-logo-background.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-logo-background.png">
+<a target="_blank" href="../_static/verde-logo.png">
+<img class="mb-2" src="../_static/verde-logo.png">
 </a>
 
 </div>
 <div class="col-4 col-sm-2">
 
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/verde-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/verde-logo.png">
+<a target="_blank" href="../_static/harmonica-logo.png">
+<img class="mb-2" src="../_static/harmonica-logo.png">
 </a>
 
 </div>
 <div class="col-4 col-sm-2">
 
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/harmonica-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/harmonica-logo.png">
+<a target="_blank" href="../_static/pooch-logo.png">
+<img class="mb-2" src="../_static/pooch-logo.png">
 </a>
 
 </div>
 <div class="col-4 col-sm-2">
 
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/pooch-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/pooch-logo.png">
+<a target="_blank" href="../_static/boule-logo.png">
+<img class="mb-2" src="../_static/boule-logo.png">
 </a>
 
 </div>
 <div class="col-4 col-sm-2">
 
-<a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/ensaio-logo.png">
-<img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/ensaio-logo.png">
+<a target="_blank" href="../_static/ensaio-logo.png">
+<img class="mb-2" src="../_static/ensaio-logo.png">
 </a>
 
 </div>
 </div>
 
-```{admonition} Want the vector graphics versions?
+```{admonition} <i class="fas fa-download me-1"></i> Want all of them + vector graphics versions?
 High quality SVG and PNG versions of the logos and other variants are all
-available at <i class="fab fa-github"></i> [`fatiando/logo`][logo-repo].
+available at <i class="fab fa-github ms-1"></i> [`fatiando/logo`][logo-repo].
 ```
 
 Can't get enough? Here is a sweet **Fatiando wallpaper** in 4k resolution and
@@ -113,6 +100,19 @@ Can't get enough? Here is a sweet **Fatiando wallpaper** in 4k resolution and
 <a target="_blank" href="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-wallpaper.png">
 <img class="mb-2" src="https://raw.githubusercontent.com/fatiando/logo/main/fatiando-wallpaper.png">
 </a>
+
+## Funding and support
+
+Development and maintenance of the Fatiando a Terra project is generously
+supported by:
+
+* Community and financial support from the [Software Underground][swung].
+* Salary for Leonardo Uieda from the [University of Liverpool][liv]
+  (from 2019) and [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
+* A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
+  (2017-2022).
+* MSc and PhD scholarships for Leonardo Uieda from [Capes][capes], Brazil
+  (2010-2016).
 
 [logo-repo]: https://github.com/fatiando/logo
 [gh]: https://github.com/fatiando
