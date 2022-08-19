@@ -80,9 +80,15 @@ Harmonica
 </button></a>
 
 <a target="_blank" href="https://www.fatiando.org/boule">
-<button type="button" class="btn btn-secondary mb-3">
+<button type="button" class="btn btn-secondary mb-3 me-3">
 <i class="fa fa-book"></i>
 Boule
+</button></a>
+
+<a target="_blank" href="https://www.fatiando.org/ensaio">
+<button type="button" class="btn btn-secondary mb-3">
+<i class="fa fa-book"></i>
+Ensaio
 </button></a>
 
 </div>
