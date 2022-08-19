@@ -83,6 +83,8 @@ html_context = {
         text=True,
     ).stdout.strip(),
     "repository": "fatiando/website",
+    "plausible": '<script defer data-domain="fatiando.org" src="https://plausible.io/js/plausible.js"></script>',
+    "plausible_dashboard": "https://plausible.io/fatiando.org",
     "last_updated": str(current_date),
     "navbar_brand": "_static/fatiando-logo.svg",
     "stylesheet": "css/style.css",
