@@ -41,7 +41,7 @@
   <meta property="og:description" content="{{ description }}">
 
   <!-- Plausible analytics for anonymous usage statistics -->
-  <script defer data-domain="fatiando.org" src="https://plausible.io/js/plausible.js"></script>
+  {{ plausible }}
 
   {%- block extrahead %}{% endblock %}
 </head>
@@ -104,12 +104,16 @@
         (commit
         <a href="https://github.com/{{ repository }}/commit/{{ commit }}"><code>{{ commit }}</code></a>)
         <span class="bullet-separator">&bull;</span>
-        Source code at
-        <a href="https://github.com/{{ repository }}">
-          <code>{{ repository }}</code>
-        </a>
-        <span class="bullet-separator">&bull;</span>
         Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}
+        <span class="bullet-separator">&bull;</span>
+        Source code for this website:
+        <a href="https://github.com/{{ repository }}">
+           <i class="fab fa-github ms-1"></i> <code>{{ repository }}</code>
+        </a>
+      </p>
+      <p>
+        Annonymous visitor statistics for this website are publicly available at
+        <a href="{{ plausible_dashboard }}"><code>{{ plausible_dashboard }}</code></a>
       </p>
       <p>
         Copyright &copy; {{ copyright }}.
