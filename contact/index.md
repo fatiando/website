@@ -7,23 +7,35 @@ Your input is welcome and appreciated.
 <strong>Get in touch!</strong>
 </p>
 
-<div class="row text-center gy-5">
+<div class="row text-center gy-5  justify-content-md-center">
 <div class="col-sm-6">
 
-<i class="fab fa-slack fa-4x"></i>
+<i class="fas fa-comments fa-4x"></i>
 <h2 class="no-top-margin">Chat</h2>
 
-Hop on to our [Slack chat room][slack] to **talk to users and developers**,
-participate in our video calls, and get to know the community.
+Hop on to our [Matrix chat room][matrix] or the `#fatiando` channel in the
+[Software Underground Slack][slack] to **talk to users and developers**
+and get to know the community.
 
 </div>
 <div class="col-sm-6">
 
-<i class="fas fa-comments fa-4x"></i>
+<i class="fas fa-question-circle fa-4x"></i>
 <h2 class="no-top-margin">Forum</h2>
 
 Participate in the [Fatiando community forum][forum] to **ask and answer
 questions**, get project updates, share your expertise, and showcase your work.
+
+</div>
+<div class="col-sm-6">
+
+<i class="fas fa-microphone-alt fa-4x"></i>
+<h2 class="no-top-margin">Video calls</h2>
+
+We meet up weekly to discuss project development and share updates.
+**Everyone is welcome to participate!**
+Dates and connection details are in <i class="fab fa-github"></i>
+[`fatiando/community`][notes].
 
 </div>
 <div class="col-sm-6">
@@ -49,7 +61,9 @@ and updates** about the project.
 
 [linkedin]: https://www.linkedin.com/company/fatiando
 [twitter]: https://twitter.com/fatiandoaterra
-[slack]: https://www.fatiando.org/slack
+[slack]: https://softwareunderground.org/slack
+[matrix]: https://matrix.to/#/#fatiando-a-terra:matrix.org
 [forum]: https://github.com/orgs/fatiando/discussions
 [gh]: https://github.com/fatiando
 [bug-report]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
+[notes]: https://github.com/fatiando/community
