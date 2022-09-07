@@ -1,131 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {%- if title == "Home" %} {% set this_page_title=project|striptags|e %} {%-
+    else %} {% set this_page_title=title|striptags|e + " | " +
+    project|striptags|e %} {%- endif %}
+    <title>{{ this_page_title }}</title>
 
-  {%- if title == "Home" %}
-    {% set this_page_title=project|striptags|e %}
-  {%- else %}
-    {% set this_page_title=title|striptags|e + " | " + project|striptags|e %}
-  {%- endif %}
-  <title>{{ this_page_title }}</title>
+    <link rel="shortcut icon" href="{{ favicon_url|e }}" />
 
-  <link rel="shortcut icon" href="{{ favicon_url|e }}"/>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ pathto('_static/bootstrap-5.1/css/bootstrap.min.css', 1) }}"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="{{ pathto('_static/bootstrap-5.1/css/bootstrap.min.css', 1) }}">
+    <!-- FontAwsome icons -->
+    <link
+      rel="stylesheet"
+      href="{{ pathto('_static/css/fontawesome/css/all.css', 1) }}"
+    />
 
-  <!-- FontAwsome icons -->
-  <link rel="stylesheet" href="{{ pathto('_static/css/fontawesome/css/all.css', 1) }}">
+    <!-- Pygments CSS for syntax highlighting -->
+    <!-- Accessible versions by Max Chadwick (@mpchadwick) -->
+    <link
+      rel="stylesheet"
+      href="{{ pathto('_static/css/pygments/native.css', 1) }}"
+    />
 
-  <!-- Pygments CSS for syntax highlighting -->
-  <!-- Accessible versions by Max Chadwick (@mpchadwick) -->
-  <link rel="stylesheet" href="{{ pathto('_static/css/pygments/native.css', 1) }}">
+    <!-- Custom CSS set in conf.py -->
+    <link rel="stylesheet" href="{{ pathto('_static/' + stylesheet, 1) }}" />
 
-  <!-- Custom CSS set in conf.py -->
-  <link rel="stylesheet" href="{{ pathto('_static/' + stylesheet, 1) }}">
+    <!-- Social media cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="{{ base_url }}/_static/{{ logo }}" />
+    <meta name="twitter:site" content="@{{ twitter }}" />
+    <meta name="twitter:title" content="{{ this_page_title }}" />
+    <meta name="twitter:description" content="{{ description }}" />
+    <meta property="og:title" content="{{ this_page_title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ base_url }}" />
+    <meta property="og:site_name" content="{{ project }}" />
+    <meta property="og:image" content="{{ base_url }}/_static/{{ logo }}" />
+    <meta property="og:description" content="{{ description }}" />
 
-  <!-- Social media cards -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="{{ base_url }}/_static/{{ logo }}">
-  <meta name="twitter:site" content="@{{ twitter }}">
-  <meta name="twitter:title" content="{{ this_page_title }}">
-  <meta name="twitter:description" content="{{ description }}">
-  <meta property="og:title" content="{{ this_page_title }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ base_url }}">
-  <meta property="og:site_name" content="{{ project }}">
-  <meta property="og:image" content="{{ base_url }}/_static/{{ logo }}">
-  <meta property="og:description" content="{{ description }}">
+    <!-- Plausible analytics for anonymous usage statistics -->
+    {{ plausible }} {%- block extrahead %}{% endblock %}
+  </head>
 
-  <!-- Plausible analytics for anonymous usage statistics -->
-  {{ plausible }}
-
-  {%- block extrahead %}{% endblock %}
-</head>
-
-
-<body>
-  {%- if alert is defined %}
-    <div class="alert-top alert alert-primary alert-dismissible fade show" role="alert">
+  <body>
+    {%- if alert is defined %} {%- for alert in alert %}
+    <div
+      class="alert-top alert alert-primary alert-dismissible fade show"
+      role="alert"
+    >
       {{ alert }}
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
     </div>
-  {%- endif %}
-  <header class="menu">
-    <div class="container">
-      <nav>
-        <ul class="nav justify-content-center">
-          <li class="nav-item ">
-            <a href="{{ pathto('index.html', 1) }}"><img title="Home" alt="Fatiando a Terra" src="{{ pathto(navbar_brand, 1) }}"></a>
-          </li>
-          {%- for link in menu_items %}
+    {%- endfor %} {%- endif %}
+    <header class="menu">
+      <div class="container">
+        <nav>
+          <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="{{ pathto(link[1], 1) }}">{{ link[0] }}</a>
+              <a href="{{ pathto('index.html', 1) }}"
+                ><img
+                  title="Home"
+                  alt="Fatiando a Terra"
+                  src="{{ pathto(navbar_brand, 1) }}"
+              /></a>
             </li>
-          {%- endfor %}
-          {%- for link in social_links %}
+            {%- for link in menu_items %}
             <li class="nav-item">
-              <a class="nav-link" href="{{ link[2] }}" target="_blank"><i class="{{ link[0] }}" title="{{ link[1] }}" alt="{{ link[1] }}"></i></a>
+              <a class="nav-link" href="{{ pathto(link[1], 1) }}"
+                >{{ link[0] }}</a
+              >
             </li>
-          {%- endfor %}
-        </ul>
-      </nav>
-    </div>
-  </header>
+            {%- endfor %} {%- for link in social_links %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ link[2] }}" target="_blank"
+                ><i
+                  class="{{ link[0] }}"
+                  title="{{ link[1] }}"
+                  alt="{{ link[1] }}"
+                ></i
+              ></a>
+            </li>
+            {%- endfor %}
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  {%- if title is defined and title == 'Home' %}
-    {{ body }}
-  {%- else %}
-    <div class="container page-content narrow">
-      {{ body }}
-    </div>
-  {%- endif %}
+    {%- if title is defined and title == 'Home' %} {{ body }} {%- else %}
+    <div class="container page-content narrow">{{ body }}</div>
+    {%- endif %}
 
-  <footer class="footer">
-    <div class="container narrow">
-      <nav>
-        <ul class="menu-list-footer">
-          <li><a href="{{ pathto('index.html', 1) }}">Home</a></li>
-          {%- for link in menu_items %}
+    <footer class="footer">
+      <div class="container narrow">
+        <nav>
+          <ul class="menu-list-footer">
+            <li><a href="{{ pathto('index.html', 1) }}">Home</a></li>
+            {%- for link in menu_items %}
             <li><a href="{{ pathto(link[1], 1) }}">{{ link[0] }}</a></li>
-          {%- endfor %}
-          {%- for link in social_links %}
+            {%- endfor %} {%- for link in social_links %}
             <li>
-              <a href="{{ link[2] }}" target="_blank"><i class="{{ link[0] }}" title="{{ link[1] }}" alt="{{ link[1] }}"></i></a>
+              <a href="{{ link[2] }}" target="_blank"
+                ><i
+                  class="{{ link[0] }}"
+                  title="{{ link[1] }}"
+                  alt="{{ link[1] }}"
+                ></i
+              ></a>
             </li>
-          {%- endfor %}
-        </ul>
-      </nav>
-      <p>
-        Last updated {{ last_updated }}
-        (commit
-        <a href="https://github.com/{{ repository }}/commit/{{ commit }}"><code>{{ commit }}</code></a>)
-        <span class="bullet-separator">&bull;</span>
-        Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}
-        <span class="bullet-separator">&bull;</span>
-        Source code for this website:
-        <a href="https://github.com/{{ repository }}">
-           <i class="fab fa-github ms-1"></i> <code>{{ repository }}</code>
-        </a>
-      </p>
-      <p>
-        Annonymous visitor statistics for this website are publicly available at
-        <a href="{{ plausible_dashboard }}"><code>{{ plausible_dashboard }}</code></a>
-      </p>
-      <p>
-        Copyright &copy; {{ copyright }}.
-        Except where otherwise noted, all content is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>.
-      </p>
-    </div>
-  </footer>
+            {%- endfor %}
+          </ul>
+        </nav>
+        <p>
+          Last updated {{ last_updated }} (commit
+          <a href="https://github.com/{{ repository }}/commit/{{ commit }}"
+            ><code>{{ commit }}</code></a
+          >)
+          <span class="bullet-separator">&bull;</span>
+          Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{
+          sphinx_version }}
+          <span class="bullet-separator">&bull;</span>
+          Source code for this website:
+          <a href="https://github.com/{{ repository }}">
+            <i class="fab fa-github ms-1"></i> <code>{{ repository }}</code>
+          </a>
+        </p>
+        <p>
+          Annonymous visitor statistics for this website are publicly available
+          at
+          <a href="{{ plausible_dashboard }}"
+            ><code>{{ plausible_dashboard }}</code></a
+          >
+        </p>
+        <p>
+          Copyright &copy; {{ copyright }}. Except where otherwise noted, all
+          content is licensed
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>.
+        </p>
+      </div>
+    </footer>
 
-  <!-- Bootstrap bundled Javascript (with their dependencies) -->
-  <script src="{{ pathto('_static/bootstrap-5.1/js/bootstrap.bundle.min.js', 1) }}"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-
-</body>
+    <!-- Bootstrap bundled Javascript (with their dependencies) -->
+    <script
+      src="{{ pathto('_static/bootstrap-5.1/js/bootstrap.bundle.min.js', 1) }}"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
