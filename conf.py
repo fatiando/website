@@ -89,6 +89,9 @@ html_context = {
     "navbar_brand": "_static/fatiando-logo.svg",
     "stylesheet": "css/style.css",
     "alert": [
-        '<i class="fas fa-poll me-1"></i> Fatiando Community Survey 2022 <strong>is now open</strong>! Please take 5-10 minutes to <a class="alert-link" target="_blank" href="https://forms.gle/EB4VFLY8PYb7UoJSA">fill it out</a>.',
+        (
+            '<i class="fas fa-poll me-1"></i> Fatiando Community Survey 2022 <strong>is now open</strong>! Please take 5-10 minutes to <a class="alert-link" target="_blank" href="https://forms.gle/EB4VFLY8PYb7UoJSA">fill it out</a>.',
+            "warning",
+        ),
     ],
 }

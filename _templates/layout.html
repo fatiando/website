@@ -53,10 +53,10 @@
   <body>
     {%- if alert is defined %} {%- for alert in alert %}
     <div
-      class="alert-top alert alert-primary alert-dismissible fade show"
+      class="alert-top alert alert-{{ alert[1] }} alert-dismissible fade show"
       role="alert"
     >
-      {{ alert }}
+      {{ alert[0] }}
       <button
         type="button"
         class="btn-close"
