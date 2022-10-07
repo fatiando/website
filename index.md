@@ -49,7 +49,7 @@ All of our code is **free and open-source**, distributed under the permissive
 
 <hr class="wide-hr mt-3">
 
-<h2 class="text-center">Meet our libraries</h2>
+<h2 id="libraries" class="text-center">Meet our libraries</h2>
 
 <div class="d-flex flex-wrap align-items-center justify-content-center pt-5 gap-5 fs-5">
   <a class="d-flex flex-column align-items-center text-decoration-none" href="#verde">
