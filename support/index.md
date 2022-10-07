@@ -19,6 +19,30 @@ of which volunteer their time and energy.
 One of the **most impactful ways you can help** is by
 {ref}`being involved <community>`!
 
+## Buy some merch
+
+<i class="fa fa-tshirt fa-fw"></i>
+**We have t-shirts** for sale at the [Software Underground
+store][swung-shop]! Proceeds go to the Software Underground which in turn
+supports our community.
+
+<div class="row text-muted align-items-center fs-6">
+<div class="col-md-9">
+
+<img src="../_static/fatiando-tshirts.jpg" alt="Picture of 3 tshirt types we have for sale: one with a text editor importing our libraries, one with our logo in the center, and a baby onesie sporting our logo." >
+
+</div>
+<div class="col-md-3">
+
+Three types of Fatiando clothing available on the [Software Underground
+store][swung-shop] (left-to-right):
+one with a text editor importing [our libraries][libraries],
+a baby onesie with our logo,
+and a plain t-shirt with our logo.
+
+</div>
+</div>
+
 ## Spread the word
 
 We benefit greatly from **recommendations and acknowledgements of usage** of
@@ -29,11 +53,6 @@ applications and job interviews for our community members.
 <i class="fab fa-twitter fa-fw"></i>
 **Social media:** Share links to this website, our [GitHub][gh] repositories,
 project documentation, etc.
-
-<i class="fa fa-tshirt fa-fw"></i>
-**Buy a t-shirt:** We have t-shirts for sale at the [Software Underground
-store][swung-shop]! Proceeds go to the Software Underground which in turn
-supports our community.
 
 <i class="fab fa-python fa-fw"></i>
 **Publish your code:** Used our tools in your research? Why not publish your
@@ -122,3 +141,4 @@ supported by:
 [capes]: https://www.gov.br/capes
 [swung]: https://softwareunderground.org
 [swung-shop]: https://softwareunderground.org/shop
+[libraries]: ../#libraries
