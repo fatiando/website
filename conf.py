@@ -88,10 +88,5 @@ html_context = {
     "last_updated": str(current_date),
     "navbar_brand": "_static/fatiando-logo.svg",
     "stylesheet": "css/style.css",
-    "alerts": [
-        (
-            '<i class="fas fa-poll me-1"></i> The <strong>Fatiando Community Survey</strong> 2022 is now open! Please take 5-10 minutes to <a class="alert-link" target="_blank" href="https://forms.gle/EB4VFLY8PYb7UoJSA">fill it out <i class="fa fa-external-link-square-alt ms-1"></i></a>.',
-            "warning",
-        ),
-    ],
+    "alerts": [],
 }
