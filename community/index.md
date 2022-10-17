@@ -8,7 +8,73 @@ Our tools are developed by <strong>working geoscientists and community
 volunteers</strong> from across the globe.
 </p>
 
+## <i class="fa fa-comments"></i> Participate
+
+Open-source is more than just code, **it's about the people** involved.
+The most important thing you can do for any project is **participate in the
+community**: ask and answer questions, share your experience, help guide the
+development, and make friends along the way.
+
+The Fatiando community gathers in a few different places online, all of which
+are **open to everyone**.
+So come along and join the conversation!
+See {ref}`contact` to find out where we gather.
+
+<div class="row text-muted align-items-center fs-6">
+<div class="col-md-9">
+<img class="mb-3" src="../_static/fatiando-community-call.png" title="Screenshot from a virtual Fatiando weekly call.">
+</div>
+<div class="col-md-3">
+
+Happy community members at one of our [weekly Fatiando calls](contact).
+
+</div>
+</div>
+
+```{important}
+Everyone is required to abide by our [Code of Conduct][coc] when participating
+in the Fatiando community. Please review it carefully.
+```
+
+## <i class="fa fa-cog"></i> Join the development
+
+There may be a little voice inside your head that is telling you that you're
+not ready; that your skills aren't nearly good
+enough to contribute.
+What could you possibly offer?
+We assure you that the little voice in your head is wrong.
+**Being a contributor doesn't just mean writing code**.
+
+There are many ways to contribute:
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-bug fa-fw"></i> Submitting bug reports and feature requests</li>
+  <li><i class="fa-li fa fa-book fa-fw"></i> Writing tutorials or examples</li>
+  <li><i class="fa-li fa fa-hammer fa-fw"></i> Fixing typos and improving to the documentation</li>
+  <li><i class="fa-li fa fa-terminal fa-fw"></i> Writing code for everyone to use</li>
+</ul>
+
+Why participate in open-source?
+There is much for you to gain from your participation:
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-users fa-fw"></i> Connect with a welcoming global community</li>
+  <li><i class="fa-li fa fa-copy fa-fw"></i> Authorship on publications about our software</li>
+  <li><i class="fa-li fa fa-graduation-cap fa-fw"></i> Learn first-hand about software engineering</li>
+  <li><i class="fa-li fa fa-people-carry fa-fw"></i> Solve your own problems while benefiting the community</li>
+</ul>
+
+```{admonition} Want contribute to Fatiando?
+Have a look at our [Contributing Guide][contrib] to see how you can get
+involved.
+This and other guides (authorship policy, project maintenance, etc.) can be
+found in the [<i class="fab fa-github"></i> `fatiando/community`][community-repo]
+repository.
+```
+
 ## Who we are
+
+### Authors
 
 The [GitHub repositories][gh] for each project contain `AUTHORS.md` files which
 list everyone involved.
@@ -194,47 +260,6 @@ changes, making releases, and more.
   </div>
 </div>
 </div>
-
-## <i class="fa fa-comments"></i> Participate
-
-Open-source is more than just code, **it's about the people** involved.
-The most important thing you can do for any project is **participate in the
-community**: ask and answer questions, share your experience, help guide the
-development, and make friends along the way.
-
-The Fatiando community gathers in a few different places, **all of which are
-completely open to everyone**.
-So come along and join the conversation!
-**See {ref}`contact` to find out where we gather.**
-
-```{important}
-Everyone is required to abide by our [Code of Conduct][coc] when participating
-in the Fatiando community. Please review it carefully.
-```
-
-## <i class="fa fa-cog"></i> Join the development
-
-There may be a little voice inside your head that is telling you that you're
-not ready; that your skills aren't nearly good
-enough to contribute.
-What could you possibly offer?
-We assure you that the little voice in your head is wrong.
-
-**Being a contributor doesn't just mean writing code**.
-There are many ways to contribute:
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-bug fa-fw"></i> Submitting bug reports and feature requests</li>
-  <li><i class="fa-li fa fa-book fa-fw"></i> Writing tutorials or examples</li>
-  <li><i class="fa-li fa fa-hammer fa-fw"></i> Fixing typos and improving to the documentation</li>
-  <li><i class="fa-li fa fa-terminal fa-fw"></i> Writing code for everyone to use</li>
-</ul>
-
-Have a look at our [Contributing Guide][contrib] to see how you can get
-involved.
-This and other guides (authorship policy, project maintenance, etc.) can be
-found in the [<i class="fab fa-github"></i> `fatiando/community`][community-repo]
-repository.
 
 [coc]: https://github.com/fatiando/community/blob/main/CODE_OF_CONDUCT.md
 [contrib]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md

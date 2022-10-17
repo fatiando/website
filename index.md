@@ -454,9 +454,9 @@ your coding skills, and **make an impact** in your field.
 </div> <!-- column -->
 <div class="col-md-5 order-md-first fs-6 text-center">
 
-<img class="mb-3" src="_static/fatiando-community-call.png" title="Screenshot from a virtual Fatiando community call.">
+<img class="mb-3" src="_static/fatiando-community-call.png" title="Screenshot from a virtual Fatiando weekly call.">
 
-Happy community members at a [Fatiando Community Call](https://youtu.be/gsYKW7XNzzw).
+Happy community members at one of our [weekly Fatiando calls](contact).
 
 </div> <!-- column -->
 </div> <!-- row -->
