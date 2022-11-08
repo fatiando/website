@@ -126,6 +126,8 @@ Development and maintenance of the Fatiando a Terra project is generously
 supported by:
 
 * Community and financial support from the [Software Underground][swung].
+* Postdoc position salary for Santiago Soler from the [Geophysical Inversion
+  Facility, University of British Columbia][gif] (since 2022).
 * Salary for Leonardo Uieda from the [University of Liverpool][liv]
   (from 2019) and [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
 * A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
@@ -138,6 +140,7 @@ supported by:
 [liv]: https://www.liverpool.ac.uk/earth-ocean-and-ecological-sciences/
 [uerj]: https://www.uerj.br/
 [conicet]: https://www.conicet.gov.ar/
+[gif]: https://gif.eos.ubc.ca
 [capes]: https://www.gov.br/capes
 [swung]: https://softwareunderground.org
 [swung-shop]: https://softwareunderground.org/shop
