@@ -84,7 +84,7 @@ All of our code is **free and open-source**, distributed under the permissive
 <div class="container-fluid section background-1">
 <div class="container">
 
-<div class="row align-items-start gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 ## Getting started
@@ -179,7 +179,7 @@ Source code for the demonstration:
 <div class="container-fluid section background-3">
 <div class="container">
 
-<div class="row align-items-start gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (verde)=
@@ -224,7 +224,7 @@ without weights based on data uncertainty.
 <div class="container-fluid section background-2">
 <div class="container">
 
-<div class="row align-items-start gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (pooch)=
@@ -298,7 +298,7 @@ because the data are cached where Pooch can find it.
 <div class="container-fluid section background-3">
 <div class="container">
 
-<div class="row align-items-start gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (harmonica)=
@@ -345,7 +345,7 @@ gridded to a uniform height with equivalent sources.
 <div class="container-fluid section background-2">
 <div class="container">
 
-<div class="row align-items-start gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (boule)=
@@ -389,7 +389,7 @@ an analytical expression (no free-air correction required).
 <div class="container-fluid section background-3">
 <div class="container">
 
-<div class="row align-items-start gy-5">
+<div class="row align-items-center gy-5">
 <div class="col-md-7">
 
 (ensaio)=
@@ -474,6 +474,9 @@ Happy community members at one of our [weekly Fatiando calls](contact).
 
 <h2 class="text-center fs-3">News</h2>
 
+* 2022/11/07: Fatiando is now on
+  <i class="fab fa-mastodon" aria-hidden="true"></i>
+  [Mastodon](https://fosstodon.org/@fatiando)!
 * 2021/09/01: Documentation for the Python 2.7 <kbd>fatiando</kbd> package has
   been moved to [legacy.fatiando.org](https://legacy.fatiando.org).
 * 2021/09/01: Fatiando is now on LinkedIn! Give
@@ -488,10 +491,9 @@ Happy community members at one of our [weekly Fatiando calls](contact).
 
 <h2 class="text-center fs-3">Events</h2>
 
-* **Weekly Fatiando Development Calls**: we discuss various aspects of the
-  project. All are welcome, regardless of skill level and prior knowledge!
-  Notes and connection details:
-  [`fatiando/community`](https://github.com/fatiando/community)
+* **Weekly Fatiando Calls**: we discuss various aspects of the project. All are
+  welcome, regardless of skill level and prior knowledge! Notes and connection
+  details: [`fatiando/community`](https://github.com/fatiando/community)
 * **AGU 2021**: Going to the AGU Fall Meeting? Come to our talk! Details at
   [`fatiando/agu2021`](https://github.com/fatiando/agu2021).
 
