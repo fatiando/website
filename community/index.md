@@ -64,7 +64,7 @@ There is much for you to gain from your participation:
   <li><i class="fa-li fa fa-people-carry fa-fw"></i> Solve your own problems while benefiting the community</li>
 </ul>
 
-```{admonition} Want contribute to Fatiando?
+```{admonition} Want to contribute to Fatiando?
 Have a look at our [Contributing Guide][contrib] to see how you can get
 involved.
 This and other guides (authorship policy, project maintenance, etc.) can be
