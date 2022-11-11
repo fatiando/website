@@ -29,6 +29,18 @@ questions**, get project updates, share your expertise, and showcase your work.
 </div>
 <div class="col-sm-6">
 
+<i class="fas fa-share-alt fa-4x"></i>
+<h2 class="no-top-margin">Social media</h2>
+
+Do you want regular **news and updates** about the project?
+Follow Fatiando on
+<i class="fab fa-mastodon" aria-hidden="true"></i> [Mastodon][mastodon],
+<i class="fab fa-linkedin" aria-hidden="true"></i> [LinkedIn][linkedin],
+and <i class="fab fa-twitter" aria-hidden="true"></i> [Twitter][twitter].
+
+</div>
+<div class="col-sm-6">
+
 <i class="fas fa-microphone-alt fa-4x"></i>
 <h2 class="no-top-margin">Video calls</h2>
 
@@ -48,17 +60,9 @@ To **report bugs** and **request features**, [open an Issue][bug-report] on
 Leave a comment on any issue or pull request to join the conversation.
 
 </div>
-<div class="col-sm-6">
-
-<i class="fab fa-twitter fa-4x"></i>
-<h2 class="no-top-margin">Updates</h2>
-
-Follow us on [LinkedIn][linkedin] and [Twitter][twitter] where we post **news
-and updates** about the project.
-
-</div>
 </div>
 
+[mastodon]: https://fosstodon.org/@fatiando
 [linkedin]: https://www.linkedin.com/company/fatiando
 [twitter]: https://twitter.com/fatiandoaterra
 [slack]: https://softwareunderground.org/slack

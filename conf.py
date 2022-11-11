@@ -59,6 +59,11 @@ html_context = {
             "https://github.com/fatiando",
         ),
         (
+            "fab fa-mastodon",
+            "Mastodon",
+            "https://fosstodon.org/@fatiando",
+        ),
+        (
             "fab fa-twitter",
             "Twitter",
             "https://twitter.com/fatiandoaterra",
