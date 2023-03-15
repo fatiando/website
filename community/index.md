@@ -108,7 +108,7 @@ Our [Authorship Guidelines][authorship] define the rules for attributing
 authorship to those involved in our projects.
 ```
 
-```{fatiando-authors} harmonica,verde,boule,pooch,ensaio
+```{fatiando-authors} harmonica,verde,boule,pooch,ensaio,choclo
 ```
 
 
