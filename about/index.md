@@ -17,8 +17,9 @@ planet.
 The Fatiando a Terra project had it's start around 2008 as a C++ program to
 perform geophysical modeling of various data types (gravity, magnetics,
 seismic, etc.).
-At least that was what a small group of Geophysics undergraduate students at
-the [University of São Paulo][usp], Brazil, set out to do.
+At least that was what a
+{ref}`small group of Geophysics undergraduate students <founders>` at the
+[University of São Paulo][usp], Brazil, set out to do.
 Unsurprisingly, this overly ambitious goal was never achieved.
 
 <div class="row text-muted align-items-center fs-6">
