@@ -474,6 +474,11 @@ Happy community members at one of our [weekly Fatiando calls](contact).
 
 <h2 class="text-center fs-3">News</h2>
 
+* 2023/05/03: Santiago gave an invited talk at
+  [IGeBA](https://igeba.gl.fcen.uba.ar/) about Fatiando and open-source
+  software in geosciences. The talk was in Spanish and live-streamed through
+  [IGeBA's YouTube channel](https://www.youtube.com/@igeba9451) ([slides are
+  available](https://www.santisoler.com/2023-fatiando-igeba)).
 * 2023/03/18: Santiago gave a lightning talk at [PyCascades
   2023](https://2023.pycascades.com/) about Pooch. Watch a [recording of the
   talk](https://www.youtube.com/watch?v=KvxBc4xUMyg) ([slides are
