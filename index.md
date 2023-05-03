@@ -474,6 +474,17 @@ Happy community members at one of our [weekly Fatiando calls](contact).
 
 <h2 class="text-center fs-3">News</h2>
 
+* 2023/03/18: Santiago gave a lightning talk at [PyCascades
+  2023](https://2023.pycascades.com/) about Pooch. Watch a [recording of the
+  talk](https://www.youtube.com/watch?v=KvxBc4xUMyg) ([slides are
+  available](https://github.com/santisoler/2023-pycascades)).
+* 2023/03/04: Santiago gave a talk to the [Canadian Exploration Geophysical
+  Society (KEGS)](https://www.kegsonline.org/) about using Fatiando for
+  processing and modelling gravity and magnetic fields. [Abstract and slides are
+  available](https://github.com/fatiando/2023-kegs), as well as a [recording of
+  the talk](https://www.youtube.com/watch?v=H0EaWOgV9xg).
+  <i class="fab fa-mastodon" aria-hidden="true"></i>
+  [Mastodon](https://fosstodon.org/@fatiando)!
 * 2022/11/07: Fatiando is now on
   <i class="fab fa-mastodon" aria-hidden="true"></i>
   [Mastodon](https://fosstodon.org/@fatiando)!
