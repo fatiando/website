@@ -488,8 +488,6 @@ Happy community members at one of our [weekly Fatiando calls](contact).
   processing and modelling gravity and magnetic fields. [Abstract and slides are
   available](https://github.com/fatiando/2023-kegs), as well as a [recording of
   the talk](https://www.youtube.com/watch?v=H0EaWOgV9xg).
-  <i class="fab fa-mastodon" aria-hidden="true"></i>
-  [Mastodon](https://fosstodon.org/@fatiando)!
 * 2022/11/07: Fatiando is now on
   <i class="fab fa-mastodon" aria-hidden="true"></i>
   [Mastodon](https://fosstodon.org/@fatiando)!
