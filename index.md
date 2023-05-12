@@ -398,8 +398,8 @@ an analytical expression (no free-air correction required).
 (choclo)=
 ## **Choclo:** Kernel functions for your geophysical models
 
-Optimized forward modelling functions for gravity and magnetic forward
-modelling, specially tailored to be reused by other libraries, like <a
+Optimized **forward modelling** functions for **gravity** and **magnetic**
+fields, specially tailored to be reused by other libraries, like <a
 href="#harmonica">Harmonica</a>.
 
 <div class="project-info">
