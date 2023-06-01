@@ -93,5 +93,10 @@ html_context = {
     "last_updated": str(current_date),
     "navbar_brand": "_static/fatiando-logo.svg",
     "stylesheet": "css/style.css",
-    "alerts": [],
+    "alerts": [
+            (
+            '<i class="fa fa-users"></i> The 2 day workshop <strong> Open-Source Tools to Enable Geophysical Data Processing and Inversion</strong> is coming! Check all the info <a class="alert-link" target="_blank" href="https://swu.ng/birs-2023"> and join us! <i class="fa fa-external-link-square-alt ms-1"></i></a>.',
+            "warning",
+        ),
+        ],
 }
