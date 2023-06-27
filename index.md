@@ -389,7 +389,7 @@ an analytical expression (no free-air correction required).
 </div> <!-- container -->
 </div> <!-- container-fluid -->
 
-<div class="container-fluid section background-2">
+<div class="container-fluid section background-3">
 <div class="container">
 
 <div class="row align-items-center gy-5">
