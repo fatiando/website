@@ -542,7 +542,7 @@ Happy community members at one of our [weekly Fatiando calls](contact).
 
 <h2 class="text-center fs-3">News</h2>
 
-* 2023/07/19: Santiago was invited by Constanza Piceda to publish [a
+* 2023/07/19: Santiago was invited by Constanza Rodriguez Piceda to publish [a
   blogpost](https://blogs.egu.eu/divisions/gd/2023/07/19/fatiando-a-terra/)
   about Fatiando in the [EGU Geodynamics
   Blog](https://blogs.egu.eu/divisions/gd).
