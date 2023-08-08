@@ -542,6 +542,11 @@ Happy community members at one of our [weekly Fatiando calls](contact).
 
 <h2 class="text-center fs-3">News</h2>
 
+* 2023/08/08: The Fatiando and [SimPEG](https://simpeg.xyz) communities got
+  together in the [Banff International Research Station](https://www.birs.ca)
+  as part of the 2-day Workshop to discuss future developments and roadmaps for
+  the two projects. More information can be found in the [Workshop's
+  website](https://birs-2023.softwareunderground.org).
 * 2023/07/19: Santiago was invited by Constanza Rodriguez Piceda to publish [a
   blogpost](https://blogs.egu.eu/divisions/gd/2023/07/19/fatiando-a-terra/)
   about Fatiando in the [EGU Geodynamics
