@@ -542,6 +542,10 @@ Happy community members at one of our [weekly Fatiando calls](contact).
 
 <h2 class="text-center fs-3">News</h2>
 
+* 2023/09/02: [Agustina Pesce](https://github.com/aguspesce) presented
+  Fatiando a Terra in the Mining and Mineral Exploration session at [IMAGE
+  2023](https://www.imageevent.org/). Slides and abstract are available in the
+  [fatiando/2023-image](https://github.com/fatiando/2023-image) repo.
 * 2023/08/08: The Fatiando and [SimPEG](https://simpeg.xyz) communities got
   together in the [Banff International Research Station](https://www.birs.ca)
   as part of the 2-day Workshop to discuss future developments and roadmaps for
