@@ -50,7 +50,7 @@ our software.
 It helps boost morale, encourage participation, and can even help with funding
 applications and job interviews for our community members.
 
-<i class="fab fa-twitter fa-fw"></i>
+<i class="fab fa-mastodon fa-fw"></i>
 **Social media:** Share links to this website, our [GitHub][gh] repositories,
 project documentation, etc.
 
