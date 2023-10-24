@@ -13,9 +13,9 @@ Your input is welcome and appreciated.
 <i class="fas fa-comments fa-4x"></i>
 <h2 class="no-top-margin">Chat</h2>
 
-Hop on to our [Matrix chat room][matrix] or the `#fatiando` channel in the
-[Software Underground Slack][slack] to **talk to users and developers**
-and get to know the community.
+Hop on to our [`#fatiando` channel][fatiando-channel] in [Software
+Underground's Mattermost instance][swung-mattermost] to **talk to users and
+developers** and get to know the community.
 
 </div>
 <div class="col-sm-6">
@@ -65,8 +65,8 @@ Leave a comment on any issue or pull request to join the conversation.
 [mastodon]: https://fosstodon.org/@fatiando
 [linkedin]: https://www.linkedin.com/company/fatiando
 [twitter]: https://twitter.com/fatiandoaterra
-[slack]: https://softwareunderground.org/slack
-[matrix]: https://matrix.to/#/#fatiando-a-terra:matrix.org
+[fatiando-channel]: https://mattermost.softwareunderground.org/software-underground/channels/fatiando
+[swung-mattermost]: https://mattermost.softwareunderground.org
 [forum]: https://github.com/orgs/fatiando/discussions
 [gh]: https://github.com/fatiando
 [bug-report]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
