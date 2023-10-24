@@ -13,9 +13,9 @@ Your input is welcome and appreciated.
 <i class="fas fa-comments fa-4x"></i>
 <h2 class="no-top-margin">Chat</h2>
 
-Hop on to our [Mattermost chat room][mattermost] in [Software
-Underground's instance][swung-mattermost] to **talk to users and developers**
-and get to know the community.
+Hop on to our [`#fatiando` channel][fatiando-channel] in [Software
+Underground's Mattermost instance][swung-mattermost] to **talk to users and
+developers** and get to know the community.
 
 </div>
 <div class="col-sm-6">
@@ -65,7 +65,7 @@ Leave a comment on any issue or pull request to join the conversation.
 [mastodon]: https://fosstodon.org/@fatiando
 [linkedin]: https://www.linkedin.com/company/fatiando
 [twitter]: https://twitter.com/fatiandoaterra
-[mattermost]: https://mattermost.softwareunderground.org/fatiando
+[fatiando-channel]: https://mattermost.softwareunderground.org/software-underground/channels/fatiando
 [swung-mattermost]: https://mattermost.softwareunderground.org
 [forum]: https://github.com/orgs/fatiando/discussions
 [gh]: https://github.com/fatiando
