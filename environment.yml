@@ -3,9 +3,9 @@ channels:
     - conda-forge
     - defaults
 dependencies:
-    - python==3.9
+    - python==3.11
     - pip
     - make
-    - sphinx==4.1.2
-    - myst-parser==0.15.*
+    - sphinx==7.2.*
+    - myst-parser==2.0.*
     - livereload

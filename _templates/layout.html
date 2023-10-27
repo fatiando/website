@@ -14,25 +14,7 @@
 
   <link rel="shortcut icon" href="{{ favicon_url|e }}"/>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="{{ pathto('_static/bootstrap-5.1/css/bootstrap.min.css', 1) }}">
-
-  <!-- FontAwsome icons -->
-  <link rel="stylesheet" href="{{ pathto('_static/css/fontawesome/css/all.css', 1) }}">
-
-  <!-- Pygments CSS for syntax highlighting -->
-  <!-- Accessible versions by Max Chadwick (@mpchadwick) -->
-  <link rel="stylesheet" href="{{ pathto('_static/css/pygments/native.css', 1) }}">
-
-  <!-- Custom CSS set in conf.py -->
-  <link rel="stylesheet" href="{{ pathto('_static/' + stylesheet, 1) }}">
-
-  <!-- Social media cards -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="{{ base_url }}/_static/{{ logo }}">
-  <meta name="twitter:site" content="@{{ twitter }}">
-  <meta name="twitter:title" content="{{ this_page_title }}">
-  <meta name="twitter:description" content="{{ description }}">
+  <!-- Social media card -->
   <meta property="og:title" content="{{ this_page_title }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ base_url }}">
@@ -40,12 +22,29 @@
   <meta property="og:image" content="{{ base_url }}/_static/{{ logo }}">
   <meta property="og:description" content="{{ description }}">
 
+  <!-- Ubuntu -->
+  <link rel="stylesheet" href="{{ pathto('_static/fonts/ubuntu/fonts.css', 1) }}">
+
+  <!-- Ubuntu Mono -->
+  <link rel="stylesheet" href="{{ pathto('_static/fonts/ubuntu-mono/fonts.css', 1) }}">
+
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="{{ pathto('_static/fonts/fontawesome/css/all.css', 1) }}">
+
+  <!-- Pygments CSS for syntax highlighting. Accessible versions by Max Chadwick (@mpchadwick) -->
+  <link rel="stylesheet" href="{{ pathto('_static/css/pygments/native.css', 1) }}">
+
+  <!-- Andy Bell's CSS reset -->
+  <link rel="stylesheet" href="{{ pathto('_static/css/reset.css', 1) }}">
+
+  <!-- Custom CSS set in conf.py -->
+  <link rel="stylesheet" href="{{ pathto('_static/' + stylesheet, 1) }}">
+
   <!-- Plausible analytics for anonymous usage statistics -->
   {{ plausible }}
 
   {%- block extrahead %}{% endblock %}
 </head>
-
 
 <body>
   {%- if alerts is defined %}
@@ -57,21 +56,16 @@
     {%- endfor %}
   {%- endif %}
 
-  <header class="menu">
-    <div class="container">
-      <nav>
-        <ul class="nav justify-content-center">
-          <li class="nav-item ">
-            <a href="{{ pathto('index.html', 1) }}"><img title="Home" alt="Fatiando a Terra" src="{{ pathto(navbar_brand, 1) }}"></a>
-          </li>
+  <header>
+    <div class="spread content-wide">
+      <a href="{{ pathto('index.html', 1) }}">
+        <img title="Home" alt="Fatiando a Terra" src="{{ pathto(navbar_brand, 1) }}">
+      </a>
+      <nav aria-label="Main">
+        <ul class="list-inline" role="list">
           {%- for link in menu_items %}
             <li class="nav-item">
               <a class="nav-link" href="{{ pathto(link[1], 1) }}">{{ link[0] }}</a>
-            </li>
-          {%- endfor %}
-          {%- for link in social_links %}
-            <li class="nav-item">
-              <a rel="me" class="nav-link" href="{{ link[2] }}" target="_blank"><i class="{{ link[0] }}" title="{{ link[1] }}" alt="{{ link[1] }}"></i></a>
             </li>
           {%- endfor %}
         </ul>
@@ -102,6 +96,13 @@
           {%- endfor %}
         </ul>
       </nav>
+      <ul>
+      {%- for link in social_links %}
+        <li class="nav-item">
+          <a rel="me" class="nav-link" href="{{ link[2] }}" target="_blank"><i class="{{ link[0] }}" title="{{ link[1] }}" alt="{{ link[1] }}"></i></a>
+        </li>
+      {%- endfor %}
+      </ul>
       <p>
         Last updated {{ last_updated }}
         (commit
@@ -124,11 +125,6 @@
       </p>
     </div>
   </footer>
-
-  <!-- Bootstrap bundled Javascript (with their dependencies) -->
-  <script src="{{ pathto('_static/bootstrap-5.1/js/bootstrap.bundle.min.js', 1) }}"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
 
 </body>
 </html>
