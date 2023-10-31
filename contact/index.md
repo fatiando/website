@@ -13,7 +13,7 @@ Your input is welcome and appreciated.
 <i class="fas fa-comments fa-4x"></i>
 <h2 class="no-top-margin">Chat</h2>
 
-Hop on to our [`#fatiando` channel][fatiando-channel] in [Software
+Hop on to our [`~fatiando` channel][fatiando-channel] in [Software
 Underground's Mattermost instance][swung-mattermost] to **talk to users and
 developers** and get to know the community.
 
