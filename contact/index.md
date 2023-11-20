@@ -65,7 +65,7 @@ Leave a comment on any issue or pull request to join the conversation.
 [mastodon]: https://fosstodon.org/@fatiando
 [linkedin]: https://www.linkedin.com/company/fatiando
 [twitter]: https://twitter.com/fatiandoaterra
-[fatiando-channel]: https://mattermost.softwareunderground.org/software-underground/channels/fatiando
+[fatiando-channel]: https://mattermost.softwareunderground.org/swung/channels/fatiando
 [swung-mattermost]: https://mattermost.softwareunderground.org
 [forum]: https://github.com/orgs/fatiando/discussions
 [gh]: https://github.com/fatiando
