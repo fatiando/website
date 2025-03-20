@@ -1,6 +1,7 @@
 """
 Configuration for building the website with Sphinx.
 """
+
 import sys
 import re
 import datetime
@@ -29,6 +30,12 @@ current_date = datetime.date.today()
 project = "Fatiando a Terra"
 copyright = f"{current_date.year:d} The Fatiando a Terra Developers"
 version = ""
+
+# Myst configurations
+# -------------------
+# Fix warning about 'myst' cross-reference target not found:
+# https://github.com/executablebooks/MyST-Parser/issues/885
+myst_heading_anchors = 6
 
 html_title = project
 html_short_title = ""

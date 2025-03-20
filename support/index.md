@@ -144,4 +144,4 @@ supported by:
 [capes]: https://www.gov.br/capes
 [swung]: https://softwareunderground.org
 [swung-shop]: https://softwareunderground.org/shop
-[libraries]: ../#libraries
+[libraries]: ../index.md#libraries
