@@ -11,19 +11,13 @@ on:
     - cron:  '00 12 * * 1'
   workflow_dispatch:
 
-permissions: {}
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
