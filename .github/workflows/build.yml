@@ -23,9 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # The GitHub token is preserved by default but this job doesn't need
-          # to be able to push to GitHub.
-          persist-credentials: false
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
