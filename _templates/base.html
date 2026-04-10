@@ -29,6 +29,13 @@
   <!-- <meta property="og:image" content="{{ config.url }}/{{ config.thumbnail }}" /> -->
   <meta property="og:url" content="{{ config.url }}/{{ page.path }}" />
 
+  <!-- Ubuntu Fonts -->
+  <link rel="stylesheet" href="{{ "fonts/ubuntu/font.css"|relative_to(page.path) }}" />
+  <link rel="stylesheet" href="{{ "fonts/ubuntu-mono/font.css"|relative_to(page.path) }}" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{ "fonts/fontawesome/css/all.css"|relative_to(page.path) }}" />
+
   <!-- Andy Bell's CSS reset -->
   <!-- https://bell.bz/a-more-modern-css-reset/ -->
   <link rel="stylesheet" href="{{ "css/reset.css"|relative_to(page.path) }}" />
@@ -52,7 +59,7 @@
 <body>
   <header id="top">
     <div class="content-wide spread">
-      <a aria-label="Home" class="font-bold" href="{{ macros.pretty_relative_link(site['index'], page) }}">{{ "images/fatiando-logo.svg"|relative_to(page.path) }}</a>
+      <a aria-label="Home" class="font-bold" href="{{ macros.pretty_relative_link(site['index'], page) }}"><img src="{{ "images/fatiando-logo.svg"|relative_to(page.path) }}"></a>
       <nav aria-label="Main">
         <ul class="list-inline" role="list">
           {%- for item in config.navigation %}
@@ -66,39 +73,13 @@
   </header>
 
   <main class="flow">
-    {%- if page.banner_image is defined %}
-      {%- if page.banner_position is defined %}
-        {%- set banner_position = page.banner_position %}
-      {%- else %}
-        {%- set banner_position = "top center" %}
-      {%- endif %}
-      <div class="banner"
-           style="background-image: url({{ page.banner_image|relative_to(page.path) }}); background-position: {{ banner_position }};" >
-        <div class="banner-overlay"
-             style="background-image: url({{ "images/banners/noise-tiled.webp"|relative_to(page.path) }})">
-        </div>
-        <div class="banner-text flow">
-          {%- if page.banner_title is defined %}
-            <h1>
-              {{ page.banner_title }}
-            </h1>
-          {%- endif %}
-          {%- if page.banner_subtitle is defined %}
-            <p>
-              {{ page.banner_subtitle }}
-            </p>
-          {%- endif %}
-        </div>
-      </div>
-    {%- endif %}
-
-    {%- if page.wide is defined and page.wide %}
-      {%- set content_class = "content-wide" %}
+    {%- if page.no_container is defined and page.no_container %}
+      {%- set content_class = "" %}
     {%- else %}
-      {%- set content_class = "content" %}
+      {%- set content_class = "content margin-top-2xl flow" %}
     {%- endif %}
 
-    <div class="{{ content_class }} margin-top-2xl flow">
+    <div class="{{ content_class }}">
       {%- block content %}
         {{ page.body }}
       {%- endblock %}
@@ -107,7 +88,7 @@
 
   <footer class="margin-top-4xl">
     <div class="flow content-wide">
-      <nav class="flex underline-links" aria-label="Primary footer navigation">
+      <nav class="flex" aria-label="Primary footer navigation">
         <ul class="list-inline" role="list">
         {%- for item in config.navigation %}
           <li>
@@ -118,15 +99,14 @@
       </nav>
       <section class="flow font-small">
         <p>
-          Last built on {{ build.today.strftime('%Y/%m/%d') }} with
-          <a href="https://nene.leouieda.com">Nēnē</a> {{ build.nene_version }}
-          from source code at
+          Copyright &copy; {{ build.today.year }} {{ config.author }}.
+          {{ config.license_notice }}
         </p>
         <p>
-          <strong>
-            Copyright &copy; {{ build.today.year }} {{ config.author }}.
-            {{ config.license_notice }}
-          </strong>
+          Last updated on {{ build.today.strftime('%Y/%m/%d') }}.
+          Built with
+          <a href="https://nene.leouieda.com">Nēnē</a> {{ build.nene_version }}
+          from source code at <a href="https://github.com/{{ config.repository }}">{{ config.repository }}</a>.
         </p>
       </section>
       <section class="font-small text-center">

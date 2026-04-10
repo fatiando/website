@@ -16,6 +16,12 @@ license_notice: |
 navigation:
   - name: Home
     id: index
+  # - name: About
+  #   id: about/index
+  # - name: Support
+  #   id: support/index
+  # - name: Contact
+  #   id: contact/index
 
 # Don't copy or process these files
 ignore:
