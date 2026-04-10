@@ -1,0 +1,139 @@
+{%- import "macros.html" as macros -%}
+<!DOCTYPE html>
+<html lang="{{ config.language }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {%- if page.custom_page_title is defined %}
+    {%- set title = page.custom_page_title|striptags|e %}
+  {%- else %}
+    {%- set title = page.title|striptags|e + " | " + config.site_name|striptags|e %}
+  {%- endif %}
+  <title>{{ title }}</title>
+  <link rel="shortcut icon" href="{{ config.favicon|relative_to(page.path)|e }}" />
+
+  <!-- OpenGraph social media card -->
+  {%- if page.description is defined -%}
+    {% set description = page.description|striptags|trim  %}
+  {%- else -%}
+    {% set description = page.body|striptags|trim|truncate(200) %}
+  {%- endif %}
+  {%- if page.custom_page_title is defined %}
+    {%- set ogtitle = page.custom_page_title|striptags|e %}
+  {%- else %}
+    {%- set ogtitle = page.title|striptags|e %}
+  {%- endif %}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ ogtitle }}" />
+  <meta property="og:description" content="{{ description }}" />
+  <!-- <meta property="og:image" content="{{ config.url }}/{{ config.thumbnail }}" /> -->
+  <meta property="og:url" content="{{ config.url }}/{{ page.path }}" />
+
+  <!-- Andy Bell's CSS reset -->
+  <!-- https://bell.bz/a-more-modern-css-reset/ -->
+  <link rel="stylesheet" href="{{ "css/reset.css"|relative_to(page.path) }}" />
+
+  <!-- Syntax highlighting for code -->
+  <link rel="stylesheet" href="{{ "css/pygments.css"|relative_to(page.path) }}" />
+
+  <!-- Main CSS stylesheet -->
+  <link rel="stylesheet" href="{{ "css/style.css"|relative_to(page.path) }}" />
+
+  <!-- Plausible analytics for anonymous usage statistics -->
+  <script defer data-domain="{{ config.domain }}" src="https://plausible.io/js/plausible.js"></script>
+
+  {%- block extrahead %}
+    {%- if page.extrahead is defined %}
+      {{ page.extrahead }}
+    {%- endif %}
+  {% endblock %}
+</head>
+
+<body>
+  <header id="top">
+    <div class="content-wide spread">
+      <a aria-label="Home" class="font-bold" href="{{ macros.pretty_relative_link(site['index'], page) }}">{{ "images/fatiando-logo.svg"|relative_to(page.path) }}</a>
+      <nav aria-label="Main">
+        <ul class="list-inline" role="list">
+          {%- for item in config.navigation %}
+            <li>
+              {{ macros.nav_link(item, page, site) }}
+            </li>
+          {%- endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flow">
+    {%- if page.banner_image is defined %}
+      {%- if page.banner_position is defined %}
+        {%- set banner_position = page.banner_position %}
+      {%- else %}
+        {%- set banner_position = "top center" %}
+      {%- endif %}
+      <div class="banner"
+           style="background-image: url({{ page.banner_image|relative_to(page.path) }}); background-position: {{ banner_position }};" >
+        <div class="banner-overlay"
+             style="background-image: url({{ "images/banners/noise-tiled.webp"|relative_to(page.path) }})">
+        </div>
+        <div class="banner-text flow">
+          {%- if page.banner_title is defined %}
+            <h1>
+              {{ page.banner_title }}
+            </h1>
+          {%- endif %}
+          {%- if page.banner_subtitle is defined %}
+            <p>
+              {{ page.banner_subtitle }}
+            </p>
+          {%- endif %}
+        </div>
+      </div>
+    {%- endif %}
+
+    {%- if page.wide is defined and page.wide %}
+      {%- set content_class = "content-wide" %}
+    {%- else %}
+      {%- set content_class = "content" %}
+    {%- endif %}
+
+    <div class="{{ content_class }} margin-top-2xl flow">
+      {%- block content %}
+        {{ page.body }}
+      {%- endblock %}
+    </div>
+  </main>
+
+  <footer class="margin-top-4xl">
+    <div class="flow content-wide">
+      <nav class="flex underline-links" aria-label="Primary footer navigation">
+        <ul class="list-inline" role="list">
+        {%- for item in config.navigation %}
+          <li>
+            {{ macros.nav_link(item, page, site) }}
+          </li>
+        {%- endfor %}
+        </ul>
+      </nav>
+      <section class="flow font-small">
+        <p>
+          Last built on {{ build.today.strftime('%Y/%m/%d') }} with
+          <a href="https://nene.leouieda.com">Nēnē</a> {{ build.nene_version }}
+          from source code at
+        </p>
+        <p>
+          <strong>
+            Copyright &copy; {{ build.today.year }} {{ config.author }}.
+            {{ config.license_notice }}
+          </strong>
+        </p>
+      </section>
+      <section class="font-small text-center">
+        <a href="#top" class="button-link">↑ Back to top</a>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
+

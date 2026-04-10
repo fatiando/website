@@ -1,11 +1,9 @@
 name: fatiando-website
 channels:
-    - conda-forge
-    - defaults
+  - conda-forge
 dependencies:
-    - python==3.12
-    - pip
-    - make
-    - sphinx==8.2.3
-    - myst-parser==4.0.*
-    - livereload
+  - python==3.14
+  - pip
+  - make
+  - pip:
+    - -r requirements.txt

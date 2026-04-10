@@ -1,17 +1,7 @@
-```{title} Home
-```
-
-```{toctree}
-:hidden:
-
-about/index.md
-install/index.md
-learn/index.md
-contact/index.md
-community/index.md
-cite/index.md
-support/index.md
-```
+---
+title: Fatiando a Terra
+template: base.html
+---
 
 <div class="container-fluid banner">
 <div class="container">
