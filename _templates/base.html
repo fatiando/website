@@ -87,9 +87,9 @@
   </main>
 
   <footer>
-    <div class="flow content-wide">
-      <nav class="flex" aria-label="Primary footer navigation">
-        <ul class="list-inline" role="list">
+    <div class="flow text-center content-wide">
+      <nav aria-label="Footer">
+        <ul class="list-inline-center" role="list">
         {%- for item in config.navigation %}
           <li>
             {{ macros.nav_link(item, page, site) }}
@@ -97,21 +97,25 @@
         {%- endfor %}
         </ul>
       </nav>
-      <section class="flow font-small">
+      <ul class="list-inline-center margin-top-xl" role="list">
+      {%- for item in config.social %}
+        <li><a target="_blank" href="{{ item.url }}">{{ item.name }}↗</a></li>
+      {%- endfor %}
+      </ul>
+      <div class="flow margin-top-xl font-small">
+        <p>
+          Last updated: {{ build.today.strftime('%Y-%m-%d') }}
+          <span class="padding-horizontal-2xs"> • </span>
+          Created using <a href="https://nene.leouieda.com">Nēnē</a> {{ build.nene_version }}
+          <span class="padding-horizontal-2xs"> • </span>
+          Source code for this website: <a href="https://github.com/{{ config.repository }}">{{ config.repository }}</a>
+          (commit <a href="https://github.com/{{ config.repository }}/commit/{{ build.commit }}">{{ build.commit }}</a>).
+        </p>
         <p>
           Copyright &copy; {{ build.today.year }} {{ config.author }}.
           {{ config.license_notice }}
         </p>
-        <p>
-          Last updated on {{ build.today.strftime('%Y/%m/%d') }}.
-          Built with
-          <a href="https://nene.leouieda.com">Nēnē</a> {{ build.nene_version }}
-          from source code at <a href="https://github.com/{{ config.repository }}">{{ config.repository }}</a>.
-        </p>
-      </section>
-      <section class="font-small text-center">
-        <a href="#top" class="button-link">↑ Back to top</a>
-      </section>
+      </div>
     </div>
   </footer>
 </body>

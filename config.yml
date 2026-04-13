@@ -10,8 +10,8 @@ repository: fatiando/website
 repository_branch: main
 favicon: assets/favicon.png
 license_notice: |
-  Except where otherwise noted, all content is made available under a
-  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> license.
+  Except where otherwise noted, all content is licensed
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.
 
 navigation:
   - name: Home
@@ -22,6 +22,14 @@ navigation:
   #   id: support/index
   # - name: Contact
   #   id: contact/index
+
+social:
+  - name: GitHub
+    url: https://github.com/fatiando
+  - name: YouTube
+    url: https://www.youtube.com/fatiandoorg
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/fatiando
 
 # Don't copy or process these files
 ignore:

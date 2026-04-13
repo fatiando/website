@@ -2,13 +2,14 @@
 /*****************************************************************************/
 :root {
   /* Colors */
-  --color-primary: #0d6efd;
+  --color-primary: #2060c2;
   --color-secondary: #008000;
   --color-tertiary: #ffd52e;
   --color-muted: #6c757d;
   --color-dark: #060629;
   --color-medium: #222222;
   --color-light: #ffffff;
+  --color-semilight: #fdfdfd;
 
   /* Type scale calculated using https://utopia.fyi/type/calculator */
   --size--1: clamp(0.94rem, calc(0.90rem + 0.18vw), 1.04rem);
@@ -122,8 +123,8 @@ figcaption {
 footer {
   color: var(--color-light);
   background-color: var(--color-dark);
-  padding-top: var(--space-xl);
-  padding-bottom: var(--space-xl);
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
 }
 
 footer a {
@@ -147,6 +148,14 @@ header a:hover {
 
 header img {
   max-height: 2em;
+}
+
+hr {
+  color: var(--color-tertiary);
+  background-color: var(--color-tertiary);
+  border-style: none;
+  opacity: 1;
+  height: 0.2em;
 }
 
 
@@ -178,13 +187,13 @@ blockquote > * + *, .callout > * + * {
   margin-block-start: 0.5em;
 }
 
-footer section {
-  --flow-space: var(--space-xl);
-}
+/* footer section { */
+  /* --flow-space: var(--space-xl); */
+/* } */
 
-footer section > * + * {
-  --flow-space: 0.5em;
-}
+/* footer section > * + * { */
+  /* --flow-space: 0.5em; */
+/* } */
 
 
 /* Blocks */
@@ -238,27 +247,12 @@ footer section > * + * {
   min-width: 60%;
 }
 
-.background-primary {
-  color: var(--color-light);
-  background-color: var(--color-primary);
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter);
 }
 
-.background-primary a {
-  color: var(--color-light);
-}
-
-.background-primary figcaption {
-  color: var(--color-light);
-}
-
-.background-dark {
-  color: var(--color-light);
-  background-color: var(--color-dark);
-}
-
-.background-dark a {
-  color: var(--color-light);
-}
 
 /* Utilities */
 /*****************************************************************************/
@@ -294,11 +288,51 @@ footer section > * + * {
   font-weight: bold;
 }
 
+.background-primary {
+  color: var(--color-light);
+  background-color: var(--color-primary);
+}
+
+.background-primary a {
+  color: var(--color-light);
+}
+
+.background-primary figcaption {
+  color: var(--color-light);
+}
+
+.background-dark {
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+.background-dark a {
+  color: var(--color-light);
+}
+
+.background-semilight {
+  background-color: var(--color-semilight);
+}
+
+.box-shadow {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2) inset;
+}
+
 .list-inline {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  gap: var(--gutter);
+  padding-left: 0;
+  line-height: 1;
+}
+
+.list-inline-center {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: var(--gutter);
   padding-left: 0;
   line-height: 1;
@@ -352,9 +386,28 @@ a.button-link-light {
   display: inline-block;
 }
 
-.padding-vertical-large {
+.padding-horizontal-2xs {
+  padding-left: var(--space-2xs);
+  padding-right: var(--space-2xs);
+}
+
+.padding-vertical-2xl {
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
+}
+
+.padding-vertical-3xl {
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-3xl);
+}
+
+.padding-vertical-4xl {
   padding-top: var(--space-4xl);
   padding-bottom: var(--space-4xl);
+}
+
+.margin-top-xl {
+  margin-top: var(--space-xl);
 }
 
 .margin-top-2xl {
@@ -368,6 +421,10 @@ a.button-link-light {
 .margin-top-4xl {
   margin-top: var(--space-4xl);
 }
+
+
+/* Tweaks to existing classes */
+/*****************************************************************************/
 
 i.fab, i.fas, i.fa {
   margin-right: var(--space-3xs);
