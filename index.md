@@ -45,11 +45,12 @@ tutorials, and technical references for all that each library does. See links to
 each project below.
 
 **Watch:**
-Our [YouTube channel][youtube]
+Our [YouTube channel](https://www.youtube.com/fatiandoorg)
 has video tutorials, demonstrations, and talks about several of the tools
 that we develop.
 
 <ul role="list" class="list-inline">
+<li><a class="button-link-tertiary" href="https://www.youtube.com/fatiandoorg"><i class="fab fa-youtube"></i> YouTube channel</a></li>
 <li><a class="button-link-light" href="https://www.youtube.com/live/0bxZcCAr6bw">Harmonica tutorial</a></li>
 <li><a class="button-link-light" href="https://www.youtube.com/live/-xZdNdvzm3E">Verde tutorial</a></li>
 </ul>
@@ -59,12 +60,13 @@ that we develop.
 <figure>
   <img src="images/transform21-tutorial.jpg"">
   <figcaption>
-  Screenshot from our Harmonica tutorial at Transform 2021.
+  Screenshot from our <a href="https://www.youtube.com/live/0bxZcCAr6bw">Harmonica tutorial at Transform 2021</a>.
   </figcaption>
 </figure>
 </div>
 </div>
 </section>
+
 
 <section class="content-wide flow">
 
@@ -72,7 +74,7 @@ that we develop.
 
 ---
 
-<div class="row margin-top-2xl">
+<div class="row margin-top-3xl">
 <div class="col-large flow">
 
 ### Verde: Gridding, machine learning style
@@ -100,7 +102,7 @@ without weights based on data uncertainty.
 </div>
 </div>
 
-<div class="row-reverse margin-top-2xl">
+<div class="row-reverse margin-top-4xl">
 <div class="col-large flow">
 
 ### Pooch: Easily download datasets
@@ -152,7 +154,7 @@ data = xr.load_dataset(fname)
 
 <figcaption>
 Running this code multiple times will only result in a single download
-because the data are cached where Pooch can find it.
+because the data are cached automatically.
 </figcaption>
 </figure>
 
@@ -160,7 +162,10 @@ because the data are cached where Pooch can find it.
 </div>
 
 
-## **Harmonica:** All things potential fields
+<div class="row margin-top-4xl">
+<div class="col-large flow">
+
+### Harmonica: All things potential fields
 
 Harmonica is our library for processing, forward modeling, and inversion of
 **gravity and magnetic** data.
@@ -168,86 +173,83 @@ Our goal is to incentivise good practices by **carefully designing** the
 software and offering **state-of-the-art methods** with efficient
 implementations.
 
-<div class="project-info">
-
-* <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Functional but still evolving
-* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
-* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<harmonica>`
-* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.3628741">10.5281/zenodo.3628741</a>
+<ul role="list">
+<li><i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Ready for use but still evolving</li>
+<li><i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a></li>
+<li><i class="fas fa-book fa-fw" title="Documentation"></i> Documentation: <a href="https://www.fatiando.org/harmonica/">fatiando.org/harmonica</a></li>
+<li><i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: <a href="https://pypi.org/project/harmonica/">PyPI</a>, <a href="https://github.com/conda-forge/harmonica-feedstock/">conda-forge</a></li>
+<li><i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.3628741">10.5281/zenodo.3628741</a></li>
+</ul>
 
 </div>
+<div class="col-small flow">
 
-<div class="mt-4">
-  <a target="_blank" href="https://www.fatiando.org/harmonica/">
-  <button type="button" class="btn btn-secondary mb-3">
-  <i class="fa fa-book"></i>
-  Harmonica documentation
-  </button>
-  </a>
-</div>
-
-<img class="mb-3" src="_static/harmonica-example-bushveld.png">
+<figure>
+<img src="images/harmonica-example-bushveld.png">
+<figcaption>
 Residual gravity disturbances of the Bushveld Complex, South Africa,
 gridded to a uniform height with equivalent sources.
-
-
-
-
-## **Boule:** Ellipsoids and normal gravity
-
-Boule defines **reference ellipsoids** for calculating normal gravity of
-the Earth and other planetary bodies (Moon, Mars, Venus, Mercury).
-
-<div class="project-info">
-
-* <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Functional but still evolving
-* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/boule">fatiando/boule</a>
-* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<boule>`
-* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.3530749">10.5281/zenodo.3530749</a>
+</figcaption>
+</figure>
 
 </div>
-
-<div class="mt-4">
-  <a target="_blank" href="https://www.fatiando.org/boule/">
-  <button type="button" class="btn btn-secondary mb-3">
-  <i class="fa fa-book"></i>
-  Boule documentation
-  </button>
-  </a>
 </div>
 
 
-<img class="mb-3" src="_static/boule-example-normal-gravity.png">
+<div class="row-reverse margin-top-4xl">
+<div class="col-large flow">
+
+### Boule: Ellipsoids and normal gravity
+
+Boule defines **reference ellipsoids** for coordinate conversions and
+calculating normal gravity of the Earth and other planetary bodies (Moon, Mars,
+Venus, Mercury, and more).
+
+<ul role="list">
+<li><i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Ready for use but still evolving</li>
+<li><i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/boule">fatiando/boule</a></li>
+<li><i class="fas fa-book fa-fw" title="Documentation"></i> Documentation: <a href="https://www.fatiando.org/boule/">fatiando.org/boule</a></li>
+<li><i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: <a href="https://pypi.org/project/boule/">PyPI</a>, <a href="https://github.com/conda-forge/boule-feedstock/">conda-forge</a></li>
+<li><i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.3530749">10.5281/zenodo.3530749</a></li>
+</ul>
+
+</div>
+<div class="col-small flow">
+
+<figure>
+<img src="images/boule-example-normal-gravity.png">
+<figcaption>
 Normal gravity of the WGS84 ellipsoid calculated at the Earth's surface using
 an analytical expression (no free-air correction required).
-
-
-## **Choclo:** Kernel functions for your geophysical models
-
-Optimized **forward modelling** functions for **gravity** and **magnetic**
-fields, specially tailored to be reused by other libraries, like <a
-href="#harmonica">Harmonica</a>.
-
-<div class="project-info">
-
-* <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Functional but still evolving
-* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/choclo">fatiando/choclo</a>
-* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<choclo>`
-* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.7851747">10.5281/zenodo.7851747</a>
+</figcaption>
+</figure>
 
 </div>
-
-<div class="mt-4">
-  <a target="_blank" href="https://www.fatiando.org/choclo/">
-  <button type="button" class="btn btn-secondary mb-3">
-  <i class="fa fa-book"></i>
-  Choclo documentation
-  </button>
-  </a>
 </div>
 
-</div> <!-- column -->
-<div class="col-md-5 order-md-last fs-6">
+
+<div class="row margin-top-4xl">
+<div class="col-large flow">
+
+
+### Choclo: Kernel functions for geophysical models
+
+Optimized [numba](https://numba.pydata.org)-compatible **forward modelling**
+functions for **gravity** and **magnetic** fields, specially tailored to be
+reused by other libraries, like Harmonica and Magali.
+
+<ul role="list">
+<li><i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Ready for use but still evolving</li>
+<li><i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/choclo">fatiando/choclo</a></li>
+<li><i class="fas fa-book fa-fw" title="Documentation"></i> Documentation: <a href="https://www.fatiando.org/choclo/">fatiando.org/choclo</a></li>
+<li><i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: <a href="https://pypi.org/project/choclo/">PyPI</a>, <a href="https://github.com/conda-forge/choclo-feedstock/">conda-forge</a></li>
+<li><i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.7851747">10.5281/zenodo.7851747</a></li>
+</ul>
+
+</div>
+<div class="col-small flow">
+
+<figure>
 
 ```python
 import choclo
@@ -256,56 +258,60 @@ import choclo
 easting, northing, upward = 10.4e3, -5.6e3, 110.
 # Define prism boundaries and physical properties
 prism = [4e3, 12e3, -10e3, -2e3, -300., 20.]
-density = 2910
 magnetization = [1.2, -2.3, 1.0]
-# Compute gravity field of the prism
-g_u = choclo.prism.gravity_u(
-    easting, northing, upward, *prism, density
-)
 # Compute magnetic field of the prism
 b_e, b_n, b_u = choclo.prism.magnetic_field(
     easting, northing, upward, *prism, *magnetization
 )
 ```
 
-<p class="text-center fs-6">
-This code calculates the gravity acceleration and magnetic field generated by
-a single prism on a single observation point.
-</p>
+<figcaption>
+This code for calculating the magnetic field generated by a prism can be put in
+a loop inside a <code>numba.jit</code> function to speed it up.
+</figcaption>
+</figure>
+
+</div>
+</div>
 
 
+<div class="row-reverse margin-top-4xl">
+<div class="col-large flow">
 
-(ensaio)=
-## **Ensaio:**  Practice datasets to probe your code
+### Ensaio: Practice datasets to probe your code
 
 Ensaio makes it easy to download our open-access **sample datasets**. It taps
 into the [Fatiando a Terra FAIR data collection](https://github.com/fatiando-data)
 which is designed for use in tutorials, documentation, and teaching.
 
-<div class="project-info">
-
-* <i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Functional but still evolving
-* <i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/ensaio">fatiando/ensaio</a>
-* <i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: {pypi_version}`v<ensaio>`
-* <i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.5784202">10.5281/zenodo.5784202</a>
+<ul role="list">
+<li><i class="fa fa-sync-alt fa-fw" style="color: orange" title="Project status"></i> Ready for use but still evolving</li>
+<li><i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/ensaio">fatiando/ensaio</a></li>
+<li><i class="fas fa-book fa-fw" title="Documentation"></i> Documentation: <a href="https://www.fatiando.org/ensaio/">fatiando.org/ensaio</a></li>
+<li><i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: <a href="https://pypi.org/project/ensaio/">PyPI</a>, <a href="https://github.com/conda-forge/ensaio-feedstock/">conda-forge</a></li>
+<li><i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/10.5281/zenodo.5784202">10.5281/zenodo.5784202</a></li>
+</ul>
 
 </div>
+<div class="col-small flow">
 
-<div class="mt-4">
-  <a target="_blank" href="https://www.fatiando.org/ensaio/">
-  <button type="button" class="btn btn-secondary mb-3">
-  <i class="fa fa-book"></i>
-  Ensaio documentation
-  </button>
-  </a>
-</div>
-
-<img class="mb-3" src="_static/ensaio-gallery.png">
+<figure>
+<img src="images/ensaio-gallery.png">
+<figcaption>
 A sample of the datasets available in Ensaio. From the top-left: gravity, geoid
 height, bathymetry, GPS velocity, global relief, and magnetic anomaly.
+</figcaption>
+</figure>
 
-</section>
+</div>
+</div>
 
+
+</section> <!-- Meet our libraries -->
+
+<section class="background-primary margin-top-3xl">
+<div class="row content-wide">
+<div class="col-large flow">
 
 # Interested?
 
@@ -315,16 +321,20 @@ Whether it be coding, teaching, designing, or just hanging out.
 Getting involved in open-source can be great way to meet new people, improve
 your coding skills, and **make an impact** in your field.
 
-<div class="mt-5">
-  <a href="community"><button type="button" class="btn btn-light mb-3">
-    Come say "Hi!" 👋🏾
-  </button></a>
+<ul role="list">
+<li><a class="button-link-tertiary" href="contact">Come say "Hi!" 👋🏾</a></li>
+</ul>
+
 </div>
+<div class="col-small flow">
 
+<figure>
+<img src="images/fatiando-community-call.png" title="Screenshot from a virtual Fatiando weekly call.">
+<figcaption>
+Happy community members at one of our regular <a href="contact">Fatiando open calls</a>, where we discuss the project and future plans.
+</figcaption>
+</figure>
 
-<img class="mb-3" src="_static/fatiando-community-call.png" title="Screenshot from a virtual Fatiando weekly call.">
-
-Happy community members at one of our [weekly Fatiando calls](contact).
-
-
-[youtube]: https://www.youtube.com/fatiandoorg
+</div>
+</div>
+</section>

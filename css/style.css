@@ -361,6 +361,14 @@ a.button-link-light {
   margin-top: var(--space-2xl);
 }
 
+.margin-top-3xl {
+  margin-top: var(--space-3xl);
+}
+
 .margin-top-4xl {
   margin-top: var(--space-4xl);
+}
+
+i.fab, i.fas, i.fa {
+  margin-right: var(--space-3xs);
 }
