@@ -16,8 +16,8 @@ license_notice: |
 navigation:
   - name: Home
     id: index
-  # - name: About
-  #   id: about/index
+  - name: About
+    id: about/index
   # - name: Support
   #   id: support/index
   # - name: Contact
@@ -39,7 +39,7 @@ ignore:
   - requirements.txt
   - Makefile
   # Temporarily don't build these pages
-  - about/*
+  # - about/*
   - cite/*
   - install/*
   - support/*

@@ -1,16 +1,55 @@
-# About
+---
+title: About the project
+template: base.html
+team:
+  - aguspesce
+  - leouieda
+  - LL-Geo
+  - MGomezN
+  - santisoler
+---
 
-<div class="lead">
-<em>Fatiando a Terra</em> is a collection of <strong>open-source Python
-packages</strong> aimed primarily at Geophysics (though not exclusively).
-This page contains some information about the project and its history.
-</div>
+# {{ page.title }}
 
-```{admonition} Trivia
+Fatiando a Terra is a **community-developed** collection of **open-source Python
+packages** aimed primarily at Geophysics (though not exclusively).
+Our tools are developed by **working geoscientists** and
+**volunteers** from across the globe.
+
+<div class="callout">
+
+**Trivia:**
 *Fatiando a Terra* is Portuguese for *Slicing the Earth*, a reference to the
 project's Brazilian origins and ambitious initial goals to model the whole
 planet.
-```
+
+</div>
+
+## Who we are
+
+The organization structure of Fatiando is outlined in our [Governance
+document][governance]. It specifies the existing roles within our community,
+what are the responsibilities assigned to each one, and how to gain
+responsibilities within our organization.
+Below is a list of the people currently occupying each role.
+
+**Steering Council:**
+Leonardo Uieda,
+Santiago Soler,
+Agustina Pesce,
+Mariana Gomez,
+Lu Li.
+
+**Package maintainers:**
+Leonardo Uieda (all packages),
+Santiado Soler (all packages),
+ADD MORE.
+
+<ul role="list" class="list-inline margin-top-xl">
+{%- for id in page.team %}
+  <li><a target="_blank" href="https://github.com/{{ id }}"><img style="max-width: 7em; border-radius: 50%" title="{{ id }}" src="https://github.com/{{ id }}.png"></a></li>
+{%- endfor %}
+</ul>
 
 ## Brief history
 
@@ -47,7 +86,7 @@ our newer and more well-scoped libraries.
 This [blog post announcing the shift][blog-fatiando-future] explains the
 reasoning behind this decision.
 
-```{note}
+```
 The last version that was released of `fatiando` is [v0.5][v0.5-doi].
 The documentation for it can still be accessed at
 [legacy.fatiando.org](https://legacy.fatiando.org)
@@ -139,6 +178,11 @@ which has grown tremendously since we started development in 2010.
 </div>
 </div>
 
+
+
+
+
+[governance]: https://github.com/fatiando/community/blob/main/GOVERNANCE.md
 [youtube]: https://www.youtube.com/fatiandoorg
 [yt-playlist]: https://youtube.com/playlist?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL
 [gh]: https://github.com/fatiando

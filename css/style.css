@@ -11,14 +11,15 @@
   --color-light: #ffffff;
   --color-semilight: #fdfdfd;
 
-  /* Type scale calculated using https://utopia.fyi/type/calculator */
-  --size--1: clamp(0.94rem, calc(0.90rem + 0.18vw), 1.04rem);
-  --size-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
-  --size-1: clamp(1.41rem, calc(1.35rem + 0.27vw), 1.56rem);
-  --size-2: clamp(1.76rem, calc(1.69rem + 0.34vw), 1.95rem);
-  --size-3: clamp(2.20rem, calc(2.11rem + 0.42vw), 2.44rem);
-  --size-4: clamp(2.75rem, calc(2.64rem + 0.53vw), 3.05rem);
-  --size-5: clamp(3.43rem, calc(3.30rem + 0.66vw), 3.82rem);
+  /* Type scale calculated using https://utopia.fyi/type/calculator?c=360,18,1.2,1240,18,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --size--2: clamp(0.72rem, 0.8063rem + -0.1114vw, 0.7813rem);
+  --size--1: clamp(0.9rem, 0.9528rem + -0.0682vw, 0.9375rem);
+  --size-0: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+  --size-1: clamp(1.35rem, 1.327rem + 0.1023vw, 1.4063rem);
+  --size-2: clamp(1.62rem, 1.5636rem + 0.2506vw, 1.7578rem);
+  --size-3: clamp(1.944rem, 1.8404rem + 0.4605vw, 2.1973rem);
+  --size-4: clamp(2.3328rem, 2.1635rem + 0.7523vw, 2.7466rem);
+  --size-5: clamp(2.7994rem, 2.5401rem + 1.1525vw, 3.4332rem);
 
   /* Space scale calculated using https://utopia.fyi/space/calculator/?c=320,18,1.2,1920,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6|9|12,s-l&g=s,l,xl,12 */
   --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem);
@@ -35,7 +36,7 @@
 
   /* Spaces and other sizes */
   --gutter: var(--space-s);
-  --block-border: 0.2em;
+  --block-border: 0.4em;
 }
 
 body {
@@ -187,19 +188,11 @@ blockquote > * + *, .callout > * + * {
   margin-block-start: 0.5em;
 }
 
-/* footer section { */
-  /* --flow-space: var(--space-xl); */
-/* } */
-
-/* footer section > * + * { */
-  /* --flow-space: 0.5em; */
-/* } */
-
 
 /* Blocks */
 /*****************************************************************************/
 .content {
-  max-width: 65ch;
+  max-width: 85ch;
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--gutter);
@@ -215,8 +208,8 @@ blockquote > * + *, .callout > * + * {
 }
 
 .callout {
-  border-left: var(--block-border) solid var(--color-info);
-  background-color: var(--color-medium);
+  border-left: var(--block-border) solid var(--color-tertiary);
+  background-color: var(--color-semilight);
   padding: var(--gutter);
 }
 

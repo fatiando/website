@@ -7,7 +7,7 @@
   {%- if page.custom_page_title is defined %}
     {%- set title = page.custom_page_title|striptags|e %}
   {%- else %}
-    {%- set title = page.title|striptags|e + " | " + config.site_name|striptags|e %}
+    {%- set title = page.title|striptags|e + " — " + config.site_name|striptags|e %}
   {%- endif %}
   <title>{{ title }}</title>
   <link rel="shortcut icon" href="{{ config.favicon|relative_to(page.path)|e }}" />
@@ -60,30 +60,34 @@
   <header id="top">
     <div class="content-wide spread">
       <a aria-label="Home" class="font-bold" href="{{ macros.pretty_relative_link(site['index'], page) }}"><img src="{{ "images/fatiando-logo.svg"|relative_to(page.path) }}"></a>
-      <nav aria-label="Main">
+      <div class="flex">
+        <nav aria-label="Main">
+          <ul class="list-inline" role="list">
+            {%- for item in config.navigation %}
+              <li>
+                {{ macros.nav_link(item, page, site) }}
+              </li>
+            {%- endfor %}
+          </ul>
+        </nav>
         <ul class="list-inline" role="list">
-          {%- for item in config.navigation %}
-            <li>
-              {{ macros.nav_link(item, page, site) }}
-            </li>
-          {%- endfor %}
+        {%- for item in config.social %}
+          <li><a target="_blank" href="{{ item.url }}">{{ item.name }} ↗</a></li>
+        {%- endfor %}
         </ul>
-      </nav>
+      </div>
     </div>
   </header>
 
-  <main class="flow">
-    {%- if page.no_container is defined and page.no_container %}
-      {%- set content_class = "" %}
-    {%- else %}
-      {%- set content_class = "content margin-top-2xl flow" %}
-    {%- endif %}
-
-    <div class="{{ content_class }}">
-      {%- block content %}
-        {{ page.body }}
-      {%- endblock %}
-    </div>
+  {%- if page.no_container is defined and page.no_container %}
+    {%- set content_class = "" %}
+  {%- else %}
+    {%- set content_class = "flow content margin-top-2xl" %}
+  {%- endif %}
+  <main class="{{ content_class }}">
+    {%- block content %}
+      {{ page.body }}
+    {%- endblock %}
   </main>
 
   <footer>
@@ -99,7 +103,7 @@
       </nav>
       <ul class="list-inline-center margin-top-xl" role="list">
       {%- for item in config.social %}
-        <li><a target="_blank" href="{{ item.url }}">{{ item.name }}↗</a></li>
+        <li><a target="_blank" href="{{ item.url }}">{{ item.name }} ↗</a></li>
       {%- endfor %}
       </ul>
       <div class="flow margin-top-xl font-small">
