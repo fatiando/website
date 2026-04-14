@@ -38,16 +38,16 @@ All of our software is **free and open-source**.
 
 ## Getting started
 
-**Read:**
+<i class="fas fa-book"></i> **Read:**
 The best place to learn more about each of our software libraries is their
-**documentation pages** (AKA the *docs*). These pages contain examples,
-tutorials, and technical references for all that each library does. See links to
+*documentation pages* (AKA the *docs*). These pages contain examples,
+tutorials, and technical references for all that each library does. These pages always contain the **most up-to-date information**. See links to
 each project below.
 
-**Watch:**
+<i class="fas fa-eye"></i> **Watch:**
 Our [YouTube channel](https://www.youtube.com/fatiandoorg)
 has video tutorials, demonstrations, and talks about several of the tools
-that we develop.
+that we develop. The video tutorials always have code for you to follow along (see links in the video descriptions) but they can get outdated over time.
 
 <ul role="list" class="list-inline">
 <li><a class="button-link-tertiary" href="https://www.youtube.com/fatiandoorg"><i class="fab fa-youtube"></i> YouTube channel</a></li>

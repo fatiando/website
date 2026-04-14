@@ -72,7 +72,7 @@
         </nav>
         <ul class="list-inline" role="list">
         {%- for item in config.social %}
-          <li><a target="_blank" href="{{ item.url }}">{{ item.name }} ↗</a></li>
+          <li><a target="_blank" href="{{ item.url }}">{{ item.name }}↗</a></li>
         {%- endfor %}
         </ul>
       </div>
@@ -82,7 +82,7 @@
   {%- if page.no_container is defined and page.no_container %}
     {%- set content_class = "" %}
   {%- else %}
-    {%- set content_class = "flow content margin-top-2xl" %}
+    {%- set content_class = "flow content margin-top-2xl margin-bottom-4xl" %}
   {%- endif %}
   <main class="{{ content_class }}">
     {%- block content %}
@@ -92,6 +92,7 @@
 
   <footer>
     <div class="flow text-center content-wide">
+      <div class="flex-center">
       <nav aria-label="Footer">
         <ul class="list-inline-center" role="list">
         {%- for item in config.navigation %}
@@ -101,11 +102,12 @@
         {%- endfor %}
         </ul>
       </nav>
-      <ul class="list-inline-center margin-top-xl" role="list">
+      <ul class="list-inline-center" role="list">
       {%- for item in config.social %}
-        <li><a target="_blank" href="{{ item.url }}">{{ item.name }} ↗</a></li>
+        <li><a target="_blank" href="{{ item.url }}">{{ item.name }}↗</a></li>
       {%- endfor %}
       </ul>
+      </div>
       <div class="flow margin-top-xl font-small">
         <p>
           Last updated: {{ build.today.strftime('%Y-%m-%d') }}

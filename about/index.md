@@ -2,11 +2,47 @@
 title: About the project
 template: base.html
 team:
+  aguspesce:
+    name: Agustina Pesce
+  leouieda:
+    name: Leonardo Uieda
+    packages: verde, pooch, harmonica, boule, bordado, magali, ensaio
+  LL-Geo:
+    name: Lu Li
+  MGomezN:
+    name: Mariana Gomez
+  mdtanker:
+    name: Matt Tankersley
+    packages: harmonica
+  santisoler:
+    name: Santiago Soler
+    packages: verde, pooch, harmonica, boule, choclo
+council:
   - aguspesce
   - leouieda
   - LL-Geo
   - MGomezN
   - santisoler
+maintainers:
+  - leouieda
+  - santisoler
+  - mdtanker
+family:
+  - name: SimPEG
+    logo: ../images/simpeg-logo.png
+    url: https://simpeg.xyz/
+  - name: GemPy
+    logo: ../images/gempy-logo.png
+    url: https://www.gempy.org/
+  - name: emsig
+    logo: ../images/emsig-logo.svg
+    url: https://emsig.xyz/
+  - name: pyGIMLi
+    logo: ../images/pygimli-logo.svg
+    url: https://www.pygimli.org/
+  - name: PyGMT
+    logo: ../images/pygmt-logo.png
+    url: https://www.pygmt.org/
 ---
 
 # {{ page.title }}
@@ -33,162 +69,97 @@ what are the responsibilities assigned to each one, and how to gain
 responsibilities within our organization.
 Below is a list of the people currently occupying each role.
 
-**Steering Council:**
-Leonardo Uieda,
-Santiago Soler,
-Agustina Pesce,
-Mariana Gomez,
-Lu Li.
-
-**Package maintainers:**
-Leonardo Uieda (all packages),
-Santiado Soler (all packages),
-ADD MORE.
-
-<ul role="list" class="list-inline margin-top-xl">
-{%- for id in page.team %}
-  <li><a target="_blank" href="https://github.com/{{ id }}"><img style="max-width: 7em; border-radius: 50%" title="{{ id }}" src="https://github.com/{{ id }}.png"></a></li>
+<ul role="list" class="list-inline-center padding-vertical-l">
+{%- for id in (page.maintainers + page.council)|unique|sort %}
+  <li><a target="_blank" href="https://github.com/{{ id }}"><img style="max-width: 6em; border-radius: 50%" title="{{ page.team[id].name }}" src="https://github.com/{{ id }}.png"></a></li>
 {%- endfor %}
 </ul>
 
+**Steering Council:**
+{% for id in page.council %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team[id].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
+
+**Package maintainers:**
+{% for id in page.maintainers %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team[id].name }}</a> ({{ page.team[id].packages }}){% if not loop.last %}, {% endif %}{% endfor %}.
+
+**Package authors:**
+The [GitHub repositories][gh] for each library contain `AUTHORS.md` files which list
+everyone who is considered an author of that library.
+Our [Authorship Guidelines][authorship] define the rules for attributing authorship.
+
+<div class="callout">
+
+**Participate:**
+Open-source is more than just code, **it’s about the people involved**. The most important thing you can do for any project is participate in the community: ask and answer questions, share your experience, help guide the development, and make friends along the way.
+We gather in a [few different places online](../contact), all of which are open to everyone. So come along and join the conversation!
+
+</div>
+
+
 ## Brief history
 
-The Fatiando a Terra project had it's start around 2008 as a C++ program to
+The Fatiando a Terra project had its start around 2008 as a C++ program to
 perform geophysical modeling of various data types (gravity, magnetics,
 seismic, etc.).
 At least that was what a
-{ref}`small group of Geophysics undergraduate students <founders>` at the
+small group of Geophysics undergraduate students at the
 [University of São Paulo][usp], Brazil, set out to do.
 Unsurprisingly, this overly ambitious goal was never achieved.
 
-<div class="row text-muted align-items-center fs-6">
-<div class="col-md-9">
-
-<img src="../_static/fatiando-as-a-gravmag-gui.svg" alt="Box diagram of the layout and flow of information planned for the GUI program." >
-
-</div>
-<div class="col-md-3">
-
-First diagram (in Portuguese) of the planned graphical user interface (GUI) for
-the Fatiando C++ program.
-Retrieved from commit [<i class="fab fa-github"></i> 10c8ff7][commit-gui]
-from 11 February 2009.
-
-</div>
-</div>
+<figure>
+<img src="../images/fatiando-as-a-gravmag-gui.svg" alt="Box diagram of the layout and flow of information planned for the GUI program." >
+<figcaption>
+First diagram (in Portuguese) of the planned graphical user interface (GUI) for the Fatiando C++ program. Retrieved from commit <a href="https://github.com/fatiando/fatiando/blob/10c8ff7c17df53e3e0abd83f1ce8d2a3f6bc57aa/fluxo-simples.pdf">10c8ff7</a> from 11 February 2009.
+</figcaption>
+</figure>
 
 In 2010, we started developing the [`fatiando`][gh-fatiando]
 Python library, which included several state-of-the-art methods for forward
 modeling and inversion of gravity and magnetic data, as well as toy problems in
 other fields useful for teaching.
-Development of this library was discontinued in 2018  as our focus shifted to
+Development of this library was discontinued in 2018 as our focus shifted to
 our newer and more well-scoped libraries.
 This [blog post announcing the shift][blog-fatiando-future] explains the
 reasoning behind this decision.
 
-```
+<div class="callout">
+
+**Legacy version:**
 The last version that was released of `fatiando` is [v0.5][v0.5-doi].
 The documentation for it can still be accessed at
-[legacy.fatiando.org](https://legacy.fatiando.org)
-```
-
-<div class="row text-muted align-items-center fs-6">
-<div class="col-md-9">
-
-<!-- Thumbnail of Youtube video -->
-<div class="ratio ratio-16x9">
-  <div class="yt" style='background-image: url("/_static/fatiando-talks.jpg")'>
-    <a
-      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL"
-      aria-label="Watch on YouTube"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <div class="play-button">
-        <img src="/_static/play.svg">
-      </div>
-    </a>
-    <a
-      href="https://www.youtube.com/watch?v=z-5dvWfB_SM&list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL"
-      aria-label="Watch on YouTube"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <div class="watch-on-yt">
-        <div aria-hidden="true">Watch on</div>
-        <div><img src="/_static/yt-logo.svg" alt="YouTube logo"></div>
-      </div>
-    </a>
-  </div>
-</div>
+[legacy.fatiando.org](https://legacy.fatiando.org).
 
 </div>
 
-<div class="col-md-3">
+We also gave a few talks that cover some of the history of the project,
+many of which are recorded and up on [our YouTube channel][youtube]!
 
-Our [YouTube channel][youtube] has a [playlist of talks][yt-playlist] given
-about Fatiando over the years.
-
-</div>
-</div>
-
-## The geophysics Python ecosystem
-
-Fatiando is a part of the larger geophysics open-source Python ecosystem,
-which has grown tremendously since we started development in 2010.
-
-<div class="row gy-4 py-3 align-items-center">
-<div class="col-6 col-sm-4 col-md-3">
-  <a target="_blank" href="https://simpeg.xyz/">
-  <img src="../_static/simpeg-logo.png" title="SimPEG">
-  </a>
-</div>
-<div class="col-6 col-sm-4 col-md-3">
-  <a target="_blank" href="https://www.gempy.org/">
-  <img src="../_static/gempy-logo.png" title="GemPy">
-  </a>
-</div>
-<div class="col-6 col-sm-4 col-md-3">
-  <a target="_blank" href="https://emsig.xyz/">
-  <img src="../_static/emsig-logo.svg" title="emsig">
-  </a>
-</div>
-<div class="col-6 col-sm-4 col-md-3">
-  <a target="_blank" href="https://docs.pyvista.org/">
-  <img src="../_static/pyvista-logo.png" title="PyVista">
-  </a>
-</div>
-<div class="col-6 col-sm-4 col-md-3">
-  <a target="_blank" href="https://www.pygimli.org/">
-  <img src="../_static/pygimli-logo.svg" title="pyGIMLi">
-  </a>
-</div>
-<div class="col-6 col-sm-4 col-md-3">
-  <a target="_blank" href="https://softwareunderground.github.io/subsurface/">
-  <img src="../_static/subsurface-logo.svg" title="subsurface">
-  </a>
-</div>
-<div class="col-6 col-sm-4 col-md-3">
-  <a target="_blank" href="https://www.pygmt.org/">
-  <img src="../_static/pygmt-logo.svg" title="PyGMT">
-  </a>
-</div>
-<div class="col-6 col-sm-4 col-md-3">
-  <img src="../_static/fatiando-banner-small.svg" title="Fatiando a Terra">
-</div>
-</div>
+<figure>
+<a href="https://youtu.be/z-5dvWfB_SM?si=3QrTW8tZDcPlY7W7"><img src="../images/fatiando-talks.jpg"></a>
+<figcaption>
+Talk <a href="https://youtu.be/z-5dvWfB_SM?si=3QrTW8tZDcPlY7W7">we gave for GFZ Helmholtz Centre Potsdam in 2021</a> about the history of Fatiando and some of the developments we had going on at the time.
+</figcaption>
+</figure>
 
 
+## The geophysics Python family
 
+Fatiando is a part of the larger geophysics open-source Python family of free
+software, which has grown tremendously since we started development in 2010.
+
+<ul role="list" class="list-inline-center padding-vertical-l">
+{%- for project in page.family %}
+  <li><a target="_blank" href="{{ project.url }}"><img style="max-height: 6em" title="{{ project.name }}" src="{{ project.logo }}"></a></li>
+{%- endfor %}
+</ul>
 
 
 [governance]: https://github.com/fatiando/community/blob/main/GOVERNANCE.md
+[authorship]: https://github.com/fatiando/community/blob/main/AUTHORSHIP.md
 [youtube]: https://www.youtube.com/fatiandoorg
 [yt-playlist]: https://youtube.com/playlist?list=PLPA_RM8wsOqLQRajw_e9ByUe56z7TETaL
 [gh]: https://github.com/fatiando
 [gh-fatiando]: https://github.com/fatiando/fatiando
 [usp]: https://www.iag.usp.br/
-[commit-gui]: https://github.com/fatiando/fatiando/blob/10c8ff7c17df53e3e0abd83f1ce8d2a3f6bc57aa/fluxo-simples.pdf
 [pinga]: https://www.pinga-lab.org/
 [v0.5-doi]: https://doi.org/10.5281/zenodo.157746
 [blog-fatiando-future]: https://www.leouieda.com/blog/future-of-fatiando.html

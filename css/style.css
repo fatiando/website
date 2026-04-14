@@ -117,7 +117,7 @@ figcaption {
   font-size: var(--size--1);
   color: var(--color-muted);
   text-align: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
   line-height: 1.25;
 }
 
@@ -244,6 +244,14 @@ blockquote > * + *, .callout > * + * {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gutter);
+  justify-content: flex-start;
+}
+
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter);
+  justify-content: center;
 }
 
 
@@ -384,6 +392,16 @@ a.button-link-light {
   padding-right: var(--space-2xs);
 }
 
+.padding-vertical-l {
+  padding-top: var(--space-l);
+  padding-bottom: var(--space-l);
+}
+
+.padding-vertical-xl-1{
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+
 .padding-vertical-2xl {
   padding-top: var(--space-2xl);
   padding-bottom: var(--space-2xl);
@@ -413,6 +431,22 @@ a.button-link-light {
 
 .margin-top-4xl {
   margin-top: var(--space-4xl);
+}
+
+.margin-bottom-xl {
+  margin-bottom: var(--space-xl);
+}
+
+.margin-bottom-2xl {
+  margin-bottom: var(--space-2xl);
+}
+
+.margin-bottom-3xl {
+  margin-bottom: var(--space-3xl);
+}
+
+.margin-bottom-4xl {
+  margin-bottom: var(--space-4xl);
 }
 
 
