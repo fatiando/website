@@ -59,13 +59,13 @@
 <body>
   <header id="top" class="background-dark">
     <div class="content-wide spread">
-      <a class="flex" href="{{ macros.pretty_relative_link(site['index'], page) }}">
+      <a class="flex-center" style="margin: auto" href="{{ macros.pretty_relative_link(site['index'], page) }}">
         <img src="{{ "images/fatiando-logo.svg"|relative_to(page.path) }}">
         <span>{{ config.site_name }}</span>
       </a>
-      <div class="flex">
+      <div class="flex-center" style="margin: auto">
         <nav aria-label="Main">
-          <ul class="list-inline" role="list">
+          <ul class="list-inline-center" role="list">
             {%- for item in config.navigation %}
               <li>
                 {{ macros.nav_link(item, page, site) }}
@@ -73,7 +73,7 @@
             {%- endfor %}
           </ul>
         </nav>
-        <ul class="list-inline" role="list">
+        <ul class="list-inline-center" role="list">
         {%- for item in config.social %}
           <li><a target="_blank" href="{{ item.url }}">{{ item.name }}↗</a></li>
         {%- endfor %}
@@ -113,10 +113,8 @@
       </div>
       <div class="flow margin-top-xl font-small">
         <p>
-          Last updated: {{ build.today.strftime('%Y-%m-%d') }}
-          <span class="padding-horizontal-2xs"> • </span>
-          Created using <a href="https://nene.leouieda.com">Nēnē</a> {{ build.nene_version }}
-          <span class="padding-horizontal-2xs"> • </span>
+          Last updated: {{ build.today.strftime('%Y-%m-%d') }}.
+          Created using <a href="https://nene.leouieda.com">Nēnē</a> {{ build.nene_version }}.
           Source code for this website: <a href="https://github.com/{{ config.repository }}">{{ config.repository }}</a>
           (commit <a href="https://github.com/{{ config.repository }}/commit/{{ build.commit }}">{{ build.commit }}</a>).
         </p>

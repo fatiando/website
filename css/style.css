@@ -9,7 +9,7 @@
   --color-dark: #060629;
   --color-medium: #222222;
   --color-light: #ffffff;
-  --color-semilight: #fdfdfd;
+  --color-semilight: #f8f8f8;
 
   /* Type scale calculated using https://utopia.fyi/type/calculator?c=360,18,1.2,1240,18,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
   --size--2: clamp(0.72rem, 0.8063rem + -0.1114vw, 0.7813rem);
@@ -36,7 +36,8 @@
 
   /* Spaces and other sizes */
   --gutter: var(--space-s);
-  --block-border: 0.4em;
+  --block-border: 0.5em;
+  --block-border-thin: 0.15em;
 }
 
 body {
@@ -115,9 +116,8 @@ img {
 
 figcaption {
   font-size: var(--size--1);
-  color: var(--color-muted);
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: var(--space-xs);
   line-height: 1.25;
 }
 
@@ -133,13 +133,11 @@ footer a {
 }
 
 header {
-  background-color: var(--color-dark);
   padding-top: var(--gutter);
   padding-bottom: var(--gutter);
 }
 
 header a {
-  color: var(--color-light);
   text-decoration: none;
 }
 
@@ -208,7 +206,19 @@ blockquote > * + *, .callout > * + * {
   padding-right: var(--gutter);
 }
 
-.callout {
+.callout-primary {
+  border-left: var(--block-border) solid var(--color-primary);
+  background-color: var(--color-semilight);
+  padding: var(--gutter);
+}
+
+.callout-secondary {
+  border-left: var(--block-border) solid var(--color-secondary);
+  background-color: var(--color-semilight);
+  padding: var(--gutter);
+}
+
+.callout-tertiary {
   border-left: var(--block-border) solid var(--color-tertiary);
   background-color: var(--color-semilight);
   padding: var(--gutter);
@@ -254,6 +264,15 @@ blockquote > * + *, .callout > * + * {
   flex-wrap: wrap;
   gap: var(--gutter);
   justify-content: center;
+  align-items: center;
+}
+
+.spread {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter);
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -341,14 +360,6 @@ blockquote > * + *, .callout > * + * {
   line-height: 1;
 }
 
-.spread {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gutter);
-  justify-content: space-between;
-}
-
 a.button-link-primary {
   border-radius: 5px;
   padding: var(--space-xs) var(--space-s);
@@ -420,8 +431,11 @@ a.button-link-light {
   padding-bottom: var(--space-4xl);
 }
 
+.margin-top-l {
+  margin-top: var(--space-l);
+}
+
 .margin-top-xl {
-  align-items: center;
   margin-top: var(--space-xl);
 }
 

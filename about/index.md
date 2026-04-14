@@ -43,6 +43,9 @@ family:
   - name: PyGMT
     logo: ../images/pygmt-logo.png
     url: https://www.pygmt.org/
+  - name: SHTools
+    logo: ../images/shtools-logo.png
+    url: https://shtools.github.io/SHTOOLS/
 ---
 
 # {{ page.title }}
@@ -52,7 +55,7 @@ packages** aimed primarily at Geophysics (though not exclusively).
 Our tools are developed by **working geoscientists** and
 **volunteers** from across the globe.
 
-<div class="callout">
+<div class="callout-primary">
 
 **Trivia:**
 *Fatiando a Terra* is Portuguese for *Slicing the Earth*, a reference to the
@@ -86,13 +89,15 @@ The [GitHub repositories][gh] for each library contain `AUTHORS.md` files which 
 everyone who is considered an author of that library.
 Our [Authorship Guidelines][authorship] define the rules for attributing authorship.
 
-<div class="callout">
+### Take part in our community
 
-**Participate:**
-Open-source is more than just code, **it’s about the people involved**. The most important thing you can do for any project is participate in the community: ask and answer questions, share your experience, help guide the development, and make friends along the way.
-We gather in a [few different places online](../contact), all of which are open to everyone. So come along and join the conversation!
+Open-source is more than just code, **it’s about the people involved**. The most
+important thing you can do for any project is participate in the community: ask
+and answer questions, share your experience, help guide the development, and
+make friends along the way.
 
-</div>
+We gather in a [few different places online](../contact), all of which are open to everyone.
+**So come along and join the conversation!**
 
 
 ## Brief history
@@ -121,7 +126,7 @@ our newer and more well-scoped libraries.
 This [blog post announcing the shift][blog-fatiando-future] explains the
 reasoning behind this decision.
 
-<div class="callout">
+<div class="callout-tertiary">
 
 **Legacy version:**
 The last version that was released of `fatiando` is [v0.5][v0.5-doi].
@@ -134,7 +139,7 @@ We also gave a few talks that cover some of the history of the project,
 many of which are recorded and up on [our YouTube channel][youtube]!
 
 <figure>
-<a href="https://youtu.be/z-5dvWfB_SM?si=3QrTW8tZDcPlY7W7"><img src="../images/fatiando-talks.jpg"></a>
+<img src="../images/fatiando-talks.jpg">
 <figcaption>
 Talk <a href="https://youtu.be/z-5dvWfB_SM?si=3QrTW8tZDcPlY7W7">we gave for GFZ Helmholtz Centre Potsdam in 2021</a> about the history of Fatiando and some of the developments we had going on at the time.
 </figcaption>
@@ -143,8 +148,8 @@ Talk <a href="https://youtu.be/z-5dvWfB_SM?si=3QrTW8tZDcPlY7W7">we gave for GFZ 
 
 ## The geophysics Python family
 
-Fatiando is a part of the larger geophysics open-source Python family of free
-software, which has grown tremendously since we started development in 2010.
+Fatiando is a part of the larger family of geophysics free software in Python,
+which has grown tremendously since we started development in 2010:
 
 <ul role="list" class="list-inline-center padding-vertical-l">
 {%- for project in page.family %}
@@ -152,6 +157,7 @@ software, which has grown tremendously since we started development in 2010.
 {%- endfor %}
 </ul>
 
+We design our software to complement what is offered in other packages. Check them out as well!
 
 [governance]: https://github.com/fatiando/community/blob/main/GOVERNANCE.md
 [authorship]: https://github.com/fatiando/community/blob/main/AUTHORSHIP.md

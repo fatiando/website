@@ -4,7 +4,7 @@ no_container: True
 template: base.html
 ---
 
-<section class="background-dark" style="background-image: url(images/background.svg); background-position: center; background-size: cover;" >
+<section class="background-dark padding-vertical-4xl" style="background-image: url(images/background.svg); background-position: center; background-size: cover;" >
 <div class="row content-wide">
 <div class="col-small">
   <img src="images/fatiando-logo.svg" style="padding: 0 var(--space-l);">
@@ -23,7 +23,7 @@ a passion for well-designed tools and helping our peers.
 
 All of our software is **free and open-source**.
 
-<ul role="list" class="list-inline">
+<ul role="list" class="list-inline margin-top-l">
 <li><a class="button-link-primary" href="install">How to install</a></li>
 <li><a class="button-link-tertiary" href="support">Cite the software</a></li>
 </ul>
@@ -38,24 +38,28 @@ All of our software is **free and open-source**.
 
 ## Getting started
 
-<i class="fas fa-book"></i> **Read:**
-The best place to learn more about each of our software libraries is their
-*documentation pages* (AKA the *docs*). These pages contain examples,
-tutorials, and technical references for all that each library does. These pages always contain the **most up-to-date information**. See links to
-each project below.
+<i class="fas fa-book"></i> **Want to learn about our software?**
+The best place to learn about each of our software libraries is their
+*documentation* (AKA the *docs*). These websites contain examples, tutorials,
+and technical references for all that each library does. The docs always contain
+the **most up-to-date information**. See links to each project below.
 
-<i class="fab fa-python"></i> **New to Python?** Take the [Software Carpentry](https://software-carpentry.org/) lessons (online or in-person) to learn the basics. There are more lessons than just Python and everything they teach is definitely work learning!
+<i class="fab fa-python"></i> **New to Python?** Take the [Software
+Carpentry](https://software-carpentry.org/) lessons (online or in-person) to
+learn the basics. There are more lessons than just Python and everything they
+teach is definitely work learning!
 
-<i class="fas fa-eye"></i> **Watch:**
-Our [YouTube channel](https://www.youtube.com/fatiandoorg)
-has video tutorials, demonstrations, and talks about several of the tools
-that we develop. The video tutorials always have code for you to follow along (see links in the video descriptions) but they can get outdated over time.
+<i class="fas fa-eye"></i> **Rather watch a tutorial?**
+Our [YouTube channel](https://www.youtube.com/fatiandoorg) has video tutorials,
+demonstrations, and talks about several of the tools that we develop. The video
+tutorials always have code for you to follow along (see links in the video
+descriptions) but they can get outdated over time.
 
-<ul role="list" class="list-inline">
-<li><a class="button-link-tertiary" href="https://www.youtube.com/fatiandoorg"><i class="fab fa-youtube"></i> YouTube channel</a></li>
-<li><a class="button-link-light" href="https://www.youtube.com/live/0bxZcCAr6bw">Harmonica tutorial</a></li>
-<li><a class="button-link-light" href="https://www.youtube.com/live/-xZdNdvzm3E">Verde tutorial</a></li>
-</ul>
+<!-- <ul role="list" class="list-inline margin-top-l"> -->
+<!-- <li><a class="button-link-tertiary" href="https://www.youtube.com/fatiandoorg"><i class="fab fa-youtube"></i> YouTube channel</a></li> -->
+<!-- <li><a class="button-link-light" href="https://www.youtube.com/live/0bxZcCAr6bw">Harmonica tutorial</a></li> -->
+<!-- <li><a class="button-link-light" href="https://www.youtube.com/live/-xZdNdvzm3E">Verde tutorial</a></li> -->
+<!-- </ul> -->
 
 </div>
 <div class="col-small">
@@ -125,7 +129,7 @@ Whether it be coding, teaching, designing, or just hanging out.
 Getting involved in open-source can be great way to meet new people, improve
 your coding skills, and **make an impact** in your field.
 
-<ul role="list">
+<ul role="list" class="list-inline margin-top-l">
 <li><a class="button-link-tertiary" href="contact">Come say "Hi!" 👋🏾</a></li>
 </ul>
 
