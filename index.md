@@ -40,8 +40,7 @@ All of our software is **free and open-source**.
 
 <i class="fas fa-book"></i> **Want to learn about our software?**
 The best place to learn about each of our software libraries is their
-*documentation* (AKA the *docs*). These websites contain examples, tutorials,
-and technical references for all that each library does. The docs always contain
+*documentation*. The docs always contain
 the **most up-to-date information**. See links to each project below.
 
 <i class="fab fa-python"></i> **New to Python?** Take the [Software
@@ -50,10 +49,9 @@ learn the basics. There are more lessons than just Python and everything they
 teach is definitely work learning!
 
 <i class="fas fa-eye"></i> **Rather watch a tutorial?**
-Our [YouTube channel](https://www.youtube.com/fatiandoorg) has video tutorials,
-demonstrations, and talks about several of the tools that we develop. The video
-tutorials always have code for you to follow along (see links in the video
-descriptions) but they can get outdated over time.
+Our [YouTube channel](https://www.youtube.com/fatiandoorg) has video tutorials
+about some of our tools. The tutorials are always accompanied by code but they
+can get outdated over time.
 
 <ul role="list" class="list-inline margin-top-l">
 <li><a class="button-link-light" href="contact">Got stuck? <strong>Contact us!</strong></a></li>
