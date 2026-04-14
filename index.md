@@ -44,6 +44,8 @@ The best place to learn more about each of our software libraries is their
 tutorials, and technical references for all that each library does. These pages always contain the **most up-to-date information**. See links to
 each project below.
 
+<i class="fab fa-python"></i> **New to Python?** Take the [Software Carpentry](https://software-carpentry.org/) lessons (online or in-person) to learn the basics. There are more lessons than just Python and everything they teach is definitely work learning!
+
 <i class="fas fa-eye"></i> **Watch:**
 Our [YouTube channel](https://www.youtube.com/fatiandoorg)
 has video tutorials, demonstrations, and talks about several of the tools
