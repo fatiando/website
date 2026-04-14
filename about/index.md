@@ -159,6 +159,22 @@ which has grown tremendously since we started development in 2010:
 
 We design our software to complement what is offered in other packages. Check them out as well!
 
+## Funding and support
+
+Development and maintenance of the Fatiando a Terra project is generously
+supported by:
+
+* Community and financial support from the [Software Underground][swung].
+* Postdoc position salary for Santiago Soler from the [Geophysical Inversion
+  Facility, University of British Columbia][gif] (from 2022).
+* Salary for Leonardo Uieda from the [Universidade de São Paulo][usp] (from 2023),
+  [University of Liverpool][liv] (2019-2023), and
+  [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
+* A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
+  (2017-2022).
+* MSc and PhD scholarships for Leonardo Uieda from [Capes][capes], Brazil
+  (2010-2016).
+
 [governance]: https://github.com/fatiando/community/blob/main/GOVERNANCE.md
 [authorship]: https://github.com/fatiando/community/blob/main/AUTHORSHIP.md
 [youtube]: https://www.youtube.com/fatiandoorg
@@ -170,6 +186,8 @@ We design our software to complement what is offered in other packages. Check th
 [v0.5-doi]: https://doi.org/10.5281/zenodo.157746
 [blog-fatiando-future]: https://www.leouieda.com/blog/future-of-fatiando.html
 [liv]: https://www.liverpool.ac.uk/earth-ocean-and-ecological-sciences/
+[gif]: https://gif.eos.ubc.ca
 [uerj]: https://www.uerj.br/
 [conicet]: https://www.conicet.gov.ar/
 [capes]: https://www.gov.br/capes
+[swung]: https://softwareunderground.org

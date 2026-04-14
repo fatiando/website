@@ -20,18 +20,24 @@ navigation:
     id: about/index
   - name: Install
     id: install/index
-  # - name: Support
-  #   id: support/index
+  - name: Support
+    id: support/index
   - name: Contact
     id: contact/index
 
 social:
-  - name: GitHub
-    url: https://github.com/fatiando
-  - name: YouTube
-    url: https://www.youtube.com/fatiandoorg
-  - name: LinkedIn
-    url: https://www.linkedin.com/company/fatiando
+  header:
+    - name: GitHub
+      url: https://github.com/fatiando
+  footer:
+    - name: GitHub
+      url: https://github.com/fatiando
+    - name: Zenodo
+      url: https://zenodo.org/communities/fatiando
+    - name: YouTube
+      url: https://www.youtube.com/fatiandoorg
+    - name: LinkedIn
+      url: https://www.linkedin.com/company/fatiando
 
 # Don't copy or process these files
 ignore:
@@ -42,15 +48,6 @@ ignore:
   - Makefile
   # Temporarily don't build these pages
   - cite/*
-  - support/*
-  - community/*
-  - learn/*
-  - v0.2/*
-  - v0.1/*
-  - v0.3/*
-  - v0.5/*
-  - v0.4/*
-  - dev/*
   - calendar/*
   - good-first-issues/*
 
