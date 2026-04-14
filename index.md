@@ -55,11 +55,9 @@ demonstrations, and talks about several of the tools that we develop. The video
 tutorials always have code for you to follow along (see links in the video
 descriptions) but they can get outdated over time.
 
-<!-- <ul role="list" class="list-inline margin-top-l"> -->
-<!-- <li><a class="button-link-tertiary" href="https://www.youtube.com/fatiandoorg"><i class="fab fa-youtube"></i> YouTube channel</a></li> -->
-<!-- <li><a class="button-link-light" href="https://www.youtube.com/live/0bxZcCAr6bw">Harmonica tutorial</a></li> -->
-<!-- <li><a class="button-link-light" href="https://www.youtube.com/live/-xZdNdvzm3E">Verde tutorial</a></li> -->
-<!-- </ul> -->
+<ul role="list" class="list-inline margin-top-l">
+<li><a class="button-link-light" href="contact">Got stuck? <strong>Contact us!</strong></a></li>
+</ul>
 
 </div>
 <div class="col-small">

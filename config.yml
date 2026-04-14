@@ -22,8 +22,8 @@ navigation:
     id: install/index
   # - name: Support
   #   id: support/index
-  # - name: Contact
-  #   id: contact/index
+  - name: Contact
+    id: contact/index
 
 social:
   - name: GitHub
@@ -41,14 +41,10 @@ ignore:
   - requirements.txt
   - Makefile
   # Temporarily don't build these pages
-  # - about/*
   - cite/*
-  # - install/*
   - support/*
-  - cite/*
   - community/*
   - learn/*
-  - contact/*
   - v0.2/*
   - v0.1/*
   - v0.3/*
