@@ -149,6 +149,7 @@ header a:hover {
 
 header img {
   max-height: 2em;
+  width: auto;
 }
 
 hr {
@@ -245,6 +246,7 @@ blockquote > * + *, .callout > * + * {
   flex-wrap: wrap;
   gap: var(--gutter);
   justify-content: flex-start;
+  align-items: center;
 }
 
 .flex-center {
@@ -414,10 +416,12 @@ a.button-link-light {
 
 .padding-vertical-4xl {
   padding-top: var(--space-4xl);
+  width: auto;
   padding-bottom: var(--space-4xl);
 }
 
 .margin-top-xl {
+  align-items: center;
   margin-top: var(--space-xl);
 }
 

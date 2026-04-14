@@ -57,9 +57,12 @@
 </head>
 
 <body>
-  <header id="top">
+  <header id="top" class="background-dark">
     <div class="content-wide spread">
-      <a aria-label="Home" class="font-bold" href="{{ macros.pretty_relative_link(site['index'], page) }}"><img src="{{ "images/fatiando-logo.svg"|relative_to(page.path) }}"></a>
+      <a class="flex" href="{{ macros.pretty_relative_link(site['index'], page) }}">
+        <img src="{{ "images/fatiando-logo.svg"|relative_to(page.path) }}">
+        <span>{{ config.site_name }}</span>
+      </a>
       <div class="flex">
         <nav aria-label="Main">
           <ul class="list-inline" role="list">
