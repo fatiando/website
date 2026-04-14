@@ -18,6 +18,8 @@ navigation:
     id: index
   - name: About
     id: about/index
+  - name: Install
+    id: install/index
   # - name: Support
   #   id: support/index
   # - name: Contact
@@ -41,7 +43,7 @@ ignore:
   # Temporarily don't build these pages
   # - about/*
   - cite/*
-  - install/*
+  # - install/*
   - support/*
   - cite/*
   - community/*
