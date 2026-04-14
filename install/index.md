@@ -5,9 +5,13 @@ template: base.html
 
 # {{ page.title }}
 
+<div class="lead">
+
 Our tools are built in Python and can be used in Jupyter notebooks,
 scripts, and other libraries and programs. All of our software is
 compatible with <strong>Linux, Mac, and Windows</strong>.
+
+</div>
 
 ## Getting Python
 

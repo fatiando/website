@@ -278,6 +278,12 @@ blockquote > * + *, .callout > * + * {
   margin: auto;
 }
 
+.lead {
+  font-size: var(--size-1);
+  margin-top: var(--space-l);
+  margin-bottom: var(--space-l);
+}
+
 
 /* Utilities */
 /*****************************************************************************/
@@ -413,7 +419,7 @@ a.button-link-light {
   padding-bottom: var(--space-l);
 }
 
-.padding-vertical-xl-1{
+.padding-vertical-xl {
   padding-top: var(--space-xl);
   padding-bottom: var(--space-xl);
 }
@@ -430,7 +436,6 @@ a.button-link-light {
 
 .padding-vertical-4xl {
   padding-top: var(--space-4xl);
-  width: auto;
   padding-bottom: var(--space-4xl);
 }
 

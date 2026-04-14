@@ -5,9 +5,13 @@ template: base.html
 
 # {{ page.title }}
 
+<div class="lead">
+
 Our project is developed in the open with the help of our community.
 Your input is welcome and appreciated.
 <strong>Get in touch!</strong>
+
+</div>
 
 <div class="callout-secondary">
 
@@ -19,10 +23,9 @@ Everyone who participates is expected to follow our
 
 ## <i class="fas fa-comments"></i> Chat
 
-Hop on to our [`~fatiando`
-channel][fatiando-channel] in [Software Underground's Mattermost
-instance][swung-mattermost] to **talk to users and developers** and get to know
-the community.
+Hop on to our [~fatiando channel][fatiando-channel] in [Software Underground's
+Mattermost instance][swung-mattermost] to **talk to users and developers** and
+get to know the community.
 
 ## <i class="fas fa-question-circle"></i> Forum
 

@@ -50,10 +50,14 @@ family:
 
 # {{ page.title }}
 
+<div class="lead">
+
 Fatiando a Terra is a **community-developed** collection of **open-source Python
 packages** aimed primarily at Geophysics (though not exclusively).
 Our tools are developed by **working geoscientists** and
 **volunteers** from across the globe.
+
+</div>
 
 <div class="callout-primary">
 

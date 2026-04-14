@@ -20,8 +20,12 @@ logos:
 
 # {{ page.title }}
 
+<div class="lead">
+
 Here are some of the ways in which you can help support the project and give
 back to the community.
+
+</div>
 
 ## Cite our software
 
