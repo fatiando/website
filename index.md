@@ -15,7 +15,7 @@ template: base.html
 
 <p class="font-large font-bold">An open toolbox for the Geosciences.</p>
 
-Fatiando provides <i class="fab fa-python"></i> **Python libraries** for data
+Fatiando provides **Python libraries** for data
 processing, modeling, and inversion across the Geosciences.
 
 It is built by a **community** of geoscientists and software developers with
