@@ -93,15 +93,14 @@ The [GitHub repositories][gh] for each library contain `AUTHORS.md` files which 
 everyone who is considered an author of that library.
 Our [Authorship Guidelines][authorship] define the rules for attributing authorship.
 
-### Take part in our community
+<div class="callout-secondary">
 
-Open-source is more than just code, **it’s about the people involved**. The most
-important thing you can do for any project is participate in the community: ask
-and answer questions, share your experience, help guide the development, and
-make friends along the way.
+**Take part in our community:**
+Open-source is more than just code, it’s about the people involved.
+One of the most impactful ways in which you can help is by
+[being involved](../contact) in the project!
 
-We gather in a [few different places online](../contact), all of which are open to everyone.
-**So come along and join the conversation!**
+</div>
 
 
 ## Brief history

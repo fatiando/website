@@ -13,11 +13,18 @@ Your input is welcome and appreciated.
 
 </div>
 
-<div class="callout-secondary">
+<div class="callout-tertiary">
 
 **We strive to make our community welcoming to all.**
 Everyone who participates is expected to follow our
 [Code of Conduct][coc] and remember to be excellent to each other 👨🏾‍🎤!
+
+</div>
+
+<div class="callout-primary">
+
+**Want to get involved?**
+Take a look at our [Contributing Guide][contrib] to see how you can get involved. This and other guides (authorship policy, project maintenance, etc.) can be found in the [fatiando/community][community] repository.
 
 </div>
 
@@ -52,3 +59,5 @@ Leave a comment on any issue or pull request to join the conversation.
 [bug-report]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
 [notes]: https://github.com/fatiando/community
 [coc]: https://github.com/fatiando/community/blob/main/CODE_OF_CONDUCT.md
+[contrib]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
+[community]: https://github.com/fatiando/community

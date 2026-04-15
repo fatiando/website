@@ -86,8 +86,30 @@ Here is a BibTex entry for LaTeX users:
 
 Fatiando only exists because of the efforts of our **community members**, most
 of which volunteer their time and energy.
-One of the **most impactful ways you can help** is by
-[being involved](../contact)!
+One of the most
+important things you can do for any project is to participate in the community: ask
+and answer questions, share your experience, help guide the development, and
+make friends along the way.
+We gather in a [few different places online](../contact), all of which are open to everyone.
+**So come along and join the conversation!**
+
+Why participate in an open-source project like Fatiando? There is much for you
+to gain from your participation:
+
+* Connect with a welcoming global community.
+* Learn first-hand about software engineering.
+* Solve your own problems while benefiting the community.
+* Authorship on publications about our software.
+
+There are many ways that you can contribute:
+
+* Submitting bug reports and feature requests.
+* Writing tutorials and examples.
+* Answering questions in the [chat and forum](../contact).
+* Sharing your analysis code and examples on social media (and mentioning us).
+* Fixing typos and improving to the documentation.
+* Writing code for everyone to use.
+
 
 ## Spread the word
 
