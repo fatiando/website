@@ -1,51 +1,6 @@
 ---
 title: About the project
 template: base.html
-team:
-  aguspesce:
-    name: Agustina Pesce
-  leouieda:
-    name: Leonardo Uieda
-    packages: verde, pooch, harmonica, boule, bordado, magali, ensaio
-  LL-Geo:
-    name: Lu Li
-  MGomezN:
-    name: Mariana Gomez
-  mdtanker:
-    name: Matt Tankersley
-    packages: harmonica
-  santisoler:
-    name: Santiago Soler
-    packages: verde, pooch, harmonica, boule, choclo
-council:
-  - aguspesce
-  - leouieda
-  - LL-Geo
-  - MGomezN
-  - santisoler
-maintainers:
-  - leouieda
-  - santisoler
-  - mdtanker
-family:
-  - name: SimPEG
-    logo: ../images/simpeg-logo.png
-    url: https://simpeg.xyz/
-  - name: GemPy
-    logo: ../images/gempy-logo.png
-    url: https://www.gempy.org/
-  - name: emsig
-    logo: ../images/emsig-logo.svg
-    url: https://emsig.xyz/
-  - name: pyGIMLi
-    logo: ../images/pygimli-logo.svg
-    url: https://www.pygimli.org/
-  - name: PyGMT
-    logo: ../images/pygmt-logo.png
-    url: https://www.pygmt.org/
-  - name: SHTools
-    logo: ../images/shtools-logo.png
-    url: https://shtools.github.io/SHTOOLS/
 ---
 
 # {{ page.title }}
@@ -77,21 +32,25 @@ responsibilities within our organization.
 Below is a list of the people currently occupying each role.
 
 <ul role="list" class="list-inline-center padding-vertical-l">
-{%- for id in (page.maintainers + page.council)|unique|sort %}
-  <li><a target="_blank" href="https://github.com/{{ id }}"><img style="max-width: 6em; border-radius: 50%" title="{{ page.team[id].name }}" src="https://github.com/{{ id }}.png"></a></li>
+{%- for id in (page.team.maintainers + page.team.council)|unique|sort %}
+  <li><a target="_blank" href="https://github.com/{{ id }}"><img style="max-width: 6em; border-radius: 50%" title="{{ page.team.info[id].name }}" src="https://github.com/{{ id }}.png"></a></li>
 {%- endfor %}
 </ul>
 
 **Steering Council:**
-{% for id in page.council %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team[id].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
+{% for id in page.team.council %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team.info[id].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
 
 **Package maintainers:**
-{% for id in page.maintainers %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team[id].name }}</a> ({{ page.team[id].packages }}){% if not loop.last %}, {% endif %}{% endfor %}.
+{% for id in page.team.maintainers %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team.info[id].name }}</a> ({{ page.team.info[id].packages }}){% if not loop.last %}, {% endif %}{% endfor %}.
 
 **Package authors:**
 The [GitHub repositories][gh] for each library contain `AUTHORS.md` files which list
 everyone who is considered an author of that library.
 Our [Authorship Guidelines][authorship] define the rules for attributing authorship.
+
+**Project founders:**
+{% for id in page.team.founders|sort %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team.info[id].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
+
 
 <div class="callout-secondary">
 
@@ -155,7 +114,7 @@ Fatiando is a part of the larger family of geophysics free software in Python,
 which has grown tremendously since we started development in 2010:
 
 <ul role="list" class="list-inline-center padding-vertical-l">
-{%- for project in page.family %}
+{%- for project in page.packages %}
   <li><a target="_blank" href="{{ project.url }}"><img style="max-height: 6em" title="{{ project.name }}" src="{{ project.logo }}"></a></li>
 {%- endfor %}
 </ul>
