@@ -31,30 +31,30 @@ The **recommended** method is using the `conda` (or `mamba`) package manager
 with a single command:
 
 ```bash
-conda install verde harmonica boule pooch choclo bordado ensaio --channel conda-forge
+conda install --channel conda-forge {% for package in site["index"].libraries %}{{ package.id }}{% if not loop.last %} {% endif %}{% endfor %}
 ```
 
 Alternatively, you can use the `pip` package manager:
 
 ```bash
-pip install verde harmonica boule pooch choclo bordado ensaio
+python -m pip install {% for package in site["index"].libraries %}{{ package.id }}{% if not loop.last %} {% endif %}{% endfor %}
 ```
 
-<div class="callout">
+<div class="callout-tertiary">
 
 **Tip:**
 Run these commands in a terminal (Linux/Mac) or "Anaconda prompt" (Windows).
 
 </div>
 
-## Installing the legacy "fatiando" package
+## Installing the "fatiando" package
 
 The old `fatiando` package **is not currently maintained or developed**,
 meaning that **it won't get bug fixes or new features**. The purpose of these
 instructions are for **legacy use only**, in order to run old code to check
 reproducibility of results.
 
-<div class="callout">
+<div class="callout-primary">
 
 **Note:**
 If you are working on some new research or data analysis, we **strongly
@@ -90,7 +90,7 @@ python -c "import fatiando; fatiando.test()"
 
 You should see a green dot after each test is run and no red `F`.
 
-<div class="callout">
+<div class="callout-tertiary">
 
 **More information:**
 The documentation for the legacy `fatiando` package is available at
