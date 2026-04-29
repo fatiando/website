@@ -73,6 +73,11 @@ can get outdated over time.
 <div class="content-wide flow margin-top-2xl">
   <h2>Meet our libraries</h2>
   <hr>
+  <ul role="list" class="list-inline-center padding-vertical-l">
+  {%- for lib in page.libraries %}
+    <li><a href="#{{ lib.id }}"><img style="max-width: 4em;" title="{{ lib.id|title }}" alt="{{ lib.id|title }}" src="{{ lib.logo }}"></a></li>
+  {%- endfor %}
+  </ul>
 </div>
 {%- for lib in page.libraries %}
 <section class="{{ loop.cycle('', 'background-semilight box-shadow') }}">

@@ -1,21 +1,6 @@
 ---
 title: Support the project
 template: base.html
-logos:
-  - name: Fatiando a Terra
-    img: "../images/fatiando-logo-background.png"
-  - name: Verde
-    img: "../images/verde-logo.png"
-  - name: Harmonica
-    img: "../images/harmonica-logo.png"
-  - name: Pooch
-    img: "../images/pooch-logo.png"
-  - name: Boule
-    img: "../images/boule-logo.png"
-  - name: Ensaio
-    img: "../images/ensaio-logo.png"
-  - name: Choclo
-    img: "../images/choclo-logo.png"
 ---
 
 # {{ page.title }}
@@ -132,8 +117,9 @@ gladly share it on our social media.
 websites about work that used our tools.
 
 <ul role="list" class="list-inline-center padding-vertical-l">
-{%- for logo in page.logos %}
-  <li><img style="max-width: 4em;" title="{{ logo.name }}" src="{{ logo.img }}"></li>
+  <li><img style="max-width: 4em;" title="Fatiando a Terra" src="../images/fatiando-logo-background.png"></li>
+{%- for pkg in site["index"].libraries %}
+  <li><img style="max-width: 4em;" title="{{ pkg.id|title }}" src="{{ pkg.logo|relative_to(page.path) }}"></li>
 {%- endfor %}
 </ul>
 
