@@ -29,7 +29,9 @@ The organization structure of Fatiando is outlined in our [Governance
 document][governance]. It specifies the existing roles within our community,
 what are the responsibilities assigned to each one, and how to gain
 responsibilities within our organization.
-Below is a list of the people currently occupying each role.
+
+Below is a list of the people currently occupying each role and the ones who
+served previously.
 
 <ul role="list" class="list-inline-center padding-vertical-l">
 {%- for id in (page.team.maintainers + page.team.council)|unique|sort %}
@@ -37,19 +39,22 @@ Below is a list of the people currently occupying each role.
 {%- endfor %}
 </ul>
 
-**Steering Council:**
-{% for id in page.team.council %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team.info[id].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
+**Project Leaders:**
+{% for id in page.team.leaders %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team.info[id].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
 
-**Package maintainers:**
+**Package Maintainers:**
 {% for id in page.team.maintainers %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team.info[id].name }}</a> ({{ page.team.info[id].packages }}){% if not loop.last %}, {% endif %}{% endfor %}.
 
-**Package authors:**
+**Package Authors:**
 The [GitHub repositories][gh] for each library contain `AUTHORS.md` files which list
 everyone who is considered an author of that library.
 Our [Authorship Guidelines][authorship] define the rules for attributing authorship.
 
-**Project founders:**
+**Project Founders:**
 {% for id in page.team.founders|sort %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team.info[id].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
+
+**Former Steering Council:**
+{% for id in page.team.council %}<a target="_blank" href="https://github.com/{{ id }}">{{ page.team.info[id].name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
 
 
 <div class="callout-secondary">
@@ -60,6 +65,37 @@ One of the most impactful ways in which you can help is by
 [being involved](../contact) in the project!
 
 </div>
+
+
+## Funding and support
+
+Development and maintenance of the Fatiando a Terra project is generously
+supported by:
+
+* Community and financial support from the [Software Underground][swung].
+* Postdoc position salary for Santiago Soler from the [Geophysical Inversion
+  Facility, University of British Columbia][gif] (from 2022).
+* Salary for Leonardo Uieda from the [Universidade de São Paulo][usp] (from 2023),
+  [University of Liverpool][liv] (2019-2023), and
+  [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
+* A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
+  (2017-2022).
+* MSc and PhD scholarships for Leonardo Uieda from [Capes][capes], Brazil
+  (2010-2016).
+
+
+## The geophysics Python family
+
+Fatiando is a part of the larger family of geophysics free software in Python,
+which has grown tremendously since we started development in 2010:
+
+<ul role="list" class="list-inline-center padding-vertical-l">
+{%- for project in page.packages %}
+  <li><a target="_blank" href="{{ project.url }}"><img style="max-height: 6em" title="{{ project.name }}" src="{{ project.logo }}"></a></li>
+{%- endfor %}
+</ul>
+
+We design our software to complement what is offered in other packages. Check them out as well!
 
 
 ## Brief history
@@ -106,36 +142,6 @@ many of which are recorded and up on [our YouTube channel][youtube]!
 Talk <a href="https://youtu.be/z-5dvWfB_SM?si=3QrTW8tZDcPlY7W7">we gave for GFZ Helmholtz Centre Potsdam in 2021</a> about the history of Fatiando and some of the developments we had going on at the time.
 </figcaption>
 </figure>
-
-
-## The geophysics Python family
-
-Fatiando is a part of the larger family of geophysics free software in Python,
-which has grown tremendously since we started development in 2010:
-
-<ul role="list" class="list-inline-center padding-vertical-l">
-{%- for project in page.packages %}
-  <li><a target="_blank" href="{{ project.url }}"><img style="max-height: 6em" title="{{ project.name }}" src="{{ project.logo }}"></a></li>
-{%- endfor %}
-</ul>
-
-We design our software to complement what is offered in other packages. Check them out as well!
-
-## Funding and support
-
-Development and maintenance of the Fatiando a Terra project is generously
-supported by:
-
-* Community and financial support from the [Software Underground][swung].
-* Postdoc position salary for Santiago Soler from the [Geophysical Inversion
-  Facility, University of British Columbia][gif] (from 2022).
-* Salary for Leonardo Uieda from the [Universidade de São Paulo][usp] (from 2023),
-  [University of Liverpool][liv] (2019-2023), and
-  [Universidade do Estado do Rio de Janeiro][uerj] (2014-2017).
-* A PhD scholarship for Santiago Soler from [CONICET][conicet], Argentina
-  (2017-2022).
-* MSc and PhD scholarships for Leonardo Uieda from [Capes][capes], Brazil
-  (2010-2016).
 
 [governance]: https://github.com/fatiando/community/blob/main/GOVERNANCE.md
 [authorship]: https://github.com/fatiando/community/blob/main/AUTHORSHIP.md
