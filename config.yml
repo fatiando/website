@@ -46,10 +46,6 @@ ignore:
   - environment.yml
   - requirements.txt
   - Makefile
-  # Temporarily don't build these pages
-  - cite/*
-  - calendar/*
-  - good-first-issues/*
 
 # Copy these files (Nene ignores files starting with _ or .)
 copy:
