@@ -24,8 +24,9 @@ a passion for well-designed tools and helping our peers.
 All of our software is **free and open-source**.
 
 <ul role="list" class="list-inline margin-top-l">
-<li><a class="button-link-primary" href="install">How to install</a></li>
-<li><a class="button-link-tertiary" href="support">Cite the software</a></li>
+<li><a class="button-link-primary" href="#libraries">The libraries</a></li>
+<li><a class="button-link-light" href="install">How to install</a></li>
+<li><a class="button-link-tertiary" href="support">Cite the project</a></li>
 </ul>
 
 </div>
@@ -71,7 +72,7 @@ can get outdated over time.
 
 
 <div class="content-wide flow margin-top-2xl">
-  <h2>Meet our libraries</h2>
+  <h2 id="libraries">Meet our libraries</h2>
   <hr>
   <ul role="list" class="list-inline-center padding-vertical-l">
   {%- for lib in page.libraries %}
