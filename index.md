@@ -80,10 +80,10 @@ can get outdated over time.
   </ul>
 </div>
 {%- for lib in page.libraries %}
-<section class="{{ loop.cycle('', 'background-semilight box-shadow') }}">
+<section id="{{ lib. id }}" class="{{ loop.cycle('', 'background-semilight box-shadow') }}">
 <div class="{{ loop.cycle('row', 'row-reverse') }} content-wide">
 <div class="col-large flow">
-<h3 id="{{ lib. id }}">{{ lib.title }}</h3>
+<h3>{{ lib.title }}</h3>
 <p>{{ lib.description }}</p>
 <ul role="list">
 {%- if lib.status == "stable" %}
