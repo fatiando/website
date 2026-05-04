@@ -95,6 +95,12 @@ There are many ways that you can contribute:
 * Fixing typos and improving to the documentation.
 * Writing code for everyone to use.
 
+<div class="callout-primary">
+
+**Looking for a place to start?** Check out our list of open [good first issues](../good-first-issues) across all our projects. If you see any that you'd like to take on, leave a comment on the issue.
+
+</div>
+
 
 ## Spread the word
 
