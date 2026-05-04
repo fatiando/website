@@ -51,6 +51,12 @@ We meet up every two weeks to discuss project development and share updates.
 **Everyone is welcome to participate!** Dates and connection details are in the
 [fatiando/community][notes] repository.
 
+<div class="callout-secondary">
+
+**Calendar:** You also add [our shared calendar](../calendar) to get notifications of meetings and other events.
+
+</div>
+
 [fatiando-channel]: https://mattermost.softwareunderground.org/swung/channels/fatiando
 [swung-mattermost]: https://mattermost.softwareunderground.org
 [forum]: https://github.com/orgs/fatiando/discussions
