@@ -76,11 +76,6 @@ h3 {
   font-size: var(--size-2);
 }
 
-main section {
-  padding-top: var(--space-3xl);
-  padding-bottom: var(--space-3xl);
-}
-
 blockquote {
   border-left: var(--block-border) solid var(--color-muted);
   background-color: var(--color-semilight);
@@ -123,8 +118,8 @@ figcaption {
 footer {
   color: var(--color-light);
   background-color: var(--color-dark);
-  padding-top: var(--space-2xl);
-  padding-bottom: var(--space-2xl);
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-3xl);
 }
 
 footer a {
@@ -349,6 +344,10 @@ blockquote > * + *, .callout > * + * {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2) inset;
 }
 
+.heading-underline {
+  border-bottom: 0.1em solid var(--color-tertiary);
+}
+
 .list-inline {
   align-items: center;
   display: flex;
@@ -437,6 +436,10 @@ a.button-link-light {
 .padding-vertical-4xl {
   padding-top: var(--space-4xl);
   padding-bottom: var(--space-4xl);
+}
+
+.padding-top-3xl {
+  padding-top: var(--space-3xl);
 }
 
 .margin-top-l {

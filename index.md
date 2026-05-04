@@ -4,7 +4,7 @@ no_container: True
 template: base.html
 ---
 
-<section class="background-dark padding-vertical-4xl" style="background-image: url(images/background.svg); background-position: center; background-size: cover;" >
+<div class="background-dark padding-vertical-4xl" style="background-image: url(images/background.svg); background-position: center; background-size: cover;" >
 <div class="row content-wide">
 <div class="col-small">
   <img src="images/fatiando-logo.svg" style="padding: 0 var(--space-l);">
@@ -31,9 +31,9 @@ All of our software is **free and open-source**.
 
 </div>
 </div>
-</section>
+</div>
 
-<section class="background-primary box-shadow">
+<div class="background-primary box-shadow padding-vertical-3xl">
 <div class="row content-wide">
 <div class="col-large flow">
 
@@ -68,20 +68,15 @@ can get outdated over time.
 </figure>
 </div>
 </div>
-</section>
-
-
-<div class="content-wide flow margin-top-2xl">
-  <h2 id="libraries">Meet our libraries</h2>
-  <hr>
-  <ul role="list" class="list-inline-center padding-vertical-l">
-  {%- for lib in page.libraries %}
-    <li><a href="#{{ lib.id }}"><img style="max-width: 4em;" title="{{ lib.id|title }}" alt="{{ lib.id|title }}" src="{{ lib.logo }}"></a></li>
-  {%- endfor %}
-  </ul>
 </div>
+
+
+<div id="libraries" class="content-wide flow padding-top-3xl">
+  <h2 class="heading-underline">Meet our libraries</h2>
+</div>
+
 {%- for lib in page.libraries %}
-<section id="{{ lib. id }}" class="{{ loop.cycle('', 'background-semilight box-shadow') }}">
+<div id="{{ lib. id }}" class="padding-vertical-3xl {{ loop.cycle('', 'background-semilight box-shadow') }}">
 <div class="{{ loop.cycle('row', 'row-reverse') }} content-wide">
 <div class="col-large flow">
 <h3>{{ lib.title }}</h3>
@@ -115,11 +110,11 @@ can get outdated over time.
 </figure>
 </div>
 </div>
-</section>
+</div>
 {%- endfor %}
 
 
-<section class="background-primary box-shadow">
+<div class="background-primary box-shadow padding-vertical-3xl">
 <div class="row content-wide">
 <div class="col-large flow">
 
@@ -128,7 +123,7 @@ can get outdated over time.
 We are always happy to **welcome anyone** who is interested in getting
 involved!
 Whether it be coding, teaching, designing, or just hanging out.
-Getting involved in open-source can be great way to meet new people, improve
+Getting involved in open-source can be a great way to meet new people, improve
 your coding skills, and **make an impact** in your field.
 
 <ul role="list" class="list-inline margin-top-l">
@@ -147,4 +142,4 @@ your coding skills, and **make an impact** in your field.
 
 </div>
 </div>
-</section>
+</div>
