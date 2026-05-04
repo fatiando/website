@@ -47,9 +47,8 @@ get to know the community.
 
 ## <i class="fas fa-microphone-alt"></i> Video calls
 
-We meet up weekly to discuss project development and share updates.
-**Everyone is welcome to participate!**
-Dates and connection details are in the
+We meet up every two weeks to discuss project development and share updates.
+**Everyone is welcome to participate!** Dates and connection details are in the
 [fatiando/community][notes] repository.
 
 [fatiando-channel]: https://mattermost.softwareunderground.org/swung/channels/fatiando
