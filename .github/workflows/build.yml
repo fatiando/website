@@ -1,5 +1,7 @@
-name: build-html
+# Build the website HTML and deploy it to GitHub Pages
+name: build
 
+# Only build PRs and the main branch
 on:
   pull_request:
   push:
@@ -9,6 +11,9 @@ on:
 permissions: {}
 
 jobs:
+
+  ##################################################################################
+  # Build the website
   build:
     runs-on: ubuntu-latest
     permissions:
@@ -36,6 +41,8 @@ jobs:
       - name: Print a directory tree of the generated HTML for debugging
         run: tree -a _build
 
+      # Push the HTML to the pages repository if this is a push to main and the
+      # build was successful
       - name: Push to fatiando.github.io
         if: success() && github.event_name == 'push'
         # Don't use tags: https://julienrenaux.fr/2019/12/20/github-actions-security-risk/
