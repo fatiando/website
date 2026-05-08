@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ config.language }}">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ title }}</title>
+  <!-- Plausible analytics for anonymous usage statistics -->
+  <script defer data-domain="{{ config.domain }}" src="https://plausible.io/js/plausible.js"></script>
+  <meta http-equiv="refresh" content="0;url={{ page.destination }}"/>
+</head>
+<body>
+  <p>This page redirects to <a href="{{ page.destination }}">{{ page.destination }}</a>.
+</body>
+</html>

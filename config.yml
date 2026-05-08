@@ -1,0 +1,53 @@
+# Main site info
+author: The Fatiando a Terra Developers
+domain: "fatiando.org"
+url: "https://www.fatiando.org"
+site_name: Fatiando a Terra
+site_description: Open-source Python tools for geophysics
+language: en
+keywords: 'science, geoscience, geophysics, software, open-source'
+repository: fatiando/website
+repository_branch: main
+favicon: assets/favicon.png
+logo: assets/fatiando-logo.svg
+license_notice: |
+  Except where otherwise noted, all content is licensed
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.
+
+navigation:
+  - name: Home
+    id: index
+  - name: About
+    id: about/index
+  - name: Install
+    id: install/index
+  - name: Support
+    id: support/index
+  - name: Contact
+    id: contact/index
+
+social:
+  header:
+    - name: GitHub
+      url: https://github.com/fatiando
+  footer:
+    - name: GitHub
+      url: https://github.com/fatiando
+    - name: Zenodo
+      url: https://zenodo.org/communities/fatiando
+    - name: YouTube
+      url: https://www.youtube.com/fatiandoorg
+    - name: LinkedIn
+      url: https://www.linkedin.com/company/fatiando
+
+# Don't copy or process these files
+ignore:
+  - README.md
+  - LICENSE.md
+  - environment.yml
+  - requirements.txt
+  - Makefile
+
+# Copy these files (Nene ignores files starting with _ or .)
+copy:
+  - .nojekyll

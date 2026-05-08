@@ -1,2 +1,2 @@
-sphinx==8.2.3
-myst-parser==4.0.*
+nene[jupyter]==0.10.*
+accessible-pygments==0.0.5

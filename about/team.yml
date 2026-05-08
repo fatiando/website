@@ -1,0 +1,43 @@
+info:
+  leouieda:
+    name: Leonardo Uieda
+    packages: verde, pooch, harmonica, boule, bordado, magali, ensaio
+  mdtanker:
+    name: Matt Tankersley
+    packages: harmonica
+  santisoler:
+    name: Santiago Soler
+    packages: harmonica, choclo, pooch
+  aguspesce:
+    name: Agustina Pesce
+  LL-Geo:
+    name: Lu Li
+  MGomezN:
+    name: Mariana Gomez
+  birocoles:
+    name: Vanderlei C. Oliveira Jr
+  caparicajr:
+    name: Jose Fernando Caparica Jr
+  eusoubrasileiro:
+    name: André Lopes Ferreira
+  hbueno:
+    name: Henrique Bueno dos Santos
+leaders:
+  - leouieda
+  - santisoler
+maintainers:
+  - leouieda
+  - santisoler
+  - mdtanker
+council:
+  - aguspesce
+  - leouieda
+  - LL-Geo
+  - MGomezN
+  - santisoler
+founders:
+  - birocoles
+  - caparicajr
+  - eusoubrasileiro
+  - hbueno
+  - leouieda

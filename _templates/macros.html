@@ -1,0 +1,38 @@
+{# Macros to make the life easier across the website #}
+
+
+{%- macro figure(src, caption, style="", class="") -%}
+  <figure class="{{ class }}">
+    <img src="{{ src }}" alt="{{ caption|striptags }}" style="{{ style }}">
+    <figcaption>{{ caption }}</figcaption>
+  </figure>
+{%- endmacro -%}
+
+
+{%- macro pretty_relative_link(page, reference) -%}
+  {%- if page.id == reference.id -%}
+    {%- set href = "." -%}
+  {%- else -%}
+    {%- set href = page.path|relative_to(reference.path)|replace('index.html', '') -%}
+    {%- if href == "" -%}
+      {%- set href = "." -%}
+    {%- endif -%}
+  {%- endif -%}
+  {{ href }}
+{%- endmacro -%}
+
+
+{%- macro nav_link(item, page, site, url="") -%}
+  {%- set aria = "" -%}
+  {%- set class = "" -%}
+  {%- set href = pretty_relative_link(site[item.id], page) -%}
+  {%- if page.id == item.id or page.parent == item.id|replace('/index', '') -%}
+    {%- set class = "active" -%}
+    {%- set aria = 'aria-current="page"' -%}
+    {%- set href = "." -%}
+  {%- endif -%}
+  {%- if url -%}
+    {%- set href = url + "/" + href -%}
+  {%- endif -%}
+  <a class="{{ class }}" {{ aria }} href="{{ href }}">{{ item.name }}</a>
+{%- endmacro -%}

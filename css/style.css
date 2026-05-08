@@ -1,0 +1,487 @@
+/* Typography and colors for main elements */
+/*****************************************************************************/
+:root {
+  /* Colors */
+  --color-primary: #2060c2;
+  --color-secondary: #008000;
+  --color-tertiary: #ffd52e;
+  --color-muted: #6c757d;
+  --color-dark: #060629;
+  --color-medium: #222222;
+  --color-light: #ffffff;
+  --color-semilight: #f8f8f8;
+
+  /* Type scale calculated using https://utopia.fyi/type/calculator?c=360,18,1.2,1240,18,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --size--1: clamp(0.9rem, 0.9528rem + -0.0682vw, 0.9375rem);
+  --size-0: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+  --size-1: clamp(1.35rem, 1.327rem + 0.1023vw, 1.4063rem);
+  --size-2: clamp(1.62rem, 1.5636rem + 0.2506vw, 1.7578rem);
+  --size-3: clamp(1.944rem, 1.8404rem + 0.4605vw, 2.1973rem);
+  --size-4: clamp(2.3328rem, 2.1635rem + 0.7523vw, 2.7466rem);
+  --size-5: clamp(2.7994rem, 2.5401rem + 1.1525vw, 3.4332rem);
+  --size-6: clamp(3.3592rem, 2.9778rem + 1.6951vw, 4.2915rem);
+
+  /* Space scale calculated using https://utopia.fyi/space/calculator/?c=320,18,1.2,1920,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6|9|12,s-l&g=s,l,xl,12 */
+  --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem);
+  --space-2xs: clamp(0.56rem, calc(0.54rem + 0.10vw), 0.63rem);
+  --space-xs: clamp(0.88rem, calc(0.85rem + 0.10vw), 0.94rem);
+  --space-s: clamp(1.13rem, calc(1.08rem + 0.21vw), 1.25rem);
+  --space-m: clamp(1.69rem, calc(1.63rem + 0.31vw), 1.88rem);
+  --space-l: clamp(2.25rem, calc(2.17rem + 0.42vw), 2.50rem);
+  --space-xl: clamp(3.38rem, calc(3.25rem + 0.63vw), 3.75rem);
+  --space-2xl: clamp(4.50rem, calc(4.33rem + 0.83vw), 5.00rem);
+  --space-3xl: clamp(6.75rem, calc(6.50rem + 1.25vw), 7.50rem);
+  --space-4xl: clamp(10.13rem, calc(9.75rem + 1.88vw), 11.25rem);
+  --space-5xl: clamp(13.5rem, calc(13.2rem + 1.5vw), 15rem);
+
+  /* Spaces and other sizes */
+  --gutter: var(--space-s);
+  --block-border: 0.5em;
+  --block-border-thin: 0.15em;
+}
+
+body {
+  background: var(--color-light);
+  color: var(--color-medium);
+  font-family: "Ubuntu", sans-serif;
+  font-size: var(--size-0);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: var(--size-6);
+}
+
+h2 {
+  font-size: var(--size-4);
+}
+
+h3 {
+  font-size: var(--size-2);
+}
+
+blockquote {
+  border-left: var(--block-border) solid var(--color-muted);
+  background-color: var(--color-semilight);
+  padding: var(--gutter);
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+  line-height: 1;
+  border-radius: 0.25em;
+  padding: 0.1em 0.25em;
+  font-size: var(--size--1);
+}
+
+pre {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: var(--size--1);
+  border-radius: 0.25em;
+  overflow: auto;
+  display: block;
+  padding: var(--gutter);
+  overflow: auto;
+}
+
+pre > code {
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: var(--size--1);
+  text-align: center;
+  margin-top: var(--space-xs);
+  line-height: 1.25;
+}
+
+footer {
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-3xl);
+}
+
+footer a {
+  color: var(--color-light);
+}
+
+header {
+  padding-top: var(--gutter);
+  padding-bottom: var(--gutter);
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header img {
+  max-height: 2em;
+  width: auto;
+}
+
+hr {
+  color: var(--color-tertiary);
+  background-color: var(--color-tertiary);
+  border-style: none;
+  opacity: 1;
+  height: 0.2em;
+}
+
+
+/* Flow and rythm */
+/* From https://piccalil.li/blog/flow-utility/ */
+/*****************************************************************************/
+.flow > * + * {
+  margin-block-start: var(--flow-space, 1em);
+}
+
+.flow-small > * + * {
+  --flow-space: 0.5em;
+}
+
+:is(h1, h2, h3, blockquote, hr) {
+  --flow-space: 1.5em;
+}
+
+hr {
+  --flow-space: 2em;
+}
+
+:is(ul, ol) {
+  --flow-space: 1em;
+}
+
+/* Flow elements inside blockquotes and callouts automatically */
+blockquote > * + *, .callout > * + * {
+  margin-block-start: 0.5em;
+}
+
+
+/* Blocks */
+/*****************************************************************************/
+.content {
+  max-width: 85ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+.content-wide {
+  max-width: 120ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+.callout-primary {
+  border-left: var(--block-border) solid var(--color-primary);
+  background-color: var(--color-semilight);
+  padding: var(--gutter);
+}
+
+.callout-secondary {
+  border-left: var(--block-border) solid var(--color-secondary);
+  background-color: var(--color-semilight);
+  padding: var(--gutter);
+}
+
+.callout-tertiary {
+  border-left: var(--block-border) solid var(--color-tertiary);
+  background-color: var(--color-semilight);
+  padding: var(--gutter);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-xl);
+}
+
+.row-reverse {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-xl);
+}
+
+.col-small {
+  flex: 2;
+  min-width: 25ch;
+}
+
+.col-large {
+  flex: 3;
+  min-width: 60%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter);
+  justify-content: center;
+  align-items: center;
+}
+
+.spread {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spread > * {
+  margin: auto;
+}
+
+.lead {
+  font-size: var(--size-1);
+  margin-top: var(--space-l);
+  margin-bottom: var(--space-l);
+}
+
+
+/* Utilities */
+/*****************************************************************************/
+.text-muted {
+  color: var(--color-muted);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-small {
+  font-size: var(--size--1);
+}
+
+.font-regular {
+  font-size: var(--size-0);
+}
+
+.font-large {
+  font-size: var(--size-1);
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.background-primary {
+  color: var(--color-light);
+  background-color: var(--color-primary);
+}
+
+.background-primary a {
+  color: var(--color-light);
+}
+
+.background-primary figcaption {
+  color: var(--color-light);
+}
+
+.background-dark {
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+.background-dark a {
+  color: var(--color-light);
+}
+
+.background-semilight {
+  background-color: var(--color-semilight);
+}
+
+.box-shadow {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2) inset;
+}
+
+.heading-underline {
+  border-bottom: 0.1em solid var(--color-tertiary);
+}
+
+.list-inline {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gutter);
+  padding-left: 0;
+  line-height: 1;
+}
+
+.list-inline-center {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gutter);
+  padding-left: 0;
+  line-height: 1;
+}
+
+a.button-link-primary {
+  border-radius: 5px;
+  padding: var(--space-xs) var(--space-s);
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button-link-secondary {
+  border-radius: 5px;
+  padding: var(--space-xs) var(--space-s);
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button-link-tertiary {
+  border-radius: 5px;
+  padding: var(--space-xs) var(--space-s);
+  background-color: var(--color-tertiary);
+  color: var(--color-medium);
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button-link-light {
+  border-radius: 5px;
+  padding: var(--space-xs) var(--space-s);
+  background-color: var(--color-light);
+  color: var(--color-medium);
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.padding-horizontal-2xs {
+  padding-left: var(--space-2xs);
+  padding-right: var(--space-2xs);
+}
+
+.padding-vertical-l {
+  padding-top: var(--space-l);
+  padding-bottom: var(--space-l);
+}
+
+.padding-vertical-xl {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+
+.padding-vertical-2xl {
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
+}
+
+.padding-vertical-3xl {
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-3xl);
+}
+
+.padding-vertical-4xl {
+  padding-top: var(--space-4xl);
+  padding-bottom: var(--space-4xl);
+}
+
+.padding-top-3xl {
+  padding-top: var(--space-3xl);
+}
+
+.margin-top-l {
+  margin-top: var(--space-l);
+}
+
+.margin-top-xl {
+  margin-top: var(--space-xl);
+}
+
+.margin-top-2xl {
+  margin-top: var(--space-2xl);
+}
+
+.margin-top-3xl {
+  margin-top: var(--space-3xl);
+}
+
+.margin-top-4xl {
+  margin-top: var(--space-4xl);
+}
+
+.margin-bottom-xl {
+  margin-bottom: var(--space-xl);
+}
+
+.margin-bottom-2xl {
+  margin-bottom: var(--space-2xl);
+}
+
+.margin-bottom-3xl {
+  margin-bottom: var(--space-3xl);
+}
+
+.margin-bottom-4xl {
+  margin-bottom: var(--space-4xl);
+}
+
+
+/* Tweaks to existing classes */
+/*****************************************************************************/
+
+i.fab, i.fas, i.fa {
+  margin-right: var(--space-3xs);
+}
