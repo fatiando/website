@@ -26,7 +26,7 @@ All of our software is **free and open-source**.
 <ul role="list" class="list-inline margin-top-l">
 <li><a class="button-link-primary" href="#libraries">The libraries</a></li>
 <li><a class="button-link-light" href="install">How to install</a></li>
-<li><a class="button-link-tertiary" href="support">Cite the project</a></li>
+<li><a class="button-link-tertiary" href="support#cite-our-software">Cite the project</a></li>
 </ul>
 
 </div>
