@@ -137,7 +137,7 @@ We also gave a few talks that cover some of the history of the project,
 many of which are recorded and up on [our YouTube channel][youtube]!
 
 <figure>
-<img src="../images/fatiando-talks.jpg">
+<img src="../images/gfz-talk-2021.jpg">
 <figcaption>
 Talk <a href="https://youtu.be/z-5dvWfB_SM?si=3QrTW8tZDcPlY7W7">we gave for GFZ Helmholtz Centre Potsdam in 2021</a> about the history of Fatiando and some of the developments we had going on at the time.
 </figcaption>

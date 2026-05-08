@@ -9,6 +9,7 @@ keywords: 'science, geoscience, geophysics, software, open-source'
 repository: fatiando/website
 repository_branch: main
 favicon: assets/favicon.png
+logo: assets/fatiando-logo.svg
 license_notice: |
   Except where otherwise noted, all content is licensed
   <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.

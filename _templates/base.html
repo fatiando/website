@@ -60,7 +60,7 @@
   <header id="top" class="background-dark">
     <div class="content-wide spread">
       <a class="flex-center" href="{{ macros.pretty_relative_link(site['index'], page) }}">
-        <img src="{{ "images/fatiando-logo.svg"|relative_to(page.path) }}">
+        <img src="{{ config.logo|relative_to(page.path) }}">
         <span>{{ config.site_name }}</span>
       </a>
       <div class="flex-center">

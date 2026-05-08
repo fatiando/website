@@ -123,7 +123,7 @@ gladly share it on our social media.
 websites about work that used our tools.
 
 <ul role="list" class="list-inline-center padding-vertical-l">
-  <li><img style="max-width: 4em;" title="Fatiando a Terra" src="../images/fatiando-logo-background.png"></li>
+  <li><img style="max-width: 4em;" title="Fatiando a Terra" src="../images/logos/fatiando.png"></li>
 {%- for pkg in site["index"].libraries %}
   <li><img style="max-width: 4em;" title="{{ pkg.id|title }}" src="{{ pkg.logo|relative_to(page.path) }}"></li>
 {%- endfor %}

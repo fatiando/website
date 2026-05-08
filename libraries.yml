@@ -2,8 +2,8 @@
   title: "Verde: Gridding, machine learning style"
   status: stable
   doi: 10.21105/joss.00957
-  img: images/verde-spline-example.png
-  logo: images/verde-logo.png
+  img: images/examples/verde.jpg
+  logo: images/logos/verde.png
   caption: |
     Vertical ground velocity in California interpolated from GPS data with and without weights based on data uncertainty.
   description: |
@@ -13,7 +13,7 @@
   title: "Pooch: Easily download datasets"
   status: stable
   doi: 10.21105/joss.01943
-  logo: images/pooch-logo.png
+  logo: images/logos/pooch.png
   code: |
     import pooch
     import xarray as xr
@@ -38,8 +38,8 @@
   title: "Harmonica: All things potential fields"
   status: changing
   doi: 10.5281/zenodo.3628741
-  img: images/harmonica-example-bushveld.png
-  logo: images/harmonica-logo.png
+  img: images/examples/harmonica.png
+  logo: images/logos/harmonica.png
   caption: |
     Residual gravity disturbances of the Bushveld Complex, South Africa, gridded to a uniform height with equivalent sources.
   description: |
@@ -49,8 +49,8 @@
   title: "Boule: Ellipsoids and normal gravity"
   status: changing
   doi: 10.5281/zenodo.3530749
-  img: images/boule-example-normal-gravity.png
-  logo: images/boule-logo.png
+  img: images/examples/boule.png
+  logo: images/logos/boule.png
   caption: |
     Normal gravity of the WGS84 ellipsoid calculated at the Earth's surface using an analytical expression (no free-air correction required).
   description: |
@@ -60,8 +60,8 @@
   title: "Ensaio: Practice datasets to probe your code"
   status: changing
   doi: 10.5281/zenodo.5784202
-  img: images/ensaio-gallery.png
-  logo: images/ensaio-logo.png
+  img: images/examples/ensaio.jpg
+  logo: images/logos/ensaio.png
   caption: |
     A sample of the datasets available in Ensaio. From the top-left: gravity, geoid height, bathymetry, GPS velocity, global relief, and magnetic anomaly.
   description: |
@@ -71,7 +71,7 @@
   title: "Choclo: Kernel functions for geophysical models"
   status: changing
   doi: 10.5281/zenodo.7851747
-  logo: images/choclo-logo.png
+  logo: images/logos/choclo.png
   code: |
     import choclo
 
@@ -93,8 +93,8 @@
   title: "Bordado: Create and split geographic coordinates"
   status: changing
   doi: 10.5281/zenodo.15051755
-  img: images/bordado-spherical-rolling-windows.gif
-  logo: images/bordado-logo.png
+  img: images/examples/bordado.gif
+  logo: images/logos/bordado.png
   caption: |
     Animation of splitting a set of random points along the globe using rolling windows with equal area. The yellow points are the window centers.
   description: |

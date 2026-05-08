@@ -7,7 +7,7 @@ template: base.html
 <div class="background-dark padding-vertical-4xl" style="background-image: url(images/background.svg); background-position: center; background-size: cover;" >
 <div class="row content-wide">
 <div class="col-small">
-  <img src="images/fatiando-logo.svg" style="padding: 0 var(--space-l);">
+  <img src="assets/fatiando-logo.svg" style="padding: 0 var(--space-l);">
 </div>
 <div class="col-large flow">
 
@@ -134,7 +134,7 @@ your coding skills, and **make an impact** in your field.
 <div class="col-small flow">
 
 <figure>
-  <img src="images/fatiando-community-call.png" title="Screenshot from a virtual Fatiando weekly call.">
+  <img src="images/fatiando-community-call.jpg" title="Screenshot from a virtual Fatiando weekly call.">
   <figcaption>
   Happy community members at one of our regular <a href="contact">Fatiando open calls</a>, where we discuss the project and future plans.
   </figcaption>
