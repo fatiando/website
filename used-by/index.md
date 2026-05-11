@@ -3,7 +3,7 @@ title: Used by
 template: base.html
 ---
 
-# {{ page.title }}
+<h1 id="title">{{ page.title }}</h1>
 
 <div class="lead">
 
@@ -22,6 +22,7 @@ new entries.
 
 ----
 
+
 **Go to year:** {% for year, items in page.entries|groupby("year")|reverse %}[{{ year }}](#{{ year }}){% if not loop.last%} - {% endif %}{% endfor %}
 
 <!-- Add new items to the entries.yml file -->
@@ -39,5 +40,7 @@ new entries.
   {%- set counter.count = counter.count - 1 %}
 {%- endfor %}
 </ul>
+
+<p class="text-center"><a href="#title">Back to top</a></p>
 
 {%- endfor %}
