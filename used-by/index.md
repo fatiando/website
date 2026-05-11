@@ -20,6 +20,10 @@ new entries.
 
 </div>
 
+----
+
+**Go to year:** {% for year, items in page.entries|groupby("year")|reverse %}[{{ year }}](#{{ year }}){% if not loop.last%} - {% endif %}{% endfor %}
+
 <!-- Add new items to the entries.yml file -->
 <!-- Use https://citation.doi.org/ with the american-geophysical-union style to format citations to papers -->
 
