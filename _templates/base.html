@@ -73,11 +73,6 @@
             {%- endfor %}
           </ul>
         </nav>
-        <ul class="list-inline-center" role="list">
-        {%- for item in config.social.header %}
-          <li><a target="_blank" href="{{ item.url }}">{{ item.name }}↗</a></li>
-        {%- endfor %}
-        </ul>
       </div>
     </div>
   </header>
@@ -107,7 +102,7 @@
       </nav>
       <ul class="list-inline-center" role="list">
       {%- for item in config.social.footer %}
-        <li><a target="_blank" href="{{ item.url }}">{{ item.name }}↗</a></li>
+        <li><a target="_blank" href="{{ item.url }}">{{ item.name }}</a></li>
       {%- endfor %}
       </ul>
       </div>
