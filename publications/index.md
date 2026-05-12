@@ -12,6 +12,8 @@ other instances where Fatiando software were used and cited.
 
 </div>
 
+
+
 ## Papers about Fatiando
 
 <ul role="list" class="flow">
@@ -20,6 +22,17 @@ other instances where Fatiando software were used and cited.
 {%- endfor %}
 </ul>
 
+
+
+<!--
+Add new items to the used_by.yml file.
+
+Use https://citation.doi.org/ with the american-geophysical-union
+style to format citations to papers.
+
+Remove the DOI or other URLs from the description because they render
+poorly on mobile.
+-->
 
 <h2 id="used-by">Users of Fatiando</h2>
 
@@ -34,18 +47,15 @@ lend a hand.
 
 **Go to year:** {% for year, items in page.used_by|groupby("year")|reverse %}[{{ year }}](#{{ year }}){% if not loop.last%} - {% endif %}{% endfor %}
 
-<!-- Add new items to the entries.yml file -->
-<!-- Use https://citation.doi.org/ with the american-geophysical-union style to format citations to papers -->
-
 {%- set counter = namespace(count=page.used_by|length) %}
 
 {%- for year, items in page.used_by|groupby("year")|reverse %}
 
-### {{ year }}
+<h3 id="{{ year }}">{{ year }}</h3>
 
 <ul role="list" class="flow">
 {%- for item in items %}
-  <li>[{{ counter.count }}] <strong>{{ item.type|title }}:</strong> <a target="_blank" href="{{ item.link }}">{{ item.description }}</a></li>
+  <li>[{{ counter.count }}] <strong>{{ item.type|title }}:</strong> <a target="_blank" href="{{ item.link }}">{{ item.description|trim }}.</a></li>
   {%- set counter.count = counter.count - 1 %}
 {%- endfor %}
 </ul>
