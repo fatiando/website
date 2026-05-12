@@ -90,7 +90,7 @@ can get outdated over time.
   <li><i class="fa fa-check fa-fw" style="color: var(--color-muted)" title="Project status"></i> Still in early development</li>
 {%- endif %}
 <li><i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/{{ lib.id }}">fatiando/{{ lib.id }}</a></li>
-<li><i class="fas fa-book fa-fw" title="Documentation"></i> Documentation: <a href="https://www.fatiando.org/{{ lib.id }}/">fatiando.org/{{ lib.id }}</a></li>
+<li><i class="fas fa-book fa-fw" title="Documentation"></i> Docs: <a href="https://www.fatiando.org/{{ lib.id }}/">fatiando.org/{{ lib.id }}</a></li>
 <li><i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: <a href="https://pypi.org/project/{{ lib.id }}/">PyPI</a>, <a href="https://github.com/conda-forge/{{ lib.id }}-feedstock/">conda-forge</a></li>
 <li><i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/{{ lib.doi }}">{{ lib.doi }}</a></li>
 </ul>
