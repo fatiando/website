@@ -23,10 +23,10 @@ navigation:
     id: install/index
   - name: Support
     id: support/index
+  - name: Publications
+    id: publications/index
   - name: Contact
     id: contact/index
-  - name: Used by
-    id: used-by/index
 
 social:
   header:
