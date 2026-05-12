@@ -1,5 +1,5 @@
 ---
-title: Used by
+title: Uses of Fatiando
 template: base.html
 ---
 
@@ -16,7 +16,8 @@ software were used and cited.
 
 **Help us complete the list!** Open an Issue or send a Pull Request to the
 [fatiando/website](https://github.com/fatiando/website) repository suggesting
-new entries.
+new entries. If you need help doing that, [reach out](../contact) and we'll
+lend a hand.
 
 </div>
 
