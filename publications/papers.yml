@@ -1,0 +1,17 @@
+- title: "Pooch: A friend to fetch your data files"
+  authors: Uieda, L; Soler, SR; Rampin, R; van Kemenade, H; Turk, M; Shapero, D; Banihirwe, A; Leeman, J
+  year: 2020
+  journal: Journal of Open Source Software
+  doi: 10.21105/joss.01943
+
+- title: "Verde: Processing and gridding spatial data using Green's functions"
+  authors: Uieda, L
+  year: 2018
+  journal: Journal of Open Source Software
+  doi: 10.21105/joss.00957
+
+- title: Modeling the Earth with Fatiando a Terra
+  authors: Uieda, L; Oliveira Jr, VC; Barbosa, VCF.
+  year: 2013
+  journal: Proceedings of the 12th Python in Science Conference
+  doi: 10.25080/Majora-8b375195-010
