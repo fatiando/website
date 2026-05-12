@@ -12,7 +12,7 @@ other instances where Fatiando software were used and cited.
 
 </div>
 
-## Paper about Fatiando
+## Papers about Fatiando
 
 <ul role="list" class="flow">
 {%- for pub in page.papers %}
