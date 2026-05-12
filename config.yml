@@ -29,18 +29,16 @@ navigation:
     id: contact/index
 
 social:
-  header:
-    - name: GitHub
-      url: https://github.com/fatiando
-  footer:
-    - name: GitHub
-      url: https://github.com/fatiando
-    - name: Zenodo
-      url: https://zenodo.org/communities/fatiando
-    - name: YouTube
-      url: https://www.youtube.com/fatiandoorg
-    - name: LinkedIn
-      url: https://www.linkedin.com/company/fatiando
+  - name: GitHub
+    url: https://github.com/fatiando
+  - name: Forum
+    url: https://github.com/orgs/fatiando/discussions
+  - name: Zenodo
+    url: https://zenodo.org/communities/fatiando
+  - name: YouTube
+    url: https://www.youtube.com/fatiandoorg
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/fatiando
 
 # Don't copy or process these files
 ignore:
