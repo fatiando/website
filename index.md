@@ -118,7 +118,7 @@ can get outdated over time.
 <div class="row content-wide">
 <div class="col-large flow">
 
-# Interested?
+## Interested?
 
 We are always happy to **welcome anyone** who is interested in getting
 involved!
