@@ -76,7 +76,7 @@ can get outdated over time.
 </div>
 
 {%- for lib in page.libraries %}
-<div id="{{ lib. id }}" class="padding-vertical-3xl {{ loop.cycle('', 'background-semilight box-shadow') }}">
+<div id="{{ lib. id }}" class="{% if loop.first %}padding-top-xl padding-bottom-3xl{% else %}padding-vertical-3xl{% endif %} {{ loop.cycle('', 'background-semilight box-shadow') }}">
 <div class="{{ loop.cycle('row', 'row-reverse') }} content-wide">
 <div class="col-large flow">
 <h3>{{ lib.title }}</h3>

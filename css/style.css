@@ -438,8 +438,46 @@ a.button-link-light {
   padding-bottom: var(--space-4xl);
 }
 
+.padding-bottom-l {
+  padding-bottom: var(--space-l);
+}
+
+.padding-bottom-xl {
+  padding-bottom: var(--space-xl);
+}
+
+
+.padding-bottom-2xl {
+  padding-bottom: var(--space-2xl);
+}
+
+.padding-bottom-3xl {
+  padding-bottom: var(--space-3xl);
+}
+
+.padding-bottom-4xl {
+  padding-bottom: var(--space-4xl);
+}
+
+.padding-top-l {
+  padding-top: var(--space-l);
+}
+
+.padding-top-xl {
+  padding-top: var(--space-xl);
+}
+
+
+.padding-top-2xl {
+  padding-top: var(--space-2xl);
+}
+
 .padding-top-3xl {
   padding-top: var(--space-3xl);
+}
+
+.padding-top-4xl {
+  padding-top: var(--space-4xl);
 }
 
 .margin-top-l {
