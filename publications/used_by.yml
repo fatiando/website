@@ -1,3 +1,13 @@
+# Citations generated using https://citation.doi.org with the
+# american-geophysical-union style.
+# Don't leave a trailing dot (.)
+
+- link: https://doi.org/10.1139/cjes-2025-0084c
+  type: journal article
+  year: 2026
+  description: |
+    Kimiaghalam, A., Swidinsky, A., & Parsa, M. (2026). A lightweight strategy for interpolating potential field and radiometric raster data. Canadian Journal of Earth Sciences, 63, 1–12
+
 - link: https://pubs.usgs.gov/publication/70275044
   type: Conference proceedings
   year: 2026
