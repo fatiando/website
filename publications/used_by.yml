@@ -2,6 +2,24 @@
 # american-geophysical-union style.
 # Don't leave a trailing dot (.)
 
+- link: https://doi.org/10.1016/j.tecto.2026.231299
+  type: journal article
+  year: 2026
+  description: |
+    Temporim, F. A., Costa, G. S., Souza-Junior, G. F., Melo, R. P., Barros, L. M., Rodrigues, S. W. O., et al. (2026). Emplacement mechanisms of the Córrego Seco post-collisional mafic pluton revealed by AMS and gravity data, Brasília Orogenic Belt. Tectonophysics, 936, 231299. https://doi.org/10.1016/j.tecto.2026.231299
+
+- link: https://doi.org/10.1029/2026GL124040
+  type: journal article
+  year: 2026
+  description: |
+    Martin, J. R., & Tucker, G. E. (2026). Can Neural Networks Think Like Geomorphologists? Geophysical Research Letters, 53(15). https://doi.org/10.1029/2026gl124040
+
+- link: https://doi.org/10.1613/jair.1.20410
+  type: journal article
+  year: 2026
+  description: |
+    Umrawal, A. K., Robson, E. W., Aggarwal, V., & Quinn, C. J. (2026). Maximizing the Spread of Influence through a Social Network Using Partial Incentives. Journal of Artificial Intelligence Research, 86. https://doi.org/10.1613/jair.1.20410
+
 - link: https://doi.org/10.1139/cjes-2025-0084c
   type: journal article
   year: 2026
