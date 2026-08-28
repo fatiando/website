@@ -2,6 +2,18 @@
 # american-geophysical-union style.
 # Don't leave a trailing dot (.)
 
+- link: https://doi.org/10.3997/2214-4609.202620220
+  type: Conference proceedings
+  year: 2026
+  description: |
+    Mihai, A., Gerea, A., & Tataru, D. (2026). Integrated Microgravity Modelling for Urban Subsidence Risk at Slănic Prahova. NSG 2026: 32nd Meeting of Environmental and Engineering Geophysics. European Association of Geoscientists & Engineers. https://doi.org/10.3997/2214-4609.202620220
+
+- link: https://doi.org/10.1029/2025GL121613
+  type: journal article
+  year: 2026
+  description: |
+    Piispa, E. J., Gallagher, C. R., Bernholt, S., Einarsson, G. M., Erlendsson, Ö., Karlsdóttir, K. Á., et al. (2026). Rapid UAV‐ and Ground‐Based Magnetic Mapping of Subsurface Fractures During a Volcano‐Tectonic Crisis in Grindavík, Iceland. Geophysical Research Letters, 53(16). https://doi.org/10.1029/2025gl121613
+
 - link: https://doi.org/10.1016/j.tecto.2026.231299
   type: journal article
   year: 2026
