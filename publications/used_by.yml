@@ -2,6 +2,12 @@
 # american-geophysical-union style.
 # Don't leave a trailing dot (.)
 
+- link: https://doi.org/10.1080/01490419.2026.2731015
+  type: journal article
+  year: 2026
+  description: |
+    Bonnefond, P., Laurain, O., Exertier, P., Calzas, M., Drezen, C., Fichen, L., et al. (2026). Extending the Corsica Facilities up to SWOT Swath. Marine Geodesy, 1–36. https://doi.org/10.1080/01490419.2026.2731015
+
 - link: https://doi.org/10.3997/2214-4609.202620220
   type: Conference proceedings
   year: 2026
