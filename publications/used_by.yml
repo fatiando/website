@@ -2,6 +2,18 @@
 # american-geophysical-union style.
 # Don't leave a trailing dot (.)
 
+- link: https://doi.org/10.1016/j.coldregions.2026.105145
+  type: journal article
+  year: 2026
+  description: |
+    Alter, R. E., Pradhan, N. R., & Wagner, A. M. (2026). Using an observation-based map of permafrost extent to inform permafrost predictions in a large Alaskan watershed. Cold Regions Science and Technology, 105145. https://doi.org/10.1016/j.coldregions.2026.105145
+
+- link: https://doi.org/10.1029/2026JB034259
+  type: journal article
+  year: 2026
+  description: |
+    Siqueira‐Macedo, A., Uieda, L., & Uppal, I. (2026). Magnetic Dual‐Layer Equivalent Sources on the Sphere. Journal of Geophysical Research: Solid Earth, 131(9). https://doi.org/10.1029/2026jb034259
+
 - link: https://doi.org/10.1080/01490419.2026.2731015
   type: journal article
   year: 2026
