@@ -2,6 +2,18 @@
 # american-geophysical-union style.
 # Don't leave a trailing dot (.)
 
+- link: https://doi.org/10.3847/2041-8213/aead9a
+  type: journal article
+  year: 2026
+  description: |
+    Schwamb, M. E., Bernardinelli, P. H., Volk, K., Murtagh, J., Lin 林, H. W. 省文, Rivkin, A. S., et al. (2026). NSF-DOE Vera C. Rubin Observatory’s First View of the Neptune Trojan L5 (Trailing) Cloud: Two New Long-term Stable Trojans. The Astrophysical Journal Letters, 1010(2), L36. https://doi.org/10.3847/2041-8213/aead9a
+
+- link: https://doi.org/10.21105/joss.10279
+  type: software
+  year: 2026
+  description: |
+    Andreani, V., Lugagne, J.-B., O’Connor, O. M., & Dunlop, M. J. (2026). DeLTA 3.0: A modern segmentation and tracking tool for microscopy images. Journal of Open Source Software, 11(126), 10279. https://doi.org/10.21105/joss.10279
+
 - link: https://doi.org/10.1016/j.coldregions.2026.105145
   type: journal article
   year: 2026
