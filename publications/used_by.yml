@@ -2,6 +2,12 @@
 # american-geophysical-union style.
 # Don't leave a trailing dot (.)
 
+- link: https://doi.org/10.5194/egusphere-2026-3978
+  type: preprint
+  year: 2026
+  description: |
+    Campeol, Q., Dupont, N., & Kaufmann, O. (2026, September 24). Gravity disturbance maps and updated gravity anomaly maps in French-Belgian Hainaut from recent gravity acquisitions and legacy data. Copernicus GmbH. https://doi.org/10.5194/egusphere-2026-3978
+
 - link: https://doi.org/10.5194/tc-20-6477-2026
   type: journal article
   year: 2026
