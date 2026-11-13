@@ -2,6 +2,12 @@
 # american-geophysical-union style.
 # Don't leave a trailing dot (.)
 
+- link: https://doi.org/10.5194/tc-20-6477-2026
+  type: journal article
+  year: 2026
+  description: |
+    Shackleton, C., Matsuoka, K., Fraysher, B., Lee, J., Dall, J., Rapadas, A., et al. (2026). Improved subglacial boundary conditions near Dome C, Antarctica, through rigorous integration of multi-campaign radar data and an ensemble stochastic simulation approach. The Cryosphere, 20(11), 6477–6500. https://doi.org/10.5194/tc-20-6477-2026
+
 - link: https://doi.org/10.3847/2041-8213/aead9a
   type: journal article
   year: 2026
