@@ -82,17 +82,10 @@ can get outdated over time.
 <h3>{{ lib.title }}</h3>
 <p>{{ lib.description }}</p>
 <ul role="list">
-{%- if lib.status == "stable" %}
-  <li><i class="fa fa-check fa-fw" style="color: var(--color-secondary)" title="Project status"></i> Stable and ready for use</li>
-{%- elif lib.status == "changing" %}
-  <li><i class="fa fa-sync-alt fa-fw" style="color: var(--color-primary)" title="Project status"></i> Ready for use but still changing</li>
-{%- else %}
-  <li><i class="fa fa-check fa-fw" style="color: var(--color-muted)" title="Project status"></i> Still in early development</li>
-{%- endif %}
 <li><i class="fab fa-github fa-fw" title="GitHub repository"></i> Code: <a href="https://github.com/fatiando/{{ lib.id }}">fatiando/{{ lib.id }}</a></li>
-<li><i class="fas fa-book fa-fw" title="Documentation"></i> Docs: <a href="https://www.fatiando.org/{{ lib.id }}/">fatiando.org/{{ lib.id }}</a></li>
-<li><i class="fas fa-box-open fa-fw" title="Latest version"></i> Latest version: <a href="https://pypi.org/project/{{ lib.id }}/">PyPI</a>, <a href="https://github.com/conda-forge/{{ lib.id }}-feedstock/">conda-forge</a></li>
-<li><i class="fas fa-bookmark fa-fw" title="Publication"></i> doi: <a href="https://doi.org/{{ lib.doi }}">{{ lib.doi }}</a></li>
+<li><i class="fas fa-book fa-fw" title="Documentation"></i> Documentation: <a href="https://www.fatiando.org/{{ lib.id }}/">fatiando.org/{{ lib.id }}</a></li>
+<li><i class="fas fa-box-open fa-fw" title="Latest version"></i> Download: <a href="https://pypi.org/project/{{ lib.id }}/">PyPI</a>, <a href="https://github.com/conda-forge/{{ lib.id }}-feedstock/">conda-forge</a></li>
+<li><i class="fas fa-bookmark fa-fw" title="Publication"></i> Citation: <a href="https://doi.org/{{ lib.doi }}">{{ lib.doi }}</a></li>
 </ul>
 </div>
 <div class="col-small flow">

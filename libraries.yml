@@ -1,6 +1,5 @@
 - id: verde
   title: "Verde: Gridding, machine learning style"
-  status: stable
   doi: 10.21105/joss.00957
   img: images/examples/verde.jpg
   logo: images/logos/verde.png
@@ -11,7 +10,6 @@
 
 - id: pooch
   title: "Pooch: Easily download datasets"
-  status: stable
   doi: 10.21105/joss.01943
   logo: images/logos/pooch.png
   code: |
@@ -36,7 +34,6 @@
 
 - id: harmonica
   title: "Harmonica: All things potential fields"
-  status: changing
   doi: 10.5281/zenodo.3628741
   img: images/examples/harmonica.png
   logo: images/logos/harmonica.png
@@ -47,7 +44,6 @@
 
 - id: boule
   title: "Boule: Ellipsoids and normal gravity"
-  status: changing
   doi: 10.5281/zenodo.3530749
   img: images/examples/boule.png
   logo: images/logos/boule.png
@@ -58,7 +54,6 @@
 
 - id: ensaio
   title: "Ensaio: Practice datasets to probe your code"
-  status: changing
   doi: 10.5281/zenodo.5784202
   img: images/examples/ensaio.jpg
   logo: images/logos/ensaio.png
@@ -69,7 +64,6 @@
 
 - id: choclo
   title: "Choclo: Kernel functions for geophysical models"
-  status: changing
   doi: 10.5281/zenodo.7851747
   logo: images/logos/choclo.png
   code: |
@@ -91,7 +85,6 @@
 
 - id: bordado
   title: "Bordado: Create and split geographic coordinates"
-  status: changing
   doi: 10.5281/zenodo.15051755
   img: images/examples/bordado.gif
   logo: images/logos/bordado.png
