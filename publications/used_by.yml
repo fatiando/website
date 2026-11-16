@@ -2,6 +2,12 @@
 # american-geophysical-union style.
 # Don't leave a trailing dot (.)
 
+- link: https://doi.org/10.1016/j.gloenvcha.2026.103246
+  type: journal article
+  year: 2026
+  description: |
+    Dujardin, E., Landu, E. L., Mawe, G. I., Imwangana, F. M., van Vliet, J., Poesen, J., et al. (2026). Mapping and modelling urban gullies across Africa. Global Environmental Change, 101, 103246. https://doi.org/10.1016/j.gloenvcha.2026.103246
+
 - link: https://doi.org/10.5194/egusphere-2026-3978
   type: preprint
   year: 2026
